@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="3161908922" Type="User" GUID="{3092547B-4746-4664-ADA2-ED26F44F7609}" Language="SFX" Hash="{DF6B9E0A-801A-4559-39F8-3EF336BEBF90}">
+			<ObjectPath>\SoundBanks\Default Work Unit\MAIN</ObjectPath>
+			<ShortName>MAIN</ShortName>
+			<Path>MAIN.bnk</Path>
+			<Media>
+				<File Id="161647656" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SIN_120ms.wav</ShortName>
+					<CachePath>SFX/SIN_120ms_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3480131332" Name="TEST_SinEvent_120ms" ObjectPath="\Events\TEST_Events\TEST_SinEvent_120ms" GUID="{792E510F-31A2-4020-9194-533F421743F1}" DurationType="OneShot" DurationMin="0.12" DurationMax="0.12">
+					<MediaRefs>
+						<MediaRef Id="161647656"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{0AEC0E8A-5FCF-4EB9-7E50-D0CCF1AC0121}</FileHash>
+</SoundBanksInfo>

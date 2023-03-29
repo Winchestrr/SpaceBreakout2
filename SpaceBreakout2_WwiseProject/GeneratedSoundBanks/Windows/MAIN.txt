@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3480131332	TEST_SinEvent_120ms			\TEST_Events\TEST_SinEvent_120ms	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	161647656	SIN_120ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\SIN_120ms_10C4C929.wem		\Actor-Mixer Hierarchy\TEST_SinSFX\SIN_120ms		11616
+
