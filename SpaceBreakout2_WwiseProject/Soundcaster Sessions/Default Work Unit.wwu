@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{27CF6C20-D0E4-49C5-B28E-D9D766B6DB94}" SchemaVersion="110">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{27CF6C20-D0E4-49C5-B28E-D9D766B6DB94}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{27CF6C20-D0E4-49C5-B28E-D9D766B6DB94}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Engine" ID="{913E9FD5-11A0-4B17-B281-7AB5EB6FEF6B}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Engine_Start" ID="{7DA9D658-4774-43AE-9519-57C18A47D2A9}" WorkUnitID="{B5568A71-A9BF-4008-8F28-3EF2833E023E}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Engine_Stop" ID="{A1AB614F-EC4F-472F-B3E1-DBC0D861132A}" WorkUnitID="{B5568A71-A9BF-4008-8F28-3EF2833E023E}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Acc_Up" ID="{17A4BDAE-6D08-45C3-8E4C-4FB4D81D751F}" WorkUnitID="{B5568A71-A9BF-4008-8F28-3EF2833E023E}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Speed" ID="{5A456D2D-E987-40B9-BD06-0CB4196D4C5B}"/>
+							<Value>2589</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Glides" ID="{E4A7F2BA-AD33-416D-90A5-67808FE3D406}"/>
+							<Value>1.02699791050445E-311</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Up" ID="{EA7D88E4-2F4B-4891-8272-E23D254C4D86}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Up" ID="{4C2FBC0F-1EBA-4D39-AE8C-370953315726}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
