@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6F99570E-CDD3-4275-A114-AF2680B8A25D}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="TEST_SinSFX" ID="{6F99570E-CDD3-4275-A114-AF2680B8A25D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="SIN_120ms" ID="{61D0E6CE-904A-4260-8F66-C87B5D041CC7}" ShortID="784487440">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{151E2E7D-E949-4940-9640-1876530D7534}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A6A5F606-7596-478F-B74D-705FF3991945}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SIN_120ms" ID="{BC87540E-2F79-459F-A03C-265B8F51DC86}">
+							<Language>SFX</Language>
+							<AudioFile>SIN_120ms.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="161647656"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SIN_120ms" ID="{BC87540E-2F79-459F-A03C-265B8F51DC86}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C16C2A67-452B-4408-90DB-80D72E0FBAE5}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{C16C2A67-452B-4408-90DB-80D72E0FBAE5}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Acceleration" ID="{2E60284D-4097-415F-9B9F-EF0D85A3873A}">
+					<ChildrenList>
+						<Switch Name="Up" ID="{4C2FBC0F-1EBA-4D39-AE8C-370953315726}"/>
+						<Switch Name="Down" ID="{93EB0D99-ABD3-454D-9E0F-041F4798E833}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
