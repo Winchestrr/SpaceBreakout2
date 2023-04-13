@@ -13,17 +13,3 @@ Saved
 *.xcodeproj
 *.xcworkspace
 Config/DefaultInput.ini
-# Wwise
-.backup*
-.cache*
-*.akd
-*.prof
-*.validationcache
-*.wsettings
-AkWwiseProjectData.asset
-IncrementalSoundBankData.xml
-PluginInfo.xml
-SoundbanksInfo.xml
-Plugins/Wwise/ThirdParty/Mac/Debug/lib/libAkSoundEngine.a
-Plugins/Wwise/ThirdParty/Mac/Profile/lib/libAkSoundEngine.a
-Plugins/Wwise/ThirdParty/Mac/Release/lib/libAkSoundEngine.a
