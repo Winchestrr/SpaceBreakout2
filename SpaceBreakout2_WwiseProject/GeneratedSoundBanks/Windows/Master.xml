@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{060EF77E-1AE9-85F3-3A34-BBBC976A034E}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
+			<ShortName>Master</ShortName>
+			<Path>Master.bnk</Path>
+			<Media>
+				<File Id="289646352" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>4c_50ms.wav</ShortName>
+					<CachePath>SFX/4c_50ms_CF3D4EE9.wem</CachePath>
+				</File>
+				<File Id="686217727" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>4c_25ms.wav</ShortName>
+					<CachePath>SFX/4c_25ms_CF3D4EE9.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="164866881" Name="EngineStart" ObjectPath="\Events\Default Work Unit\EngineStart" GUID="{6C650701-4DB9-4776-B651-5AF00B3FF3D1}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="289646352"/>
+						<MediaRef Id="686217727"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2079244539" Name="EngineStop" ObjectPath="\Events\Default Work Unit\EngineStop" GUID="{01511685-0572-4254-8EE6-FC9771B406C8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="640949982" Name="Speed" ObjectPath="\Game Parameters\Default Work Unit\Speed" GUID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"/>
+				<GameParameter Id="2968795556" Name="Glide" ObjectPath="\Game Parameters\Default Work Unit\Glide" GUID="{E3031780-9B18-4EC8-9E82-527974BEA3C5}"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{BDC44320-3BB3-505E-A327-4377A4034A70}</FileHash>
+</SoundBanksInfo>

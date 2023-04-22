@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{325B835C-9591-217A-0481-A184FBE23B73}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{4B4C28BB-46DD-4E6E-A79F-F80A7800F79B}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{58E7A6DB-B0A1-4C7C-A621-174D6155B216}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="640949982" Name="Speed" ObjectPath="\Game Parameters\Default Work Unit\Speed" GUID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"/>
+				<GameParameter Id="2968795556" Name="Glide" ObjectPath="\Game Parameters\Default Work Unit\Glide" GUID="{E3031780-9B18-4EC8-9E82-527974BEA3C5}"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{73D19816-F783-026F-DDE1-0D3AB8F544FC}</FileHash>
+</SoundBanksInfo>
