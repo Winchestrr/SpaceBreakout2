@@ -28,6 +28,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="SpeedBoost" ID="{F555DC76-60D1-43F4-AD5B-6332D58221C8}">
+					<ChildrenList>
+						<Action Name="" ID="{06416DA7-1C96-4789-A327-B5BF18E09624}" ShortID="451638679">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Speeding" ID="{A7299745-B5FD-43E6-ADDB-A381905E7DE5}" WorkUnitID="{07937956-4364-4991-9BF9-CE8D7EAA40A0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

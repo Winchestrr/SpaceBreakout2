@@ -70,7 +70,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{70F280A3-92F7-D75B-412F-369D00C5A923}",
+    "Hash": "{4A90D7F7-6A68-BCB0-5B6F-D3ACBE3ED593}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -90,6 +90,14 @@
       "Location": "Memory",
       "ShortName": "4c_25ms.wav",
       "CachePath": "SFX/4c_25ms_CF3D4EE9.wem"
+     },
+     {
+      "Id": "866026099",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Speeding.wav",
+      "CachePath": "SFX/Speeding_10C4C929.wem"
      }
     ],
     "Events": [
@@ -117,6 +125,20 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     },
+     {
+      "Id": "612788291",
+      "Name": "SpeedBoost",
+      "ObjectPath": "\\Events\\Default Work Unit\\SpeedBoost",
+      "GUID": "{F555DC76-60D1-43F4-AD5B-6332D58221C8}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5",
+      "DurationMax": "0.5",
+      "MediaRefs": [
+       {
+        "Id": "866026099"
+       }
+      ]
      }
     ],
     "GameParameters": [
@@ -135,6 +157,6 @@
     ]
    }
   ],
-  "FileHash": "{B69DF580-DA0B-6633-C56F-2E810538ACC3}"
+  "FileHash": "{1A463A53-CDFF-DEF5-6BB2-94FBA56CD268}"
  }
 }
