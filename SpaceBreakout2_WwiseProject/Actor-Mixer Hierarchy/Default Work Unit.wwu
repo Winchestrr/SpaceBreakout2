@@ -4,9 +4,6 @@
 		<WorkUnit Name="Default Work Unit" ID="{07937956-4364-4991-9BF9-CE8D7EAA40A0}" PersistMode="Standalone">
 			<ChildrenList>
 				<BlendContainer Name="Engine_Speed" ID="{9E8370D7-4AAD-41C1-A25E-0A3704F0E4ED}" ShortID="590597776">
-					<PropertyList>
-						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
-					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
@@ -102,10 +99,11 @@
 																<XPos>0</XPos>
 																<YPos>0</YPos>
 																<Flags>5</Flags>
+																<SegmentShape>Exp2</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>25</XPos>
-																<YPos>50</YPos>
+																<YPos>40</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -134,7 +132,7 @@
 									<CrossfadingInfo>
 										<LeftEdgePos>0</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
-										<RightEdgePos>9900</RightEdgePos>
+										<RightEdgePos>7920</RightEdgePos>
 										<RightFadingMode>Automatic</RightFadingMode>
 										<RightFadingSegmentShape>Exp2</RightFadingSegmentShape>
 									</CrossfadingInfo>
@@ -142,10 +140,10 @@
 								<BlendTrackAssoc>
 									<ItemRef Name="4c_25ms" ID="{8F58802E-42E7-4F56-B30E-A09E9BDC8F93}"/>
 									<CrossfadingInfo>
-										<LeftEdgePos>5100</LeftEdgePos>
+										<LeftEdgePos>4080</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
 										<LeftFadingSegmentShape>Log2</LeftFadingSegmentShape>
-										<RightEdgePos>10000</RightEdgePos>
+										<RightEdgePos>8000</RightEdgePos>
 										<RightFadingMode>Automatic</RightFadingMode>
 									</CrossfadingInfo>
 								</BlendTrackAssoc>

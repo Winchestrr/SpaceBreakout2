@@ -6,7 +6,7 @@
 				<GameParameter Name="Speed" ID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
-						<Property Name="Max" Type="Real64" Value="10000"/>
+						<Property Name="Max" Type="Real64" Value="8000"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="Glide" ID="{E3031780-9B18-4EC8-9E82-527974BEA3C5}">
