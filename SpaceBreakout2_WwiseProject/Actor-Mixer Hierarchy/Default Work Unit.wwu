@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{07937956-4364-4991-9BF9-CE8D7EAA40A0}" PersistMode="Standalone">
 			<ChildrenList>
 				<BlendContainer Name="Engine_Speed" ID="{9E8370D7-4AAD-41C1-A25E-0A3704F0E4ED}" ShortID="590597776">
+					<PropertyList>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
