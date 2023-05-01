@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{4A90D7F7-6A68-BCB0-5B6F-D3ACBE3ED593}",
+    "Hash": "{5217C7B2-22C5-7396-B740-EEF56B391825}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
     "Media": [
+     {
+      "Id": "42552773",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalRuttle_50ms.wav",
+      "CachePath": "SFX/MetalRuttle_50ms_9FDA1C0E.wem"
+     },
      {
       "Id": "289646352",
       "Language": "SFX",
@@ -22,6 +30,22 @@
       "Location": "Memory",
       "ShortName": "4c_50ms.wav",
       "CachePath": "SFX/4c_50ms_CF3D4EE9.wem"
+     },
+     {
+      "Id": "392017222",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalRuttle_25ms.wav",
+      "CachePath": "SFX/MetalRuttle_25ms_40DB145F.wem"
+     },
+     {
+      "Id": "569297401",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "EngineRuttle_25ms.wav",
+      "CachePath": "SFX/EngineRuttle_25ms_9DEADF13.wem"
      },
      {
       "Id": "686217727",
@@ -32,15 +56,37 @@
       "CachePath": "SFX/4c_25ms_CF3D4EE9.wem"
      },
      {
-      "Id": "866026099",
+      "Id": "904171427",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Speeding.wav",
-      "CachePath": "SFX/Speeding_10C4C929.wem"
+      "ShortName": "Acc_Up.wav",
+      "CachePath": "SFX/Acc_Up_10C4C929.wem"
+     },
+     {
+      "Id": "1043020179",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "EngineRuttle_50ms.wav",
+      "CachePath": "SFX/EngineRuttle_50ms_E45ECCAF.wem"
      }
     ],
     "Events": [
+     {
+      "Id": "1151086808",
+      "Name": "Acc",
+      "ObjectPath": "\\Events\\Default Work Unit\\Acc",
+      "GUID": "{F555DC76-60D1-43F4-AD5B-6332D58221C8}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6875",
+      "DurationMax": "0.6875",
+      "MediaRefs": [
+       {
+        "Id": "904171427"
+       }
+      ]
+     },
      {
       "Id": "164866881",
       "Name": "EngineStart",
@@ -49,10 +95,22 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
+        "Id": "42552773"
+       },
+       {
         "Id": "289646352"
        },
        {
+        "Id": "392017222"
+       },
+       {
+        "Id": "569297401"
+       },
+       {
         "Id": "686217727"
+       },
+       {
+        "Id": "1043020179"
        }
       ]
      },
@@ -65,20 +123,6 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
-     },
-     {
-      "Id": "612788291",
-      "Name": "SpeedBoost",
-      "ObjectPath": "\\Events\\Default Work Unit\\SpeedBoost",
-      "GUID": "{F555DC76-60D1-43F4-AD5B-6332D58221C8}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.5",
-      "DurationMax": "0.5",
-      "MediaRefs": [
-       {
-        "Id": "866026099"
-       }
-      ]
      }
     ],
     "GameParameters": [
@@ -97,6 +141,6 @@
     ]
    }
   ],
-  "FileHash": "{5A2F65BA-8C5D-C446-94A8-93F748F36D6C}"
+  "FileHash": "{8691B9CF-A9EF-221E-5CCA-587F7305E06E}"
  }
 }

@@ -1,37 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{4A90D7F7-6A68-BCB0-5B6F-D3ACBE3ED593}">
+		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{5217C7B2-22C5-7396-B740-EEF56B391825}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
 			<Media>
+				<File Id="42552773" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MetalRuttle_50ms.wav</ShortName>
+					<CachePath>SFX/MetalRuttle_50ms_9FDA1C0E.wem</CachePath>
+				</File>
 				<File Id="289646352" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>4c_50ms.wav</ShortName>
 					<CachePath>SFX/4c_50ms_CF3D4EE9.wem</CachePath>
+				</File>
+				<File Id="392017222" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MetalRuttle_25ms.wav</ShortName>
+					<CachePath>SFX/MetalRuttle_25ms_40DB145F.wem</CachePath>
+				</File>
+				<File Id="569297401" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>EngineRuttle_25ms.wav</ShortName>
+					<CachePath>SFX/EngineRuttle_25ms_9DEADF13.wem</CachePath>
 				</File>
 				<File Id="686217727" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>4c_25ms.wav</ShortName>
 					<CachePath>SFX/4c_25ms_CF3D4EE9.wem</CachePath>
 				</File>
-				<File Id="866026099" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Speeding.wav</ShortName>
-					<CachePath>SFX/Speeding_10C4C929.wem</CachePath>
+				<File Id="904171427" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Acc_Up.wav</ShortName>
+					<CachePath>SFX/Acc_Up_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1043020179" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>EngineRuttle_50ms.wav</ShortName>
+					<CachePath>SFX/EngineRuttle_50ms_E45ECCAF.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
+				<Event Id="1151086808" Name="Acc" ObjectPath="\Events\Default Work Unit\Acc" GUID="{F555DC76-60D1-43F4-AD5B-6332D58221C8}" DurationType="OneShot" DurationMin="0.6875" DurationMax="0.6875">
+					<MediaRefs>
+						<MediaRef Id="904171427"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="164866881" Name="EngineStart" ObjectPath="\Events\Default Work Unit\EngineStart" GUID="{6C650701-4DB9-4776-B651-5AF00B3FF3D1}" DurationType="Infinite">
 					<MediaRefs>
+						<MediaRef Id="42552773"/>
 						<MediaRef Id="289646352"/>
+						<MediaRef Id="392017222"/>
+						<MediaRef Id="569297401"/>
 						<MediaRef Id="686217727"/>
+						<MediaRef Id="1043020179"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2079244539" Name="EngineStop" ObjectPath="\Events\Default Work Unit\EngineStop" GUID="{01511685-0572-4254-8EE6-FC9771B406C8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="612788291" Name="SpeedBoost" ObjectPath="\Events\Default Work Unit\SpeedBoost" GUID="{F555DC76-60D1-43F4-AD5B-6332D58221C8}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
-					<MediaRefs>
-						<MediaRef Id="866026099"/>
-					</MediaRefs>
-				</Event>
 			</Events>
 			<GameParameters>
 				<GameParameter Id="640949982" Name="Speed" ObjectPath="\Game Parameters\Default Work Unit\Speed" GUID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"/>
@@ -39,5 +59,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4079EC9F-70A5-037B-5935-201249ED5E2F}</FileHash>
+	<FileHash>{D594B5F4-320E-9193-7B93-3F7C156EE7F4}</FileHash>
 </SoundBanksInfo>
