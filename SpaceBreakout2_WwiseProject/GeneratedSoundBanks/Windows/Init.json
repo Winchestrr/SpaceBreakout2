@@ -10,11 +10,21 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{E344200F-A703-1194-DB24-EAAD484EC22F}",
+    "Hash": "{DBF7FB85-2AB2-5840-57D0-3AB7304440F8}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2995775460",
+       "Name": "Room_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Small",
+       "GUID": "{577F1466-A63B-47F7-98BD-C56E433F8B5D}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -42,6 +52,21 @@
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
     ],
+    "AuxBusses": [
+     {
+      "Id": "671700957",
+      "Name": "Rev_Tube",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Rev_Tube",
+      "GUID": "{6BCDD345-D685-458F-A310-7D075C85EBF5}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2995775460"
+        }
+       ]
+      }
+     }
+    ],
     "GameParameters": [
      {
       "Id": "640949982",
@@ -64,6 +89,6 @@
     ]
    }
   ],
-  "FileHash": "{C2FD0915-B154-431A-046B-454E6C488D28}"
+  "FileHash": "{AC2B8332-237C-4A95-BE15-48D45DDCECB1}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{23B85CE3-9CA8-1DA4-86C6-C71A81AE72DB}",
+    "Hash": "{2F852C8A-4114-ABF9-B7BA-521F0EAF68B6}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -85,9 +85,21 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "AutoMode.wav",
-      "CachePath": "SFX/AutoMode_F64BBA4E.wem"
+      "CachePath": "SFX/AutoMode_C585BE34.wem"
      }
     ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2995775460",
+       "Name": "Room_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Small",
+       "GUID": "{577F1466-A63B-47F7-98BD-C56E433F8B5D}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "1151086808",
@@ -177,6 +189,29 @@
       "DurationMax": "0"
      }
     ],
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "671700957",
+      "Name": "Rev_Tube",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Rev_Tube",
+      "GUID": "{6BCDD345-D685-458F-A310-7D075C85EBF5}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2995775460"
+        }
+       ]
+      }
+     }
+    ],
     "GameParameters": [
      {
       "Id": "640949982",
@@ -199,6 +234,6 @@
     ]
    }
   ],
-  "FileHash": "{F55BA70A-E718-F8DB-87A2-0B5E169345B3}"
+  "FileHash": "{E86FE211-B2D2-480A-796D-75D373367DD6}"
  }
 }
