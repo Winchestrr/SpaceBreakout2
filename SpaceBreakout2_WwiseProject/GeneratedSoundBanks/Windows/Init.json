@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{325B835C-9591-217A-0481-A184FBE23B73}",
+    "Hash": "{E344200F-A703-1194-DB24-EAAD484EC22F}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -46,18 +46,24 @@
      {
       "Id": "640949982",
       "Name": "Speed",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Speed",
+      "ObjectPath": "\\Game Parameters\\Player_Engine\\Speed",
       "GUID": "{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"
+     },
+     {
+      "Id": "1252186741",
+      "Name": "AutoMode",
+      "ObjectPath": "\\Game Parameters\\Player_Gun\\AutoMode",
+      "GUID": "{6B76A057-4CC6-4F74-A573-B1443882C069}"
      },
      {
       "Id": "2968795556",
       "Name": "Glide",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Glide",
+      "ObjectPath": "\\Game Parameters\\Player_Engine\\Glide",
       "GUID": "{E3031780-9B18-4EC8-9E82-527974BEA3C5}"
      }
     ]
    }
   ],
-  "FileHash": "{95280324-6A6B-E259-4ECE-062528C986DE}"
+  "FileHash": "{C2FD0915-B154-431A-046B-454E6C488D28}"
  }
 }

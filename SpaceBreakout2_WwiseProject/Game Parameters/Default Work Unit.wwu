@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{DD749083-7F56-4B4D-AA86-C00263B948E5}" SchemaVersion="110">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{DD749083-7F56-4B4D-AA86-C00263B948E5}" PersistMode="Standalone">
-			<ChildrenList>
-				<GameParameter Name="Speed" ID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}">
-					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="0"/>
-						<Property Name="Max" Type="Real64" Value="8000"/>
-					</PropertyList>
-				</GameParameter>
-				<GameParameter Name="Glide" ID="{E3031780-9B18-4EC8-9E82-527974BEA3C5}">
-					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="0"/>
-						<Property Name="Max" Type="Real64" Value="25"/>
-					</PropertyList>
-				</GameParameter>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{DD749083-7F56-4B4D-AA86-C00263B948E5}" PersistMode="Standalone"/>
 	</GameParameters>
 </WwiseDocument>

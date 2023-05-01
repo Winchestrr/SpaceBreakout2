@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{41CE640D-7351-4488-BEBF-90B487C63ABD}" SchemaVersion="110">
+	<GameParameters>
+		<WorkUnit Name="Player_Gun" ID="{41CE640D-7351-4488-BEBF-90B487C63ABD}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="AutoMode" ID="{6B76A057-4CC6-4F74-A573-B1443882C069}">
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="3"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

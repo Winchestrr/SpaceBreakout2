@@ -1,45 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5D46A967-4602-442D-8A46-E1F334E90A1E}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{5D46A967-4602-442D-8A46-E1F334E90A1E}" PersistMode="Standalone">
-			<ChildrenList>
-				<Event Name="EngineStart" ID="{6C650701-4DB9-4776-B651-5AF00B3FF3D1}">
-					<ChildrenList>
-						<Action Name="" ID="{99A22C3C-9FD4-42E0-99AF-59565A430748}" ShortID="462201385">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Engine_Speed" ID="{9E8370D7-4AAD-41C1-A25E-0A3704F0E4ED}" WorkUnitID="{07937956-4364-4991-9BF9-CE8D7EAA40A0}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="EngineStop" ID="{01511685-0572-4254-8EE6-FC9771B406C8}">
-					<ChildrenList>
-						<Action Name="" ID="{66677D1E-FEAC-4211-A4FB-6C61B2266E0B}" ShortID="416351096">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Engine_Speed" ID="{9E8370D7-4AAD-41C1-A25E-0A3704F0E4ED}" WorkUnitID="{07937956-4364-4991-9BF9-CE8D7EAA40A0}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Acc" ID="{F555DC76-60D1-43F4-AD5B-6332D58221C8}">
-					<ChildrenList>
-						<Action Name="" ID="{06416DA7-1C96-4789-A327-B5BF18E09624}" ShortID="451638679">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Acc_Up" ID="{A7299745-B5FD-43E6-ADDB-A381905E7DE5}" WorkUnitID="{07937956-4364-4991-9BF9-CE8D7EAA40A0}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{5D46A967-4602-442D-8A46-E1F334E90A1E}" PersistMode="Standalone"/>
 	</Events>
 </WwiseDocument>
