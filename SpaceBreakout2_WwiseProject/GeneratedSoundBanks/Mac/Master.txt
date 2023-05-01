@@ -7,8 +7,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	3808032123	Start_Auto			\Player_Gun\Start_Auto	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
-	640949982	Speed			\Default Work Unit\Speed	
-	2968795556	Glide			\Default Work Unit\Glide	
+	640949982	Speed			\Player_Engine\Speed	
+	1252186741	AutoMode			\Player_Gun\AutoMode	
+	2968795556	Glide			\Player_Engine\Glide	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	42552773	MetalRuttle_50ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\MetalRuttle_50ms_C33A8915.wem		\Actor-Mixer Hierarchy\Player_Engine\Engine_Speed\E_50ms\MetalRuttle_50ms		921744
@@ -19,5 +20,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	686217727	4c_25ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\4c_25ms_CF3D4EE9.wem		\Actor-Mixer Hierarchy\Player_Engine\Engine_Speed\E_25ms\4c_25ms		921744
 	904171427	Acc_Up	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Acc_Up_10C4C929.wem		\Actor-Mixer Hierarchy\Player_Engine\Acc_Up		66096
 	1043020179	EngineRuttle_50ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\EngineRuttle_50ms_13DE35EF.wem		\Actor-Mixer Hierarchy\Player_Engine\Engine_Speed\E_50ms\EngineRuttle_50ms		921744
-	1046666558	AutoMode	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\AutoMode_10C4C929.wem		\Actor-Mixer Hierarchy\Player_Gun\AutoMode		144096
+	1046666558	AutoMode	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\AutoMode_F64BBA4E.wem		\Actor-Mixer Hierarchy\Player_Gun\AutoMode		144144
 

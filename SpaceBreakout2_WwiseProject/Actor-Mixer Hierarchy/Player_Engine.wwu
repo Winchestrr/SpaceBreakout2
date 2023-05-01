@@ -262,7 +262,7 @@
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="Glide" ID="{E3031780-9B18-4EC8-9E82-527974BEA3C5}" WorkUnitID="{DD749083-7F56-4B4D-AA86-C00263B948E5}"/>
+												<ObjectRef Name="Glide" ID="{E3031780-9B18-4EC8-9E82-527974BEA3C5}" WorkUnitID="{CD57914D-0276-4E75-A30A-213EECFD3434}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
@@ -299,7 +299,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="LayerCrossFadeControlInput">
-									<ObjectRef Name="Speed" ID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}" WorkUnitID="{DD749083-7F56-4B4D-AA86-C00263B948E5}"/>
+									<ObjectRef Name="Speed" ID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}" WorkUnitID="{CD57914D-0276-4E75-A30A-213EECFD3434}"/>
 								</Reference>
 							</ReferenceList>
 							<BlendTrackAssocList>

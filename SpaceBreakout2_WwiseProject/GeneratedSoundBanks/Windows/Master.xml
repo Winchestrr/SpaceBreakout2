@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{11C25B36-CB39-8B2E-A817-04EA6945EDD5}">
+		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{23B85CE3-9CA8-1DA4-86C6-C71A81AE72DB}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -40,7 +40,7 @@
 				</File>
 				<File Id="1046666558" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AutoMode.wav</ShortName>
-					<CachePath>SFX/AutoMode_10C4C929.wem</CachePath>
+					<CachePath>SFX/AutoMode_F64BBA4E.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -65,7 +65,7 @@
 						<MediaRef Id="228206684"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3808032123" Name="Start_Auto" ObjectPath="\Events\Player_Gun\Start_Auto" GUID="{887E17A7-2EA3-435C-99BB-BB007B2610DC}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+				<Event Id="3808032123" Name="Start_Auto" ObjectPath="\Events\Player_Gun\Start_Auto" GUID="{887E17A7-2EA3-435C-99BB-BB007B2610DC}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="1046666558"/>
 					</MediaRefs>
@@ -73,10 +73,11 @@
 				<Event Id="2042178597" Name="Stop_Auto" ObjectPath="\Events\Player_Gun\Stop_Auto" GUID="{16F42484-449B-42F5-B43D-6A3B952DA7D8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<GameParameters>
-				<GameParameter Id="640949982" Name="Speed" ObjectPath="\Game Parameters\Default Work Unit\Speed" GUID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"/>
-				<GameParameter Id="2968795556" Name="Glide" ObjectPath="\Game Parameters\Default Work Unit\Glide" GUID="{E3031780-9B18-4EC8-9E82-527974BEA3C5}"/>
+				<GameParameter Id="640949982" Name="Speed" ObjectPath="\Game Parameters\Player_Engine\Speed" GUID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"/>
+				<GameParameter Id="1252186741" Name="AutoMode" ObjectPath="\Game Parameters\Player_Gun\AutoMode" GUID="{6B76A057-4CC6-4F74-A573-B1443882C069}"/>
+				<GameParameter Id="2968795556" Name="Glide" ObjectPath="\Game Parameters\Player_Engine\Glide" GUID="{E3031780-9B18-4EC8-9E82-527974BEA3C5}"/>
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5FF9B8A6-6982-0F0C-7612-55D739FEA95E}</FileHash>
+	<FileHash>{45BF04F3-A16E-6C50-5EDE-BC9268501E86}</FileHash>
 </SoundBanksInfo>

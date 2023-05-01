@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{EE48F8D7-2BE3-53E5-D4F7-0D8944002F25}",
+    "Hash": "{962F3672-0DFA-1B7D-4E4F-4E77A231CFB4}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -54,13 +54,19 @@
      {
       "Id": "640949982",
       "Name": "Speed",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Speed",
+      "ObjectPath": "\\Game Parameters\\Player_Engine\\Speed",
       "GUID": "{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"
+     },
+     {
+      "Id": "1252186741",
+      "Name": "AutoMode",
+      "ObjectPath": "\\Game Parameters\\Player_Gun\\AutoMode",
+      "GUID": "{6B76A057-4CC6-4F74-A573-B1443882C069}"
      },
      {
       "Id": "2968795556",
       "Name": "Glide",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Glide",
+      "ObjectPath": "\\Game Parameters\\Player_Engine\\Glide",
       "GUID": "{E3031780-9B18-4EC8-9E82-527974BEA3C5}"
      }
     ]
@@ -70,7 +76,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{11C25B36-CB39-8B2E-A817-04EA6945EDD5}",
+    "Hash": "{23B85CE3-9CA8-1DA4-86C6-C71A81AE72DB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -145,7 +151,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "AutoMode.wav",
-      "CachePath": "SFX/AutoMode_10C4C929.wem"
+      "CachePath": "SFX/AutoMode_F64BBA4E.wem"
      }
     ],
     "Events": [
@@ -219,9 +225,7 @@
       "Name": "Start_Auto",
       "ObjectPath": "\\Events\\Player_Gun\\Start_Auto",
       "GUID": "{887E17A7-2EA3-435C-99BB-BB007B2610DC}",
-      "DurationType": "OneShot",
-      "DurationMin": "1.5",
-      "DurationMax": "1.5",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "1046666558"
@@ -243,18 +247,24 @@
      {
       "Id": "640949982",
       "Name": "Speed",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Speed",
+      "ObjectPath": "\\Game Parameters\\Player_Engine\\Speed",
       "GUID": "{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"
+     },
+     {
+      "Id": "1252186741",
+      "Name": "AutoMode",
+      "ObjectPath": "\\Game Parameters\\Player_Gun\\AutoMode",
+      "GUID": "{6B76A057-4CC6-4F74-A573-B1443882C069}"
      },
      {
       "Id": "2968795556",
       "Name": "Glide",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Glide",
+      "ObjectPath": "\\Game Parameters\\Player_Engine\\Glide",
       "GUID": "{E3031780-9B18-4EC8-9E82-527974BEA3C5}"
      }
     ]
    }
   ],
-  "FileHash": "{066F8AAC-EF53-CC62-DB7E-9D53B1ECFF9F}"
+  "FileHash": "{5DD229FB-A16F-71B4-FACA-4740E599BFAF}"
  }
 }
