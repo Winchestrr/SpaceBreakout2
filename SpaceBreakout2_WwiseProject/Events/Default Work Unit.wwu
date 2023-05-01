@@ -8,7 +8,7 @@
 						<Action Name="" ID="{99A22C3C-9FD4-42E0-99AF-59565A430748}" ShortID="462201385">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Engine_Speed" ID="{9E8370D7-4AAD-41C1-A25E-0A3704F0E4ED}" WorkUnitID="{07937956-4364-4991-9BF9-CE8D7EAA40A0}"/>
+									<ObjectRef Name="Engine_Speed" ID="{9E8370D7-4AAD-41C1-A25E-0A3704F0E4ED}" WorkUnitID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -22,7 +22,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Engine_Speed" ID="{9E8370D7-4AAD-41C1-A25E-0A3704F0E4ED}" WorkUnitID="{07937956-4364-4991-9BF9-CE8D7EAA40A0}"/>
+									<ObjectRef Name="Engine_Speed" ID="{9E8370D7-4AAD-41C1-A25E-0A3704F0E4ED}" WorkUnitID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -33,7 +33,7 @@
 						<Action Name="" ID="{06416DA7-1C96-4789-A327-B5BF18E09624}" ShortID="451638679">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Acc_Up" ID="{A7299745-B5FD-43E6-ADDB-A381905E7DE5}" WorkUnitID="{07937956-4364-4991-9BF9-CE8D7EAA40A0}"/>
+									<ObjectRef Name="Acc_Up" ID="{A7299745-B5FD-43E6-ADDB-A381905E7DE5}" WorkUnitID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

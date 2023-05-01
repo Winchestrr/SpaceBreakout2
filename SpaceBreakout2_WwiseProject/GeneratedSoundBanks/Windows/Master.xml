@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{5217C7B2-22C5-7396-B740-EEF56B391825}">
+		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{11C25B36-CB39-8B2E-A817-04EA6945EDD5}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
 			<Media>
 				<File Id="42552773" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetalRuttle_50ms.wav</ShortName>
-					<CachePath>SFX/MetalRuttle_50ms_9FDA1C0E.wem</CachePath>
+					<CachePath>SFX/MetalRuttle_50ms_C33A8915.wem</CachePath>
+				</File>
+				<File Id="228206684" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shooting.wav</ShortName>
+					<CachePath>SFX/Shooting_10C4C929.wem</CachePath>
 				</File>
 				<File Id="289646352" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>4c_50ms.wav</ShortName>
@@ -16,11 +20,11 @@
 				</File>
 				<File Id="392017222" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetalRuttle_25ms.wav</ShortName>
-					<CachePath>SFX/MetalRuttle_25ms_40DB145F.wem</CachePath>
+					<CachePath>SFX/MetalRuttle_25ms_0435493D.wem</CachePath>
 				</File>
 				<File Id="569297401" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>EngineRuttle_25ms.wav</ShortName>
-					<CachePath>SFX/EngineRuttle_25ms_9DEADF13.wem</CachePath>
+					<CachePath>SFX/EngineRuttle_25ms_32CCEE66.wem</CachePath>
 				</File>
 				<File Id="686217727" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>4c_25ms.wav</ShortName>
@@ -32,16 +36,20 @@
 				</File>
 				<File Id="1043020179" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>EngineRuttle_50ms.wav</ShortName>
-					<CachePath>SFX/EngineRuttle_50ms_E45ECCAF.wem</CachePath>
+					<CachePath>SFX/EngineRuttle_50ms_13DE35EF.wem</CachePath>
+				</File>
+				<File Id="1046666558" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AutoMode.wav</ShortName>
+					<CachePath>SFX/AutoMode_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1151086808" Name="Acc" ObjectPath="\Events\Default Work Unit\Acc" GUID="{F555DC76-60D1-43F4-AD5B-6332D58221C8}" DurationType="OneShot" DurationMin="0.6875" DurationMax="0.6875">
+				<Event Id="1151086808" Name="Acc" ObjectPath="\Events\Player_Engine\Acc" GUID="{F555DC76-60D1-43F4-AD5B-6332D58221C8}" DurationType="OneShot" DurationMin="0.6875" DurationMax="0.6875">
 					<MediaRefs>
 						<MediaRef Id="904171427"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="164866881" Name="EngineStart" ObjectPath="\Events\Default Work Unit\EngineStart" GUID="{6C650701-4DB9-4776-B651-5AF00B3FF3D1}" DurationType="Infinite">
+				<Event Id="164866881" Name="EngineStart" ObjectPath="\Events\Player_Engine\EngineStart" GUID="{6C650701-4DB9-4776-B651-5AF00B3FF3D1}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="42552773"/>
 						<MediaRef Id="289646352"/>
@@ -51,7 +59,18 @@
 						<MediaRef Id="1043020179"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2079244539" Name="EngineStop" ObjectPath="\Events\Default Work Unit\EngineStop" GUID="{01511685-0572-4254-8EE6-FC9771B406C8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2079244539" Name="EngineStop" ObjectPath="\Events\Player_Engine\EngineStop" GUID="{01511685-0572-4254-8EE6-FC9771B406C8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3038207054" Name="Shoot" ObjectPath="\Events\Player_Gun\Shoot" GUID="{51B486F4-B00E-44C0-B107-38E8DA2CC435}" DurationType="OneShot" DurationMin="0.21875" DurationMax="0.21875">
+					<MediaRefs>
+						<MediaRef Id="228206684"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3808032123" Name="Start_Auto" ObjectPath="\Events\Player_Gun\Start_Auto" GUID="{887E17A7-2EA3-435C-99BB-BB007B2610DC}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<MediaRefs>
+						<MediaRef Id="1046666558"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2042178597" Name="Stop_Auto" ObjectPath="\Events\Player_Gun\Stop_Auto" GUID="{16F42484-449B-42F5-B43D-6A3B952DA7D8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<GameParameters>
 				<GameParameter Id="640949982" Name="Speed" ObjectPath="\Game Parameters\Default Work Unit\Speed" GUID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"/>
@@ -59,5 +78,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A6F3D1EC-486B-83A6-33CA-151F7C574675}</FileHash>
+	<FileHash>{5FF9B8A6-6982-0F0C-7612-55D739FEA95E}</FileHash>
 </SoundBanksInfo>

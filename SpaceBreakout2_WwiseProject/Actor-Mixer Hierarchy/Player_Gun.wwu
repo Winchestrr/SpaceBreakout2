@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{474F77FA-D328-49E6-84C1-EBCDC6E9F8F4}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Player_Gun" ID="{474F77FA-D328-49E6-84C1-EBCDC6E9F8F4}" PersistMode="Standalone"/>
+	</AudioObjects>
+</WwiseDocument>

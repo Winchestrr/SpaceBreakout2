@@ -1,18 +1,23 @@
 Event	ID	Name			Wwise Object Path	Notes
-	164866881	EngineStart			\Default Work Unit\EngineStart	
-	1151086808	Acc			\Default Work Unit\Acc	
-	2079244539	EngineStop			\Default Work Unit\EngineStop	
+	164866881	EngineStart			\Player_Engine\EngineStart	
+	1151086808	Acc			\Player_Engine\Acc	
+	2042178597	Stop_Auto			\Player_Gun\Stop_Auto	
+	2079244539	EngineStop			\Player_Engine\EngineStop	
+	3038207054	Shoot			\Player_Gun\Shoot	
+	3808032123	Start_Auto			\Player_Gun\Start_Auto	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	640949982	Speed			\Default Work Unit\Speed	
 	2968795556	Glide			\Default Work Unit\Glide	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	42552773	MetalRuttle_50ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\MetalRuttle_50ms_9FDA1C0E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Engine_Speed\E_50ms\MetalRuttle_50ms		921744
-	289646352	4c_50ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\4c_50ms_CF3D4EE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Engine_Speed\E_50ms\4c_50ms		921744
-	392017222	MetalRuttle_25ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\MetalRuttle_25ms_40DB145F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Engine_Speed\E_25ms\MetalRuttle_25ms		921744
-	569297401	EngineRuttle_25ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\EngineRuttle_25ms_9DEADF13.wem		\Actor-Mixer Hierarchy\Default Work Unit\Engine_Speed\E_25ms\EngineRuttle_25ms		921744
-	686217727	4c_25ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\4c_25ms_CF3D4EE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Engine_Speed\E_25ms\4c_25ms		921744
-	904171427	Acc_Up	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Acc_Up_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Acc_Up		66096
-	1043020179	EngineRuttle_50ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\EngineRuttle_50ms_E45ECCAF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Engine_Speed\E_50ms\EngineRuttle_50ms		921744
+	42552773	MetalRuttle_50ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\MetalRuttle_50ms_C33A8915.wem		\Actor-Mixer Hierarchy\Player_Engine\Engine_Speed\E_50ms\MetalRuttle_50ms		921744
+	228206684	Shooting	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Shooting_10C4C929.wem		\Actor-Mixer Hierarchy\Player_Gun\Shooting		21096
+	289646352	4c_50ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\4c_50ms_CF3D4EE9.wem		\Actor-Mixer Hierarchy\Player_Engine\Engine_Speed\E_50ms\4c_50ms		921744
+	392017222	MetalRuttle_25ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\MetalRuttle_25ms_0435493D.wem		\Actor-Mixer Hierarchy\Player_Engine\Engine_Speed\E_25ms\MetalRuttle_25ms		921744
+	569297401	EngineRuttle_25ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\EngineRuttle_25ms_32CCEE66.wem		\Actor-Mixer Hierarchy\Player_Engine\Engine_Speed\E_25ms\EngineRuttle_25ms		921744
+	686217727	4c_25ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\4c_25ms_CF3D4EE9.wem		\Actor-Mixer Hierarchy\Player_Engine\Engine_Speed\E_25ms\4c_25ms		921744
+	904171427	Acc_Up	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Acc_Up_10C4C929.wem		\Actor-Mixer Hierarchy\Player_Engine\Acc_Up		66096
+	1043020179	EngineRuttle_50ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\EngineRuttle_50ms_13DE35EF.wem		\Actor-Mixer Hierarchy\Player_Engine\Engine_Speed\E_50ms\EngineRuttle_50ms		921744
+	1046666558	AutoMode	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\AutoMode_10C4C929.wem		\Actor-Mixer Hierarchy\Player_Gun\AutoMode		144096
 
