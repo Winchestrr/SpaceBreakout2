@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{ADB12E16-896A-98F4-8DA4-231BC2B98A8A}">
+		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{49AC5AA2-4B2B-F04C-57FB-C3FE7B47E2AA}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -117,7 +117,7 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="2079244539" Name="EngineStop" ObjectPath="\Events\Player\Player_Engine\EngineStop" GUID="{01511685-0572-4254-8EE6-FC9771B406C8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="13776098" Name="Explosion" ObjectPath="\Events\Gates\Generators\Explosion" GUID="{8E1FFB9F-67FE-4D80-A5D7-379D2DB2645E}" MaxAttenuation="2000" DurationType="OneShot" DurationMin="1" DurationMax="1.0145453">
+				<Event Id="13776098" Name="Explosion" ObjectPath="\Events\Gates\Generators\Explosion" GUID="{8E1FFB9F-67FE-4D80-A5D7-379D2DB2645E}" MaxAttenuation="50000" DurationType="OneShot" DurationMin="1" DurationMax="1.0145453">
 					<MediaRefs>
 						<MediaRef Id="87918571"/>
 						<MediaRef Id="164484363"/>
@@ -165,5 +165,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{999A0173-1D99-BC6C-1BDC-A78CB8B77969}</FileHash>
+	<FileHash>{3F4E258A-D9A9-DAA3-2485-163E33061F70}</FileHash>
 </SoundBanksInfo>

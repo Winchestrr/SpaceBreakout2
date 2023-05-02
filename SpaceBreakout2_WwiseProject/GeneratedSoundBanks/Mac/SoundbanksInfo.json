@@ -101,7 +101,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{ADB12E16-896A-98F4-8DA4-231BC2B98A8A}",
+    "Hash": "{49AC5AA2-4B2B-F04C-57FB-C3FE7B47E2AA}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -352,7 +352,7 @@
       "Name": "Explosion",
       "ObjectPath": "\\Events\\Gates\\Generators\\Explosion",
       "GUID": "{8E1FFB9F-67FE-4D80-A5D7-379D2DB2645E}",
-      "MaxAttenuation": "2000",
+      "MaxAttenuation": "50000",
       "DurationType": "OneShot",
       "DurationMin": "1",
       "DurationMax": "1.0145453",
@@ -480,6 +480,6 @@
     ]
    }
   ],
-  "FileHash": "{FD7D6279-2A41-66FD-B2AA-A2E45457B0F1}"
+  "FileHash": "{AE67C8CD-4255-E829-EBC3-F8538A660AFF}"
  }
 }

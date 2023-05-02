@@ -10,7 +10,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="Att_2000m" ID="{B58FB485-C70E-409D-8439-2F77E8D178FF}" WorkUnitID="{7C387B05-CC7D-4107-8BCC-F3E746915ADB}"/>
+							<ObjectRef Name="Att_500m" ID="{B58FB485-C70E-409D-8439-2F77E8D178FF}" WorkUnitID="{7C387B05-CC7D-4107-8BCC-F3E746915ADB}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>

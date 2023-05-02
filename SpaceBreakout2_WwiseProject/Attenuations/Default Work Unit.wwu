@@ -3,9 +3,9 @@
 	<Attenuations>
 		<WorkUnit Name="Default Work Unit" ID="{7C387B05-CC7D-4107-8BCC-F3E746915ADB}" PersistMode="Standalone">
 			<ChildrenList>
-				<Attenuation Name="Att_2000m" ID="{B58FB485-C70E-409D-8439-2F77E8D178FF}" ShortID="724391967">
+				<Attenuation Name="Att_500m" ID="{B58FB485-C70E-409D-8439-2F77E8D178FF}" ShortID="724391967">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="2000"/>
+						<Property Name="RadiusMax" Type="Real64" Value="50000"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -22,7 +22,7 @@
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>2000</XPos>
+											<XPos>50000</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -50,13 +50,13 @@
 											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>200.66336</XPos>
+											<XPos>5016.584</XPos>
 											<YPos>0</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>2000</XPos>
+											<XPos>50000</XPos>
 											<YPos>100</YPos>
 											<Flags>37</Flags>
 										</Point>
