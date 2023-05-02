@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{35D87A47-2430-4AE8-943F-BE6FDA2BA69C}" SchemaVersion="110">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{35D87A47-2430-4AE8-943F-BE6FDA2BA69C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{35D87A47-2430-4AE8-943F-BE6FDA2BA69C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Gates" ID="{EF2F54E5-909A-457D-9744-04EA5C9ADC45}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Explosion" ID="{8E1FFB9F-67FE-4D80-A5D7-379D2DB2645E}" WorkUnitID="{C0EC18BB-BAA3-4BF5-AC35-85AFC6D8D4C4}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Start_Auto" ID="{887E17A7-2EA3-435C-99BB-BB007B2610DC}" WorkUnitID="{2711DA87-AECB-471B-9D49-5F75800965DD}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Shoot" ID="{51B486F4-B00E-44C0-B107-38E8DA2CC435}" WorkUnitID="{2711DA87-AECB-471B-9D49-5F75800965DD}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EngineStart" ID="{6C650701-4DB9-4776-B651-5AF00B3FF3D1}" WorkUnitID="{A3F32CDE-C778-4C0B-A2C8-285F5122ED8A}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Speed" ID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"/>
+							<Value>4000</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Glide" ID="{E3031780-9B18-4EC8-9E82-527974BEA3C5}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="AutoMode" ID="{6B76A057-4CC6-4F74-A573-B1443882C069}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

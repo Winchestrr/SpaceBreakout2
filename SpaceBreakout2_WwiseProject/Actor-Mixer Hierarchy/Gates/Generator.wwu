@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{195806B2-5F9A-43BE-B0C6-1ED2A068AABD}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Generator" ID="{195806B2-5F9A-43BE-B0C6-1ED2A068AABD}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="Explosion" ID="{FE632EBE-207D-4EC7-95CC-385D78404F87}" ShortID="1014712936">
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Att_500m" ID="{B58FB485-C70E-409D-8439-2F77E8D178FF}" WorkUnitID="{7C387B05-CC7D-4107-8BCC-F3E746915ADB}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Exp_Low" ID="{376332F0-704B-4074-98BB-7C430C532362}" ShortID="422645948">
+							<PropertyList>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Generator_Explosion_Low_1" ID="{0DD0C3FD-1824-4D39-84EE-E8FD83662EC5}" ShortID="365295143">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Generator_Explosion_Low_1" ID="{5415105C-268F-49CE-A3C1-48BEC411B3CE}">
+											<Language>SFX</Language>
+											<AudioFile>Generator_Explosion_Low_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="989050902"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Generator_Explosion_Low_1" ID="{5415105C-268F-49CE-A3C1-48BEC411B3CE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Generator_Explosion_Low_2" ID="{5B72226F-6E62-49B7-9654-DF67427E3FE2}" ShortID="21691910">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Generator_Explosion_Low_2" ID="{08DB40DA-8DD1-46D7-B411-4A8E5AAC10FC}">
+											<Language>SFX</Language>
+											<AudioFile>Generator_Explosion_Low_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="800518361"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Generator_Explosion_Low_2" ID="{08DB40DA-8DD1-46D7-B411-4A8E5AAC10FC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Generator_Explosion_Low_3" ID="{8FE04919-1F8B-4642-B7F3-E6B02E75D3B6}" ShortID="693183344">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Generator_Explosion_Low_3" ID="{2208EECB-3D8F-43AD-89A5-CCB1A59C85F9}">
+											<Language>SFX</Language>
+											<AudioFile>Generator_Explosion_Low_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="999165185"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Generator_Explosion_Low_3" ID="{2208EECB-3D8F-43AD-89A5-CCB1A59C85F9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Generator_Explosion_Low_4" ID="{1714BC9C-354E-4D4B-9ECC-CC1944783646}" ShortID="305827672">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Generator_Explosion_Low_4" ID="{F92FD55C-190F-4DC6-B94C-5B8F651559B5}">
+											<Language>SFX</Language>
+											<AudioFile>Generator_Explosion_Low_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="662278568"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Generator_Explosion_Low_4" ID="{F92FD55C-190F-4DC6-B94C-5B8F651559B5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Exp_Mid" ID="{E0ACCF3E-90D4-4C86-8B81-6BDE9DC7066D}" ShortID="193868883">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0AAC51ED-9BF3-4DD8-AA8E-245E6EDE4DEB}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{44976163-BF34-4B63-9383-9E660ECB824E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Generator_Explosion_Mid_1" ID="{3CB98327-6420-469E-A6C6-CDC6E5667373}" ShortID="230363644">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Generator_Explosion_Mid_1" ID="{FC8AFB56-40C4-4E05-87E9-32D8511E07DA}">
+											<Language>SFX</Language>
+											<AudioFile>Generator_Explosion_Mid_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1006151716"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Generator_Explosion_Mid_1" ID="{FC8AFB56-40C4-4E05-87E9-32D8511E07DA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Generator_Explosion_Mid_2" ID="{EC143FCA-4D2C-42D1-B6A3-93ED2CA97F12}" ShortID="402804769">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Generator_Explosion_Mid_2" ID="{0F5FDE32-73E2-44BC-8AE8-9B3D86210EDF}">
+											<Language>SFX</Language>
+											<AudioFile>Generator_Explosion_Mid_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="291376722"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Generator_Explosion_Mid_2" ID="{0F5FDE32-73E2-44BC-8AE8-9B3D86210EDF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Generator_Explosion_Mid_3" ID="{2CE39F9F-1235-498F-ADDA-6CE3AEF66584}" ShortID="894893184">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Generator_Explosion_Mid_3" ID="{5E8B3E3A-13C9-418F-BD56-3EE2037ADD4B}">
+											<Language>SFX</Language>
+											<AudioFile>Generator_Explosion_Mid_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="823391425"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Generator_Explosion_Mid_3" ID="{5E8B3E3A-13C9-418F-BD56-3EE2037ADD4B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Exp_Hi" ID="{CBF9027B-9519-4CF7-B363-7100680F78CD}" ShortID="984325041">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{1C01F46B-97EC-41BF-B76C-A3BFD891EFFE}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{AF5C0D2E-48F0-43EF-B2B6-D9E4357D4309}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Generator_Explosion_Hi_1" ID="{C1EEA807-68F2-4196-A86D-15EE7BC5B2C5}" ShortID="582347961">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Generator_Explosion_Hi_1" ID="{471FD2FF-28D9-4B5E-B5C8-D8F043B77BA1}">
+											<Language>SFX</Language>
+											<AudioFile>Generator_Explosion_Hi_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="87918571"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Generator_Explosion_Hi_1" ID="{471FD2FF-28D9-4B5E-B5C8-D8F043B77BA1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Generator_Explosion_Hi_2" ID="{4F2C519F-70CA-445F-A2AB-856966F89223}" ShortID="293142574">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Generator_Explosion_Hi_2" ID="{3CFFE558-D03D-49B9-9398-EC131F79C329}">
+											<Language>SFX</Language>
+											<AudioFile>Generator_Explosion_Hi_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1064403143"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Generator_Explosion_Hi_2" ID="{3CFFE558-D03D-49B9-9398-EC131F79C329}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Generator_Explosion_Hi_3" ID="{DD71D376-D6B1-4563-B1D6-5C3D0BF141B9}" ShortID="861672838">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Generator_Explosion_Hi_3" ID="{556A5B62-1537-4C6E-9C46-A5B7B7BF92D0}">
+											<Language>SFX</Language>
+											<AudioFile>Generator_Explosion_Hi_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="169955327"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Generator_Explosion_Hi_3" ID="{556A5B62-1537-4C6E-9C46-A5B7B7BF92D0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Exp_Air" ID="{8B3E52C1-0A84-4C7D-BF6E-4804C623B267}" ShortID="229397564">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{4C72A451-4A6A-465A-85B3-B17F57FE28FD}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Generator_Explosion_Air_1" ID="{B488342E-BC28-4CF5-979A-5AE9A8BC3326}" ShortID="776246178">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Generator_Explosion_Air_1" ID="{778BA3D7-0D6C-4F8E-8C9E-9CE6DA776223}">
+											<Language>SFX</Language>
+											<AudioFile>Generator_Explosion_Air_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1023344460"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Generator_Explosion_Air_1" ID="{778BA3D7-0D6C-4F8E-8C9E-9CE6DA776223}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Generator_Explosion_Air_2" ID="{29890749-F7A4-4972-8466-B6676CBE9347}" ShortID="767384039">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Generator_Explosion_Air_2" ID="{EBC15F38-0392-47B7-8A70-176967675BCC}">
+											<Language>SFX</Language>
+											<AudioFile>Generator_Explosion_Air_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="930513644"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Generator_Explosion_Air_2" ID="{EBC15F38-0392-47B7-8A70-176967675BCC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Generator_Explosion_Air_3" ID="{18043BA6-1459-40BD-BDA2-0A4B4AC5EA08}" ShortID="245675272">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Generator_Explosion_Air_3" ID="{FA1A4762-CC70-4CD0-A312-EB0E57ED43C5}">
+											<Language>SFX</Language>
+											<AudioFile>Generator_Explosion_Air_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="164484363"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Generator_Explosion_Air_3" ID="{FA1A4762-CC70-4CD0-A312-EB0E57ED43C5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

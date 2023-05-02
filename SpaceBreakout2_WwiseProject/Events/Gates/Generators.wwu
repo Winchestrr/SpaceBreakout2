@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C0EC18BB-BAA3-4BF5-AC35-85AFC6D8D4C4}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Generators" ID="{C0EC18BB-BAA3-4BF5-AC35-85AFC6D8D4C4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Explosion" ID="{8E1FFB9F-67FE-4D80-A5D7-379D2DB2645E}">
+					<ChildrenList>
+						<Action Name="" ID="{B1BC8D29-B79D-4720-8398-A024C8750635}" ShortID="276630536">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explosion" ID="{FE632EBE-207D-4EC7-95CC-385D78404F87}" WorkUnitID="{195806B2-5F9A-43BE-B0C6-1ED2A068AABD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
