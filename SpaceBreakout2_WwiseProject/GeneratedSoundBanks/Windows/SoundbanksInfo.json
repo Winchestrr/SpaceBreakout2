@@ -101,7 +101,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{2F852C8A-4114-ABF9-B7BA-521F0EAF68B6}",
+    "Hash": "{ADB12E16-896A-98F4-8DA4-231BC2B98A8A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -113,6 +113,30 @@
       "Location": "Memory",
       "ShortName": "MetalRuttle_50ms.wav",
       "CachePath": "SFX/MetalRuttle_50ms_C33A8915.wem"
+     },
+     {
+      "Id": "87918571",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Generator_Explosion_Hi_1.wav",
+      "CachePath": "SFX/Generator_Explosion_Hi_1_10C4C929.wem"
+     },
+     {
+      "Id": "164484363",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Generator_Explosion_Air_3.wav",
+      "CachePath": "SFX/Generator_Explosion_Air_3_10C4C929.wem"
+     },
+     {
+      "Id": "169955327",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Generator_Explosion_Hi_3.wav",
+      "CachePath": "SFX/Generator_Explosion_Hi_3_10C4C929.wem"
      },
      {
       "Id": "228206684",
@@ -131,6 +155,14 @@
       "CachePath": "SFX/4c_50ms_CF3D4EE9.wem"
      },
      {
+      "Id": "291376722",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Generator_Explosion_Mid_2.wav",
+      "CachePath": "SFX/Generator_Explosion_Mid_2_10C4C929.wem"
+     },
+     {
       "Id": "392017222",
       "Language": "SFX",
       "Streaming": "false",
@@ -147,6 +179,14 @@
       "CachePath": "SFX/EngineRuttle_25ms_32CCEE66.wem"
      },
      {
+      "Id": "662278568",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Generator_Explosion_Low_4.wav",
+      "CachePath": "SFX/Generator_Explosion_Low_4_10C4C929.wem"
+     },
+     {
       "Id": "686217727",
       "Language": "SFX",
       "Streaming": "false",
@@ -155,12 +195,68 @@
       "CachePath": "SFX/4c_25ms_CF3D4EE9.wem"
      },
      {
+      "Id": "800518361",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Generator_Explosion_Low_2.wav",
+      "CachePath": "SFX/Generator_Explosion_Low_2_10C4C929.wem"
+     },
+     {
+      "Id": "823391425",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Generator_Explosion_Mid_3.wav",
+      "CachePath": "SFX/Generator_Explosion_Mid_3_10C4C929.wem"
+     },
+     {
       "Id": "904171427",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Acc_Up.wav",
       "CachePath": "SFX/Acc_Up_10C4C929.wem"
+     },
+     {
+      "Id": "930513644",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Generator_Explosion_Air_2.wav",
+      "CachePath": "SFX/Generator_Explosion_Air_2_10C4C929.wem"
+     },
+     {
+      "Id": "989050902",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Generator_Explosion_Low_1.wav",
+      "CachePath": "SFX/Generator_Explosion_Low_1_10C4C929.wem"
+     },
+     {
+      "Id": "999165185",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Generator_Explosion_Low_3.wav",
+      "CachePath": "SFX/Generator_Explosion_Low_3_10C4C929.wem"
+     },
+     {
+      "Id": "1006151716",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Generator_Explosion_Mid_1.wav",
+      "CachePath": "SFX/Generator_Explosion_Mid_1_10C4C929.wem"
+     },
+     {
+      "Id": "1023344460",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Generator_Explosion_Air_1.wav",
+      "CachePath": "SFX/Generator_Explosion_Air_1_10C4C929.wem"
      },
      {
       "Id": "1043020179",
@@ -177,6 +273,14 @@
       "Location": "Memory",
       "ShortName": "AutoMode.wav",
       "CachePath": "SFX/AutoMode_C585BE34.wem"
+     },
+     {
+      "Id": "1064403143",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Generator_Explosion_Hi_2.wav",
+      "CachePath": "SFX/Generator_Explosion_Hi_2_10C4C929.wem"
      }
     ],
     "Plugins": {
@@ -195,7 +299,7 @@
      {
       "Id": "1151086808",
       "Name": "Acc",
-      "ObjectPath": "\\Events\\Player_Engine\\Acc",
+      "ObjectPath": "\\Events\\Player\\Player_Engine\\Acc",
       "GUID": "{F555DC76-60D1-43F4-AD5B-6332D58221C8}",
       "DurationType": "OneShot",
       "DurationMin": "0.6875",
@@ -209,7 +313,7 @@
      {
       "Id": "164866881",
       "Name": "EngineStart",
-      "ObjectPath": "\\Events\\Player_Engine\\EngineStart",
+      "ObjectPath": "\\Events\\Player\\Player_Engine\\EngineStart",
       "GUID": "{6C650701-4DB9-4776-B651-5AF00B3FF3D1}",
       "DurationType": "Infinite",
       "MediaRefs": [
@@ -236,7 +340,7 @@
      {
       "Id": "2079244539",
       "Name": "EngineStop",
-      "ObjectPath": "\\Events\\Player_Engine\\EngineStop",
+      "ObjectPath": "\\Events\\Player\\Player_Engine\\EngineStop",
       "GUID": "{01511685-0572-4254-8EE6-FC9771B406C8}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
@@ -244,9 +348,60 @@
       "DurationMax": "0"
      },
      {
+      "Id": "13776098",
+      "Name": "Explosion",
+      "ObjectPath": "\\Events\\Gates\\Generators\\Explosion",
+      "GUID": "{8E1FFB9F-67FE-4D80-A5D7-379D2DB2645E}",
+      "MaxAttenuation": "2000",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1.0145453",
+      "MediaRefs": [
+       {
+        "Id": "87918571"
+       },
+       {
+        "Id": "164484363"
+       },
+       {
+        "Id": "169955327"
+       },
+       {
+        "Id": "291376722"
+       },
+       {
+        "Id": "662278568"
+       },
+       {
+        "Id": "800518361"
+       },
+       {
+        "Id": "823391425"
+       },
+       {
+        "Id": "930513644"
+       },
+       {
+        "Id": "989050902"
+       },
+       {
+        "Id": "999165185"
+       },
+       {
+        "Id": "1006151716"
+       },
+       {
+        "Id": "1023344460"
+       },
+       {
+        "Id": "1064403143"
+       }
+      ]
+     },
+     {
       "Id": "3038207054",
       "Name": "Shoot",
-      "ObjectPath": "\\Events\\Player_Gun\\Shoot",
+      "ObjectPath": "\\Events\\Player\\Player_Gun\\Shoot",
       "GUID": "{51B486F4-B00E-44C0-B107-38E8DA2CC435}",
       "DurationType": "OneShot",
       "DurationMin": "0.21875",
@@ -260,7 +415,7 @@
      {
       "Id": "3808032123",
       "Name": "Start_Auto",
-      "ObjectPath": "\\Events\\Player_Gun\\Start_Auto",
+      "ObjectPath": "\\Events\\Player\\Player_Gun\\Start_Auto",
       "GUID": "{887E17A7-2EA3-435C-99BB-BB007B2610DC}",
       "DurationType": "Infinite",
       "MediaRefs": [
@@ -272,7 +427,7 @@
      {
       "Id": "2042178597",
       "Name": "Stop_Auto",
-      "ObjectPath": "\\Events\\Player_Gun\\Stop_Auto",
+      "ObjectPath": "\\Events\\Player\\Player_Gun\\Stop_Auto",
       "GUID": "{16F42484-449B-42F5-B43D-6A3B952DA7D8}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
@@ -325,6 +480,6 @@
     ]
    }
   ],
-  "FileHash": "{2D51DBCF-1787-5578-CB8A-48E491AE72B7}"
+  "FileHash": "{69D4F1D1-A777-F2CA-E921-335001785C98}"
  }
 }

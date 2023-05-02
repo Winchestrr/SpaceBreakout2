@@ -11898,6 +11898,9 @@
 				<PhysicalFolder Path="Events">
 					<WorkUnit Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" PersistMode="Standalone"/>
 				</PhysicalFolder>
+				<PhysicalFolder Path="Events\Gates">
+					<WorkUnit Name="Gates" ID="{5469AA4C-D24C-47D5-BCC8-5DE2E81689D3}" PersistMode="Standalone"/>
+				</PhysicalFolder>
 				<PhysicalFolder Path="Events\Player">
 					<WorkUnit Name="Player" ID="{CC5979A0-6ED8-43B4-9356-057D86375F68}" PersistMode="Standalone"/>
 				</PhysicalFolder>

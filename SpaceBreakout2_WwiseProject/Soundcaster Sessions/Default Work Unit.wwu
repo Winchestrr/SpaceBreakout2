@@ -6,7 +6,7 @@
 				<SoundcasterSession Name="Gates" ID="{EF2F54E5-909A-457D-9744-04EA5C9ADC45}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_Explosion" ID="{8E1FFB9F-67FE-4D80-A5D7-379D2DB2645E}" WorkUnitID="{C0EC18BB-BAA3-4BF5-AC35-85AFC6D8D4C4}"/>
+							<ObjectRef Name="Explosion" ID="{8E1FFB9F-67FE-4D80-A5D7-379D2DB2645E}" WorkUnitID="{C0EC18BB-BAA3-4BF5-AC35-85AFC6D8D4C4}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
