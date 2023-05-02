@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{DBF7FB85-2AB2-5840-57D0-3AB7304440F8}",
+    "Hash": "{E50C9D88-DE4E-BD44-5C34-D97D84910CA7}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -101,7 +101,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{49AC5AA2-4B2B-F04C-57FB-C3FE7B47E2AA}",
+    "Hash": "{1CC6C7AE-78C4-F313-696B-063F97009EC1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -480,6 +480,6 @@
     ]
    }
   ],
-  "FileHash": "{A2A6D35F-E948-B620-9571-2542E3719355}"
+  "FileHash": "{035D364A-A8B2-5D5A-E47F-E8B593FD7CA9}"
  }
 }

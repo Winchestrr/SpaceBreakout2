@@ -25,7 +25,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Speed" ID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"/>
-							<Value>4000</Value>
+							<Value>8000</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Glide" ID="{E3031780-9B18-4EC8-9E82-527974BEA3C5}"/>
