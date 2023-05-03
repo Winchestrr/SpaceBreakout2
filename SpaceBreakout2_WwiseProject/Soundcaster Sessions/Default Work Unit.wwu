@@ -32,6 +32,10 @@
 							<Value>8000</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Death" ID="{66EA2853-CF2F-4EC2-B5DB-DEBEE4400EEE}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="Glide" ID="{E3031780-9B18-4EC8-9E82-527974BEA3C5}"/>
 							<Value>0</Value>
 						</RTPCValue>

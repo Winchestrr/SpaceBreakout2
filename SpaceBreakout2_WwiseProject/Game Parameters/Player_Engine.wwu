@@ -15,6 +15,15 @@
 						<Property Name="Max" Type="Real64" Value="8000"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Death" ID="{66EA2853-CF2F-4EC2-B5DB-DEBEE4400EEE}">
+					<PropertyList>
+						<Property Name="FilterTimeUp" Type="Real64" Value="2"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="25"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
