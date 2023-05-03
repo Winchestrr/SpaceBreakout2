@@ -428,6 +428,43 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</BlendContainer>
+				<Sound Name="Generator_Idle" ID="{176C2188-3574-4ADA-BE85-17BB383913F9}" ShortID="1578198">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Att_300m" ID="{273497DC-8345-4722-A0E3-8FE547373875}" WorkUnitID="{7C387B05-CC7D-4107-8BCC-F3E746915ADB}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Generator_Idle" ID="{49176B11-2843-4E53-A4E4-8977889F01E1}">
+							<PropertyList>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="520"/>
+								<Property Name="CrossfadeShape" Type="int16" Value="2"/>
+								<Property Name="FadeInShape" Type="int16" Value="2"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0.288888888888889"/>
+								<Property Name="LoopEnd" Type="Real64" Value="3.73333333333333"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Generator_Idle.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1019287824"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Generator_Idle" ID="{49176B11-2843-4E53-A4E4-8977889F01E1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
