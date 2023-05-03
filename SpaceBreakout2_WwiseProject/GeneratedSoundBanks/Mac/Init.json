@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{0BC11C29-DBB4-B2B6-0DDB-F06EBA8BE290}",
+    "Hash": "{A64398B4-E81E-C84A-D14E-475653C579A4}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -46,6 +46,12 @@
     },
     "Busses": [
      {
+      "Id": "3588144912",
+      "Name": "AMB_AUX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\AMB_AUX",
+      "GUID": "{DDE33DBA-3100-4148-A547-CF7D98C7E62F}"
+     },
+     {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
@@ -75,6 +81,12 @@
       "GUID": "{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"
      },
      {
+      "Id": "779278001",
+      "Name": "Death",
+      "ObjectPath": "\\Game Parameters\\Player_Engine\\Death",
+      "GUID": "{66EA2853-CF2F-4EC2-B5DB-DEBEE4400EEE}"
+     },
+     {
       "Id": "1252186741",
       "Name": "AutoMode",
       "ObjectPath": "\\Game Parameters\\Player_Gun\\AutoMode",
@@ -89,6 +101,6 @@
     ]
    }
   ],
-  "FileHash": "{14047CAE-3F00-9953-F46B-0D06DAC191EE}"
+  "FileHash": "{9ADB8D6A-8154-3EDB-6908-B2739B1CD275}"
  }
 }

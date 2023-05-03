@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C0EC18BB-BAA3-4BF5-AC35-85AFC6D8D4C4}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Generators" ID="{C0EC18BB-BAA3-4BF5-AC35-85AFC6D8D4C4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Gen_Explosion" ID="{8E1FFB9F-67FE-4D80-A5D7-379D2DB2645E}">
+					<ChildrenList>
+						<Action Name="" ID="{B1BC8D29-B79D-4720-8398-A024C8750635}" ShortID="276630536">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explosion" ID="{FE632EBE-207D-4EC7-95CC-385D78404F87}" WorkUnitID="{195806B2-5F9A-43BE-B0C6-1ED2A068AABD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{06C86D42-2265-44CC-90EA-1A065C964860}" ShortID="291740308">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Generator_Idle" ID="{176C2188-3574-4ADA-BE85-17BB383913F9}" WorkUnitID="{195806B2-5F9A-43BE-B0C6-1ED2A068AABD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Gen_Idle" ID="{4D6FA5E8-AC89-4B27-918E-65D49801B10C}">
+					<ChildrenList>
+						<Action Name="" ID="{4F1F94BA-2A04-4C82-99D2-12E2441B05AD}" ShortID="652633448">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Generator_Idle" ID="{176C2188-3574-4ADA-BE85-17BB383913F9}" WorkUnitID="{195806B2-5F9A-43BE-B0C6-1ED2A068AABD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

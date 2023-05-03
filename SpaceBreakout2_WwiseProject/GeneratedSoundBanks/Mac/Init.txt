@@ -1,4 +1,8 @@
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	779278001	Death			\Player_Engine\Death	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	3588144912	AMB_AUX			\Default Work Unit\Master Audio Bus\AMB_AUX	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
