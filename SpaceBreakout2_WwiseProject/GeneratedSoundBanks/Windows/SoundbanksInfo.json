@@ -101,7 +101,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{929BD59D-00B3-834E-1B0A-5BA9D3CD455A}",
+    "Hash": "{303DA140-27F8-D8D9-FB3D-276F11C10FE6}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -163,6 +163,14 @@
       "CachePath": "SFX/Generator_Explosion_Mid_2_10C4C929.wem"
      },
      {
+      "Id": "317170420",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Air_50ms.wav",
+      "CachePath": "SFX/Air_50ms_B037B44C.wem"
+     },
+     {
       "Id": "392017222",
       "Language": "SFX",
       "Streaming": "false",
@@ -185,6 +193,14 @@
       "Location": "Memory",
       "ShortName": "Generator_Explosion_Low_4.wav",
       "CachePath": "SFX/Generator_Explosion_Low_4_10C4C929.wem"
+     },
+     {
+      "Id": "684622861",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Air_25ms.wav",
+      "CachePath": "SFX/Air_25ms_B037B44C.wem"
      },
      {
       "Id": "686217727",
@@ -324,10 +340,16 @@
         "Id": "289646352"
        },
        {
+        "Id": "317170420"
+       },
+       {
         "Id": "392017222"
        },
        {
         "Id": "569297401"
+       },
+       {
+        "Id": "684622861"
        },
        {
         "Id": "686217727"
@@ -480,6 +502,6 @@
     ]
    }
   ],
-  "FileHash": "{3EDCF3FB-2776-C835-8003-4C2793F1AAA0}"
+  "FileHash": "{5B965951-B0D5-BDA0-8CE5-5B78C331274C}"
  }
 }

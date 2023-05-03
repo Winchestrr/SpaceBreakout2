@@ -132,6 +132,48 @@
 										<ActiveSource Name="MetalRuttle_50ms" ID="{4B389CAE-809F-4AD1-B2E8-9D205DAAEE9F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Air_50ms" ID="{E62A604E-FD00-45F0-B2AB-F34E6F9A3EC3}" ShortID="558296650">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Air_50ms" ID="{277941CA-B2AB-4634-B7E7-AEE1239EE6E0}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="180"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.12"/>
+												<Property Name="LoopEnd" Type="Real64" Value="9.49333333333333"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Air_50ms.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="317170420"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Air_50ms" ID="{277941CA-B2AB-4634-B7E7-AEE1239EE6E0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</BlendContainer>
 						<BlendContainer Name="E_25ms" ID="{3CC298B9-A098-4B7E-9478-DC19E5175224}" ShortID="127643554">
@@ -250,6 +292,48 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="MetalRuttle_25ms" ID="{694922CF-70D1-499E-B859-4979E85905A0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Air_25ms" ID="{1FE25EFE-F3AF-4FCD-9EA0-C48837BF93A2}" ShortID="462814779">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Air_25ms" ID="{4336F3F3-DC12-4328-AED1-0F5FC1E0BCE8}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="180"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.12"/>
+												<Property Name="LoopEnd" Type="Real64" Value="9.49333333333333"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Air_25ms.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="684622861"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Air_25ms" ID="{4336F3F3-DC12-4328-AED1-0F5FC1E0BCE8}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

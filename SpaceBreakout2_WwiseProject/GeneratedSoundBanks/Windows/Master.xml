@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{929BD59D-00B3-834E-1B0A-5BA9D3CD455A}">
+		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{303DA140-27F8-D8D9-FB3D-276F11C10FE6}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -34,6 +34,10 @@
 					<ShortName>Generator_Explosion_Mid_2.wav</ShortName>
 					<CachePath>SFX/Generator_Explosion_Mid_2_10C4C929.wem</CachePath>
 				</File>
+				<File Id="317170420" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Air_50ms.wav</ShortName>
+					<CachePath>SFX/Air_50ms_B037B44C.wem</CachePath>
+				</File>
 				<File Id="392017222" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetalRuttle_25ms.wav</ShortName>
 					<CachePath>SFX/MetalRuttle_25ms_0435493D.wem</CachePath>
@@ -45,6 +49,10 @@
 				<File Id="662278568" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Generator_Explosion_Low_4.wav</ShortName>
 					<CachePath>SFX/Generator_Explosion_Low_4_10C4C929.wem</CachePath>
+				</File>
+				<File Id="684622861" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Air_25ms.wav</ShortName>
+					<CachePath>SFX/Air_25ms_B037B44C.wem</CachePath>
 				</File>
 				<File Id="686217727" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>4c_25ms.wav</ShortName>
@@ -110,8 +118,10 @@
 					<MediaRefs>
 						<MediaRef Id="42552773"/>
 						<MediaRef Id="289646352"/>
+						<MediaRef Id="317170420"/>
 						<MediaRef Id="392017222"/>
 						<MediaRef Id="569297401"/>
+						<MediaRef Id="684622861"/>
 						<MediaRef Id="686217727"/>
 						<MediaRef Id="1043020179"/>
 					</MediaRefs>
@@ -165,5 +175,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E51AD892-0DB4-D110-5053-A644C8912500}</FileHash>
+	<FileHash>{5B7F9DBA-1405-398D-EE92-4485F51388B4}</FileHash>
 </SoundBanksInfo>
