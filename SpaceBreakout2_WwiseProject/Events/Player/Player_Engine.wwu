@@ -14,7 +14,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="EngineStop" ID="{01511685-0572-4254-8EE6-FC9771B406C8}">
+				<Event Name="Player_Death" ID="{01511685-0572-4254-8EE6-FC9771B406C8}">
 					<ChildrenList>
 						<Action Name="" ID="{66677D1E-FEAC-4211-A4FB-6C61B2266E0B}" ShortID="416351096">
 							<PropertyList>
@@ -23,6 +23,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Engine_Speed" ID="{9E8370D7-4AAD-41C1-A25E-0A3704F0E4ED}" WorkUnitID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5046BAF5-8D44-431D-A7BE-CC97AFBA1C63}" ShortID="253556152">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AutoMode" ID="{C65AC09F-6783-4294-96C2-F98437770231}" WorkUnitID="{474F77FA-D328-49E6-84C1-EBCDC6E9F8F4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

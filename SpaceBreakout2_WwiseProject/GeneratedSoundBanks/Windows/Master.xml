@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{303DA140-27F8-D8D9-FB3D-276F11C10FE6}">
+		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{7DCBEF34-11D2-3F39-53A2-C0F3C4A2F4D5}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -36,7 +36,7 @@
 				</File>
 				<File Id="317170420" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Air_50ms.wav</ShortName>
-					<CachePath>SFX/Air_50ms_B037B44C.wem</CachePath>
+					<CachePath>SFX/Air_50ms_55193FF2.wem</CachePath>
 				</File>
 				<File Id="392017222" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetalRuttle_25ms.wav</ShortName>
@@ -52,7 +52,7 @@
 				</File>
 				<File Id="684622861" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Air_25ms.wav</ShortName>
-					<CachePath>SFX/Air_25ms_B037B44C.wem</CachePath>
+					<CachePath>SFX/Air_25ms_55193FF2.wem</CachePath>
 				</File>
 				<File Id="686217727" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>4c_25ms.wav</ShortName>
@@ -85,6 +85,10 @@
 				<File Id="1006151716" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Generator_Explosion_Mid_1.wav</ShortName>
 					<CachePath>SFX/Generator_Explosion_Mid_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1019287824" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Generator_Idle.wav</ShortName>
+					<CachePath>SFX/Generator_Idle_07E00B68.wem</CachePath>
 				</File>
 				<File Id="1023344460" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Generator_Explosion_Air_1.wav</ShortName>
@@ -126,8 +130,7 @@
 						<MediaRef Id="1043020179"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2079244539" Name="EngineStop" ObjectPath="\Events\Player\Player_Engine\EngineStop" GUID="{01511685-0572-4254-8EE6-FC9771B406C8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="13776098" Name="Explosion" ObjectPath="\Events\Gates\Generators\Explosion" GUID="{8E1FFB9F-67FE-4D80-A5D7-379D2DB2645E}" MaxAttenuation="50000" DurationType="OneShot" DurationMin="1" DurationMax="1.0145453">
+				<Event Id="619787537" Name="Gen_Explosion" ObjectPath="\Events\Gates\Generators\Gen_Explosion" GUID="{8E1FFB9F-67FE-4D80-A5D7-379D2DB2645E}" MaxAttenuation="50000" DurationType="OneShot" DurationMin="1" DurationMax="1.0145453">
 					<MediaRefs>
 						<MediaRef Id="87918571"/>
 						<MediaRef Id="164484363"/>
@@ -144,6 +147,12 @@
 						<MediaRef Id="1064403143"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1772735026" Name="Gen_Idle" ObjectPath="\Events\Gates\Generators\Gen_Idle" GUID="{4D6FA5E8-AC89-4B27-918E-65D49801B10C}" MaxAttenuation="30000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1019287824"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Player\Player_Engine\Player_Death" GUID="{01511685-0572-4254-8EE6-FC9771B406C8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3038207054" Name="Shoot" ObjectPath="\Events\Player\Player_Gun\Shoot" GUID="{51B486F4-B00E-44C0-B107-38E8DA2CC435}" DurationType="OneShot" DurationMin="0.21875" DurationMax="0.21875">
 					<MediaRefs>
 						<MediaRef Id="228206684"/>
@@ -175,5 +184,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5B7F9DBA-1405-398D-EE92-4485F51388B4}</FileHash>
+	<FileHash>{D5F3A85A-5015-4ABF-6139-E4E0C9F5E939}</FileHash>
 </SoundBanksInfo>

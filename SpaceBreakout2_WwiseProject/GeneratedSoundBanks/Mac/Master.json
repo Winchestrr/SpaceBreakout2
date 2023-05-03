@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{303DA140-27F8-D8D9-FB3D-276F11C10FE6}",
+    "Hash": "{7DCBEF34-11D2-3F39-53A2-C0F3C4A2F4D5}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -77,7 +77,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Air_50ms.wav",
-      "CachePath": "SFX/Air_50ms_B037B44C.wem"
+      "CachePath": "SFX/Air_50ms_55193FF2.wem"
      },
      {
       "Id": "392017222",
@@ -109,7 +109,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Air_25ms.wav",
-      "CachePath": "SFX/Air_25ms_B037B44C.wem"
+      "CachePath": "SFX/Air_25ms_55193FF2.wem"
      },
      {
       "Id": "686217727",
@@ -174,6 +174,14 @@
       "Location": "Memory",
       "ShortName": "Generator_Explosion_Mid_1.wav",
       "CachePath": "SFX/Generator_Explosion_Mid_1_10C4C929.wem"
+     },
+     {
+      "Id": "1019287824",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Generator_Idle.wav",
+      "CachePath": "SFX/Generator_Idle_07E00B68.wem"
      },
      {
       "Id": "1023344460",
@@ -269,19 +277,9 @@
       ]
      },
      {
-      "Id": "2079244539",
-      "Name": "EngineStop",
-      "ObjectPath": "\\Events\\Player\\Player_Engine\\EngineStop",
-      "GUID": "{01511685-0572-4254-8EE6-FC9771B406C8}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "13776098",
-      "Name": "Explosion",
-      "ObjectPath": "\\Events\\Gates\\Generators\\Explosion",
+      "Id": "619787537",
+      "Name": "Gen_Explosion",
+      "ObjectPath": "\\Events\\Gates\\Generators\\Gen_Explosion",
       "GUID": "{8E1FFB9F-67FE-4D80-A5D7-379D2DB2645E}",
       "MaxAttenuation": "50000",
       "DurationType": "OneShot",
@@ -328,6 +326,29 @@
         "Id": "1064403143"
        }
       ]
+     },
+     {
+      "Id": "1772735026",
+      "Name": "Gen_Idle",
+      "ObjectPath": "\\Events\\Gates\\Generators\\Gen_Idle",
+      "GUID": "{4D6FA5E8-AC89-4B27-918E-65D49801B10C}",
+      "MaxAttenuation": "30000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "1019287824"
+       }
+      ]
+     },
+     {
+      "Id": "3083087645",
+      "Name": "Player_Death",
+      "ObjectPath": "\\Events\\Player\\Player_Engine\\Player_Death",
+      "GUID": "{01511685-0572-4254-8EE6-FC9771B406C8}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "3038207054",
@@ -411,6 +432,6 @@
     ]
    }
   ],
-  "FileHash": "{AB793B37-F585-3F8B-F902-C9151DD72BCA}"
+  "FileHash": "{FF60A5EE-D69D-B71E-4849-DC07A301A8B6}"
  }
 }

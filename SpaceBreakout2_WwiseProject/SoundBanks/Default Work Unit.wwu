@@ -5,11 +5,12 @@
 			<ChildrenList>
 				<SoundBank Name="Master" ID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}">
 					<ObjectInclusionList>
-						<ObjectRef Name="EngineStop" ID="{01511685-0572-4254-8EE6-FC9771B406C8}" WorkUnitID="{A3F32CDE-C778-4C0B-A2C8-285F5122ED8A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Death" ID="{01511685-0572-4254-8EE6-FC9771B406C8}" WorkUnitID="{A3F32CDE-C778-4C0B-A2C8-285F5122ED8A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Acc" ID="{F555DC76-60D1-43F4-AD5B-6332D58221C8}" WorkUnitID="{A3F32CDE-C778-4C0B-A2C8-285F5122ED8A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Rev_Tube" ID="{6BCDD345-D685-458F-A310-7D075C85EBF5}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Gun" ID="{2711DA87-AECB-471B-9D49-5F75800965DD}" WorkUnitID="{2711DA87-AECB-471B-9D49-5F75800965DD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="EngineStart" ID="{6C650701-4DB9-4776-B651-5AF00B3FF3D1}" WorkUnitID="{A3F32CDE-C778-4C0B-A2C8-285F5122ED8A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Gen_Idle" ID="{4D6FA5E8-AC89-4B27-918E-65D49801B10C}" WorkUnitID="{C0EC18BB-BAA3-4BF5-AC35-85AFC6D8D4C4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Gen_Explosion" ID="{8E1FFB9F-67FE-4D80-A5D7-379D2DB2645E}" WorkUnitID="{C0EC18BB-BAA3-4BF5-AC35-85AFC6D8D4C4}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
