@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Enemy_Gun" ID="{538A95B2-511C-49FB-BBD1-4A9DDB54DEC9}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="Shooting" ID="{043B4143-052D-43F6-9880-9987FA26B8CB}" ShortID="728706219">
+				<Sound Name="Enemy_Shooting" ID="{043B4143-052D-43F6-9880-9987FA26B8CB}" ShortID="728706219">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
