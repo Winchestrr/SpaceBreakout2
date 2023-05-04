@@ -113,7 +113,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{96249FD6-780C-185F-1A66-806084FC2E87}",
+    "Hash": "{4BCC82BC-237E-89D7-B84D-79A2DF222D38}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -135,6 +135,14 @@
       "CachePath": "SFX/Generator_Explosion_Hi_1_10C4C929.wem"
      },
      {
+      "Id": "98268633",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "4c_100ms.wav",
+      "CachePath": "SFX/4c_100ms_D79FB2B7.wem"
+     },
+     {
       "Id": "164484363",
       "Language": "SFX",
       "Streaming": "false",
@@ -149,6 +157,14 @@
       "Location": "Memory",
       "ShortName": "Generator_Explosion_Hi_3.wav",
       "CachePath": "SFX/Generator_Explosion_Hi_3_10C4C929.wem"
+     },
+     {
+      "Id": "191878459",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalRuttle_50ms.wav",
+      "CachePath": "SFX/MetalRuttle_50ms_033908F3.wem"
      },
      {
       "Id": "228206684",
@@ -175,6 +191,14 @@
       "CachePath": "SFX/Generator_Explosion_Mid_2_10C4C929.wem"
      },
      {
+      "Id": "300107268",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "EngineRuttle_50ms.wav",
+      "CachePath": "SFX/EngineRuttle_50ms_66498DF5.wem"
+     },
+     {
       "Id": "317170420",
       "Language": "SFX",
       "Streaming": "false",
@@ -189,6 +213,14 @@
       "Location": "Memory",
       "ShortName": "MetalRuttle_25ms.wav",
       "CachePath": "SFX/MetalRuttle_25ms_0435493D.wem"
+     },
+     {
+      "Id": "551274477",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "4c_50ms.wav",
+      "CachePath": "SFX/4c_50ms_F95DF087.wem"
      },
      {
       "Id": "569297401",
@@ -343,6 +375,69 @@
       "MediaRefs": [
        {
         "Id": "904171427"
+       }
+      ]
+     },
+     {
+      "Id": "2170925251",
+      "Name": "Enemy_Destroyed",
+      "ObjectPath": "\\Events\\Enemies\\Enemy_Engine\\Enemy_Destroyed",
+      "GUID": "{80CD0BD0-6A6F-495A-B0A6-9CD17CF1E74C}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1077076726",
+      "Name": "Enemy_Engine_Start_Big",
+      "ObjectPath": "\\Events\\Enemies\\Enemy_Engine\\Enemy_Engine_Start_Big",
+      "GUID": "{0E6F876A-1D11-4836-89E2-218C79F7A41B}",
+      "MaxAttenuation": "50000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "98268633"
+       },
+       {
+        "Id": "191878459"
+       },
+       {
+        "Id": "300107268"
+       }
+      ]
+     },
+     {
+      "Id": "2952350905",
+      "Name": "Enemy_Engine_Start_Small",
+      "ObjectPath": "\\Events\\Enemies\\Enemy_Engine\\Enemy_Engine_Start_Small",
+      "GUID": "{47EBEAB8-6DE7-41EF-B85B-ECDC7082E481}",
+      "MaxAttenuation": "30000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "191878459"
+       },
+       {
+        "Id": "300107268"
+       },
+       {
+        "Id": "551274477"
+       }
+      ]
+     },
+     {
+      "Id": "1050776119",
+      "Name": "Enemy_Shoot",
+      "ObjectPath": "\\Events\\Enemies\\Enemy_Gun\\Enemy_Shoot",
+      "GUID": "{03C9A381-AB34-41E3-9556-AF8F69811E68}",
+      "MaxAttenuation": "30000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21875",
+      "DurationMax": "0.21875",
+      "MediaRefs": [
+       {
+        "Id": "228206684"
        }
       ]
      },
@@ -535,6 +630,6 @@
     ]
    }
   ],
-  "FileHash": "{9EE83BA5-6B28-04D4-6488-24DA0BD05FAB}"
+  "FileHash": "{DB82AE6D-CF3E-7107-2E88-02EC7C21826A}"
  }
 }

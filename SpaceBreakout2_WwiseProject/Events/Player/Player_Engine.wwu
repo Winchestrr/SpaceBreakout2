@@ -55,6 +55,28 @@
 							</PropertyList>
 							<ReferenceList/>
 						</Action>
+						<Action Name="" ID="{E07BBDB0-B3D0-44A5-9446-F34BCE9B2F56}" ShortID="42833759">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_Engine_Small" ID="{30BE3A20-C040-49A1-AFB0-3D138B510BA9}" WorkUnitID="{5F24CEC1-5A42-4B73-AAD4-DC3DB1B3C2B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CD72CCF5-90A7-4078-B801-61ED82EF94C1}" ShortID="447650487">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_Engine_Big" ID="{4818EA04-3D52-4051-B5C9-BC1AF3B3B9A5}" WorkUnitID="{5F24CEC1-5A42-4B73-AAD4-DC3DB1B3C2B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="EngineStart" ID="{6C650701-4DB9-4776-B651-5AF00B3FF3D1}">
