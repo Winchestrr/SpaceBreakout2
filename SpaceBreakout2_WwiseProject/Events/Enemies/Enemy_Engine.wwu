@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{880F079E-D1D4-417B-B158-41B761AC6506}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Enemy_Engine" ID="{880F079E-D1D4-417B-B158-41B761AC6506}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Start_Engine" ID="{47EBEAB8-6DE7-41EF-B85B-ECDC7082E481}">
+					<ChildrenList>
+						<Action Name="" ID="{075FB61D-A17D-43FC-8E12-E4FAAE9C3BFE}" ShortID="194715772">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_Engine" ID="{30BE3A20-C040-49A1-AFB0-3D138B510BA9}" WorkUnitID="{18F5B71C-B69F-40D4-BA38-110ACA453023}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemy_Destroyed" ID="{80CD0BD0-6A6F-495A-B0A6-9CD17CF1E74C}">
+					<ChildrenList>
+						<Action Name="" ID="{F049D42F-06E8-473B-AF24-7D258238C273}" ShortID="705513556">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_Engine" ID="{30BE3A20-C040-49A1-AFB0-3D138B510BA9}" WorkUnitID="{18F5B71C-B69F-40D4-BA38-110ACA453023}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

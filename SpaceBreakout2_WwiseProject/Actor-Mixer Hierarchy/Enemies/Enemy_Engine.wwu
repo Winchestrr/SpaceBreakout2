@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{18F5B71C-B69F-40D4-BA38-110ACA453023}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Enemy_Engine" ID="{18F5B71C-B69F-40D4-BA38-110ACA453023}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="Enemy_Engine" ID="{30BE3A20-C040-49A1-AFB0-3D138B510BA9}" ShortID="165875444">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+						<Property Name="PriorityDistanceFactor" Type="bool" Value="True"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Att_Ext_500m" ID="{9C8EE75B-E194-4541-AD44-68423394809E}" WorkUnitID="{7C387B05-CC7D-4107-8BCC-F3E746915ADB}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="4c_50ms" ID="{91F56369-7DA8-4CF0-B027-7E4878CD92D5}" ShortID="366326230">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="4c_50ms" ID="{AB1445CC-E900-43D4-A087-3A845821A7A9}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="800"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.466666666666667"/>
+										<Property Name="LoopEnd" Type="Real64" Value="9.18666666666667"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>4c_50ms.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="551274477"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="4c_50ms" ID="{AB1445CC-E900-43D4-A087-3A845821A7A9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="EngineRuttle_50ms" ID="{56E488D5-D1BA-43C9-8CA1-1DDF9A14F9CE}" ShortID="144890318">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EngineRuttle_50ms" ID="{0150FEA9-D1AE-4098-9823-B17510F0573F}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="800"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.453333333333333"/>
+										<Property Name="LoopEnd" Type="Real64" Value="9.17333333333333"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>EngineRuttle_50ms.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="300107268"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="EngineRuttle_50ms" ID="{0150FEA9-D1AE-4098-9823-B17510F0573F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MetalRuttle_50ms" ID="{E4254C2E-C69C-4BE0-84EF-9A451A3D10BC}" ShortID="335181086">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalRuttle_50ms" ID="{9DAD5C4E-77D8-4E0C-8BF9-DD1CCA67EA71}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="800"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.453333333333333"/>
+										<Property Name="LoopEnd" Type="Real64" Value="9.18666666666667"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>MetalRuttle_50ms.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="191878459"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalRuttle_50ms" ID="{9DAD5C4E-77D8-4E0C-8BF9-DD1CCA67EA71}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

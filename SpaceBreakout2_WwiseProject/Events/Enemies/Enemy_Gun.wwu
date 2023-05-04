@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7C77DF77-B5DF-4D6F-8DBD-8C9AD3466887}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Enemy_Gun" ID="{7C77DF77-B5DF-4D6F-8DBD-8C9AD3466887}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Enemy_Shoot" ID="{03C9A381-AB34-41E3-9556-AF8F69811E68}">
+					<ChildrenList>
+						<Action Name="" ID="{CC010C8D-56BC-4F44-B0BB-71034C2CD87D}" ShortID="717335741">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_Shooting" ID="{043B4143-052D-43F6-9880-9987FA26B8CB}" WorkUnitID="{538A95B2-511C-49FB-BBD1-4A9DDB54DEC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

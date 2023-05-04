@@ -14,12 +14,24 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Start_Engine" ID="{47EBEAB8-6DE7-41EF-B85B-ECDC7082E481}" WorkUnitID="{880F079E-D1D4-417B-B158-41B761AC6506}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Start_Auto" ID="{887E17A7-2EA3-435C-99BB-BB007B2610DC}" WorkUnitID="{2711DA87-AECB-471B-9D49-5F75800965DD}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Enemy_Destroyed" ID="{80CD0BD0-6A6F-495A-B0A6-9CD17CF1E74C}" WorkUnitID="{880F079E-D1D4-417B-B158-41B761AC6506}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Shoot" ID="{51B486F4-B00E-44C0-B107-38E8DA2CC435}" WorkUnitID="{2711DA87-AECB-471B-9D49-5F75800965DD}"/>
 							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Enemy_Shoot" ID="{03C9A381-AB34-41E3-9556-AF8F69811E68}" WorkUnitID="{7C77DF77-B5DF-4D6F-8DBD-8C9AD3466887}"/>
+							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="EngineStart" ID="{6C650701-4DB9-4776-B651-5AF00B3FF3D1}" WorkUnitID="{A3F32CDE-C778-4C0B-A2C8-285F5122ED8A}"/>

@@ -11871,6 +11871,9 @@
 				<PhysicalFolder Path="Actor-Mixer Hierarchy">
 					<WorkUnit Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" PersistMode="Standalone"/>
 				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\Enemies">
+					<WorkUnit Name="Enemies" ID="{15CB6DFF-A068-4279-8FC0-795892ECE6DF}" PersistMode="Standalone"/>
+				</PhysicalFolder>
 				<PhysicalFolder Path="Actor-Mixer Hierarchy\Gates">
 					<WorkUnit Name="Gates" ID="{6FEFEBB9-17F9-4413-8891-01460BD56BC5}" PersistMode="Standalone"/>
 				</PhysicalFolder>
@@ -11897,6 +11900,9 @@
 				</PhysicalFolder>
 				<PhysicalFolder Path="Events">
 					<WorkUnit Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Events\Enemies">
+					<WorkUnit Name="Enemies" ID="{AA513DFA-E424-44F4-B58E-CA10E69BBC62}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Events\Gates">
 					<WorkUnit Name="Gates" ID="{5469AA4C-D24C-47D5-BCC8-5DE2E81689D3}" PersistMode="Standalone"/>
