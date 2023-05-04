@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Player_Engine" ID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}" PersistMode="Standalone">
 			<ChildrenList>
-				<BlendContainer Name="Engine_Speed" ID="{9E8370D7-4AAD-41C1-A25E-0A3704F0E4ED}" ShortID="590597776">
+				<BlendContainer Name="Player_Engine" ID="{9E8370D7-4AAD-41C1-A25E-0A3704F0E4ED}" ShortID="590597776">
 					<PropertyList>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>

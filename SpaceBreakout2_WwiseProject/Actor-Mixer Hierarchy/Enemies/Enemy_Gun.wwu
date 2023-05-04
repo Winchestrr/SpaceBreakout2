@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{538A95B2-511C-49FB-BBD1-4A9DDB54DEC9}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Enemy_Gun" ID="{538A95B2-511C-49FB-BBD1-4A9DDB54DEC9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Shooting" ID="{043B4143-052D-43F6-9880-9987FA26B8CB}" ShortID="728706219">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Att_Ext_500m" ID="{9C8EE75B-E194-4541-AD44-68423394809E}" WorkUnitID="{7C387B05-CC7D-4107-8BCC-F3E746915ADB}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Shooting" ID="{A323D507-9404-4CBE-9158-BB71E2EB525F}">
+							<Language>SFX</Language>
+							<AudioFile>Shooting.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="228206684"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Shooting" ID="{A323D507-9404-4CBE-9158-BB71E2EB525F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

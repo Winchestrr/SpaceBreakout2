@@ -22,7 +22,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Engine_Speed" ID="{9E8370D7-4AAD-41C1-A25E-0A3704F0E4ED}" WorkUnitID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}"/>
+									<ObjectRef Name="Player_Engine" ID="{9E8370D7-4AAD-41C1-A25E-0A3704F0E4ED}" WorkUnitID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -62,7 +62,7 @@
 						<Action Name="" ID="{99A22C3C-9FD4-42E0-99AF-59565A430748}" ShortID="462201385">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Engine_Speed" ID="{9E8370D7-4AAD-41C1-A25E-0A3704F0E4ED}" WorkUnitID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}"/>
+									<ObjectRef Name="Player_Engine" ID="{9E8370D7-4AAD-41C1-A25E-0A3704F0E4ED}" WorkUnitID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
