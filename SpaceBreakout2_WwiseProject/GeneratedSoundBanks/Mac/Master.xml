@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{4BCC82BC-237E-89D7-B84D-79A2DF222D38}">
+		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{2FEA27B6-6FED-B46B-6557-66D740CED89B}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -17,6 +17,10 @@
 				<File Id="98268633" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>4c_100ms.wav</ShortName>
 					<CachePath>SFX/4c_100ms_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="160425296" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Power_Up.wav</ShortName>
+					<CachePath>SFX/Power_Up_10C4C929.wem</CachePath>
 				</File>
 				<File Id="164484363" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Generator_Explosion_Air_3.wav</ShortName>
@@ -61,6 +65,10 @@
 				<File Id="569297401" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>EngineRuttle_25ms.wav</ShortName>
 					<CachePath>SFX/EngineRuttle_25ms_32CCEE66.wem</CachePath>
+				</File>
+				<File Id="641029741" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuel.wav</ShortName>
+					<CachePath>SFX/Fuel_10C4C929.wem</CachePath>
 				</File>
 				<File Id="662278568" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Generator_Explosion_Low_4.wav</ShortName>
@@ -129,7 +137,7 @@
 				</ShareSets>
 			</Plugins>
 			<Events>
-				<Event Id="1151086808" Name="Acc" ObjectPath="\Events\Player\Player_Engine\Acc" GUID="{F555DC76-60D1-43F4-AD5B-6332D58221C8}" DurationType="OneShot" DurationMin="0.6875" DurationMax="0.6875">
+				<Event Id="1151086808" Name="Acc" ObjectPath="\Events\Player\Player_Ship\Player_Engine\Acc" GUID="{F555DC76-60D1-43F4-AD5B-6332D58221C8}" DurationType="OneShot" DurationMin="0.6875" DurationMax="0.6875">
 					<MediaRefs>
 						<MediaRef Id="904171427"/>
 					</MediaRefs>
@@ -154,7 +162,7 @@
 						<MediaRef Id="228206684"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="164866881" Name="EngineStart" ObjectPath="\Events\Player\Player_Engine\EngineStart" GUID="{6C650701-4DB9-4776-B651-5AF00B3FF3D1}" DurationType="Infinite">
+				<Event Id="164866881" Name="EngineStart" ObjectPath="\Events\Player\Player_Ship\Player_Engine\EngineStart" GUID="{6C650701-4DB9-4776-B651-5AF00B3FF3D1}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="42552773"/>
 						<MediaRef Id="289646352"/>
@@ -188,18 +196,28 @@
 						<MediaRef Id="1019287824"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Player\Player_Engine\Player_Death" GUID="{01511685-0572-4254-8EE6-FC9771B406C8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3038207054" Name="Shoot" ObjectPath="\Events\Player\Player_Gun\Shoot" GUID="{51B486F4-B00E-44C0-B107-38E8DA2CC435}" DurationType="OneShot" DurationMin="0.21875" DurationMax="0.21875">
+				<Event Id="3717217436" Name="PickUp_Fuel" ObjectPath="\Events\Player\UI\PickUp_Fuel" GUID="{B8A861DD-213E-4EE3-9909-CDD01C8FB114}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<MediaRefs>
+						<MediaRef Id="641029741"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2088053380" Name="PickUp_PowerUp" ObjectPath="\Events\Player\UI\PickUp_PowerUp" GUID="{B7325365-57FF-4788-B2F7-813AFD4C5D5E}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<MediaRefs>
+						<MediaRef Id="160425296"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Player\Player_Ship\Player_Engine\Player_Death" GUID="{01511685-0572-4254-8EE6-FC9771B406C8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3038207054" Name="Shoot" ObjectPath="\Events\Player\Player_Ship\Player_Gun\Shoot" GUID="{51B486F4-B00E-44C0-B107-38E8DA2CC435}" DurationType="OneShot" DurationMin="0.21875" DurationMax="0.21875">
 					<MediaRefs>
 						<MediaRef Id="228206684"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3808032123" Name="Start_Auto" ObjectPath="\Events\Player\Player_Gun\Start_Auto" GUID="{887E17A7-2EA3-435C-99BB-BB007B2610DC}" DurationType="Infinite">
+				<Event Id="3808032123" Name="Start_Auto" ObjectPath="\Events\Player\Player_Ship\Player_Gun\Start_Auto" GUID="{887E17A7-2EA3-435C-99BB-BB007B2610DC}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="1046666558"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2042178597" Name="Stop_Auto" ObjectPath="\Events\Player\Player_Gun\Stop_Auto" GUID="{16F42484-449B-42F5-B43D-6A3B952DA7D8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2042178597" Name="Stop_Auto" ObjectPath="\Events\Player\Player_Ship\Player_Gun\Stop_Auto" GUID="{16F42484-449B-42F5-B43D-6A3B952DA7D8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
@@ -220,5 +238,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F9FB8828-E28B-37DF-6759-C77C2C117FFA}</FileHash>
+	<FileHash>{BEF12CEE-20B3-7228-DEF8-FD747C280E5F}</FileHash>
 </SoundBanksInfo>

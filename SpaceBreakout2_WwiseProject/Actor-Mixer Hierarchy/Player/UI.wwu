@@ -8,6 +8,13 @@
 			</PropertyList>
 			<ChildrenList>
 				<Sound Name="Fuel" ID="{C73732E3-B34F-4895-BF27-D1C648EBB674}" ShortID="61792040">
+					<PropertyList>
+						<Property Name="Priority" Type="int16">
+							<ValueList>
+								<Value>60</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>

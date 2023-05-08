@@ -18,6 +18,10 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="PickUp_Fuel" ID="{B8A861DD-213E-4EE3-9909-CDD01C8FB114}" WorkUnitID="{52F1A2BA-2F33-41B0-A002-B234A32CD87D}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Start_Auto" ID="{887E17A7-2EA3-435C-99BB-BB007B2610DC}" WorkUnitID="{2711DA87-AECB-471B-9D49-5F75800965DD}"/>
 							<Position X="1" Y="0"/>
 						</Module>
