@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{588E399A-E016-4FB0-9D56-AC95D956C888}" SchemaVersion="110" RootDocumentID="{B5D8ABCA-C700-4FFC-B803-C24414554D83}" ParentDocumentID="{B5D8ABCA-C700-4FFC-B803-C24414554D83}">
+	<Events>
+		<WorkUnit Name="Player_Damage" ID="{588E399A-E016-4FB0-9D56-AC95D956C888}" OwnerID="{B5D8ABCA-C700-4FFC-B803-C24414554D83}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Damage_Taken" ID="{93D7B761-A2CD-490F-A91E-47434D556F56}">
+					<ChildrenList>
+						<Action Name="" ID="{B7045AC1-4F2F-4FF8-A057-D505CECAE197}" ShortID="609708464">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Damage" ID="{5D032097-E896-4C3B-9641-F9D5F846E358}" WorkUnitID="{87FF03F9-B2DC-49A5-B2EF-C5FD06381AFF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

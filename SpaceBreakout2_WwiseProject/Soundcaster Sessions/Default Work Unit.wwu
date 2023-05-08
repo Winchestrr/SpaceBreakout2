@@ -6,7 +6,7 @@
 				<SoundcasterSession Name="Gates" ID="{EF2F54E5-909A-457D-9744-04EA5C9ADC45}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Gen_Explosion" ID="{8E1FFB9F-67FE-4D80-A5D7-379D2DB2645E}" WorkUnitID="{C0EC18BB-BAA3-4BF5-AC35-85AFC6D8D4C4}"/>
+							<ObjectRef Name="EngineStart" ID="{6C650701-4DB9-4776-B651-5AF00B3FF3D1}" WorkUnitID="{A3F32CDE-C778-4C0B-A2C8-285F5122ED8A}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
@@ -26,6 +26,10 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Gen_Explosion" ID="{8E1FFB9F-67FE-4D80-A5D7-379D2DB2645E}" WorkUnitID="{C0EC18BB-BAA3-4BF5-AC35-85AFC6D8D4C4}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Enemy_Destroyed" ID="{80CD0BD0-6A6F-495A-B0A6-9CD17CF1E74C}" WorkUnitID="{880F079E-D1D4-417B-B158-41B761AC6506}"/>
 							<Position X="1" Y="2"/>
 						</Module>
@@ -38,7 +42,7 @@
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="EngineStart" ID="{6C650701-4DB9-4776-B651-5AF00B3FF3D1}" WorkUnitID="{A3F32CDE-C778-4C0B-A2C8-285F5122ED8A}"/>
+							<ObjectRef Name="Damage_Taken" ID="{93D7B761-A2CD-490F-A91E-47434D556F56}" WorkUnitID="{588E399A-E016-4FB0-9D56-AC95D956C888}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 					</ModuleList>

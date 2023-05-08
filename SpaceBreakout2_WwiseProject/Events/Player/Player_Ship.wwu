@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<WorkUnit Name="Player_Gun" ID="{2711DA87-AECB-471B-9D49-5F75800965DD}" PersistMode="Reference"/>
 				<WorkUnit Name="Player_Engine" ID="{A3F32CDE-C778-4C0B-A2C8-285F5122ED8A}" PersistMode="Reference"/>
+				<WorkUnit Name="Player_Damage" ID="{588E399A-E016-4FB0-9D56-AC95D956C888}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
