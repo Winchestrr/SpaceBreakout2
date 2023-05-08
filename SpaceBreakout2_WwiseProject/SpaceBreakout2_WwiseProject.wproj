@@ -11940,6 +11940,14 @@
 						</PropertyList>
 					</WorkUnit>
 				</PhysicalFolder>
+				<PhysicalFolder Path="Events\UI">
+					<WorkUnit Name="UI" ID="{8DBFA717-E951-4415-BF5E-3290DE6C7192}" PersistMode="Standalone">
+						<PropertyList>
+							<Property Name="Color" Type="int16" Value="15"/>
+							<Property Name="OverrideColor" Type="bool" Value="True"/>
+						</PropertyList>
+					</WorkUnit>
+				</PhysicalFolder>
 				<PhysicalFolder Path="Game Parameters">
 					<WorkUnit Name="Game Parameters" ID="{4025818E-097F-4A72-B692-B8A2E2663DCB}" PersistMode="Standalone"/>
 				</PhysicalFolder>

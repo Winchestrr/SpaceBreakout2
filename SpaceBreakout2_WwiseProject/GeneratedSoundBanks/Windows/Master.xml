@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{29E70270-663F-BC02-437C-1D6CE9ADE71F}">
+		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{E835687D-E89D-C28F-6047-DE167A2AD34D}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -245,6 +245,7 @@
 						<MediaRef Id="1019287824"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="528278262" Name="Pause_Game" ObjectPath="\Events\UI\UI\Pause_Game" GUID="{7753699B-D1A5-44C8-AACA-D8C1D73D3645}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3717217436" Name="PickUp_Fuel" ObjectPath="\Events\Player\UI\PickUp_Fuel" GUID="{B8A861DD-213E-4EE3-9909-CDD01C8FB114}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
 					<MediaRefs>
 						<MediaRef Id="641029741"/>
@@ -267,6 +268,7 @@
 						<ActionPostEventEntry Id="3083087645" Name="Player_Death" ObjectPath="\Events\Player\Player_Ship\Player_Damage\Player_Death" GUID="{01511685-0572-4254-8EE6-FC9771B406C8}"/>
 					</ActionPostEvent>
 				</Event>
+				<Event Id="1565052233" Name="Resume_Game" ObjectPath="\Events\UI\UI\Resume_Game" GUID="{168EC8E3-3458-48E5-83A0-59EEB7FCA2EB}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3038207054" Name="Shoot" ObjectPath="\Events\Player\Player_Ship\Player_Gun\Shoot" GUID="{51B486F4-B00E-44C0-B107-38E8DA2CC435}" DurationType="OneShot" DurationMin="0.21875" DurationMax="0.21875">
 					<MediaRefs>
 						<MediaRef Id="228206684"/>
@@ -300,5 +302,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{174152B2-C074-0384-CDE4-1D011EA74427}</FileHash>
+	<FileHash>{7AE2F576-5328-7D1F-AE8D-5F46129DC3C7}</FileHash>
 </SoundBanksInfo>

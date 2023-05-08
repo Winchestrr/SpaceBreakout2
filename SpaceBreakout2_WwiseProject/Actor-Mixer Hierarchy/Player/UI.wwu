@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="UI" ID="{AB756145-1DE4-4B2E-847B-410BACD1781B}" PersistMode="Standalone">
 			<PropertyList>
-				<Property Name="Color" Type="int16" Value="15"/>
+				<Property Name="Color" Type="int16" Value="17"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>

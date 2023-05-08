@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FD241EF1-F5C7-40BE-8E1D-D9D7C1CFDCF2}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="UI" ID="{FD241EF1-F5C7-40BE-8E1D-D9D7C1CFDCF2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Pause_Game" ID="{7753699B-D1A5-44C8-AACA-D8C1D73D3645}">
+					<ChildrenList>
+						<Action Name="" ID="{9BF8A7B4-B476-417B-8DFD-1E3146C9F168}" ShortID="432426562">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Engine" ID="{9E8370D7-4AAD-41C1-A25E-0A3704F0E4ED}" WorkUnitID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D8F0845A-17D7-4AAF-8631-1870DF13E46F}" ShortID="796008247">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_Engine_Big" ID="{4818EA04-3D52-4051-B5C9-BC1AF3B3B9A5}" WorkUnitID="{5F24CEC1-5A42-4B73-AAD4-DC3DB1B3C2B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7CAB7D9D-9E1B-4238-815A-0850F87703BA}" ShortID="824349254">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_Engine_Small" ID="{30BE3A20-C040-49A1-AFB0-3D138B510BA9}" WorkUnitID="{5F24CEC1-5A42-4B73-AAD4-DC3DB1B3C2B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E4E8C4A1-8D4C-47EA-AE9C-7A3F30A27F6A}" ShortID="329083987">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Generator_Idle" ID="{176C2188-3574-4ADA-BE85-17BB383913F9}" WorkUnitID="{195806B2-5F9A-43BE-B0C6-1ED2A068AABD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1BD99915-8F86-4AF3-803E-D2641CAB2CC9}" ShortID="1015555602">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AutoMode" ID="{C65AC09F-6783-4294-96C2-F98437770231}" WorkUnitID="{474F77FA-D328-49E6-84C1-EBCDC6E9F8F4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Resume_Game" ID="{168EC8E3-3458-48E5-83A0-59EEB7FCA2EB}">
+					<ChildrenList>
+						<Action Name="" ID="{2926ED0F-AB71-4543-93BF-4DC7D756C286}" ShortID="250589498">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Engine" ID="{9E8370D7-4AAD-41C1-A25E-0A3704F0E4ED}" WorkUnitID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3D1C1A82-2257-4B8D-8FFC-4C35074880C0}" ShortID="351421376">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Generator_Idle" ID="{176C2188-3574-4ADA-BE85-17BB383913F9}" WorkUnitID="{195806B2-5F9A-43BE-B0C6-1ED2A068AABD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2A5D8637-F3C2-4C9D-B31E-4E04AE273FEB}" ShortID="813666513">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_Engine_Big" ID="{4818EA04-3D52-4051-B5C9-BC1AF3B3B9A5}" WorkUnitID="{5F24CEC1-5A42-4B73-AAD4-DC3DB1B3C2B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{800CE043-B0C1-4751-B460-CA3863A5B9DC}" ShortID="685946517">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AutoMode" ID="{C65AC09F-6783-4294-96C2-F98437770231}" WorkUnitID="{474F77FA-D328-49E6-84C1-EBCDC6E9F8F4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3C221E06-0A58-4BF8-8FC7-7CC197BD1053}" ShortID="956189705">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_Engine_Small" ID="{30BE3A20-C040-49A1-AFB0-3D138B510BA9}" WorkUnitID="{5F24CEC1-5A42-4B73-AAD4-DC3DB1B3C2B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

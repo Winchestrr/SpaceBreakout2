@@ -9,12 +9,14 @@
 						<ObjectRef Name="Enemy_Engine_Start_Small" ID="{47EBEAB8-6DE7-41EF-B85B-ECDC7082E481}" WorkUnitID="{880F079E-D1D4-417B-B158-41B761AC6506}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Death" ID="{01511685-0572-4254-8EE6-FC9771B406C8}" WorkUnitID="{588E399A-E016-4FB0-9D56-AC95D956C888}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Acc" ID="{F555DC76-60D1-43F4-AD5B-6332D58221C8}" WorkUnitID="{A3F32CDE-C778-4C0B-A2C8-285F5122ED8A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pause_Game" ID="{7753699B-D1A5-44C8-AACA-D8C1D73D3645}" WorkUnitID="{FD241EF1-F5C7-40BE-8E1D-D9D7C1CFDCF2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemy_Hit" ID="{B2EE210A-4AF8-457C-931E-9CE49EBB23EA}" WorkUnitID="{C916E5FE-85EC-4E11-B610-7A12C6424B34}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Rev_Tube" ID="{6BCDD345-D685-458F-A310-7D075C85EBF5}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Gun" ID="{2711DA87-AECB-471B-9D49-5F75800965DD}" WorkUnitID="{2711DA87-AECB-471B-9D49-5F75800965DD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="EngineStart" ID="{6C650701-4DB9-4776-B651-5AF00B3FF3D1}" WorkUnitID="{A3F32CDE-C778-4C0B-A2C8-285F5122ED8A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PickUp_PowerUp" ID="{B7325365-57FF-4788-B2F7-813AFD4C5D5E}" WorkUnitID="{52F1A2BA-2F33-41B0-A002-B234A32CD87D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemy_Engine_Start_Big" ID="{0E6F876A-1D11-4836-89E2-218C79F7A41B}" WorkUnitID="{880F079E-D1D4-417B-B158-41B761AC6506}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Resume_Game" ID="{168EC8E3-3458-48E5-83A0-59EEB7FCA2EB}" WorkUnitID="{FD241EF1-F5C7-40BE-8E1D-D9D7C1CFDCF2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Damage_Taken" ID="{93D7B761-A2CD-490F-A91E-47434D556F56}" WorkUnitID="{588E399A-E016-4FB0-9D56-AC95D956C888}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemy_Destroyed" ID="{80CD0BD0-6A6F-495A-B0A6-9CD17CF1E74C}" WorkUnitID="{880F079E-D1D4-417B-B158-41B761AC6506}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Gen_Idle" ID="{4D6FA5E8-AC89-4B27-918E-65D49801B10C}" WorkUnitID="{C0EC18BB-BAA3-4BF5-AC35-85AFC6D8D4C4}" Origin="Manual" Filter="7"/>

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{29E70270-663F-BC02-437C-1D6CE9ADE71F}",
+    "Hash": "{E835687D-E89D-C28F-6047-DE167A2AD34D}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -563,6 +563,16 @@
       ]
      },
      {
+      "Id": "528278262",
+      "Name": "Pause_Game",
+      "ObjectPath": "\\Events\\UI\\UI\\Pause_Game",
+      "GUID": "{7753699B-D1A5-44C8-AACA-D8C1D73D3645}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "3717217436",
       "Name": "PickUp_Fuel",
       "ObjectPath": "\\Events\\Player\\UI\\PickUp_Fuel",
@@ -630,6 +640,16 @@
         "GUID": "{01511685-0572-4254-8EE6-FC9771B406C8}"
        }
       ]
+     },
+     {
+      "Id": "1565052233",
+      "Name": "Resume_Game",
+      "ObjectPath": "\\Events\\UI\\UI\\Resume_Game",
+      "GUID": "{168EC8E3-3458-48E5-83A0-59EEB7FCA2EB}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "3038207054",
@@ -725,6 +745,6 @@
     ]
    }
   ],
-  "FileHash": "{BADADE5B-6A27-26BF-30A5-D2205476A387}"
+  "FileHash": "{CA39CAC4-1CC5-E22A-77FA-FE6F388F41C6}"
  }
 }
