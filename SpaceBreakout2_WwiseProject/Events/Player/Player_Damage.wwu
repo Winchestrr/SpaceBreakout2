@@ -14,6 +14,98 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Player_Explosion" ID="{DF045002-1F4A-4FA9-B10D-97E16C24B2E1}">
+					<ChildrenList>
+						<Action Name="" ID="{DA5D406B-5C8B-4B5A-BDB6-5E5CE2BA1D12}" ShortID="1022805303">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="P_Explosion" ID="{B7F7F933-4916-46FE-A3C1-0E0C9933B879}" WorkUnitID="{87FF03F9-B2DC-49A5-B2EF-C5FD06381AFF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{003826D4-D9D1-4A86-ADF9-19EDDC26E801}" ShortID="603861188">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Death" ID="{01511685-0572-4254-8EE6-FC9771B406C8}" WorkUnitID="{588E399A-E016-4FB0-9D56-AC95D956C888}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Player_Death" ID="{01511685-0572-4254-8EE6-FC9771B406C8}">
+					<ChildrenList>
+						<Action Name="" ID="{2F53C32D-906E-4982-BE99-226A364A7935}" ShortID="329784984">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Death" ID="{66EA2853-CF2F-4EC2-B5DB-DEBEE4400EEE}" WorkUnitID="{CD57914D-0276-4E75-A30A-213EECFD3434}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{66677D1E-FEAC-4211-A4FB-6C61B2266E0B}" ShortID="416351096">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Engine" ID="{9E8370D7-4AAD-41C1-A25E-0A3704F0E4ED}" WorkUnitID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5046BAF5-8D44-431D-A7BE-CC97AFBA1C63}" ShortID="253556152">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AutoMode" ID="{C65AC09F-6783-4294-96C2-F98437770231}" WorkUnitID="{474F77FA-D328-49E6-84C1-EBCDC6E9F8F4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C784EA8C-7FBA-46F5-A695-4156F1E3884F}" ShortID="988427485">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Generator_Idle" ID="{176C2188-3574-4ADA-BE85-17BB383913F9}" WorkUnitID="{195806B2-5F9A-43BE-B0C6-1ED2A068AABD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E07BBDB0-B3D0-44A5-9446-F34BCE9B2F56}" ShortID="42833759">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_Engine_Small" ID="{30BE3A20-C040-49A1-AFB0-3D138B510BA9}" WorkUnitID="{5F24CEC1-5A42-4B73-AAD4-DC3DB1B3C2B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CD72CCF5-90A7-4078-B801-61ED82EF94C1}" ShortID="447650487">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_Engine_Big" ID="{4818EA04-3D52-4051-B5C9-BC1AF3B3B9A5}" WorkUnitID="{5F24CEC1-5A42-4B73-AAD4-DC3DB1B3C2B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

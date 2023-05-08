@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{E956554B-9B55-AD40-7F14-C3656E801EF7}",
+    "Hash": "{29E70270-663F-BC02-437C-1D6CE9ADE71F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -593,8 +593,18 @@
      {
       "Id": "3083087645",
       "Name": "Player_Death",
-      "ObjectPath": "\\Events\\Player\\Player_Ship\\Player_Engine\\Player_Death",
+      "ObjectPath": "\\Events\\Player\\Player_Ship\\Player_Damage\\Player_Death",
       "GUID": "{01511685-0572-4254-8EE6-FC9771B406C8}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1652732926",
+      "Name": "Player_Explosion",
+      "ObjectPath": "\\Events\\Player\\Player_Ship\\Player_Damage\\Player_Explosion",
+      "GUID": "{DF045002-1F4A-4FA9-B10D-97E16C24B2E1}",
       "DurationType": "OneShot",
       "DurationMin": "1",
       "DurationMax": "1",
@@ -610,6 +620,14 @@
        },
        {
         "Id": "692710192"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "3083087645",
+        "Name": "Player_Death",
+        "ObjectPath": "\\Events\\Player\\Player_Ship\\Player_Damage\\Player_Death",
+        "GUID": "{01511685-0572-4254-8EE6-FC9771B406C8}"
        }
       ]
      },
@@ -707,6 +725,6 @@
     ]
    }
   ],
-  "FileHash": "{B0042370-1F7D-B4D5-3107-ECC7BA2F7E3C}"
+  "FileHash": "{BADADE5B-6A27-26BF-30A5-D2205476A387}"
  }
 }

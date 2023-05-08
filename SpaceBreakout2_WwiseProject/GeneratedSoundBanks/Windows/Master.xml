@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{E956554B-9B55-AD40-7F14-C3656E801EF7}">
+		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{29E70270-663F-BC02-437C-1D6CE9ADE71F}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -255,13 +255,17 @@
 						<MediaRef Id="160425296"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Player\Player_Ship\Player_Engine\Player_Death" GUID="{01511685-0572-4254-8EE6-FC9771B406C8}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Player\Player_Ship\Player_Damage\Player_Death" GUID="{01511685-0572-4254-8EE6-FC9771B406C8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1652732926" Name="Player_Explosion" ObjectPath="\Events\Player\Player_Ship\Player_Damage\Player_Explosion" GUID="{DF045002-1F4A-4FA9-B10D-97E16C24B2E1}" DurationType="OneShot" DurationMin="1" DurationMax="1">
 					<MediaRefs>
 						<MediaRef Id="110667659"/>
 						<MediaRef Id="418883588"/>
 						<MediaRef Id="667212441"/>
 						<MediaRef Id="692710192"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3083087645" Name="Player_Death" ObjectPath="\Events\Player\Player_Ship\Player_Damage\Player_Death" GUID="{01511685-0572-4254-8EE6-FC9771B406C8}"/>
+					</ActionPostEvent>
 				</Event>
 				<Event Id="3038207054" Name="Shoot" ObjectPath="\Events\Player\Player_Ship\Player_Gun\Shoot" GUID="{51B486F4-B00E-44C0-B107-38E8DA2CC435}" DurationType="OneShot" DurationMin="0.21875" DurationMax="0.21875">
 					<MediaRefs>
@@ -296,5 +300,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E79FD6D9-F5A4-A13A-B85B-AFEBD1ECE64D}</FileHash>
+	<FileHash>{174152B2-C074-0384-CDE4-1D011EA74427}</FileHash>
 </SoundBanksInfo>
