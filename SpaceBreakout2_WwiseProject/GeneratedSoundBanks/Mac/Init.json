@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{A64398B4-E81E-C84A-D14E-475653C579A4}",
+    "Hash": "{74C870DC-3A5E-A70C-F3AC-4254354D3B55}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -87,6 +87,12 @@
       "GUID": "{66EA2853-CF2F-4EC2-B5DB-DEBEE4400EEE}"
      },
      {
+      "Id": "1205999388",
+      "Name": "Enemy_Death",
+      "ObjectPath": "\\Game Parameters\\Enemy\\Enemy_Death",
+      "GUID": "{7987A131-FA89-4C51-A6C1-77D67BC5FE02}"
+     },
+     {
       "Id": "1252186741",
       "Name": "AutoMode",
       "ObjectPath": "\\Game Parameters\\Player_Gun\\AutoMode",
@@ -101,6 +107,6 @@
     ]
    }
   ],
-  "FileHash": "{9ADB8D6A-8154-3EDB-6908-B2739B1CD275}"
+  "FileHash": "{E7E1B45E-4F3B-4570-F9A1-5392331A64F5}"
  }
 }

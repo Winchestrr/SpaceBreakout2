@@ -22,6 +22,7 @@
 						<Action Name="" ID="{F049D42F-06E8-473B-AF24-7D258238C273}" ShortID="705513556">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -32,10 +33,29 @@
 						<Action Name="" ID="{17BA3B80-B73D-4ED0-9484-AA6CE749B531}" ShortID="484479129">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Enemy_Engine_Big" ID="{4818EA04-3D52-4051-B5C9-BC1AF3B3B9A5}" WorkUnitID="{5F24CEC1-5A42-4B73-AAD4-DC3DB1B3C2B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C86FC48D-1776-4DE1-897A-6A0A8D0B9F56}" ShortID="352053106">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explosion" ID="{4C2C84EF-C5F4-4CF5-AF9F-5A715A5B7587}" WorkUnitID="{B17BB90B-1786-46A0-9890-F56E669E668F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8AC4B138-7C33-4256-B66C-CB721AB30C97}" ShortID="133707746">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_Death" ID="{7987A131-FA89-4C51-A6C1-77D67BC5FE02}" WorkUnitID="{C33037A4-0042-46FB-86EF-5D52D252DE42}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{ECC5BE7B-6F4F-12B8-5B83-38079B1F4012}">
+		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{8C3B4C64-CE53-ED2E-2867-CA894CFD4719}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -17,6 +17,10 @@
 				<File Id="98268633" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>4c_100ms.wav</ShortName>
 					<CachePath>SFX/4c_100ms_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="110667659" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explosion_2.wav</ShortName>
+					<CachePath>SFX/Explosion_2_10C4C929.wem</CachePath>
 				</File>
 				<File Id="160425296" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Power_Up.wav</ShortName>
@@ -58,6 +62,10 @@
 					<ShortName>MetalRuttle_25ms.wav</ShortName>
 					<CachePath>SFX/MetalRuttle_25ms_0435493D.wem</CachePath>
 				</File>
+				<File Id="418883588" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explosion_4.wav</ShortName>
+					<CachePath>SFX/Explosion_4_10C4C929.wem</CachePath>
+				</File>
 				<File Id="551274477" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>4c_50ms.wav</ShortName>
 					<CachePath>SFX/4c_50ms_F95DF087.wem</CachePath>
@@ -74,6 +82,10 @@
 					<ShortName>Generator_Explosion_Low_4.wav</ShortName>
 					<CachePath>SFX/Generator_Explosion_Low_4_10C4C929.wem</CachePath>
 				</File>
+				<File Id="667212441" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explosion_3.wav</ShortName>
+					<CachePath>SFX/Explosion_3_10C4C929.wem</CachePath>
+				</File>
 				<File Id="684622861" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Air_25ms.wav</ShortName>
 					<CachePath>SFX/Air_25ms_55193FF2.wem</CachePath>
@@ -81,6 +93,10 @@
 				<File Id="686217727" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>4c_25ms.wav</ShortName>
 					<CachePath>SFX/4c_25ms_CF3D4EE9.wem</CachePath>
+				</File>
+				<File Id="692710192" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explosion_1.wav</ShortName>
+					<CachePath>SFX/Explosion_1_10C4C929.wem</CachePath>
 				</File>
 				<File Id="800518361" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Generator_Explosion_Low_2.wav</ShortName>
@@ -161,7 +177,14 @@
 						<MediaRef Id="901683300"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2170925251" Name="Enemy_Destroyed" ObjectPath="\Events\Enemies\Enemy_Engine\Enemy_Destroyed" GUID="{80CD0BD0-6A6F-495A-B0A6-9CD17CF1E74C}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2170925251" Name="Enemy_Destroyed" ObjectPath="\Events\Enemies\Enemy_Engine\Enemy_Destroyed" GUID="{80CD0BD0-6A6F-495A-B0A6-9CD17CF1E74C}" MaxAttenuation="50000" DurationType="OneShot" DurationMin="1" DurationMax="1">
+					<MediaRefs>
+						<MediaRef Id="110667659"/>
+						<MediaRef Id="418883588"/>
+						<MediaRef Id="667212441"/>
+						<MediaRef Id="692710192"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1077076726" Name="Enemy_Engine_Start_Big" ObjectPath="\Events\Enemies\Enemy_Engine\Enemy_Engine_Start_Big" GUID="{0E6F876A-1D11-4836-89E2-218C79F7A41B}" MaxAttenuation="50000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="98268633"/>
@@ -252,10 +275,11 @@
 			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="640949982" Name="Speed" ObjectPath="\Game Parameters\Player_Engine\Speed" GUID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"/>
+				<GameParameter Id="1205999388" Name="Enemy_Death" ObjectPath="\Game Parameters\Enemy\Enemy_Death" GUID="{7987A131-FA89-4C51-A6C1-77D67BC5FE02}"/>
 				<GameParameter Id="1252186741" Name="AutoMode" ObjectPath="\Game Parameters\Player_Gun\AutoMode" GUID="{6B76A057-4CC6-4F74-A573-B1443882C069}"/>
 				<GameParameter Id="2968795556" Name="Glide" ObjectPath="\Game Parameters\Player_Engine\Glide" GUID="{E3031780-9B18-4EC8-9E82-527974BEA3C5}"/>
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{35D36DBA-4EA5-2816-CFD3-011BB9E4B4C8}</FileHash>
+	<FileHash>{610E1975-E854-0E35-2F23-5B71B4EAB24B}</FileHash>
 </SoundBanksInfo>

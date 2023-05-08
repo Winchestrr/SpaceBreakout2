@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C33037A4-0042-46FB-86EF-5D52D252DE42}" SchemaVersion="110">
+	<GameParameters>
+		<WorkUnit Name="Enemy" ID="{C33037A4-0042-46FB-86EF-5D52D252DE42}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Enemy_Death" ID="{7987A131-FA89-4C51-A6C1-77D67BC5FE02}">
+					<PropertyList>
+						<Property Name="FilterTimeUp" Type="Real64" Value="0.7"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="200"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

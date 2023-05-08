@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{38E1F6E9-79C2-A20D-3F1F-B46A2FD428CD}",
+    "Hash": "{41DBBC5A-B38D-3650-6330-27BCA3FD0A4B}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -95,6 +95,12 @@
       "GUID": "{66EA2853-CF2F-4EC2-B5DB-DEBEE4400EEE}"
      },
      {
+      "Id": "1205999388",
+      "Name": "Enemy_Death",
+      "ObjectPath": "\\Game Parameters\\Enemy\\Enemy_Death",
+      "GUID": "{7987A131-FA89-4C51-A6C1-77D67BC5FE02}"
+     },
+     {
       "Id": "1252186741",
       "Name": "AutoMode",
       "ObjectPath": "\\Game Parameters\\Player_Gun\\AutoMode",
@@ -113,7 +119,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{ECC5BE7B-6F4F-12B8-5B83-38079B1F4012}",
+    "Hash": "{8C3B4C64-CE53-ED2E-2867-CA894CFD4719}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -141,6 +147,14 @@
       "Location": "Memory",
       "ShortName": "4c_100ms.wav",
       "CachePath": "SFX/4c_100ms_D79FB2B7.wem"
+     },
+     {
+      "Id": "110667659",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Explosion_2.wav",
+      "CachePath": "SFX/Explosion_2_10C4C929.wem"
      },
      {
       "Id": "160425296",
@@ -223,6 +237,14 @@
       "CachePath": "SFX/MetalRuttle_25ms_0435493D.wem"
      },
      {
+      "Id": "418883588",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Explosion_4.wav",
+      "CachePath": "SFX/Explosion_4_10C4C929.wem"
+     },
+     {
       "Id": "551274477",
       "Language": "SFX",
       "Streaming": "false",
@@ -255,6 +277,14 @@
       "CachePath": "SFX/Generator_Explosion_Low_4_10C4C929.wem"
      },
      {
+      "Id": "667212441",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Explosion_3.wav",
+      "CachePath": "SFX/Explosion_3_10C4C929.wem"
+     },
+     {
       "Id": "684622861",
       "Language": "SFX",
       "Streaming": "false",
@@ -269,6 +299,14 @@
       "Location": "Memory",
       "ShortName": "4c_25ms.wav",
       "CachePath": "SFX/4c_25ms_CF3D4EE9.wem"
+     },
+     {
+      "Id": "692710192",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Explosion_1.wav",
+      "CachePath": "SFX/Explosion_1_10C4C929.wem"
      },
      {
       "Id": "800518361",
@@ -443,10 +481,24 @@
       "Name": "Enemy_Destroyed",
       "ObjectPath": "\\Events\\Enemies\\Enemy_Engine\\Enemy_Destroyed",
       "GUID": "{80CD0BD0-6A6F-495A-B0A6-9CD17CF1E74C}",
-      "MaxAttenuation": "0",
+      "MaxAttenuation": "50000",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "MediaRefs": [
+       {
+        "Id": "110667659"
+       },
+       {
+        "Id": "418883588"
+       },
+       {
+        "Id": "667212441"
+       },
+       {
+        "Id": "692710192"
+       }
+      ]
      },
      {
       "Id": "1077076726",
@@ -704,6 +756,12 @@
       "GUID": "{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"
      },
      {
+      "Id": "1205999388",
+      "Name": "Enemy_Death",
+      "ObjectPath": "\\Game Parameters\\Enemy\\Enemy_Death",
+      "GUID": "{7987A131-FA89-4C51-A6C1-77D67BC5FE02}"
+     },
+     {
       "Id": "1252186741",
       "Name": "AutoMode",
       "ObjectPath": "\\Game Parameters\\Player_Gun\\AutoMode",
@@ -718,6 +776,6 @@
     ]
    }
   ],
-  "FileHash": "{071C43FD-EA63-5B3C-BC34-E09E5A3A65F7}"
+  "FileHash": "{6C3C076C-2A45-C715-BEF9-38C7F2142DF9}"
  }
 }
