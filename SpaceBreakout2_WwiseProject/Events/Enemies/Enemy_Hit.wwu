@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C916E5FE-85EC-4E11-B610-7A12C6424B34}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Enemy_Hit" ID="{C916E5FE-85EC-4E11-B610-7A12C6424B34}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Enemy_Hit" ID="{B2EE210A-4AF8-457C-931E-9CE49EBB23EA}">
+					<ChildrenList>
+						<Action Name="" ID="{650E7F89-752E-4144-8416-AF9902012C07}" ShortID="350925427">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="E_Hit" ID="{9B4716BC-9AA7-4BBC-A843-F768C243D46B}" WorkUnitID="{B17BB90B-1786-46A0-9890-F56E669E668F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

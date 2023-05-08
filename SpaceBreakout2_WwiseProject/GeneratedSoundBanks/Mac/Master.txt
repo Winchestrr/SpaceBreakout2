@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	164866881	EngineStart			\Player\Player_Ship\Player_Engine\EngineStart	
 	619787537	Gen_Explosion			\Gates\Generators\Gen_Explosion	
+	1010055213	Enemy_Hit			\Enemies\Enemy_Hit\Enemy_Hit	
 	1050776119	Enemy_Shoot			\Enemies\Enemy_Gun\Enemy_Shoot	
 	1077076726	Enemy_Engine_Start_Big			\Enemies\Enemy_Engine\Enemy_Engine_Start_Big	
 	1151086808	Acc			\Player\Player_Ship\Player_Engine\Acc	
@@ -34,7 +35,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	42552773	MetalRuttle_50ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\MetalRuttle_50ms_C33A8915.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Engine\Player_Engine\E_50ms\MetalRuttle_50ms		921744
 	87918571	Generator_Explosion_Hi_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Generator_Explosion_Hi_1_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Hi\Generator_Explosion_Hi_1		72096
 	98268633	4c_100ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\4c_100ms_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Engine\Enemy_Engine_Big\4c_100ms		921696
-	110667659	Explosion_2	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Explosion_2_10C4C929.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Damage\Explosion\Explosion_2		96096
+	110667659	Explosion_2	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Explosion_2_10C4C929.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Damage\E_Explosion\Explosion_2		96096
 	160425296	Power_Up	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Power_Up_10C4C929.wem		\Actor-Mixer Hierarchy\Player\UI\Power_Up		48096
 	164484363	Generator_Explosion_Air_3	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Generator_Explosion_Air_3_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Air\Generator_Explosion_Air_3		96096
 	169955327	Generator_Explosion_Hi_3	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Generator_Explosion_Hi_3_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Hi\Generator_Explosion_Hi_3		72096
@@ -45,20 +46,20 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	300107268	EngineRuttle_50ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\EngineRuttle_50ms_66498DF5.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Engine\Enemy_Engine_Small\EngineRuttle_50ms		921744
 	317170420	Air_50ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Air_50ms_55193FF2.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Engine\Player_Engine\E_50ms\Air_50ms		921744
 	392017222	MetalRuttle_25ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\MetalRuttle_25ms_0435493D.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Engine\Player_Engine\E_25ms\MetalRuttle_25ms		921744
-	418883588	Explosion_4	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Explosion_4_10C4C929.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Damage\Explosion\Explosion_4		96096
+	418883588	Explosion_4	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Explosion_4_10C4C929.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Damage\E_Explosion\Explosion_4		96096
 	551274477	4c_50ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\4c_50ms_F95DF087.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Engine\Enemy_Engine_Small\4c_50ms		921744
 	569297401	EngineRuttle_25ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\EngineRuttle_25ms_32CCEE66.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Engine\Player_Engine\E_25ms\EngineRuttle_25ms		921744
 	641029741	Fuel	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Fuel_10C4C929.wem		\Actor-Mixer Hierarchy\Player\UI\Fuel		48096
 	662278568	Generator_Explosion_Low_4	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Generator_Explosion_Low_4_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Low\Generator_Explosion_Low_4		60096
-	667212441	Explosion_3	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Explosion_3_10C4C929.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Damage\Explosion\Explosion_3		96096
+	667212441	Explosion_3	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Explosion_3_10C4C929.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Damage\E_Explosion\Explosion_3		96096
 	684622861	Air_25ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Air_25ms_55193FF2.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Engine\Player_Engine\E_25ms\Air_25ms		921744
 	686217727	4c_25ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\4c_25ms_CF3D4EE9.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Engine\Player_Engine\E_25ms\4c_25ms		921744
-	692710192	Explosion_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Explosion_1_10C4C929.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Damage\Explosion\Explosion_1		96096
+	692710192	Explosion_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Explosion_1_10C4C929.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Damage\E_Explosion\Explosion_1		96096
 	800518361	Generator_Explosion_Low_2	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Generator_Explosion_Low_2_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Low\Generator_Explosion_Low_2		66096
 	823391425	Generator_Explosion_Mid_3	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Generator_Explosion_Mid_3_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Mid\Generator_Explosion_Mid_3		72096
-	859320708	Dmg_Taken_3	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Dmg_Taken_3_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Damage\Damage\Dmg_Taken_3		60096
-	875107873	Dmg_Taken_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Dmg_Taken_1_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Damage\Damage\Dmg_Taken_1		60096
-	901683300	Dmg_Taken_2	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Dmg_Taken_2_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Damage\Damage\Dmg_Taken_2		60096
+	859320708	Dmg_Taken_3	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Dmg_Taken_3_10C4C929.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Damage\E_Hit\Dmg_Taken_3		60096
+	875107873	Dmg_Taken_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Dmg_Taken_1_10C4C929.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Damage\E_Hit\Dmg_Taken_1		60096
+	901683300	Dmg_Taken_2	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Dmg_Taken_2_10C4C929.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Damage\E_Hit\Dmg_Taken_2		60096
 	904171427	Acc_Up	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Acc_Up_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Engine\Acc_Up		66096
 	930513644	Generator_Explosion_Air_2	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Generator_Explosion_Air_2_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Air\Generator_Explosion_Air_2		96096
 	989050902	Generator_Explosion_Low_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Generator_Explosion_Low_1_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Low\Generator_Explosion_Low_1		60096

@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Player_Damage" ID="{87FF03F9-B2DC-49A5-B2EF-C5FD06381AFF}" OwnerID="{B4307908-15EB-4EA0-A463-3F0C039526FD}" PersistMode="Nested">
 			<ChildrenList>
-				<RandomSequenceContainer Name="Damage" ID="{5D032097-E896-4C3B-9641-F9D5F846E358}" ShortID="404025168">
+				<RandomSequenceContainer Name="P_Hit" ID="{5D032097-E896-4C3B-9641-F9D5F846E358}" ShortID="404025168">
 					<PropertyList>
 						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 					</PropertyList>

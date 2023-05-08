@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Enemy_Damage" ID="{B17BB90B-1786-46A0-9890-F56E669E668F}" PersistMode="Standalone">
 			<ChildrenList>
-				<RandomSequenceContainer Name="Explosion" ID="{4C2C84EF-C5F4-4CF5-AF9F-5A715A5B7587}" ShortID="423715583">
+				<RandomSequenceContainer Name="E_Explosion" ID="{4C2C84EF-C5F4-4CF5-AF9F-5A715A5B7587}" ShortID="423715583">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 					</PropertyList>
@@ -105,6 +105,90 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Explosion_4" ID="{73730A0F-DCE2-4B84-A81A-1E4EB9E24D9E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="E_Hit" ID="{9B4716BC-9AA7-4BBC-A843-F768C243D46B}" ShortID="1003168506">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Att_Ext_300m" ID="{827D1871-07D8-42D9-B5BF-A30C7850E055}" WorkUnitID="{7C387B05-CC7D-4107-8BCC-F3E746915ADB}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Dmg_Taken_3" ID="{21160AEB-AB15-4A16-A9BD-7BDA0F10DE7B}" ShortID="359972837">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dmg_Taken_3" ID="{3CF4FA62-7616-4A4A-8255-49978C6C6BDD}">
+									<Language>SFX</Language>
+									<AudioFile>Dmg_Taken_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="859320708"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Dmg_Taken_3" ID="{3CF4FA62-7616-4A4A-8255-49978C6C6BDD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Dmg_Taken_1" ID="{CC71414C-DB44-45BB-ACA3-B8BA2EB79C55}" ShortID="594309729">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dmg_Taken_1" ID="{3702C575-E22D-499B-B3BF-361366A0F1EC}">
+									<Language>SFX</Language>
+									<AudioFile>Dmg_Taken_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="875107873"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Dmg_Taken_1" ID="{3702C575-E22D-499B-B3BF-361366A0F1EC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Dmg_Taken_2" ID="{31B7FE58-6807-4D8C-A82F-4E20EA6F522F}" ShortID="742700753">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dmg_Taken_2" ID="{C2A12F42-88D2-4A77-B7CC-FB1C92AE4A7A}">
+									<Language>SFX</Language>
+									<AudioFile>Dmg_Taken_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="901683300"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Dmg_Taken_2" ID="{C2A12F42-88D2-4A77-B7CC-FB1C92AE4A7A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

@@ -44,7 +44,7 @@
 						<Action Name="" ID="{C86FC48D-1776-4DE1-897A-6A0A8D0B9F56}" ShortID="352053106">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Explosion" ID="{4C2C84EF-C5F4-4CF5-AF9F-5A715A5B7587}" WorkUnitID="{B17BB90B-1786-46A0-9890-F56E669E668F}"/>
+									<ObjectRef Name="E_Explosion" ID="{4C2C84EF-C5F4-4CF5-AF9F-5A715A5B7587}" WorkUnitID="{B17BB90B-1786-46A0-9890-F56E669E668F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

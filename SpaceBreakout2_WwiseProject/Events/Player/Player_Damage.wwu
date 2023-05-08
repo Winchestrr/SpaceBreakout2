@@ -8,7 +8,7 @@
 						<Action Name="" ID="{B7045AC1-4F2F-4FF8-A057-D505CECAE197}" ShortID="609708464">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Damage" ID="{5D032097-E896-4C3B-9641-F9D5F846E358}" WorkUnitID="{87FF03F9-B2DC-49A5-B2EF-C5FD06381AFF}"/>
+									<ObjectRef Name="P_Hit" ID="{5D032097-E896-4C3B-9641-F9D5F846E358}" WorkUnitID="{87FF03F9-B2DC-49A5-B2EF-C5FD06381AFF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
