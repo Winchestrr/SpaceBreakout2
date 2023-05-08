@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{52F1A2BA-2F33-41B0-A002-B234A32CD87D}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="UI" ID="{52F1A2BA-2F33-41B0-A002-B234A32CD87D}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="15"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="PickUp_Fuel" ID="{B8A861DD-213E-4EE3-9909-CDD01C8FB114}">
+					<ChildrenList>
+						<Action Name="" ID="{0D95C9FD-E465-476D-9F80-8F936808CDD2}" ShortID="357557756">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuel" ID="{C73732E3-B34F-4895-BF27-D1C648EBB674}" WorkUnitID="{AB756145-1DE4-4B2E-847B-410BACD1781B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PickUp_PowerUp" ID="{B7325365-57FF-4788-B2F7-813AFD4C5D5E}">
+					<ChildrenList>
+						<Action Name="" ID="{39561A3C-EAA8-42F6-B778-EA874A35500D}" ShortID="1042229380">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Power_Up" ID="{3CB44FC8-7D26-4301-A683-6F7AB5178994}" WorkUnitID="{AB756145-1DE4-4B2E-847B-410BACD1781B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

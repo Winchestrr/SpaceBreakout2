@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{474F77FA-D328-49E6-84C1-EBCDC6E9F8F4}" SchemaVersion="110">
+<WwiseDocument Type="WorkUnit" ID="{474F77FA-D328-49E6-84C1-EBCDC6E9F8F4}" SchemaVersion="110" RootDocumentID="{B4307908-15EB-4EA0-A463-3F0C039526FD}" ParentDocumentID="{B4307908-15EB-4EA0-A463-3F0C039526FD}">
 	<AudioObjects>
-		<WorkUnit Name="Player_Gun" ID="{474F77FA-D328-49E6-84C1-EBCDC6E9F8F4}" PersistMode="Standalone">
+		<WorkUnit Name="Player_Gun" ID="{474F77FA-D328-49E6-84C1-EBCDC6E9F8F4}" OwnerID="{B4307908-15EB-4EA0-A463-3F0C039526FD}" PersistMode="Nested">
 			<ChildrenList>
 				<Sound Name="AutoMode" ID="{C65AC09F-6783-4294-96C2-F98437770231}" ShortID="175665147">
 					<PropertyList>

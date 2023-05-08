@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B4307908-15EB-4EA0-A463-3F0C039526FD}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Player_Ship" ID="{B4307908-15EB-4EA0-A463-3F0C039526FD}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Player_Gun" ID="{474F77FA-D328-49E6-84C1-EBCDC6E9F8F4}" PersistMode="Reference"/>
+				<WorkUnit Name="Player_Engine" ID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

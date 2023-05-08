@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{A3F32CDE-C778-4C0B-A2C8-285F5122ED8A}" SchemaVersion="110">
+<WwiseDocument Type="WorkUnit" ID="{A3F32CDE-C778-4C0B-A2C8-285F5122ED8A}" SchemaVersion="110" RootDocumentID="{B5D8ABCA-C700-4FFC-B803-C24414554D83}" ParentDocumentID="{B5D8ABCA-C700-4FFC-B803-C24414554D83}">
 	<Events>
-		<WorkUnit Name="Player_Engine" ID="{A3F32CDE-C778-4C0B-A2C8-285F5122ED8A}" PersistMode="Standalone">
+		<WorkUnit Name="Player_Engine" ID="{A3F32CDE-C778-4C0B-A2C8-285F5122ED8A}" OwnerID="{B5D8ABCA-C700-4FFC-B803-C24414554D83}" PersistMode="Nested">
 			<ChildrenList>
 				<Event Name="Acc" ID="{F555DC76-60D1-43F4-AD5B-6332D58221C8}">
 					<ChildrenList>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B5D8ABCA-C700-4FFC-B803-C24414554D83}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Player_Ship" ID="{B5D8ABCA-C700-4FFC-B803-C24414554D83}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Player_Gun" ID="{2711DA87-AECB-471B-9D49-5F75800965DD}" PersistMode="Reference"/>
+				<WorkUnit Name="Player_Engine" ID="{A3F32CDE-C778-4C0B-A2C8-285F5122ED8A}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

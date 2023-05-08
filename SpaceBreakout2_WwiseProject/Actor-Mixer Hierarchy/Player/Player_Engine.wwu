@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}" SchemaVersion="110">
+<WwiseDocument Type="WorkUnit" ID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}" SchemaVersion="110" RootDocumentID="{B4307908-15EB-4EA0-A463-3F0C039526FD}" ParentDocumentID="{B4307908-15EB-4EA0-A463-3F0C039526FD}">
 	<AudioObjects>
-		<WorkUnit Name="Player_Engine" ID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}" PersistMode="Standalone">
+		<WorkUnit Name="Player_Engine" ID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}" OwnerID="{B4307908-15EB-4EA0-A463-3F0C039526FD}" PersistMode="Nested">
 			<ChildrenList>
 				<BlendContainer Name="Player_Engine" ID="{9E8370D7-4AAD-41C1-A25E-0A3704F0E4ED}" ShortID="590597776">
 					<PropertyList>
