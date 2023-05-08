@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{D78E5366-8C1E-1C67-ACFF-7F79B94BF1D0}",
+    "Hash": "{E956554B-9B55-AD40-7F14-C3656E801EF7}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -595,10 +595,23 @@
       "Name": "Player_Death",
       "ObjectPath": "\\Events\\Player\\Player_Ship\\Player_Engine\\Player_Death",
       "GUID": "{01511685-0572-4254-8EE6-FC9771B406C8}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "MediaRefs": [
+       {
+        "Id": "110667659"
+       },
+       {
+        "Id": "418883588"
+       },
+       {
+        "Id": "667212441"
+       },
+       {
+        "Id": "692710192"
+       }
+      ]
      },
      {
       "Id": "3038207054",
@@ -668,6 +681,12 @@
       "GUID": "{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"
      },
      {
+      "Id": "779278001",
+      "Name": "Death",
+      "ObjectPath": "\\Game Parameters\\Player_Engine\\Death",
+      "GUID": "{66EA2853-CF2F-4EC2-B5DB-DEBEE4400EEE}"
+     },
+     {
       "Id": "1205999388",
       "Name": "Enemy_Death",
       "ObjectPath": "\\Game Parameters\\Enemy\\Enemy_Death",
@@ -688,6 +707,6 @@
     ]
    }
   ],
-  "FileHash": "{B26F826F-D712-9698-0093-2D8823A42AB5}"
+  "FileHash": "{A29640D9-90E6-4BA1-84F1-7B30B440A0D1}"
  }
 }

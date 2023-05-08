@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{D78E5366-8C1E-1C67-ACFF-7F79B94BF1D0}">
+		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{E956554B-9B55-AD40-7F14-C3656E801EF7}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -255,7 +255,14 @@
 						<MediaRef Id="160425296"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Player\Player_Ship\Player_Engine\Player_Death" GUID="{01511685-0572-4254-8EE6-FC9771B406C8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Player\Player_Ship\Player_Engine\Player_Death" GUID="{01511685-0572-4254-8EE6-FC9771B406C8}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+					<MediaRefs>
+						<MediaRef Id="110667659"/>
+						<MediaRef Id="418883588"/>
+						<MediaRef Id="667212441"/>
+						<MediaRef Id="692710192"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3038207054" Name="Shoot" ObjectPath="\Events\Player\Player_Ship\Player_Gun\Shoot" GUID="{51B486F4-B00E-44C0-B107-38E8DA2CC435}" DurationType="OneShot" DurationMin="0.21875" DurationMax="0.21875">
 					<MediaRefs>
 						<MediaRef Id="228206684"/>
@@ -282,11 +289,12 @@
 			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="640949982" Name="Speed" ObjectPath="\Game Parameters\Player_Engine\Speed" GUID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"/>
+				<GameParameter Id="779278001" Name="Death" ObjectPath="\Game Parameters\Player_Engine\Death" GUID="{66EA2853-CF2F-4EC2-B5DB-DEBEE4400EEE}"/>
 				<GameParameter Id="1205999388" Name="Enemy_Death" ObjectPath="\Game Parameters\Enemy\Enemy_Death" GUID="{7987A131-FA89-4C51-A6C1-77D67BC5FE02}"/>
 				<GameParameter Id="1252186741" Name="AutoMode" ObjectPath="\Game Parameters\Player_Gun\AutoMode" GUID="{6B76A057-4CC6-4F74-A573-B1443882C069}"/>
 				<GameParameter Id="2968795556" Name="Glide" ObjectPath="\Game Parameters\Player_Engine\Glide" GUID="{E3031780-9B18-4EC8-9E82-527974BEA3C5}"/>
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6E7A5EE0-7DDE-2DFF-7FD1-0A62E7FA40B8}</FileHash>
+	<FileHash>{96A5A792-3597-BFB7-F728-12AD2CE42254}</FileHash>
 </SoundBanksInfo>

@@ -3,7 +3,7 @@
 	<SoundcasterSessions>
 		<WorkUnit Name="Default Work Unit" ID="{35D87A47-2430-4AE8-943F-BE6FDA2BA69C}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundcasterSession Name="Gates" ID="{EF2F54E5-909A-457D-9744-04EA5C9ADC45}">
+				<SoundcasterSession Name="Base" ID="{EF2F54E5-909A-457D-9744-04EA5C9ADC45}">
 					<ModuleList>
 						<Module>
 							<ObjectRef Name="EngineStart" ID="{6C650701-4DB9-4776-B651-5AF00B3FF3D1}" WorkUnitID="{A3F32CDE-C778-4C0B-A2C8-285F5122ED8A}"/>
@@ -45,6 +45,10 @@
 							<ObjectRef Name="Damage_Taken" ID="{93D7B761-A2CD-490F-A91E-47434D556F56}" WorkUnitID="{588E399A-E016-4FB0-9D56-AC95D956C888}"/>
 							<Position X="3" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Player_Death" ID="{01511685-0572-4254-8EE6-FC9771B406C8}" WorkUnitID="{A3F32CDE-C778-4C0B-A2C8-285F5122ED8A}"/>
+							<Position X="3" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -53,7 +57,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Speed" ID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"/>
-							<Value>4000</Value>
+							<Value>3832</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Death" ID="{66EA2853-CF2F-4EC2-B5DB-DEBEE4400EEE}"/>
