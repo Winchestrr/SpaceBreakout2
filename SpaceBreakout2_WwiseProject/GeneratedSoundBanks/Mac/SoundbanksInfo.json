@@ -119,7 +119,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{E835687D-E89D-C28F-6047-DE167A2AD34D}",
+    "Hash": "{403E0723-A110-6C5C-3D37-A09D9B12A7AA}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -389,6 +389,14 @@
       "CachePath": "SFX/Generator_Explosion_Mid_1_10C4C929.wem"
      },
      {
+      "Id": "1011644442",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CheckPoint.wav",
+      "CachePath": "SFX/CheckPoint_10C4C929.wem"
+     },
+     {
       "Id": "1019287824",
       "Language": "SFX",
       "Streaming": "false",
@@ -453,6 +461,20 @@
       "MediaRefs": [
        {
         "Id": "904171427"
+       }
+      ]
+     },
+     {
+      "Id": "612075679",
+      "Name": "CheckPoint",
+      "ObjectPath": "\\Events\\Player\\UI\\CheckPoint",
+      "GUID": "{95E17FA5-3626-44DB-938D-14D3DA8D3AC9}",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "MediaRefs": [
+       {
+        "Id": "1011644442"
        }
       ]
      },
@@ -854,6 +876,6 @@
     ]
    }
   ],
-  "FileHash": "{EA2273F1-4B62-E518-868E-E8395F84EDC5}"
+  "FileHash": "{EC8519BB-C287-990D-6F06-D37FE0CA74AA}"
  }
 }

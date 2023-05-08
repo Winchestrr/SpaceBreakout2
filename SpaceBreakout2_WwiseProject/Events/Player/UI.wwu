@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="UI" ID="{52F1A2BA-2F33-41B0-A002-B234A32CD87D}" PersistMode="Standalone">
 			<PropertyList>
-				<Property Name="Color" Type="int16" Value="15"/>
+				<Property Name="Color" Type="int16" Value="17"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
@@ -24,6 +24,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Power_Up" ID="{3CB44FC8-7D26-4301-A683-6F7AB5178994}" WorkUnitID="{AB756145-1DE4-4B2E-847B-410BACD1781B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CheckPoint" ID="{95E17FA5-3626-44DB-938D-14D3DA8D3AC9}">
+					<ChildrenList>
+						<Action Name="" ID="{3DF23FD8-FB7F-4FA8-A036-55F6CD8D4B59}" ShortID="26141624">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CheckPoint" ID="{C993E61D-15F7-42D6-89CD-03B52F2B202B}" WorkUnitID="{AB756145-1DE4-4B2E-847B-410BACD1781B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

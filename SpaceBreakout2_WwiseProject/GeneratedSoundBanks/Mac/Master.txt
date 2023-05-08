@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	164866881	EngineStart			\Player\Player_Ship\Player_Engine\EngineStart	
 	528278262	Pause_Game			\UI\UI\Pause_Game	
+	612075679	CheckPoint			\Player\UI\CheckPoint	
 	619787537	Gen_Explosion			\Gates\Generators\Gen_Explosion	
 	1010055213	Enemy_Hit			\Enemies\Enemy_Hit\Enemy_Hit	
 	1050776119	Enemy_Shoot			\Enemies\Enemy_Gun\Enemy_Shoot	
@@ -69,6 +70,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	989050902	Generator_Explosion_Low_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Generator_Explosion_Low_1_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Low\Generator_Explosion_Low_1		60096
 	999165185	Generator_Explosion_Low_3	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Generator_Explosion_Low_3_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Low\Generator_Explosion_Low_3		54096
 	1006151716	Generator_Explosion_Mid_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Generator_Explosion_Mid_1_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Mid\Generator_Explosion_Mid_1		72096
+	1011644442	CheckPoint	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\CheckPoint_10C4C929.wem		\Actor-Mixer Hierarchy\Player\UI\CheckPoint		96096
 	1019287824	Generator_Idle	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Generator_Idle_07E00B68.wem		\Actor-Mixer Hierarchy\Gates\Generator\Generator_Idle		384144
 	1023344460	Generator_Explosion_Air_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Generator_Explosion_Air_1_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Air\Generator_Explosion_Air_1		96096
 	1043020179	EngineRuttle_50ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\EngineRuttle_50ms_13DE35EF.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Engine\Player_Engine\E_50ms\EngineRuttle_50ms		921744

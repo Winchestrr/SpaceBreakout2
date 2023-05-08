@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{E835687D-E89D-C28F-6047-DE167A2AD34D}">
+		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{403E0723-A110-6C5C-3D37-A09D9B12A7AA}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -138,6 +138,10 @@
 					<ShortName>Generator_Explosion_Mid_1.wav</ShortName>
 					<CachePath>SFX/Generator_Explosion_Mid_1_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1011644442" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CheckPoint.wav</ShortName>
+					<CachePath>SFX/CheckPoint_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1019287824" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Generator_Idle.wav</ShortName>
 					<CachePath>SFX/Generator_Idle_07E00B68.wem</CachePath>
@@ -168,6 +172,11 @@
 				<Event Id="1151086808" Name="Acc" ObjectPath="\Events\Player\Player_Ship\Player_Engine\Acc" GUID="{F555DC76-60D1-43F4-AD5B-6332D58221C8}" DurationType="OneShot" DurationMin="0.6875" DurationMax="0.6875">
 					<MediaRefs>
 						<MediaRef Id="904171427"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="612075679" Name="CheckPoint" ObjectPath="\Events\Player\UI\CheckPoint" GUID="{95E17FA5-3626-44DB-938D-14D3DA8D3AC9}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+					<MediaRefs>
+						<MediaRef Id="1011644442"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1763999390" Name="Damage_Taken" ObjectPath="\Events\Player\Player_Ship\Player_Damage\Damage_Taken" GUID="{93D7B761-A2CD-490F-A91E-47434D556F56}" DurationType="OneShot" DurationMin="0.625" DurationMax="0.625">
@@ -302,5 +311,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7AE2F576-5328-7D1F-AE8D-5F46129DC3C7}</FileHash>
+	<FileHash>{EF80D2FF-D2C7-02E6-3FDC-E444CED089A2}</FileHash>
 </SoundBanksInfo>

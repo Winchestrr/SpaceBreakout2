@@ -34,8 +34,16 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="CheckPoint" ID="{95E17FA5-3626-44DB-938D-14D3DA8D3AC9}" WorkUnitID="{52F1A2BA-2F33-41B0-A002-B234A32CD87D}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Shoot" ID="{51B486F4-B00E-44C0-B107-38E8DA2CC435}" WorkUnitID="{2711DA87-AECB-471B-9D49-5F75800965DD}"/>
 							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Player_Explosion" ID="{DF045002-1F4A-4FA9-B10D-97E16C24B2E1}" WorkUnitID="{588E399A-E016-4FB0-9D56-AC95D956C888}"/>
+							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Enemy_Shoot" ID="{03C9A381-AB34-41E3-9556-AF8F69811E68}" WorkUnitID="{7C77DF77-B5DF-4D6F-8DBD-8C9AD3466887}"/>

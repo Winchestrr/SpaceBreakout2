@@ -85,6 +85,13 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="P_Explosion" ID="{B7F7F933-4916-46FE-A3C1-0E0C9933B879}" ShortID="224465735">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
@@ -210,7 +217,7 @@
 															</Point>
 															<Point>
 																<XPos>100</XPos>
-																<YPos>75</YPos>
+																<YPos>25</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>

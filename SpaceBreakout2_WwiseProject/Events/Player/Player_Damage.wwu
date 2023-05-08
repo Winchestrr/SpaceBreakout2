@@ -36,6 +36,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Player_Death" ID="{01511685-0572-4254-8EE6-FC9771B406C8}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{2F53C32D-906E-4982-BE99-226A364A7935}" ShortID="329784984">
 							<PropertyList>
