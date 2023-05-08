@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{2FEA27B6-6FED-B46B-6557-66D740CED89B}",
+    "Hash": "{ECC5BE7B-6F4F-12B8-5B83-38079B1F4012}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -184,6 +184,30 @@
       "CachePath": "SFX/Generator_Explosion_Mid_3_10C4C929.wem"
      },
      {
+      "Id": "859320708",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dmg_Taken_3.wav",
+      "CachePath": "SFX/Dmg_Taken_3_10C4C929.wem"
+     },
+     {
+      "Id": "875107873",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dmg_Taken_1.wav",
+      "CachePath": "SFX/Dmg_Taken_1_10C4C929.wem"
+     },
+     {
+      "Id": "901683300",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dmg_Taken_2.wav",
+      "CachePath": "SFX/Dmg_Taken_2_10C4C929.wem"
+     },
+     {
       "Id": "904171427",
       "Language": "SFX",
       "Streaming": "false",
@@ -288,6 +312,26 @@
       "MediaRefs": [
        {
         "Id": "904171427"
+       }
+      ]
+     },
+     {
+      "Id": "1763999390",
+      "Name": "Damage_Taken",
+      "ObjectPath": "\\Events\\Player\\Player_Ship\\Player_Damage\\Damage_Taken",
+      "GUID": "{93D7B761-A2CD-490F-A91E-47434D556F56}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.625",
+      "DurationMax": "0.625",
+      "MediaRefs": [
+       {
+        "Id": "859320708"
+       },
+       {
+        "Id": "875107873"
+       },
+       {
+        "Id": "901683300"
        }
       ]
      },
@@ -571,6 +615,6 @@
     ]
    }
   ],
-  "FileHash": "{8FD8D6AC-19C6-7C5D-F951-C19C82554BE0}"
+  "FileHash": "{F4AAD821-2E4C-7135-5BF3-ADD4C6DF976E}"
  }
 }

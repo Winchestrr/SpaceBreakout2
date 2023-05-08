@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1050776119	Enemy_Shoot			\Enemies\Enemy_Gun\Enemy_Shoot	
 	1077076726	Enemy_Engine_Start_Big			\Enemies\Enemy_Engine\Enemy_Engine_Start_Big	
 	1151086808	Acc			\Player\Player_Ship\Player_Engine\Acc	
+	1763999390	Damage_Taken			\Player\Player_Ship\Player_Damage\Damage_Taken	
 	1772735026	Gen_Idle			\Gates\Generators\Gen_Idle	
 	2042178597	Stop_Auto			\Player\Player_Ship\Player_Gun\Stop_Auto	
 	2088053380	PickUp_PowerUp			\Player\UI\PickUp_PowerUp	
@@ -50,6 +51,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	686217727	4c_25ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\4c_25ms_CF3D4EE9.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Engine\Player_Engine\E_25ms\4c_25ms		921744
 	800518361	Generator_Explosion_Low_2	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Generator_Explosion_Low_2_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Low\Generator_Explosion_Low_2		66096
 	823391425	Generator_Explosion_Mid_3	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Generator_Explosion_Mid_3_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Mid\Generator_Explosion_Mid_3		72096
+	859320708	Dmg_Taken_3	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Dmg_Taken_3_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Damage\Damage\Dmg_Taken_3		60096
+	875107873	Dmg_Taken_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Dmg_Taken_1_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Damage\Damage\Dmg_Taken_1		60096
+	901683300	Dmg_Taken_2	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Dmg_Taken_2_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Damage\Damage\Dmg_Taken_2		60096
 	904171427	Acc_Up	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Acc_Up_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Engine\Acc_Up		66096
 	930513644	Generator_Explosion_Air_2	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Generator_Explosion_Air_2_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Air\Generator_Explosion_Air_2		96096
 	989050902	Generator_Explosion_Low_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Generator_Explosion_Low_1_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Low\Generator_Explosion_Low_1		60096

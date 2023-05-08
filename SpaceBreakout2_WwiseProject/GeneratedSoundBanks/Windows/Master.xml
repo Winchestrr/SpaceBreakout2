@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{2FEA27B6-6FED-B46B-6557-66D740CED89B}">
+		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{ECC5BE7B-6F4F-12B8-5B83-38079B1F4012}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -90,6 +90,18 @@
 					<ShortName>Generator_Explosion_Mid_3.wav</ShortName>
 					<CachePath>SFX/Generator_Explosion_Mid_3_10C4C929.wem</CachePath>
 				</File>
+				<File Id="859320708" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dmg_Taken_3.wav</ShortName>
+					<CachePath>SFX/Dmg_Taken_3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="875107873" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dmg_Taken_1.wav</ShortName>
+					<CachePath>SFX/Dmg_Taken_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="901683300" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dmg_Taken_2.wav</ShortName>
+					<CachePath>SFX/Dmg_Taken_2_10C4C929.wem</CachePath>
+				</File>
 				<File Id="904171427" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Acc_Up.wav</ShortName>
 					<CachePath>SFX/Acc_Up_10C4C929.wem</CachePath>
@@ -140,6 +152,13 @@
 				<Event Id="1151086808" Name="Acc" ObjectPath="\Events\Player\Player_Ship\Player_Engine\Acc" GUID="{F555DC76-60D1-43F4-AD5B-6332D58221C8}" DurationType="OneShot" DurationMin="0.6875" DurationMax="0.6875">
 					<MediaRefs>
 						<MediaRef Id="904171427"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1763999390" Name="Damage_Taken" ObjectPath="\Events\Player\Player_Ship\Player_Damage\Damage_Taken" GUID="{93D7B761-A2CD-490F-A91E-47434D556F56}" DurationType="OneShot" DurationMin="0.625" DurationMax="0.625">
+					<MediaRefs>
+						<MediaRef Id="859320708"/>
+						<MediaRef Id="875107873"/>
+						<MediaRef Id="901683300"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2170925251" Name="Enemy_Destroyed" ObjectPath="\Events\Enemies\Enemy_Engine\Enemy_Destroyed" GUID="{80CD0BD0-6A6F-495A-B0A6-9CD17CF1E74C}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -238,5 +257,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9676C166-0B02-BA61-29A2-ACD319DFC8A0}</FileHash>
+	<FileHash>{31D4D38B-FB02-84AF-1AD7-29AD8CAC5DB1}</FileHash>
 </SoundBanksInfo>
