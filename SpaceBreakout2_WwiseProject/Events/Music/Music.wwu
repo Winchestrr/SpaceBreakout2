@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B1886E01-9283-4E9F-8054-D2FE298A9736}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Music" ID="{B1886E01-9283-4E9F-8054-D2FE298A9736}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Music" ID="{391A94BC-C147-48EF-90A5-21F0824680F5}">
+					<ChildrenList>
+						<Action Name="" ID="{0E5BB5FA-ED36-4B39-89BD-6010AB6F631C}" ShortID="8579120">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Basic_Music" ID="{1F53DFCA-48CE-4425-A444-99E95B1FFFBE}" WorkUnitID="{DFB9488B-BEE5-49B7-AEA4-03A584657152}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music" ID="{7F9A7BA5-523B-4023-9760-2E543CF5E234}">
+					<ChildrenList>
+						<Action Name="" ID="{6189E194-AE82-474D-9741-F5C55CB4C3AA}" ShortID="856262930">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Basic_Music" ID="{1F53DFCA-48CE-4425-A444-99E95B1FFFBE}" WorkUnitID="{DFB9488B-BEE5-49B7-AEA4-03A584657152}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{30407BBB-E431-48C5-B314-5B42351B8CFA}" ShortID="276922437">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PickUp_Tex" ID="{6B1111B7-6611-46AD-93A0-37FA384CD55D}" WorkUnitID="{DFB9488B-BEE5-49B7-AEA4-03A584657152}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

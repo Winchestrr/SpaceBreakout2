@@ -16,6 +16,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{A51B27D5-E778-4572-9396-425D88823DB2}" ShortID="817055627">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PickUp_Tex" ID="{6B1111B7-6611-46AD-93A0-37FA384CD55D}" WorkUnitID="{DFB9488B-BEE5-49B7-AEA4-03A584657152}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="PickUp_PowerUp" ID="{B7325365-57FF-4788-B2F7-813AFD4C5D5E}">

@@ -83,6 +83,21 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
+				<SoundcasterSession Name="Music" ID="{56881393-2253-4FEC-8F81-597C82EF0389}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Music" ID="{391A94BC-C147-48EF-90A5-21F0824680F5}" WorkUnitID="{B1886E01-9283-4E9F-8054-D2FE298A9736}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PickUp_Fuel" ID="{B8A861DD-213E-4EE3-9909-CDD01C8FB114}" WorkUnitID="{52F1A2BA-2F33-41B0-A002-B234A32CD87D}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>

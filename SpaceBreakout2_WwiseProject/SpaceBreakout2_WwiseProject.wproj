@@ -11932,6 +11932,14 @@
 						</PropertyList>
 					</WorkUnit>
 				</PhysicalFolder>
+				<PhysicalFolder Path="Events\Music">
+					<WorkUnit Name="Music" ID="{425045E9-7326-4276-80BC-7859C46640C4}" PersistMode="Standalone">
+						<PropertyList>
+							<Property Name="Color" Type="int16" Value="24"/>
+							<Property Name="OverrideColor" Type="bool" Value="True"/>
+						</PropertyList>
+					</WorkUnit>
+				</PhysicalFolder>
 				<PhysicalFolder Path="Events\Player">
 					<WorkUnit Name="Player" ID="{CC5979A0-6ED8-43B4-9356-057D86375F68}" PersistMode="Standalone">
 						<PropertyList>
