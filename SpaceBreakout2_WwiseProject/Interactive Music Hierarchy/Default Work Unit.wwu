@@ -20,6 +20,11 @@
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="26153.4148507236"/>
 								<Property Name="Tempo" Type="Real64" Value="160"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -31,6 +36,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<MusicTrack Name="Pad_Long" ID="{1816F85D-A0AF-42E8-8829-C03F790853D1}" ShortID="858965844">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
@@ -543,6 +555,11 @@
 					<PropertyList>
 						<Property Name="EndPosition" Type="Real64" Value="4312.5"/>
 						<Property Name="Tempo" Type="Real64" Value="160"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

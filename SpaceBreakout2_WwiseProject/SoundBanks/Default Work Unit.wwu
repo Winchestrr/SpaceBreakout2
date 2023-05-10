@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Master" ID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Stop_Music" ID="{7F9A7BA5-523B-4023-9760-2E543CF5E234}" WorkUnitID="{B1886E01-9283-4E9F-8054-D2FE298A9736}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemy_Shoot" ID="{03C9A381-AB34-41E3-9556-AF8F69811E68}" WorkUnitID="{7C77DF77-B5DF-4D6F-8DBD-8C9AD3466887}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemy_Engine_Start_Small" ID="{47EBEAB8-6DE7-41EF-B85B-ECDC7082E481}" WorkUnitID="{880F079E-D1D4-417B-B158-41B761AC6506}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Death" ID="{01511685-0572-4254-8EE6-FC9771B406C8}" WorkUnitID="{588E399A-E016-4FB0-9D56-AC95D956C888}" Origin="Manual" Filter="7"/>
@@ -18,6 +19,7 @@
 						<ObjectRef Name="PickUp_PowerUp" ID="{B7325365-57FF-4788-B2F7-813AFD4C5D5E}" WorkUnitID="{52F1A2BA-2F33-41B0-A002-B234A32CD87D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemy_Engine_Start_Big" ID="{0E6F876A-1D11-4836-89E2-218C79F7A41B}" WorkUnitID="{880F079E-D1D4-417B-B158-41B761AC6506}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Resume_Game" ID="{168EC8E3-3458-48E5-83A0-59EEB7FCA2EB}" WorkUnitID="{FD241EF1-F5C7-40BE-8E1D-D9D7C1CFDCF2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Music" ID="{391A94BC-C147-48EF-90A5-21F0824680F5}" WorkUnitID="{B1886E01-9283-4E9F-8054-D2FE298A9736}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Damage_Taken" ID="{93D7B761-A2CD-490F-A91E-47434D556F56}" WorkUnitID="{588E399A-E016-4FB0-9D56-AC95D956C888}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemy_Destroyed" ID="{80CD0BD0-6A6F-495A-B0A6-9CD17CF1E74C}" WorkUnitID="{880F079E-D1D4-417B-B158-41B761AC6506}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Gen_Idle" ID="{4D6FA5E8-AC89-4B27-918E-65D49801B10C}" WorkUnitID="{C0EC18BB-BAA3-4BF5-AC35-85AFC6D8D4C4}" Origin="Manual" Filter="7"/>

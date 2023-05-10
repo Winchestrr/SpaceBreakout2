@@ -17,7 +17,7 @@
 								</Reference>
 							</ReferenceList>
 						</AuxBus>
-						<Bus Name="AMB_AUX" ID="{DDE33DBA-3100-4148-A547-CF7D98C7E62F}">
+						<Bus Name="AMB_Bus" ID="{DDE33DBA-3100-4148-A547-CF7D98C7E62F}">
 							<ObjectLists>
 								<ObjectList Name="RTPC">
 									<Reference>
@@ -39,7 +39,7 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-0</YPos>
+																		<YPos>0</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
@@ -105,6 +105,15 @@
 									</Reference>
 								</ObjectList>
 							</ObjectLists>
+						</Bus>
+						<Bus Name="Player_Bus" ID="{BF5723EA-F0D4-4558-A53C-FA010D04C852}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 						</Bus>
 					</ChildrenList>
 				</Bus>

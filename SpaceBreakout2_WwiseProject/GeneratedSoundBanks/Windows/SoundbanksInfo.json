@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{41DBBC5A-B38D-3650-6330-27BCA3FD0A4B}",
+    "Hash": "{CA94BA98-58E5-1C5D-198B-6E0631C30C51}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -54,9 +54,15 @@
     },
     "Busses": [
      {
-      "Id": "3588144912",
-      "Name": "AMB_AUX",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\AMB_AUX",
+      "Id": "1138681361",
+      "Name": "Player_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Player_Bus",
+      "GUID": "{BF5723EA-F0D4-4558-A53C-FA010D04C852}"
+     },
+     {
+      "Id": "3319158528",
+      "Name": "AMB_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\AMB_Bus",
       "GUID": "{DDE33DBA-3100-4148-A547-CF7D98C7E62F}"
      },
      {
@@ -119,11 +125,19 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{403E0723-A110-6C5C-3D37-A09D9B12A7AA}",
+    "Hash": "{21B4B1E0-DE25-0711-503D-9F7A834407D4}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
     "Media": [
+     {
+      "Id": "13056317",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pad_PickUpTex_2.wav",
+      "CachePath": "SFX/Pad_PickUpTex_2_D79FB2B7.wem"
+     },
      {
       "Id": "42552773",
       "Language": "SFX",
@@ -139,6 +153,14 @@
       "Location": "Memory",
       "ShortName": "Generator_Explosion_Hi_1.wav",
       "CachePath": "SFX/Generator_Explosion_Hi_1_10C4C929.wem"
+     },
+     {
+      "Id": "96438833",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pad_PickUpTex_3.wav",
+      "CachePath": "SFX/Pad_PickUpTex_3_D79FB2B7.wem"
      },
      {
       "Id": "98268633",
@@ -197,6 +219,14 @@
       "CachePath": "SFX/Shooting_10C4C929.wem"
      },
      {
+      "Id": "249387919",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pad_Long.wav",
+      "CachePath": "SFX/Pad_Long_D79FB2B7.wem"
+     },
+     {
       "Id": "289646352",
       "Language": "SFX",
       "Streaming": "false",
@@ -243,6 +273,22 @@
       "Location": "Memory",
       "ShortName": "Explosion_4.wav",
       "CachePath": "SFX/Explosion_4_10C4C929.wem"
+     },
+     {
+      "Id": "463491786",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pad_PickUpTex_1.wav",
+      "CachePath": "SFX/Pad_PickUpTex_1_D79FB2B7.wem"
+     },
+     {
+      "Id": "463601207",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pad_Tex_1.wav",
+      "CachePath": "SFX/Pad_Tex_1_D79FB2B7.wem"
      },
      {
       "Id": "551274477",
@@ -309,6 +355,22 @@
       "CachePath": "SFX/Explosion_1_10C4C929.wem"
      },
      {
+      "Id": "742422883",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pad_PickUpTex_4.wav",
+      "CachePath": "SFX/Pad_PickUpTex_4_D79FB2B7.wem"
+     },
+     {
+      "Id": "774905702",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pad_Tex_4.wav",
+      "CachePath": "SFX/Pad_Tex_4_D79FB2B7.wem"
+     },
+     {
       "Id": "800518361",
       "Language": "SFX",
       "Streaming": "false",
@@ -357,6 +419,14 @@
       "CachePath": "SFX/Acc_Up_10C4C929.wem"
      },
      {
+      "Id": "917280452",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pad_Tex_2.wav",
+      "CachePath": "SFX/Pad_Tex_2_D79FB2B7.wem"
+     },
+     {
       "Id": "930513644",
       "Language": "SFX",
       "Streaming": "false",
@@ -403,6 +473,14 @@
       "Location": "Memory",
       "ShortName": "Generator_Idle.wav",
       "CachePath": "SFX/Generator_Idle_07E00B68.wem"
+     },
+     {
+      "Id": "1020130402",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pad_Tex_3.wav",
+      "CachePath": "SFX/Pad_Tex_3_D79FB2B7.wem"
      },
      {
       "Id": "1023344460",
@@ -709,11 +787,23 @@
       "ObjectPath": "\\Events\\Player\\UI\\PickUp_Fuel",
       "GUID": "{B8A861DD-213E-4EE3-9909-CDD01C8FB114}",
       "DurationType": "OneShot",
-      "DurationMin": "0.5",
-      "DurationMax": "0.5",
+      "DurationMin": "4.3125",
+      "DurationMax": "4.3125",
       "MediaRefs": [
        {
+        "Id": "13056317"
+       },
+       {
+        "Id": "96438833"
+       },
+       {
+        "Id": "463491786"
+       },
+       {
         "Id": "641029741"
+       },
+       {
+        "Id": "742422883"
        }
       ]
      },
@@ -728,6 +818,30 @@
       "MediaRefs": [
        {
         "Id": "160425296"
+       }
+      ]
+     },
+     {
+      "Id": "2932040671",
+      "Name": "Play_Music",
+      "ObjectPath": "\\Events\\Music\\Music\\Play_Music",
+      "GUID": "{391A94BC-C147-48EF-90A5-21F0824680F5}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "249387919"
+       },
+       {
+        "Id": "463601207"
+       },
+       {
+        "Id": "774905702"
+       },
+       {
+        "Id": "917280452"
+       },
+       {
+        "Id": "1020130402"
        }
       ]
      },
@@ -817,6 +931,16 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     },
+     {
+      "Id": "2837384057",
+      "Name": "Stop_Music",
+      "ObjectPath": "\\Events\\Music\\Music\\Stop_Music",
+      "GUID": "{7F9A7BA5-523B-4023-9760-2E543CF5E234}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ],
     "Busses": [
@@ -876,6 +1000,6 @@
     ]
    }
   ],
-  "FileHash": "{FDA4498A-C281-5F5A-8A6F-C02F6D3511D3}"
+  "FileHash": "{942D3380-5D06-0687-942E-72F515F34632}"
  }
 }
