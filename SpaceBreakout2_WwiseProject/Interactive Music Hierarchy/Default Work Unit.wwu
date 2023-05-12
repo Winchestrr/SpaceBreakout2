@@ -22,7 +22,7 @@
 								<Property Name="Tempo" Type="Real64" Value="160"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -39,7 +39,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-2</Value>
+												<Value>2</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -95,6 +95,11 @@
 								<MusicTrack Name="Pad_Tex_1" ID="{983CD881-E79D-4184-A476-1D0B75CAB249}" ShortID="650042386">
 									<PropertyList>
 										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
@@ -298,6 +303,11 @@
 								<MusicTrack Name="Pad_Tex_01" ID="{79B554A8-F525-4D51-9AA0-93F22996143F}" ShortID="359581386">
 									<PropertyList>
 										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">

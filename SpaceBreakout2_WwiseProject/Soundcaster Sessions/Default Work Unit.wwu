@@ -65,7 +65,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Speed" ID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"/>
-							<Value>3832</Value>
+							<Value>8000</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Death" ID="{66EA2853-CF2F-4EC2-B5DB-DEBEE4400EEE}"/>
@@ -98,7 +98,12 @@
 							<Position X="0" Y="2"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Speed" ID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"/>
+							<Value>8000</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
