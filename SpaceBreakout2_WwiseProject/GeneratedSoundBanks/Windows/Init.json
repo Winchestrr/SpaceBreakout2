@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{CA94BA98-58E5-1C5D-198B-6E0631C30C51}",
+    "Hash": "{8AE3FEA9-7E3C-E868-399F-DAF53AE82D60}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -46,15 +46,27 @@
     },
     "Busses": [
      {
+      "Id": "213475909",
+      "Name": "SFX_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX_Bus",
+      "GUID": "{802F7C61-BCCC-4DC4-95AB-EF557EB2B0A0}"
+     },
+     {
       "Id": "1138681361",
       "Name": "Player_Bus",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Player_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX_Bus\\Player_Bus",
       "GUID": "{BF5723EA-F0D4-4558-A53C-FA010D04C852}"
+     },
+     {
+      "Id": "2680856269",
+      "Name": "Music_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music_Bus",
+      "GUID": "{8BD681F4-A304-4191-B9DA-8328CD4AF064}"
      },
      {
       "Id": "3319158528",
       "Name": "AMB_Bus",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\AMB_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX_Bus\\AMB_Bus",
       "GUID": "{DDE33DBA-3100-4148-A547-CF7D98C7E62F}"
      },
      {
@@ -68,7 +80,7 @@
      {
       "Id": "671700957",
       "Name": "Rev_Tube",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Rev_Tube",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX_Bus\\Rev_Tube",
       "GUID": "{6BCDD345-D685-458F-A310-7D075C85EBF5}",
       "PluginRefs": {
        "ShareSets": [
@@ -93,6 +105,12 @@
       "GUID": "{66EA2853-CF2F-4EC2-B5DB-DEBEE4400EEE}"
      },
      {
+      "Id": "988953028",
+      "Name": "SFXVolume",
+      "ObjectPath": "\\Game Parameters\\Options\\SFXVolume",
+      "GUID": "{45787E01-5AA6-4A9D-93D8-C0F9DE786340}"
+     },
+     {
       "Id": "1205999388",
       "Name": "Enemy_Death",
       "ObjectPath": "\\Game Parameters\\Enemy\\Enemy_Death",
@@ -105,6 +123,18 @@
       "GUID": "{6B76A057-4CC6-4F74-A573-B1443882C069}"
      },
      {
+      "Id": "1843561328",
+      "Name": "MainVolume",
+      "ObjectPath": "\\Game Parameters\\Options\\MainVolume",
+      "GUID": "{7E6BB6D5-F272-48A0-976F-6A4B17EB0D9B}"
+     },
+     {
+      "Id": "2346531308",
+      "Name": "MusicVolume",
+      "ObjectPath": "\\Game Parameters\\Options\\MusicVolume",
+      "GUID": "{2BDE7E52-033E-49AF-94BE-3BBDDBACFFB5}"
+     },
+     {
       "Id": "2968795556",
       "Name": "Glide",
       "ObjectPath": "\\Game Parameters\\Player_Engine\\Glide",
@@ -113,6 +143,6 @@
     ]
    }
   ],
-  "FileHash": "{00798FF1-FFB9-AF2E-94E8-6E039817D860}"
+  "FileHash": "{E82979CF-D8BE-F4E0-1B49-8B8579AAE1D4}"
  }
 }

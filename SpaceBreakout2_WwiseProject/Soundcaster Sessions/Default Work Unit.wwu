@@ -60,6 +60,18 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
+							<GameParameterRef Name="MainVolume" ID="{7E6BB6D5-F272-48A0-976F-6A4B17EB0D9B}"/>
+							<Value>64.4777662874871</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MusicVolume" ID="{2BDE7E52-033E-49AF-94BE-3BBDDBACFFB5}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SFXVolume" ID="{45787E01-5AA6-4A9D-93D8-C0F9DE786340}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="Enemy_Death" ID="{7987A131-FA89-4C51-A6C1-77D67BC5FE02}"/>
 							<Value>0</Value>
 						</RTPCValue>

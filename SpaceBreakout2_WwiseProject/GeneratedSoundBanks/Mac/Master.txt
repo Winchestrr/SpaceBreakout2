@@ -25,15 +25,18 @@ Event	ID	Name			Wwise Object Path	Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	640949982	Speed			\Player_Engine\Speed	
 	779278001	Death			\Player_Engine\Death	
+	988953028	SFXVolume			\Options\SFXVolume	
 	1205999388	Enemy_Death			\Enemy\Enemy_Death	
 	1252186741	AutoMode			\Player_Gun\AutoMode	
+	1843561328	MainVolume			\Options\MainVolume	
 	2968795556	Glide			\Player_Engine\Glide	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	213475909	SFX_Bus			\Default Work Unit\Master Audio Bus\SFX_Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	671700957	Rev_Tube			\Default Work Unit\Master Audio Bus\Rev_Tube	
+	671700957	Rev_Tube			\Default Work Unit\Master Audio Bus\SFX_Bus\Rev_Tube	
 
 Effect plug-ins	ID	Name	Type				Notes
 	2995775460	Room_Small	Wwise RoomVerb			

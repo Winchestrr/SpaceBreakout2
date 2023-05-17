@@ -10,89 +10,34 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AuxBus Name="Rev_Tube" ID="{6BCDD345-D685-458F-A310-7D075C85EBF5}">
-							<ReferenceList>
-								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-									<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-								</Reference>
-							</ReferenceList>
-						</AuxBus>
-						<Bus Name="AMB_Bus" ID="{DDE33DBA-3100-4148-A547-CF7D98C7E62F}">
+						<Bus Name="Music_Bus" ID="{8BD681F4-A304-4191-B9DA-8328CD4AF064}">
 							<ObjectLists>
 								<ObjectList Name="RTPC">
 									<Reference>
 										<Local>
-											<RTPC Name="" ID="{9790E5E1-A899-4946-8EFA-0910E58CAF6E}" ShortID="136289550">
+											<RTPC Name="" ID="{E56481E5-7067-48F1-A13E-74CA7B344866}" ShortID="936930115">
 												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="Volume"/>
+													<Property Name="PropertyName" Type="string" Value="BusVolume"/>
 												</PropertyList>
 												<ReferenceList>
 													<Reference Name="ControlInput">
-														<ObjectRef Name="Death" ID="{66EA2853-CF2F-4EC2-B5DB-DEBEE4400EEE}" WorkUnitID="{CD57914D-0276-4E75-A30A-213EECFD3434}"/>
+														<ObjectRef Name="MusicVolume" ID="{2BDE7E52-033E-49AF-94BE-3BBDDBACFFB5}" WorkUnitID="{2144B934-B071-4CDD-81CA-72771DFEF0E0}"/>
 													</Reference>
 													<Reference Name="Curve">
 														<Custom>
-															<Curve Name="" ID="{37E56632-BE96-4C27-AA65-EFA017CD0F65}">
+															<Curve Name="" ID="{6D49EFBB-271C-4609-9A15-80E1998D97CD}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="3"/>
 																</PropertyList>
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>0</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>20</XPos>
-																		<YPos>0</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Exp1</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>100</XPos>
 																		<YPos>-200</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</Custom>
-													</Reference>
-												</ReferenceList>
-											</RTPC>
-										</Local>
-									</Reference>
-									<Reference>
-										<Local>
-											<RTPC Name="" ID="{CA9438E2-B689-4130-B2F7-438966BE4E74}" ShortID="472891735">
-												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="Lowpass"/>
-												</PropertyList>
-												<ReferenceList>
-													<Reference Name="ControlInput">
-														<ObjectRef Name="Death" ID="{66EA2853-CF2F-4EC2-B5DB-DEBEE4400EEE}" WorkUnitID="{CD57914D-0276-4E75-A30A-213EECFD3434}"/>
-													</Reference>
-													<Reference Name="Curve">
-														<Custom>
-															<Curve Name="" ID="{D5F914A2-9FA1-4BDC-91BA-95EDC6D55B59}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="65537"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>0</YPos>
 																		<Flags>5</Flags>
-																		<SegmentShape>Log2</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>20</XPos>
-																		<YPos>62</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Log1</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>100</XPos>
-																		<YPos>62</YPos>
+																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -106,16 +51,194 @@
 								</ObjectList>
 							</ObjectLists>
 						</Bus>
-						<Bus Name="Player_Bus" ID="{BF5723EA-F0D4-4558-A53C-FA010D04C852}">
-							<PropertyList>
-								<Property Name="BusVolume" Type="Real64">
-									<ValueList>
-										<Value>-6</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<Bus Name="SFX_Bus" ID="{802F7C61-BCCC-4DC4-95AB-EF557EB2B0A0}">
+							<ChildrenList>
+								<Bus Name="AMB_Bus" ID="{DDE33DBA-3100-4148-A547-CF7D98C7E62F}">
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{9790E5E1-A899-4946-8EFA-0910E58CAF6E}" ShortID="136289550">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Death" ID="{66EA2853-CF2F-4EC2-B5DB-DEBEE4400EEE}" WorkUnitID="{CD57914D-0276-4E75-A30A-213EECFD3434}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{37E56632-BE96-4C27-AA65-EFA017CD0F65}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>20</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Exp1</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{CA9438E2-B689-4130-B2F7-438966BE4E74}" ShortID="472891735">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Lowpass"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Death" ID="{66EA2853-CF2F-4EC2-B5DB-DEBEE4400EEE}" WorkUnitID="{CD57914D-0276-4E75-A30A-213EECFD3434}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{D5F914A2-9FA1-4BDC-91BA-95EDC6D55B59}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Log2</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>20</XPos>
+																				<YPos>62</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Log1</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>62</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Bus>
+								<Bus Name="Player_Bus" ID="{BF5723EA-F0D4-4558-A53C-FA010D04C852}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<AuxBus Name="Rev_Tube" ID="{6BCDD345-D685-458F-A310-7D075C85EBF5}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{C56C9808-12A0-42F9-97DA-18B58740B453}" ShortID="790628764">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="SFXVolume" ID="{45787E01-5AA6-4A9D-93D8-C0F9DE786340}" WorkUnitID="{2144B934-B071-4CDD-81CA-72771DFEF0E0}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{EFD590DA-5520-4923-A805-1C59EFA04169}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</Bus>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{5D0FB1CD-7FF5-40D6-A578-FE6B49C094B0}" ShortID="907586067">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="MainVolume" ID="{7E6BB6D5-F272-48A0-976F-6A4B17EB0D9B}" WorkUnitID="{2144B934-B071-4CDD-81CA-72771DFEF0E0}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{DE8BB2BA-DF59-4E2C-B18C-B5679AD8931D}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
