@@ -34,6 +34,7 @@
 																		<XPos>0</XPos>
 																		<YPos>-200</YPos>
 																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>100</XPos>
@@ -182,6 +183,7 @@
 																		<XPos>0</XPos>
 																		<YPos>-200</YPos>
 																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>100</XPos>
@@ -223,6 +225,7 @@
 																<XPos>0</XPos>
 																<YPos>-200</YPos>
 																<Flags>5</Flags>
+																<SegmentShape>Exp2</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>100</XPos>
