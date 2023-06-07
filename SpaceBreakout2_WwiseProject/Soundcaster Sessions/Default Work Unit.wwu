@@ -98,7 +98,7 @@
 				<SoundcasterSession Name="Music" ID="{56881393-2253-4FEC-8F81-597C82EF0389}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_Music" ID="{391A94BC-C147-48EF-90A5-21F0824680F5}" WorkUnitID="{B1886E01-9283-4E9F-8054-D2FE298A9736}"/>
+							<ObjectRef Name="MenuMusic_Play" ID="{391A94BC-C147-48EF-90A5-21F0824680F5}" WorkUnitID="{B1886E01-9283-4E9F-8054-D2FE298A9736}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>

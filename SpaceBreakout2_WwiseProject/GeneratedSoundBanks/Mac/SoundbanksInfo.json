@@ -155,7 +155,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{98B97E95-BD26-47B6-125C-0BF98980D849}",
+    "Hash": "{86A638E3-357A-E91C-1E60-0F9A2F99F4CF}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -854,6 +854,40 @@
       ]
      },
      {
+      "Id": "4011733850",
+      "Name": "MenuMusic_Play",
+      "ObjectPath": "\\Events\\Music\\Music\\MenuMusic_Play",
+      "GUID": "{391A94BC-C147-48EF-90A5-21F0824680F5}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "249387919"
+       },
+       {
+        "Id": "463601207"
+       },
+       {
+        "Id": "774905702"
+       },
+       {
+        "Id": "917280452"
+       },
+       {
+        "Id": "1020130402"
+       }
+      ]
+     },
+     {
+      "Id": "1115745636",
+      "Name": "MenuMusic_Stop",
+      "ObjectPath": "\\Events\\Music\\Music\\MenuMusic_Stop",
+      "GUID": "{7F9A7BA5-523B-4023-9760-2E543CF5E234}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "528278262",
       "Name": "Pause_Game",
       "ObjectPath": "\\Events\\UI\\UI\\Pause_Game",
@@ -900,30 +934,6 @@
       "MediaRefs": [
        {
         "Id": "160425296"
-       }
-      ]
-     },
-     {
-      "Id": "2932040671",
-      "Name": "Play_Music",
-      "ObjectPath": "\\Events\\Music\\Music\\Play_Music",
-      "GUID": "{391A94BC-C147-48EF-90A5-21F0824680F5}",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "249387919"
-       },
-       {
-        "Id": "463601207"
-       },
-       {
-        "Id": "774905702"
-       },
-       {
-        "Id": "917280452"
-       },
-       {
-        "Id": "1020130402"
        }
       ]
      },
@@ -1027,16 +1037,6 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
-     },
-     {
-      "Id": "2837384057",
-      "Name": "Stop_Music",
-      "ObjectPath": "\\Events\\Music\\Music\\Stop_Music",
-      "GUID": "{7F9A7BA5-523B-4023-9760-2E543CF5E234}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
      }
     ],
     "Busses": [
@@ -1114,6 +1114,6 @@
     ]
    }
   ],
-  "FileHash": "{026CC171-CD5D-6753-F839-E20D2048BF48}"
+  "FileHash": "{56AD054C-CA11-443D-69BA-CC9E6C03215F}"
  }
 }

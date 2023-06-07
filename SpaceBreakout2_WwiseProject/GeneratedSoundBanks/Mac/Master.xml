@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{98B97E95-BD26-47B6-125C-0BF98980D849}">
+		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{86A638E3-357A-E91C-1E60-0F9A2F99F4CF}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -312,6 +312,16 @@
 						<MediaRef Id="1019287824"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4011733850" Name="MenuMusic_Play" ObjectPath="\Events\Music\Music\MenuMusic_Play" GUID="{391A94BC-C147-48EF-90A5-21F0824680F5}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="249387919"/>
+						<MediaRef Id="463601207"/>
+						<MediaRef Id="774905702"/>
+						<MediaRef Id="917280452"/>
+						<MediaRef Id="1020130402"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1115745636" Name="MenuMusic_Stop" ObjectPath="\Events\Music\Music\MenuMusic_Stop" GUID="{7F9A7BA5-523B-4023-9760-2E543CF5E234}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="528278262" Name="Pause_Game" ObjectPath="\Events\UI\UI\Pause_Game" GUID="{7753699B-D1A5-44C8-AACA-D8C1D73D3645}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3717217436" Name="PickUp_Fuel" ObjectPath="\Events\Player\UI\PickUp_Fuel" GUID="{B8A861DD-213E-4EE3-9909-CDD01C8FB114}" DurationType="OneShot" DurationMin="4.3125" DurationMax="4.3125">
 					<MediaRefs>
@@ -325,15 +335,6 @@
 				<Event Id="2088053380" Name="PickUp_PowerUp" ObjectPath="\Events\Player\UI\PickUp_PowerUp" GUID="{B7325365-57FF-4788-B2F7-813AFD4C5D5E}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
 					<MediaRefs>
 						<MediaRef Id="160425296"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Music\Music\Play_Music" GUID="{391A94BC-C147-48EF-90A5-21F0824680F5}" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="249387919"/>
-						<MediaRef Id="463601207"/>
-						<MediaRef Id="774905702"/>
-						<MediaRef Id="917280452"/>
-						<MediaRef Id="1020130402"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Player\Player_Ship\Player_Damage\Player_Death" GUID="{01511685-0572-4254-8EE6-FC9771B406C8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -365,7 +366,6 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="2042178597" Name="Stop_Auto" ObjectPath="\Events\Player\Player_Ship\Player_Gun\Stop_Auto" GUID="{16F42484-449B-42F5-B43D-6A3B952DA7D8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2837384057" Name="Stop_Music" ObjectPath="\Events\Music\Music\Stop_Music" GUID="{7F9A7BA5-523B-4023-9760-2E543CF5E234}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<Busses>
 				<Bus Id="213475909" Name="SFX_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX_Bus" GUID="{802F7C61-BCCC-4DC4-95AB-EF557EB2B0A0}"/>
@@ -391,5 +391,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{25E24C9A-9514-19EB-218E-39C2DD31D118}</FileHash>
+	<FileHash>{14282D92-E24F-FE0B-3906-147C1FDEE0C3}</FileHash>
 </SoundBanksInfo>
