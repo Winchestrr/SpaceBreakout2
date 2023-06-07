@@ -9,12 +9,15 @@ Event	ID	Name			Wwise Object Path	Notes
 	1151086808	Acc			\Player\Player_Ship\Player_Engine\Acc	
 	1565052233	Resume_Game			\UI\UI\Resume_Game	
 	1652732926	Player_Explosion			\Player\Player_Ship\Player_Damage\Player_Explosion	
+	1701177942	Button_Hover			\Menu\Menu\Button_Hover	
 	1763999390	Damage_Taken			\Player\Player_Ship\Player_Damage\Damage_Taken	
 	1772735026	Gen_Idle			\Gates\Generators\Gen_Idle	
 	2042178597	Stop_Auto			\Player\Player_Ship\Player_Gun\Stop_Auto	
 	2088053380	PickUp_PowerUp			\Player\UI\PickUp_PowerUp	
 	2170925251	Enemy_Destroyed			\Enemies\Enemy_Engine\Enemy_Destroyed	
+	2698747613	Button_Press			\Menu\Menu\Button_Press	
 	2837384057	Stop_Music			\Music\Music\Stop_Music	
+	2905743724	Slider_ChangeValue			\Menu\Menu\Slider_ChangeValue	
 	2932040671	Play_Music			\Music\Music\Play_Music	
 	2952350905	Enemy_Engine_Start_Small			\Enemies\Enemy_Engine\Enemy_Engine_Start_Small	
 	3038207054	Shoot			\Player\Player_Ship\Player_Gun\Shoot	
@@ -43,6 +46,7 @@ Effect plug-ins	ID	Name	Type				Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	13056317	Pad_PickUpTex_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Pad_PickUpTex_2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\PickUp_Tex\Pad_PickUpTex_1		414096
+	39490669	Button_Press	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Button_Press_10C4C929.wem		\Actor-Mixer Hierarchy\Menu\Menu\Button_Press		60096
 	42552773	MetalRuttle_50ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\MetalRuttle_50ms_C33A8915.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Engine\Player_Engine\E_50ms\MetalRuttle_50ms		921744
 	87918571	Generator_Explosion_Hi_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Generator_Explosion_Hi_1_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Hi\Generator_Explosion_Hi_1		72096
 	96438833	Pad_PickUpTex_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Pad_PickUpTex_3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\PickUp_Tex\Pad_PickUpTex_1		360096
@@ -82,8 +86,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	930513644	Generator_Explosion_Air_2	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Generator_Explosion_Air_2_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Air\Generator_Explosion_Air_2		96096
 	989050902	Generator_Explosion_Low_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Generator_Explosion_Low_1_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Low\Generator_Explosion_Low_1		60096
 	999165185	Generator_Explosion_Low_3	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Generator_Explosion_Low_3_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Low\Generator_Explosion_Low_3		54096
+	999927059	Button_Hover	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Button_Hover_10C4C929.wem		\Actor-Mixer Hierarchy\Menu\Menu\Button_Hover		48096
 	1006151716	Generator_Explosion_Mid_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Generator_Explosion_Mid_1_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Mid\Generator_Explosion_Mid_1		72096
 	1011644442	CheckPoint	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\CheckPoint_10C4C929.wem		\Actor-Mixer Hierarchy\Player\UI\CheckPoint		96096
+	1013981043	Slider_ValueChange	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Slider_ValueChange_10C4C929.wem		\Actor-Mixer Hierarchy\Menu\Menu\Slider_ValueChange		24096
 	1019287824	Generator_Idle	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Generator_Idle_07E00B68.wem		\Actor-Mixer Hierarchy\Gates\Generator\Generator_Idle		384144
 	1020130402	Pad_Tex_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Pad_Tex_3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Basic_Music\Pad_Core\Pad_Tex_1		576096
 	1023344460	Generator_Explosion_Air_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Mac\SFX\Generator_Explosion_Air_1_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Air\Generator_Explosion_Air_1		96096

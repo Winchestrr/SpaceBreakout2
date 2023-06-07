@@ -11887,6 +11887,14 @@
 						</PropertyList>
 					</WorkUnit>
 				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\Menu">
+					<WorkUnit Name="Menu" ID="{D50E579A-0372-4D1B-88BF-928526895FAF}" PersistMode="Standalone">
+						<PropertyList>
+							<Property Name="Color" Type="int16" Value="13"/>
+							<Property Name="OverrideColor" Type="bool" Value="True"/>
+						</PropertyList>
+					</WorkUnit>
+				</PhysicalFolder>
 				<PhysicalFolder Path="Actor-Mixer Hierarchy\Player">
 					<WorkUnit Name="Player" ID="{19EB0F60-DA2D-4ABA-AE98-E7EB23375442}" PersistMode="Standalone">
 						<PropertyList>
@@ -11931,6 +11939,9 @@
 							<Property Name="OverrideColor" Type="bool" Value="True"/>
 						</PropertyList>
 					</WorkUnit>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Events\Menu">
+					<WorkUnit Name="Menu" ID="{5DF68A30-2C74-429F-AB7B-9A192BCB431A}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Events\Music">
 					<WorkUnit Name="Music" ID="{425045E9-7326-4276-80BC-7859C46640C4}" PersistMode="Standalone">

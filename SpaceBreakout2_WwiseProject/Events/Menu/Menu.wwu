@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1976A159-0E38-4C35-8503-53148F34E91E}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Menu" ID="{1976A159-0E38-4C35-8503-53148F34E91E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Button_Hover" ID="{B64F7364-EFF7-4016-A5B4-DA1FDC336E4F}">
+					<ChildrenList>
+						<Action Name="" ID="{40B59C40-F741-466E-A195-7ACD22B11654}" ShortID="148551985">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Button_Hover" ID="{0B763712-BD90-41AE-B847-F8D037B20220}" WorkUnitID="{21C13388-2985-4295-A33A-A6504773A9C8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Button_Press" ID="{1393B155-4919-4399-BEC8-14ACE5D1BA82}">
+					<ChildrenList>
+						<Action Name="" ID="{E06C3DD9-CDCC-4B7E-9BE2-AD6FD34E545E}" ShortID="373987907">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Button_Press" ID="{8C187166-83A3-4294-824E-18F8C8F0774A}" WorkUnitID="{21C13388-2985-4295-A33A-A6504773A9C8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Slider_ChangeValue" ID="{39777D41-252A-4809-A4EC-835EF6B0626D}">
+					<ChildrenList>
+						<Action Name="" ID="{F453F44F-2C6E-4D65-BE37-E93B02119302}" ShortID="627874443">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Slider_ValueChange" ID="{674BD94E-7269-4371-8706-51DDE57C864F}" WorkUnitID="{21C13388-2985-4295-A33A-A6504773A9C8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

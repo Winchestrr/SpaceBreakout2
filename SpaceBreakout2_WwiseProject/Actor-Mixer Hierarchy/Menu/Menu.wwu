@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{21C13388-2985-4295-A33A-A6504773A9C8}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Menu" ID="{21C13388-2985-4295-A33A-A6504773A9C8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Button_Hover" ID="{0B763712-BD90-41AE-B847-F8D037B20220}" ShortID="974489319">
+					<PropertyList>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Button_Hover" ID="{E662BC74-EF0D-476F-89C8-AB841EC385EB}">
+							<Language>SFX</Language>
+							<AudioFile>Button_Hover.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="999927059"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Button_Hover" ID="{E662BC74-EF0D-476F-89C8-AB841EC385EB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Button_Press" ID="{8C187166-83A3-4294-824E-18F8C8F0774A}" ShortID="237515909">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Button_Press" ID="{56714E0D-7FB2-4D95-BDDE-AE596A76E96E}">
+							<Language>SFX</Language>
+							<AudioFile>Button_Press.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="39490669"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Button_Press" ID="{56714E0D-7FB2-4D95-BDDE-AE596A76E96E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Slider_ValueChange" ID="{674BD94E-7269-4371-8706-51DDE57C864F}" ShortID="749831388">
+					<PropertyList>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Slider_ValueChange" ID="{5657F33E-9543-42DF-802F-3104D47CD62B}">
+							<Language>SFX</Language>
+							<AudioFile>Slider_ValueChange.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1013981043"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Slider_ValueChange" ID="{5657F33E-9543-42DF-802F-3104D47CD62B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

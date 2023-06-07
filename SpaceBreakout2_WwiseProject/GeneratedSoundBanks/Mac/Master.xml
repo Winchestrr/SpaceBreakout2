@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{C377FF61-1F9D-CA2C-B3D4-CA0536DC1B53}">
+		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{98B97E95-BD26-47B6-125C-0BF98980D849}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -9,6 +9,10 @@
 				<File Id="13056317" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pad_PickUpTex_2.wav</ShortName>
 					<CachePath>SFX/Pad_PickUpTex_2_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="39490669" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Button_Press.wav</ShortName>
+					<CachePath>SFX/Button_Press_10C4C929.wem</CachePath>
 				</File>
 				<File Id="42552773" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetalRuttle_50ms.wav</ShortName>
@@ -166,6 +170,10 @@
 					<ShortName>Generator_Explosion_Low_3.wav</ShortName>
 					<CachePath>SFX/Generator_Explosion_Low_3_10C4C929.wem</CachePath>
 				</File>
+				<File Id="999927059" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Button_Hover.wav</ShortName>
+					<CachePath>SFX/Button_Hover_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1006151716" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Generator_Explosion_Mid_1.wav</ShortName>
 					<CachePath>SFX/Generator_Explosion_Mid_1_10C4C929.wem</CachePath>
@@ -173,6 +181,10 @@
 				<File Id="1011644442" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CheckPoint.wav</ShortName>
 					<CachePath>SFX/CheckPoint_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1013981043" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Slider_ValueChange.wav</ShortName>
+					<CachePath>SFX/Slider_ValueChange_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1019287824" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Generator_Idle.wav</ShortName>
@@ -208,6 +220,16 @@
 				<Event Id="1151086808" Name="Acc" ObjectPath="\Events\Player\Player_Ship\Player_Engine\Acc" GUID="{F555DC76-60D1-43F4-AD5B-6332D58221C8}" DurationType="OneShot" DurationMin="0.6875" DurationMax="0.6875">
 					<MediaRefs>
 						<MediaRef Id="904171427"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1701177942" Name="Button_Hover" ObjectPath="\Events\Menu\Menu\Button_Hover" GUID="{B64F7364-EFF7-4016-A5B4-DA1FDC336E4F}" DurationType="OneShot" DurationMin="0.25" DurationMax="0.25">
+					<MediaRefs>
+						<MediaRef Id="999927059"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2698747613" Name="Button_Press" ObjectPath="\Events\Menu\Menu\Button_Press" GUID="{1393B155-4919-4399-BEC8-14ACE5D1BA82}" DurationType="OneShot" DurationMin="0.3125" DurationMax="0.3125">
+					<MediaRefs>
+						<MediaRef Id="39490669"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="612075679" Name="CheckPoint" ObjectPath="\Events\Player\UI\CheckPoint" GUID="{95E17FA5-3626-44DB-938D-14D3DA8D3AC9}" DurationType="OneShot" DurationMin="1" DurationMax="1">
@@ -332,6 +354,11 @@
 						<MediaRef Id="228206684"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2905743724" Name="Slider_ChangeValue" ObjectPath="\Events\Menu\Menu\Slider_ChangeValue" GUID="{39777D41-252A-4809-A4EC-835EF6B0626D}" DurationType="OneShot" DurationMin="0.125" DurationMax="0.125">
+					<MediaRefs>
+						<MediaRef Id="1013981043"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3808032123" Name="Start_Auto" ObjectPath="\Events\Player\Player_Ship\Player_Gun\Start_Auto" GUID="{887E17A7-2EA3-435C-99BB-BB007B2610DC}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="1046666558"/>
@@ -364,5 +391,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C9683C59-7F63-521C-10BF-E71CF0BF2599}</FileHash>
+	<FileHash>{25E24C9A-9514-19EB-218E-39C2DD31D118}</FileHash>
 </SoundBanksInfo>
