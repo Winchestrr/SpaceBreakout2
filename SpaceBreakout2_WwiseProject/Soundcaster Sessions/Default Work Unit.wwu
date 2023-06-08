@@ -61,7 +61,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="MainVolume" ID="{7E6BB6D5-F272-48A0-976F-6A4B17EB0D9B}"/>
-							<Value>64.4777662874871</Value>
+							<Value>89.9172699069287</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="MusicVolume" ID="{2BDE7E52-033E-49AF-94BE-3BBDDBACFFB5}"/>

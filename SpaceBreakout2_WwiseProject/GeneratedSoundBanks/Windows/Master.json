@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{86A638E3-357A-E91C-1E60-0F9A2F99F4CF}",
+    "Hash": "{3D197F42-AF40-59AC-3809-B6618F723550}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -38,6 +38,14 @@
       "Location": "Memory",
       "ShortName": "MetalRuttle_50ms.wav",
       "CachePath": "SFX/MetalRuttle_50ms_C33A8915.wem"
+     },
+     {
+      "Id": "68259160",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bass.wav",
+      "CachePath": "SFX/Bass_D79FB2B7.wem"
      },
      {
       "Id": "87918571",
@@ -118,6 +126,14 @@
       "Location": "Memory",
       "ShortName": "Pad_Long.wav",
       "CachePath": "SFX/Pad_Long_D79FB2B7.wem"
+     },
+     {
+      "Id": "286910771",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Radar.wav",
+      "CachePath": "SFX/Radar_D79FB2B7.wem"
      },
      {
       "Id": "289646352",
@@ -216,6 +232,14 @@
       "CachePath": "SFX/Generator_Explosion_Low_4_10C4C929.wem"
      },
      {
+      "Id": "664028586",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Drums_Main.wav",
+      "CachePath": "SFX/Drums_Main_D79FB2B7.wem"
+     },
+     {
       "Id": "667212441",
       "Language": "SFX",
       "Streaming": "false",
@@ -280,6 +304,14 @@
       "CachePath": "SFX/Generator_Explosion_Mid_3_10C4C929.wem"
      },
      {
+      "Id": "838448828",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Drums_Fill4.wav",
+      "CachePath": "SFX/Drums_Fill4_D79FB2B7.wem"
+     },
+     {
       "Id": "859320708",
       "Language": "SFX",
       "Streaming": "false",
@@ -294,6 +326,14 @@
       "Location": "Memory",
       "ShortName": "Dmg_Taken_1.wav",
       "CachePath": "SFX/Dmg_Taken_1_10C4C929.wem"
+     },
+     {
+      "Id": "883859625",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Horn.wav",
+      "CachePath": "SFX/Horn_D79FB2B7.wem"
      },
      {
       "Id": "901683300",
@@ -645,6 +685,40 @@
       ]
      },
      {
+      "Id": "360080557",
+      "Name": "GameMusic_Play",
+      "ObjectPath": "\\Events\\Music\\Music\\GameMusic_Play",
+      "GUID": "{A72DEEDE-8231-406A-974D-464C83DC5C3B}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "68259160"
+       },
+       {
+        "Id": "286910771"
+       },
+       {
+        "Id": "664028586"
+       },
+       {
+        "Id": "838448828"
+       },
+       {
+        "Id": "883859625"
+       }
+      ]
+     },
+     {
+      "Id": "1477274875",
+      "Name": "GameMusic_Stop",
+      "ObjectPath": "\\Events\\Music\\Music\\GameMusic_Stop",
+      "GUID": "{FF9EEC8A-DB91-495E-9B75-94DB51C7C376}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "619787537",
       "Name": "Gen_Explosion",
       "ObjectPath": "\\Events\\Gates\\Generators\\Gen_Explosion",
@@ -969,6 +1043,6 @@
     ]
    }
   ],
-  "FileHash": "{6BC596C3-AA09-B66C-5486-9899DB05A269}"
+  "FileHash": "{85126793-72E9-7F6C-CD49-719675117893}"
  }
 }

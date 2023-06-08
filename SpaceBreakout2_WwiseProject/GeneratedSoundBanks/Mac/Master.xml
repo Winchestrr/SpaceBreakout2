@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{86A638E3-357A-E91C-1E60-0F9A2F99F4CF}">
+		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{3D197F42-AF40-59AC-3809-B6618F723550}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -17,6 +17,10 @@
 				<File Id="42552773" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetalRuttle_50ms.wav</ShortName>
 					<CachePath>SFX/MetalRuttle_50ms_C33A8915.wem</CachePath>
+				</File>
+				<File Id="68259160" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bass.wav</ShortName>
+					<CachePath>SFX/Bass_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="87918571" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Generator_Explosion_Hi_1.wav</ShortName>
@@ -57,6 +61,10 @@
 				<File Id="249387919" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pad_Long.wav</ShortName>
 					<CachePath>SFX/Pad_Long_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="286910771" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Radar.wav</ShortName>
+					<CachePath>SFX/Radar_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="289646352" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>4c_50ms.wav</ShortName>
@@ -106,6 +114,10 @@
 					<ShortName>Generator_Explosion_Low_4.wav</ShortName>
 					<CachePath>SFX/Generator_Explosion_Low_4_10C4C929.wem</CachePath>
 				</File>
+				<File Id="664028586" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Drums_Main.wav</ShortName>
+					<CachePath>SFX/Drums_Main_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="667212441" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Explosion_3.wav</ShortName>
 					<CachePath>SFX/Explosion_3_10C4C929.wem</CachePath>
@@ -138,6 +150,10 @@
 					<ShortName>Generator_Explosion_Mid_3.wav</ShortName>
 					<CachePath>SFX/Generator_Explosion_Mid_3_10C4C929.wem</CachePath>
 				</File>
+				<File Id="838448828" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Drums_Fill4.wav</ShortName>
+					<CachePath>SFX/Drums_Fill4_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="859320708" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dmg_Taken_3.wav</ShortName>
 					<CachePath>SFX/Dmg_Taken_3_10C4C929.wem</CachePath>
@@ -145,6 +161,10 @@
 				<File Id="875107873" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dmg_Taken_1.wav</ShortName>
 					<CachePath>SFX/Dmg_Taken_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="883859625" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Horn.wav</ShortName>
+					<CachePath>SFX/Horn_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="901683300" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dmg_Taken_2.wav</ShortName>
@@ -290,6 +310,16 @@
 						<MediaRef Id="1043020179"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="360080557" Name="GameMusic_Play" ObjectPath="\Events\Music\Music\GameMusic_Play" GUID="{A72DEEDE-8231-406A-974D-464C83DC5C3B}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="68259160"/>
+						<MediaRef Id="286910771"/>
+						<MediaRef Id="664028586"/>
+						<MediaRef Id="838448828"/>
+						<MediaRef Id="883859625"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1477274875" Name="GameMusic_Stop" ObjectPath="\Events\Music\Music\GameMusic_Stop" GUID="{FF9EEC8A-DB91-495E-9B75-94DB51C7C376}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="619787537" Name="Gen_Explosion" ObjectPath="\Events\Gates\Generators\Gen_Explosion" GUID="{8E1FFB9F-67FE-4D80-A5D7-379D2DB2645E}" MaxAttenuation="50000" DurationType="OneShot" DurationMin="1" DurationMax="1.0145453">
 					<MediaRefs>
 						<MediaRef Id="87918571"/>
@@ -391,5 +421,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{14282D92-E24F-FE0B-3906-147C1FDEE0C3}</FileHash>
+	<FileHash>{AFD7FAF6-DEA9-D94F-EDC6-B8D551CC5CF7}</FileHash>
 </SoundBanksInfo>

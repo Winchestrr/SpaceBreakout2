@@ -12,7 +12,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Menu_Music" ID="{1F53DFCA-48CE-4425-A444-99E95B1FFFBE}" WorkUnitID="{DFB9488B-BEE5-49B7-AEA4-03A584657152}"/>
+									<ObjectRef Name="Menu_Music" ID="{1F53DFCA-48CE-4425-A444-99E95B1FFFBE}" WorkUnitID="{DD9BA4B3-E749-4769-A0B2-60C5BA5D3988}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -26,7 +26,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Menu_Music" ID="{1F53DFCA-48CE-4425-A444-99E95B1FFFBE}" WorkUnitID="{DFB9488B-BEE5-49B7-AEA4-03A584657152}"/>
+									<ObjectRef Name="Menu_Music" ID="{1F53DFCA-48CE-4425-A444-99E95B1FFFBE}" WorkUnitID="{DD9BA4B3-E749-4769-A0B2-60C5BA5D3988}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -36,7 +36,33 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="PickUp_Tex" ID="{6B1111B7-6611-46AD-93A0-37FA384CD55D}" WorkUnitID="{DFB9488B-BEE5-49B7-AEA4-03A584657152}"/>
+									<ObjectRef Name="PickUp_Tex" ID="{6B1111B7-6611-46AD-93A0-37FA384CD55D}" WorkUnitID="{DD9BA4B3-E749-4769-A0B2-60C5BA5D3988}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GameMusic_Play" ID="{A72DEEDE-8231-406A-974D-464C83DC5C3B}">
+					<ChildrenList>
+						<Action Name="" ID="{A428A683-1D31-495E-852D-5D92DD808CE9}" ShortID="593364637">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GameSeq" ID="{92AB1B85-C91D-47A9-8CCE-F2A9898C698D}" WorkUnitID="{EBA568B4-005F-4C56-8680-59AA27657B29}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GameMusic_Stop" ID="{FF9EEC8A-DB91-495E-9B75-94DB51C7C376}">
+					<ChildrenList>
+						<Action Name="" ID="{F2218F99-0703-4210-A3A3-CF57DD7C7CA1}" ShortID="1044272583">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GameSeq" ID="{92AB1B85-C91D-47A9-8CCE-F2A9898C698D}" WorkUnitID="{EBA568B4-005F-4C56-8680-59AA27657B29}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
