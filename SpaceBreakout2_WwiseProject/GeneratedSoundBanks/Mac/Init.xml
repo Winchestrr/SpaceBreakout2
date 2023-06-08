@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{31A93C95-17BF-7AFB-66BD-962DFCA1C55B}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{E88C7142-A7AA-AFD4-933B-7A7D254C0B72}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<ShareSets>
+					<Plugin Id="619831068" Name="Duck_Meter" ObjectPath="\Effects\Default Work Unit\Duck_Meter" GUID="{4BEB9548-ED17-4193-8C04-2BD85600D5C6}" LibName="Wwise Meter" LibId="8454147"/>
 					<Plugin Id="2995775460" Name="Room_Small" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Small" GUID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</ShareSets>
 				<AudioDevices>
@@ -29,6 +30,13 @@
 						</ShareSets>
 					</PluginRefs>
 				</AuxBus>
+				<AuxBus Id="4145699381" Name="Music_Duck_Aux" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music_Duck_Aux" GUID="{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="619831068"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
 			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="640949982" Name="Speed" ObjectPath="\Game Parameters\Player_Engine\Speed" GUID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"/>
@@ -36,11 +44,12 @@
 				<GameParameter Id="988953028" Name="SFXVolume" ObjectPath="\Game Parameters\Options\SFXVolume" GUID="{45787E01-5AA6-4A9D-93D8-C0F9DE786340}"/>
 				<GameParameter Id="1205999388" Name="Enemy_Death" ObjectPath="\Game Parameters\Enemy\Enemy_Death" GUID="{7987A131-FA89-4C51-A6C1-77D67BC5FE02}"/>
 				<GameParameter Id="1252186741" Name="AutoMode" ObjectPath="\Game Parameters\Player_Gun\AutoMode" GUID="{6B76A057-4CC6-4F74-A573-B1443882C069}"/>
+				<GameParameter Id="1731033231" Name="Musci_Sidechain" ObjectPath="\Game Parameters\Default Work Unit\Musci_Sidechain" GUID="{7BED921A-B7E3-4C90-B7E6-189E0BC04C38}"/>
 				<GameParameter Id="1843561328" Name="MainVolume" ObjectPath="\Game Parameters\Options\MainVolume" GUID="{7E6BB6D5-F272-48A0-976F-6A4B17EB0D9B}"/>
 				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Options\MusicVolume" GUID="{2BDE7E52-033E-49AF-94BE-3BBDDBACFFB5}"/>
 				<GameParameter Id="2968795556" Name="Glide" ObjectPath="\Game Parameters\Player_Engine\Glide" GUID="{E3031780-9B18-4EC8-9E82-527974BEA3C5}"/>
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{757322C9-8C49-5F1F-6B52-D01A7AD85E76}</FileHash>
+	<FileHash>{E2A848C0-D268-6D03-C66D-E909061A0052}</FileHash>
 </SoundBanksInfo>

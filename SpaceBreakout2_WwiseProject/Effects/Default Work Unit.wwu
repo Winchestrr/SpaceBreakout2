@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9FFCCCA0-4013-403D-AA23-67BA94E68E4C}" SchemaVersion="110">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{9FFCCCA0-4013-403D-AA23-67BA94E68E4C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9FFCCCA0-4013-403D-AA23-67BA94E68E4C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Duck_Meter" ID="{4BEB9548-ED17-4193-8C04-2BD85600D5C6}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="Hold" Type="Real32" Value="0.2"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.4"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="Musci_Sidechain" ID="{7BED921A-B7E3-4C90-B7E6-189E0BC04C38}"/>
+</PluginData>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

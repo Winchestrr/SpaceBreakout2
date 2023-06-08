@@ -72,6 +72,10 @@
 							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Musci_Sidechain" ID="{7BED921A-B7E3-4C90-B7E6-189E0BC04C38}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="Speed" ID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"/>
 							<Value>8000</Value>
 						</RTPCValue>
@@ -100,6 +104,18 @@
 						<Module>
 							<ObjectRef Name="EngineStart" ID="{6C650701-4DB9-4776-B651-5AF00B3FF3D1}" WorkUnitID="{A3F32CDE-C778-4C0B-A2C8-285F5122ED8A}"/>
 							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="GameMusic_Play" ID="{A72DEEDE-8231-406A-974D-464C83DC5C3B}" WorkUnitID="{B1886E01-9283-4E9F-8054-D2FE298A9736}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PickUp_PowerUp" ID="{B7325365-57FF-4788-B2F7-813AFD4C5D5E}" WorkUnitID="{52F1A2BA-2F33-41B0-A002-B234A32CD87D}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="CheckPoint" ID="{95E17FA5-3626-44DB-938D-14D3DA8D3AC9}" WorkUnitID="{52F1A2BA-2F33-41B0-A002-B234A32CD87D}"/>
+							<Position X="2" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{F6696C71-D63B-513C-628C-E03057D9EC01}",
+    "Hash": "{ADB92E80-35C3-E755-1D84-20BE14FC5BD3}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -489,6 +489,14 @@
        {
         "Id": "904171427"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "4145699381",
+        "Name": "Music_Duck_Aux",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music_Duck_Aux",
+        "GUID": "{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}"
+       }
       ]
      },
      {
@@ -542,6 +550,14 @@
       "MediaRefs": [
        {
         "Id": "1011644442"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "4145699381",
+        "Name": "Music_Duck_Aux",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music_Duck_Aux",
+        "GUID": "{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}"
        }
       ]
      },
@@ -779,6 +795,14 @@
        {
         "Id": "1064403143"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "4145699381",
+        "Name": "Music_Duck_Aux",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music_Duck_Aux",
+        "GUID": "{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}"
+       }
       ]
      },
      {
@@ -852,6 +876,14 @@
        },
        {
         "Id": "641029741"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "4145699381",
+        "Name": "Music_Duck_Aux",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music_Duck_Aux",
+        "GUID": "{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}"
        }
       ]
      },
@@ -1032,6 +1064,6 @@
     ]
    }
   ],
-  "FileHash": "{19A0A2CB-D6C7-F118-9191-E10412735F7F}"
+  "FileHash": "{CDC03093-7228-C54A-D273-454DF5C473CA}"
  }
 }

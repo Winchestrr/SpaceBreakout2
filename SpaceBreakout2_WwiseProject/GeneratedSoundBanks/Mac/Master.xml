@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{F6696C71-D63B-513C-628C-E03057D9EC01}">
+		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{ADB92E80-35C3-E755-1D84-20BE14FC5BD3}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -241,6 +241,9 @@
 					<MediaRefs>
 						<MediaRef Id="904171427"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="4145699381" Name="Music_Duck_Aux" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music_Duck_Aux" GUID="{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="1701177942" Name="Button_Hover" ObjectPath="\Events\Menu\Menu\Button_Hover" GUID="{B64F7364-EFF7-4016-A5B4-DA1FDC336E4F}" DurationType="OneShot" DurationMin="0.25" DurationMax="0.25">
 					<MediaRefs>
@@ -260,6 +263,9 @@
 					<MediaRefs>
 						<MediaRef Id="1011644442"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="4145699381" Name="Music_Duck_Aux" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music_Duck_Aux" GUID="{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="1763999390" Name="Damage_Taken" ObjectPath="\Events\Player\Player_Ship\Player_Damage\Damage_Taken" GUID="{93D7B761-A2CD-490F-A91E-47434D556F56}" DurationType="OneShot" DurationMin="0.625" DurationMax="0.625">
 					<MediaRefs>
@@ -340,6 +346,9 @@
 						<MediaRef Id="1023344460"/>
 						<MediaRef Id="1064403143"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="4145699381" Name="Music_Duck_Aux" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music_Duck_Aux" GUID="{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="1772735026" Name="Gen_Idle" ObjectPath="\Events\Gates\Generators\Gen_Idle" GUID="{4D6FA5E8-AC89-4B27-918E-65D49801B10C}" MaxAttenuation="30000" DurationType="Infinite">
 					<MediaRefs>
@@ -362,6 +371,9 @@
 						<MediaRef Id="160425296"/>
 						<MediaRef Id="641029741"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="4145699381" Name="Music_Duck_Aux" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music_Duck_Aux" GUID="{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Player\Player_Ship\Player_Damage\Player_Death" GUID="{01511685-0572-4254-8EE6-FC9771B406C8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1652732926" Name="Player_Explosion" ObjectPath="\Events\Player\Player_Ship\Player_Damage\Player_Explosion" GUID="{DF045002-1F4A-4FA9-B10D-97E16C24B2E1}" DurationType="OneShot" DurationMin="1" DurationMax="1">
@@ -417,5 +429,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4451A6D3-FA5D-FF00-CD9A-0A6A356DBC6B}</FileHash>
+	<FileHash>{0CDB03A1-86E3-85D1-497F-688A06928C30}</FileHash>
 </SoundBanksInfo>

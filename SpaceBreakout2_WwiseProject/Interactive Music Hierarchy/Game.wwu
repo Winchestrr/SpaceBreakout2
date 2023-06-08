@@ -30,6 +30,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<MusicTrack Name="Drums_Main" ID="{71F2F860-0F03-49E9-8A44-E53BBE609718}" ShortID="374421714">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
@@ -261,6 +268,13 @@
 									</ObjectLists>
 								</MusicTrack>
 								<MusicTrack Name="Bass" ID="{F35EC118-5BE3-4375-8EB9-37D410CEF256}" ShortID="853552613">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>

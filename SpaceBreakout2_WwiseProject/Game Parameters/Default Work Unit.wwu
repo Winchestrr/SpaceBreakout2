@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{DD749083-7F56-4B4D-AA86-C00263B948E5}" SchemaVersion="110">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{DD749083-7F56-4B4D-AA86-C00263B948E5}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{DD749083-7F56-4B4D-AA86-C00263B948E5}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Musci_Sidechain" ID="{7BED921A-B7E3-4C90-B7E6-189E0BC04C38}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

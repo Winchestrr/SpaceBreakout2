@@ -1,6 +1,7 @@
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	779278001	Death			\Player_Engine\Death	
 	988953028	SFXVolume			\Options\SFXVolume	
+	1731033231	Musci_Sidechain			\Default Work Unit\Musci_Sidechain	
 	1843561328	MainVolume			\Options\MainVolume	
 	2346531308	MusicVolume			\Options\MusicVolume	
 
@@ -13,8 +14,10 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	671700957	Rev_Tube			\Default Work Unit\Master Audio Bus\SFX_Bus\Rev_Tube	
+	4145699381	Music_Duck_Aux			\Default Work Unit\Master Audio Bus\Music_Duck_Aux	
 
 Effect plug-ins	ID	Name	Type				Notes
+	619831068	Duck_Meter	Wwise Meter			
 	2995775460	Room_Small	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes

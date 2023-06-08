@@ -504,6 +504,9 @@
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Player_Bus" ID="{BF5723EA-F0D4-4558-A53C-FA010D04C852}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
 						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Music_Duck_Aux" ID="{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Acc_Up" ID="{DFFB10F5-D983-4926-AD39-3C67B613C233}">

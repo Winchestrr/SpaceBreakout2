@@ -11,6 +11,7 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Music_Bus" ID="{8BD681F4-A304-4191-B9DA-8328CD4AF064}">
+							<ReferenceList/>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
 									<Reference>
@@ -39,6 +40,53 @@
 																	<Point>
 																		<XPos>100</XPos>
 																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{249BBBD6-8B95-4027-8E7F-B8BFCA9DBED8}" ShortID="978122804">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Musci_Sidechain" ID="{7BED921A-B7E3-4C90-B7E6-189E0BC04C38}" WorkUnitID="{DD749083-7F56-4B4D-AA86-C00263B948E5}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{7EF45B43-780A-469C-B278-7B7FF30FCE42}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-48</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>-30</XPos>
+																		<YPos>-0.1868</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-2.53154</XPos>
+																		<YPos>-10</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-10</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -201,6 +249,13 @@
 								</ObjectList>
 							</ObjectLists>
 						</Bus>
+						<AuxBus Name="Music_Duck_Aux" ID="{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+									<ObjectRef Name="Duck_Meter" ID="{4BEB9548-ED17-4193-8C04-2BD85600D5C6}" WorkUnitID="{9FFCCCA0-4013-403D-AA23-67BA94E68E4C}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
 					</ChildrenList>
 					<ObjectLists>
 						<ObjectList Name="RTPC">

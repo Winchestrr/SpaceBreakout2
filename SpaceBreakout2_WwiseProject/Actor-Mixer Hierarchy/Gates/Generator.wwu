@@ -18,6 +18,9 @@
 						<Reference Name="OutputBus">
 							<ObjectRef Name="AMB_Bus" ID="{DDE33DBA-3100-4148-A547-CF7D98C7E62F}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
 						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Music_Duck_Aux" ID="{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="Exp_Low" ID="{376332F0-704B-4074-98BB-7C430C532362}" ShortID="422645948">
