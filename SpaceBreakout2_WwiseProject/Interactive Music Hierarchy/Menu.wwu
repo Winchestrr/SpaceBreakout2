@@ -561,26 +561,20 @@
 						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
-				<MusicSegment Name="PickUp_Tex" ID="{6B1111B7-6611-46AD-93A0-37FA384CD55D}" ShortID="1061219845">
+				<MusicSegment Name="Menu_Tex" ID="{4C9B725B-88EB-4EED-B912-4E33D33CD5B3}" ShortID="405388415">
 					<PropertyList>
-						<Property Name="EndPosition" Type="Real64" Value="4312.5"/>
-						<Property Name="Tempo" Type="Real64" Value="160"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>3</Value>
-							</ValueList>
-						</Property>
+						<Property Name="EndPosition" Type="Real64" Value="14531.25"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Music_Bus" ID="{8BD681F4-A304-4191-B9DA-8328CD4AF064}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicTrack Name="Pad_PickUpTex_1" ID="{8E1C579C-D2C2-4E04-805B-E66129BFFD09}" ShortID="283067196">
+						<MusicTrack Name="Pad_Tex_1" ID="{0939D995-D302-4485-8641-F18679D387A4}" ShortID="383604403">
 							<PropertyList>
 								<Property Name="MusicTrackType" Type="int16" Value="1"/>
 							</PropertyList>
@@ -590,37 +584,37 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Pad_PickUpTex_1" ID="{DEDD0684-24EA-468F-8E6A-6BAD7AC69EF0}">
+								<AudioFileSource Name="Pad_PressTex_1" ID="{5E8C2D0D-0F17-461E-8266-168239820AEC}">
 									<Language>SFX</Language>
-									<AudioFile>Pad_PickUpTex_1.wav</AudioFile>
+									<AudioFile>Pad_PressTex_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="463491786"/>
+										<MediaID ID="1006827640"/>
 									</MediaIDList>
 								</AudioFileSource>
-								<AudioFileSource Name="Pad_PickUpTex_2" ID="{963DCD1F-9BE0-49EF-A570-339899B0D9B8}">
+								<AudioFileSource Name="Pad_PressTex_2" ID="{37BDD07D-563C-4F11-AC86-85443D2BC6D7}">
 									<Language>SFX</Language>
-									<AudioFile>Pad_PickUpTex_2.wav</AudioFile>
+									<AudioFile>Pad_PressTex_2.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="13056317"/>
+										<MediaID ID="764286339"/>
 									</MediaIDList>
 								</AudioFileSource>
-								<AudioFileSource Name="Pad_PickUpTex_3" ID="{48195B40-FF2B-47F9-BE49-52E21B76A6E0}">
+								<AudioFileSource Name="Pad_PressTex_3" ID="{DEB735F5-5C6B-4627-8926-A0F677B54778}">
 									<Language>SFX</Language>
-									<AudioFile>Pad_PickUpTex_3.wav</AudioFile>
+									<AudioFile>Pad_PressTex_3.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="96438833"/>
+										<MediaID ID="390569858"/>
 									</MediaIDList>
 								</AudioFileSource>
-								<AudioFileSource Name="Pad_PickUpTex_4" ID="{2C4E8F1B-DE03-4AE4-AA8A-B17C56E8DBCC}">
+								<AudioFileSource Name="Pad_PressTex_4" ID="{CD2A9847-D9B5-4497-B22A-0C3270587AB4}">
 									<Language>SFX</Language>
-									<AudioFile>Pad_PickUpTex_4.wav</AudioFile>
+									<AudioFile>Pad_PressTex_4.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="742422883"/>
+										<MediaID ID="475873671"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<TransitionList>
-								<MusicTransition Name="Root" ID="{249BCCD5-7876-4E31-A9AB-CF2F62A777C6}">
+								<MusicTransition Name="Root" ID="{CF64E8BE-9D79-4D2E-A429-7051493F8780}">
 									<PropertyList>
 										<Property Name="IsFolder" Type="bool" Value="True"/>
 									</PropertyList>
@@ -631,18 +625,18 @@
 								<ObjectList Name="Sequences">
 									<Reference>
 										<Local>
-											<MusicTrackSequence Name="" ID="{70475D84-EB96-4EF2-A51A-2828FE29784A}">
+											<MusicTrackSequence Name="" ID="{56F90A69-655A-4B69-A7A1-3F801D4111D2}">
 												<ObjectLists>
 													<ObjectList Name="Clips">
 														<Reference>
 															<Local>
-																<MusicClip Name="Pad_PickUpTex_1" ID="{FEC9AD81-4B68-4504-B245-8F3B1F9B45E5}">
+																<MusicClip Name="Pad_PressTex_1" ID="{3E671BCF-7E50-4195-95CE-C750C6FFA018}">
 																	<PropertyList>
 																		<Property Name="EndTrimOffset" Type="Real64" Value="3093.75"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																	</PropertyList>
-																	<AudioSourceRef Name="Pad_PickUpTex_1" ID="{DEDD0684-24EA-468F-8E6A-6BAD7AC69EF0}"/>
+																	<AudioSourceRef Name="Pad_PressTex_1" ID="{5E8C2D0D-0F17-461E-8266-168239820AEC}"/>
 																</MusicClip>
 															</Local>
 														</Reference>
@@ -653,18 +647,18 @@
 									</Reference>
 									<Reference>
 										<Local>
-											<MusicTrackSequence Name="" ID="{C922FC09-0F13-4B57-9FB6-98D0159DB9A8}">
+											<MusicTrackSequence Name="" ID="{22597A80-E8BE-4723-A942-5A79322DB06B}">
 												<ObjectLists>
 													<ObjectList Name="Clips">
 														<Reference>
 															<Local>
-																<MusicClip Name="Pad_PickUpTex_2" ID="{B0A252EF-1A1B-46B0-862B-FCD47B093865}">
+																<MusicClip Name="Pad_PressTex_2" ID="{A5F28777-6205-4152-82B9-35927C033A92}">
 																	<PropertyList>
 																		<Property Name="EndTrimOffset" Type="Real64" Value="4312.5"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																	</PropertyList>
-																	<AudioSourceRef Name="Pad_PickUpTex_2" ID="{963DCD1F-9BE0-49EF-A570-339899B0D9B8}"/>
+																	<AudioSourceRef Name="Pad_PressTex_2" ID="{37BDD07D-563C-4F11-AC86-85443D2BC6D7}"/>
 																</MusicClip>
 															</Local>
 														</Reference>
@@ -675,18 +669,18 @@
 									</Reference>
 									<Reference>
 										<Local>
-											<MusicTrackSequence Name="" ID="{D9E40F4B-A048-4428-9409-EE78DDEDAC40}">
+											<MusicTrackSequence Name="" ID="{E605CF9C-3D14-496F-A904-B7CEC17E4FE2}">
 												<ObjectLists>
 													<ObjectList Name="Clips">
 														<Reference>
 															<Local>
-																<MusicClip Name="Pad_PickUpTex_3" ID="{B8C45A55-89A4-4C8A-9C14-823F8E9DF72E}">
+																<MusicClip Name="Pad_PressTex_3" ID="{6BC2B961-3ED7-4B6B-9F6B-2650B120B653}">
 																	<PropertyList>
 																		<Property Name="EndTrimOffset" Type="Real64" Value="3750"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																	</PropertyList>
-																	<AudioSourceRef Name="Pad_PickUpTex_3" ID="{48195B40-FF2B-47F9-BE49-52E21B76A6E0}"/>
+																	<AudioSourceRef Name="Pad_PressTex_3" ID="{DEB735F5-5C6B-4627-8926-A0F677B54778}"/>
 																</MusicClip>
 															</Local>
 														</Reference>
@@ -697,18 +691,18 @@
 									</Reference>
 									<Reference>
 										<Local>
-											<MusicTrackSequence Name="" ID="{E527465A-1669-4588-B357-21F09C05B9A7}">
+											<MusicTrackSequence Name="" ID="{467773E6-4F7A-4283-A7B7-81C0A5E9D7C0}">
 												<ObjectLists>
 													<ObjectList Name="Clips">
 														<Reference>
 															<Local>
-																<MusicClip Name="Pad_PickUpTex_4" ID="{64D2C5A8-DF33-4637-8473-3CB469AA0233}">
+																<MusicClip Name="Pad_PressTex_4" ID="{E32082AB-9739-4A9C-AC82-74C1F53297C3}">
 																	<PropertyList>
 																		<Property Name="EndTrimOffset" Type="Real64" Value="3375"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																	</PropertyList>
-																	<AudioSourceRef Name="Pad_PickUpTex_4" ID="{2C4E8F1B-DE03-4AE4-AA8A-B17C56E8DBCC}"/>
+																	<AudioSourceRef Name="Pad_PressTex_4" ID="{CD2A9847-D9B5-4497-B22A-0C3270587AB4}"/>
 																</MusicClip>
 															</Local>
 														</Reference>
@@ -725,15 +719,15 @@
 						<ObjectList Name="Cues">
 							<Reference>
 								<Local>
-									<MusicCue Name="Entry Cue" ID="{25149F3E-30BE-4570-80BF-8D1E367BE7C2}"/>
+									<MusicCue Name="Entry Cue" ID="{BE4E00D4-36AF-4CEE-9066-71210D65DCAC}"/>
 								</Local>
 							</Reference>
 							<Reference>
 								<Local>
-									<MusicCue Name="Exit Cue" ID="{A219209F-0A97-47F4-9609-532AA6D69646}">
+									<MusicCue Name="Exit Cue" ID="{414ABCAC-537B-43DF-9185-ACB5F7464E16}">
 										<PropertyList>
 											<Property Name="CueType" Type="int16" Value="1"/>
-											<Property Name="TimeMs" Type="Real64" Value="1000"/>
+											<Property Name="TimeMs" Type="Real64" Value="6000"/>
 										</PropertyList>
 									</MusicCue>
 								</Local>

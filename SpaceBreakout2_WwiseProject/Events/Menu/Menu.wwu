@@ -23,6 +23,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{896E0FB6-493E-4CD8-A7F2-B66730651EE3}" ShortID="91131227">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu_Tex" ID="{4C9B725B-88EB-4EED-B912-4E33D33CD5B3}" WorkUnitID="{DD9BA4B3-E749-4769-A0B2-60C5BA5D3988}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Slider_ChangeValue" ID="{39777D41-252A-4809-A4EC-835EF6B0626D}">

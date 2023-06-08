@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{3D197F42-AF40-59AC-3809-B6618F723550}">
+		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{F6696C71-D63B-513C-628C-E03057D9EC01}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
 			<Media>
-				<File Id="13056317" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Pad_PickUpTex_2.wav</ShortName>
-					<CachePath>SFX/Pad_PickUpTex_2_D79FB2B7.wem</CachePath>
-				</File>
 				<File Id="39490669" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Button_Press.wav</ShortName>
 					<CachePath>SFX/Button_Press_10C4C929.wem</CachePath>
@@ -25,10 +21,6 @@
 				<File Id="87918571" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Generator_Explosion_Hi_1.wav</ShortName>
 					<CachePath>SFX/Generator_Explosion_Hi_1_10C4C929.wem</CachePath>
-				</File>
-				<File Id="96438833" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Pad_PickUpTex_3.wav</ShortName>
-					<CachePath>SFX/Pad_PickUpTex_3_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="98268633" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>4c_100ms.wav</ShortName>
@@ -82,6 +74,10 @@
 					<ShortName>Air_50ms.wav</ShortName>
 					<CachePath>SFX/Air_50ms_55193FF2.wem</CachePath>
 				</File>
+				<File Id="390569858" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pad_PressTex_3.wav</ShortName>
+					<CachePath>SFX/Pad_PressTex_3_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="392017222" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetalRuttle_25ms.wav</ShortName>
 					<CachePath>SFX/MetalRuttle_25ms_0435493D.wem</CachePath>
@@ -90,13 +86,13 @@
 					<ShortName>Explosion_4.wav</ShortName>
 					<CachePath>SFX/Explosion_4_10C4C929.wem</CachePath>
 				</File>
-				<File Id="463491786" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Pad_PickUpTex_1.wav</ShortName>
-					<CachePath>SFX/Pad_PickUpTex_1_D79FB2B7.wem</CachePath>
-				</File>
 				<File Id="463601207" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pad_Tex_1.wav</ShortName>
 					<CachePath>SFX/Pad_Tex_1_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="475873671" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pad_PressTex_4.wav</ShortName>
+					<CachePath>SFX/Pad_PressTex_4_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="551274477" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>4c_50ms.wav</ShortName>
@@ -134,9 +130,9 @@
 					<ShortName>Explosion_1.wav</ShortName>
 					<CachePath>SFX/Explosion_1_10C4C929.wem</CachePath>
 				</File>
-				<File Id="742422883" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Pad_PickUpTex_4.wav</ShortName>
-					<CachePath>SFX/Pad_PickUpTex_4_D79FB2B7.wem</CachePath>
+				<File Id="764286339" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pad_PressTex_2.wav</ShortName>
+					<CachePath>SFX/Pad_PressTex_2_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="774905702" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pad_Tex_4.wav</ShortName>
@@ -198,6 +194,10 @@
 					<ShortName>Generator_Explosion_Mid_1.wav</ShortName>
 					<CachePath>SFX/Generator_Explosion_Mid_1_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1006827640" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pad_PressTex_1.wav</ShortName>
+					<CachePath>SFX/Pad_PressTex_1_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="1011644442" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CheckPoint.wav</ShortName>
 					<CachePath>SFX/CheckPoint_10C4C929.wem</CachePath>
@@ -247,9 +247,13 @@
 						<MediaRef Id="999927059"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2698747613" Name="Button_Press" ObjectPath="\Events\Menu\Menu\Button_Press" GUID="{1393B155-4919-4399-BEC8-14ACE5D1BA82}" DurationType="OneShot" DurationMin="0.3125" DurationMax="0.3125">
+				<Event Id="2698747613" Name="Button_Press" ObjectPath="\Events\Menu\Menu\Button_Press" GUID="{1393B155-4919-4399-BEC8-14ACE5D1BA82}" DurationType="OneShot" DurationMin="6" DurationMax="6">
 					<MediaRefs>
 						<MediaRef Id="39490669"/>
+						<MediaRef Id="390569858"/>
+						<MediaRef Id="475873671"/>
+						<MediaRef Id="764286339"/>
+						<MediaRef Id="1006827640"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="612075679" Name="CheckPoint" ObjectPath="\Events\Player\UI\CheckPoint" GUID="{95E17FA5-3626-44DB-938D-14D3DA8D3AC9}" DurationType="OneShot" DurationMin="1" DurationMax="1">
@@ -353,18 +357,10 @@
 				</Event>
 				<Event Id="1115745636" Name="MenuMusic_Stop" ObjectPath="\Events\Music\Music\MenuMusic_Stop" GUID="{7F9A7BA5-523B-4023-9760-2E543CF5E234}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="528278262" Name="Pause_Game" ObjectPath="\Events\UI\UI\Pause_Game" GUID="{7753699B-D1A5-44C8-AACA-D8C1D73D3645}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3717217436" Name="PickUp_Fuel" ObjectPath="\Events\Player\UI\PickUp_Fuel" GUID="{B8A861DD-213E-4EE3-9909-CDD01C8FB114}" DurationType="OneShot" DurationMin="4.3125" DurationMax="4.3125">
-					<MediaRefs>
-						<MediaRef Id="13056317"/>
-						<MediaRef Id="96438833"/>
-						<MediaRef Id="463491786"/>
-						<MediaRef Id="641029741"/>
-						<MediaRef Id="742422883"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="2088053380" Name="PickUp_PowerUp" ObjectPath="\Events\Player\UI\PickUp_PowerUp" GUID="{B7325365-57FF-4788-B2F7-813AFD4C5D5E}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
 					<MediaRefs>
 						<MediaRef Id="160425296"/>
+						<MediaRef Id="641029741"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Player\Player_Ship\Player_Damage\Player_Death" GUID="{01511685-0572-4254-8EE6-FC9771B406C8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -421,5 +417,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C8B04DD3-27D3-7298-70AD-9308E465C696}</FileHash>
+	<FileHash>{350637CE-01B5-9361-959A-F9FE7DF2A475}</FileHash>
 </SoundBanksInfo>

@@ -29,7 +29,6 @@
 						<ObjectRef Name="GameMusic_Stop" ID="{FF9EEC8A-DB91-495E-9B75-94DB51C7C376}" WorkUnitID="{B1886E01-9283-4E9F-8054-D2FE298A9736}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Gen_Idle" ID="{4D6FA5E8-AC89-4B27-918E-65D49801B10C}" WorkUnitID="{C0EC18BB-BAA3-4BF5-AC35-85AFC6D8D4C4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Gen_Explosion" ID="{8E1FFB9F-67FE-4D80-A5D7-379D2DB2645E}" WorkUnitID="{C0EC18BB-BAA3-4BF5-AC35-85AFC6D8D4C4}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="PickUp_Fuel" ID="{B8A861DD-213E-4EE3-9909-CDD01C8FB114}" WorkUnitID="{52F1A2BA-2F33-41B0-A002-B234A32CD87D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Explosion" ID="{DF045002-1F4A-4FA9-B10D-97E16C24B2E1}" WorkUnitID="{588E399A-E016-4FB0-9D56-AC95D956C888}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

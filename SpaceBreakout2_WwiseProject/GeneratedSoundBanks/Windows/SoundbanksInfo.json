@@ -155,19 +155,11 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{3D197F42-AF40-59AC-3809-B6618F723550}",
+    "Hash": "{F6696C71-D63B-513C-628C-E03057D9EC01}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
     "Media": [
-     {
-      "Id": "13056317",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Pad_PickUpTex_2.wav",
-      "CachePath": "SFX/Pad_PickUpTex_2_D79FB2B7.wem"
-     },
      {
       "Id": "39490669",
       "Language": "SFX",
@@ -199,14 +191,6 @@
       "Location": "Memory",
       "ShortName": "Generator_Explosion_Hi_1.wav",
       "CachePath": "SFX/Generator_Explosion_Hi_1_10C4C929.wem"
-     },
-     {
-      "Id": "96438833",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Pad_PickUpTex_3.wav",
-      "CachePath": "SFX/Pad_PickUpTex_3_D79FB2B7.wem"
      },
      {
       "Id": "98268633",
@@ -313,6 +297,14 @@
       "CachePath": "SFX/Air_50ms_55193FF2.wem"
      },
      {
+      "Id": "390569858",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pad_PressTex_3.wav",
+      "CachePath": "SFX/Pad_PressTex_3_D79FB2B7.wem"
+     },
+     {
       "Id": "392017222",
       "Language": "SFX",
       "Streaming": "false",
@@ -329,20 +321,20 @@
       "CachePath": "SFX/Explosion_4_10C4C929.wem"
      },
      {
-      "Id": "463491786",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Pad_PickUpTex_1.wav",
-      "CachePath": "SFX/Pad_PickUpTex_1_D79FB2B7.wem"
-     },
-     {
       "Id": "463601207",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Pad_Tex_1.wav",
       "CachePath": "SFX/Pad_Tex_1_D79FB2B7.wem"
+     },
+     {
+      "Id": "475873671",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pad_PressTex_4.wav",
+      "CachePath": "SFX/Pad_PressTex_4_D79FB2B7.wem"
      },
      {
       "Id": "551274477",
@@ -417,12 +409,12 @@
       "CachePath": "SFX/Explosion_1_10C4C929.wem"
      },
      {
-      "Id": "742422883",
+      "Id": "764286339",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Pad_PickUpTex_4.wav",
-      "CachePath": "SFX/Pad_PickUpTex_4_D79FB2B7.wem"
+      "ShortName": "Pad_PressTex_2.wav",
+      "CachePath": "SFX/Pad_PressTex_2_D79FB2B7.wem"
      },
      {
       "Id": "774905702",
@@ -545,6 +537,14 @@
       "CachePath": "SFX/Generator_Explosion_Mid_1_10C4C929.wem"
      },
      {
+      "Id": "1006827640",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pad_PressTex_1.wav",
+      "CachePath": "SFX/Pad_PressTex_1_D79FB2B7.wem"
+     },
+     {
       "Id": "1011644442",
       "Language": "SFX",
       "Streaming": "false",
@@ -656,11 +656,23 @@
       "ObjectPath": "\\Events\\Menu\\Menu\\Button_Press",
       "GUID": "{1393B155-4919-4399-BEC8-14ACE5D1BA82}",
       "DurationType": "OneShot",
-      "DurationMin": "0.3125",
-      "DurationMax": "0.3125",
+      "DurationMin": "6",
+      "DurationMax": "6",
       "MediaRefs": [
        {
         "Id": "39490669"
+       },
+       {
+        "Id": "390569858"
+       },
+       {
+        "Id": "475873671"
+       },
+       {
+        "Id": "764286339"
+       },
+       {
+        "Id": "1006827640"
        }
       ]
      },
@@ -972,32 +984,6 @@
       "DurationMax": "0"
      },
      {
-      "Id": "3717217436",
-      "Name": "PickUp_Fuel",
-      "ObjectPath": "\\Events\\Player\\UI\\PickUp_Fuel",
-      "GUID": "{B8A861DD-213E-4EE3-9909-CDD01C8FB114}",
-      "DurationType": "OneShot",
-      "DurationMin": "4.3125",
-      "DurationMax": "4.3125",
-      "MediaRefs": [
-       {
-        "Id": "13056317"
-       },
-       {
-        "Id": "96438833"
-       },
-       {
-        "Id": "463491786"
-       },
-       {
-        "Id": "641029741"
-       },
-       {
-        "Id": "742422883"
-       }
-      ]
-     },
-     {
       "Id": "2088053380",
       "Name": "PickUp_PowerUp",
       "ObjectPath": "\\Events\\Player\\UI\\PickUp_PowerUp",
@@ -1008,6 +994,9 @@
       "MediaRefs": [
        {
         "Id": "160425296"
+       },
+       {
+        "Id": "641029741"
        }
       ]
      },
@@ -1188,6 +1177,6 @@
     ]
    }
   ],
-  "FileHash": "{0D45F1A4-2B15-477C-D71F-1D19646E4EBD}"
+  "FileHash": "{EED5C195-5C15-C15A-FB93-D67BFE17DD98}"
  }
 }

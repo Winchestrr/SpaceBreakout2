@@ -7,30 +7,12 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Event Name="PickUp_Fuel" ID="{B8A861DD-213E-4EE3-9909-CDD01C8FB114}">
-					<ChildrenList>
-						<Action Name="" ID="{0D95C9FD-E465-476D-9F80-8F936808CDD2}" ShortID="357557756">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Fuel" ID="{C73732E3-B34F-4895-BF27-D1C648EBB674}" WorkUnitID="{AB756145-1DE4-4B2E-847B-410BACD1781B}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{A51B27D5-E778-4572-9396-425D88823DB2}" ShortID="817055627">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="PickUp_Tex" ID="{6B1111B7-6611-46AD-93A0-37FA384CD55D}" WorkUnitID="{DD9BA4B3-E749-4769-A0B2-60C5BA5D3988}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="PickUp_PowerUp" ID="{B7325365-57FF-4788-B2F7-813AFD4C5D5E}">
 					<ChildrenList>
-						<Action Name="" ID="{39561A3C-EAA8-42F6-B778-EA874A35500D}" ShortID="1042229380">
+						<Action Name="" ID="{285578F9-3629-415A-8AF4-466BF36691AC}" ShortID="892647629">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Power_Up" ID="{3CB44FC8-7D26-4301-A683-6F7AB5178994}" WorkUnitID="{AB756145-1DE4-4B2E-847B-410BACD1781B}"/>
+									<ObjectRef Name="PickUp" ID="{0A4764F7-92F8-4CDA-8058-D11D743CCDCF}" WorkUnitID="{AB756145-1DE4-4B2E-847B-410BACD1781B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

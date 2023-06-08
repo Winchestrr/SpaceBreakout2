@@ -30,16 +30,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{30407BBB-E431-48C5-B314-5B42351B8CFA}" ShortID="276922437">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="PickUp_Tex" ID="{6B1111B7-6611-46AD-93A0-37FA384CD55D}" WorkUnitID="{DD9BA4B3-E749-4769-A0B2-60C5BA5D3988}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="GameMusic_Play" ID="{A72DEEDE-8231-406A-974D-464C83DC5C3B}">

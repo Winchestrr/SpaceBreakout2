@@ -7,57 +7,6 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Sound Name="Fuel" ID="{C73732E3-B34F-4895-BF27-D1C648EBB674}" ShortID="61792040">
-					<PropertyList>
-						<Property Name="Priority" Type="int16">
-							<ValueList>
-								<Value>60</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="SFX_Bus" ID="{802F7C61-BCCC-4DC4-95AB-EF557EB2B0A0}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Fuel" ID="{472295AC-F6CB-4CEE-A774-F1C70B239801}">
-							<Language>SFX</Language>
-							<AudioFile>Fuel.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="641029741"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Fuel" ID="{472295AC-F6CB-4CEE-A774-F1C70B239801}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Power_Up" ID="{3CB44FC8-7D26-4301-A683-6F7AB5178994}" ShortID="557915565">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="SFX_Bus" ID="{802F7C61-BCCC-4DC4-95AB-EF557EB2B0A0}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Power_Up" ID="{892B2EE5-BFDD-438F-AA5A-31EDA1A3D2D6}">
-							<Language>SFX</Language>
-							<AudioFile>Power_Up.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="160425296"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Power_Up" ID="{892B2EE5-BFDD-438F-AA5A-31EDA1A3D2D6}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Sound Name="CheckPoint" ID="{C993E61D-15F7-42D6-89CD-03B52F2B202B}" ShortID="517924887">
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -80,6 +29,76 @@
 						<ActiveSource Name="CheckPoint" ID="{3861F39E-56E7-4E6D-8B90-98F154AADBCD}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<BlendContainer Name="PickUp" ID="{0A4764F7-92F8-4CDA-8058-D11D743CCDCF}" ShortID="870580751">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Fuel" ID="{C73732E3-B34F-4895-BF27-D1C648EBB674}" ShortID="61792040">
+							<PropertyList>
+								<Property Name="Priority" Type="int16">
+									<ValueList>
+										<Value>60</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX_Bus" ID="{802F7C61-BCCC-4DC4-95AB-EF557EB2B0A0}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fuel" ID="{472295AC-F6CB-4CEE-A774-F1C70B239801}">
+									<Language>SFX</Language>
+									<AudioFile>Fuel.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="641029741"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Fuel" ID="{472295AC-F6CB-4CEE-A774-F1C70B239801}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Power_Up" ID="{3CB44FC8-7D26-4301-A683-6F7AB5178994}" ShortID="557915565">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX_Bus" ID="{802F7C61-BCCC-4DC4-95AB-EF557EB2B0A0}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Power_Up" ID="{892B2EE5-BFDD-438F-AA5A-31EDA1A3D2D6}">
+									<Language>SFX</Language>
+									<AudioFile>Power_Up.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="160425296"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Power_Up" ID="{892B2EE5-BFDD-438F-AA5A-31EDA1A3D2D6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
