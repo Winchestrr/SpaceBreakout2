@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{ADB92E80-35C3-E755-1D84-20BE14FC5BD3}">
+		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{0099260D-45BA-0BA7-6038-BB2EDC3E2095}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -178,6 +178,10 @@
 					<ShortName>Generator_Explosion_Air_2.wav</ShortName>
 					<CachePath>SFX/Generator_Explosion_Air_2_10C4C929.wem</CachePath>
 				</File>
+				<File Id="988519244" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Drums_Fill3.wav</ShortName>
+					<CachePath>SFX/Drums_Fill3_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="989050902" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Generator_Explosion_Low_1.wav</ShortName>
 					<CachePath>SFX/Generator_Explosion_Low_1_10C4C929.wem</CachePath>
@@ -321,13 +325,26 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="360080557" Name="GameMusic_Play" ObjectPath="\Events\Music\Music\GameMusic_Play" GUID="{A72DEEDE-8231-406A-974D-464C83DC5C3B}" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="68259160"/>
-						<MediaRef Id="286910771"/>
-						<MediaRef Id="664028586"/>
-						<MediaRef Id="838448828"/>
-						<MediaRef Id="883859625"/>
-					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="536353522" Id="1160234136" GUID="{E653B0BA-AEE1-4CE8-A902-5F8B3ED5DD3D}"/>
+							<MediaRefs>
+								<MediaRef Id="68259160"/>
+								<MediaRef Id="286910771"/>
+								<MediaRef Id="664028586"/>
+								<MediaRef Id="838448828"/>
+								<MediaRef Id="883859625"/>
+								<MediaRef Id="988519244"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="536353522" Id="319258907" GUID="{33096A89-1F16-40EF-A334-7BE73156196D}"/>
+							<MediaRefs>
+								<MediaRef Id="286910771"/>
+								<MediaRef Id="664028586"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="1477274875" Name="GameMusic_Stop" ObjectPath="\Events\Music\Music\GameMusic_Stop" GUID="{FF9EEC8A-DB91-495E-9B75-94DB51C7C376}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="619787537" Name="Gen_Explosion" ObjectPath="\Events\Gates\Generators\Gen_Explosion" GUID="{8E1FFB9F-67FE-4D80-A5D7-379D2DB2645E}" MaxAttenuation="50000" DurationType="OneShot" DurationMin="1" DurationMax="1.0145453">
@@ -427,7 +444,15 @@
 				<GameParameter Id="1843561328" Name="MainVolume" ObjectPath="\Game Parameters\Options\MainVolume" GUID="{7E6BB6D5-F272-48A0-976F-6A4B17EB0D9B}"/>
 				<GameParameter Id="2968795556" Name="Glide" ObjectPath="\Game Parameters\Player_Engine\Glide" GUID="{E3031780-9B18-4EC8-9E82-527974BEA3C5}"/>
 			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="536353522" Name="Game_Music_Switch" ObjectPath="\Switches\Game_Music\Game_Music_Switch" GUID="{7AF86728-1BD3-4937-82E5-4377E1398DFE}">
+					<Switches>
+						<Switch Id="319258907" Name="Paused" ObjectPath="\Switches\Game_Music\Game_Music_Switch\Paused" GUID="{33096A89-1F16-40EF-A334-7BE73156196D}"/>
+						<Switch Id="1160234136" Name="Normal" ObjectPath="\Switches\Game_Music\Game_Music_Switch\Normal" GUID="{E653B0BA-AEE1-4CE8-A902-5F8B3ED5DD3D}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0CDB03A1-86E3-85D1-497F-688A06928C30}</FileHash>
+	<FileHash>{2894AB0D-7DD1-DCDD-B87B-673E3A7E2ECA}</FileHash>
 </SoundBanksInfo>

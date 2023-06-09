@@ -175,6 +175,28 @@
       "ObjectPath": "\\Game Parameters\\Player_Engine\\Glide",
       "GUID": "{E3031780-9B18-4EC8-9E82-527974BEA3C5}"
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "536353522",
+      "Name": "Game_Music_Switch",
+      "ObjectPath": "\\Switches\\Game_Music\\Game_Music_Switch",
+      "GUID": "{7AF86728-1BD3-4937-82E5-4377E1398DFE}",
+      "Switches": [
+       {
+        "Id": "319258907",
+        "Name": "Paused",
+        "ObjectPath": "\\Switches\\Game_Music\\Game_Music_Switch\\Paused",
+        "GUID": "{33096A89-1F16-40EF-A334-7BE73156196D}"
+       },
+       {
+        "Id": "1160234136",
+        "Name": "Normal",
+        "ObjectPath": "\\Switches\\Game_Music\\Game_Music_Switch\\Normal",
+        "GUID": "{E653B0BA-AEE1-4CE8-A902-5F8B3ED5DD3D}"
+       }
+      ]
+     }
     ]
    },
    {
@@ -182,7 +204,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{ADB92E80-35C3-E755-1D84-20BE14FC5BD3}",
+    "Hash": "{0099260D-45BA-0BA7-6038-BB2EDC3E2095}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -530,6 +552,14 @@
       "Location": "Memory",
       "ShortName": "Generator_Explosion_Air_2.wav",
       "CachePath": "SFX/Generator_Explosion_Air_2_10C4C929.wem"
+     },
+     {
+      "Id": "988519244",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Drums_Fill3.wav",
+      "CachePath": "SFX/Drums_Fill3_D79FB2B7.wem"
      },
      {
       "Id": "989050902",
@@ -890,21 +920,50 @@
       "ObjectPath": "\\Events\\Music\\Music\\GameMusic_Play",
       "GUID": "{A72DEEDE-8231-406A-974D-464C83DC5C3B}",
       "DurationType": "Infinite",
-      "MediaRefs": [
+      "SwitchContainers": [
        {
-        "Id": "68259160"
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "536353522",
+         "Id": "1160234136",
+         "GUID": "{E653B0BA-AEE1-4CE8-A902-5F8B3ED5DD3D}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "68259160"
+         },
+         {
+          "Id": "286910771"
+         },
+         {
+          "Id": "664028586"
+         },
+         {
+          "Id": "838448828"
+         },
+         {
+          "Id": "883859625"
+         },
+         {
+          "Id": "988519244"
+         }
+        ]
        },
        {
-        "Id": "286910771"
-       },
-       {
-        "Id": "664028586"
-       },
-       {
-        "Id": "838448828"
-       },
-       {
-        "Id": "883859625"
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "536353522",
+         "Id": "319258907",
+         "GUID": "{33096A89-1F16-40EF-A334-7BE73156196D}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "286910771"
+         },
+         {
+          "Id": "664028586"
+         }
+        ]
        }
       ]
      },
@@ -1233,9 +1292,31 @@
       "ObjectPath": "\\Game Parameters\\Player_Engine\\Glide",
       "GUID": "{E3031780-9B18-4EC8-9E82-527974BEA3C5}"
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "536353522",
+      "Name": "Game_Music_Switch",
+      "ObjectPath": "\\Switches\\Game_Music\\Game_Music_Switch",
+      "GUID": "{7AF86728-1BD3-4937-82E5-4377E1398DFE}",
+      "Switches": [
+       {
+        "Id": "319258907",
+        "Name": "Paused",
+        "ObjectPath": "\\Switches\\Game_Music\\Game_Music_Switch\\Paused",
+        "GUID": "{33096A89-1F16-40EF-A334-7BE73156196D}"
+       },
+       {
+        "Id": "1160234136",
+        "Name": "Normal",
+        "ObjectPath": "\\Switches\\Game_Music\\Game_Music_Switch\\Normal",
+        "GUID": "{E653B0BA-AEE1-4CE8-A902-5F8B3ED5DD3D}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{071E9B39-F017-3E2D-E8E8-766173DC49C7}"
+  "FileHash": "{CED59BBE-AC7B-AFD1-299E-539540F18228}"
  }
 }

@@ -35,9 +35,13 @@
 				<Event Name="GameMusic_Play" ID="{A72DEEDE-8231-406A-974D-464C83DC5C3B}">
 					<ChildrenList>
 						<Action Name="" ID="{A428A683-1D31-495E-852D-5D92DD808CE9}" ShortID="593364637">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="GameSeq" ID="{92AB1B85-C91D-47A9-8CCE-F2A9898C698D}" WorkUnitID="{EBA568B4-005F-4C56-8680-59AA27657B29}"/>
+									<ObjectRef Name="Game_Music_Switch" ID="{0986C1F3-1B06-4571-87F4-D783DDA78D78}" WorkUnitID="{EBA568B4-005F-4C56-8680-59AA27657B29}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -52,7 +56,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="GameSeq" ID="{92AB1B85-C91D-47A9-8CCE-F2A9898C698D}" WorkUnitID="{EBA568B4-005F-4C56-8680-59AA27657B29}"/>
+									<ObjectRef Name="Game_Music_Switch" ID="{0986C1F3-1B06-4571-87F4-D783DDA78D78}" WorkUnitID="{EBA568B4-005F-4C56-8680-59AA27657B29}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

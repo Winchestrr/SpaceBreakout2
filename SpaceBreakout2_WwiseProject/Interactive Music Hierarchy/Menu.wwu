@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{DD9BA4B3-E749-4769-A0B2-60C5BA5D3988}" SchemaVersion="110">
 	<InteractiveMusic>
 		<WorkUnit Name="Menu" ID="{DD9BA4B3-E749-4769-A0B2-60C5BA5D3988}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<MusicPlaylistContainer Name="Menu_Music" ID="{1F53DFCA-48CE-4425-A444-99E95B1FFFBE}" ShortID="183743143">
 					<PropertyList>

@@ -167,9 +167,31 @@
       "ObjectPath": "\\Game Parameters\\Player_Engine\\Glide",
       "GUID": "{E3031780-9B18-4EC8-9E82-527974BEA3C5}"
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "536353522",
+      "Name": "Game_Music_Switch",
+      "ObjectPath": "\\Switches\\Game_Music\\Game_Music_Switch",
+      "GUID": "{7AF86728-1BD3-4937-82E5-4377E1398DFE}",
+      "Switches": [
+       {
+        "Id": "319258907",
+        "Name": "Paused",
+        "ObjectPath": "\\Switches\\Game_Music\\Game_Music_Switch\\Paused",
+        "GUID": "{33096A89-1F16-40EF-A334-7BE73156196D}"
+       },
+       {
+        "Id": "1160234136",
+        "Name": "Normal",
+        "ObjectPath": "\\Switches\\Game_Music\\Game_Music_Switch\\Normal",
+        "GUID": "{E653B0BA-AEE1-4CE8-A902-5F8B3ED5DD3D}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{3552A6DA-51F9-1AAC-40B2-B5BD5B35BEBE}"
+  "FileHash": "{0457663A-B05E-E1F8-FB58-539987611BD1}"
  }
 }

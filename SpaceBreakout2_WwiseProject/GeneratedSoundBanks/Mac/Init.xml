@@ -49,7 +49,15 @@
 				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Options\MusicVolume" GUID="{2BDE7E52-033E-49AF-94BE-3BBDDBACFFB5}"/>
 				<GameParameter Id="2968795556" Name="Glide" ObjectPath="\Game Parameters\Player_Engine\Glide" GUID="{E3031780-9B18-4EC8-9E82-527974BEA3C5}"/>
 			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="536353522" Name="Game_Music_Switch" ObjectPath="\Switches\Game_Music\Game_Music_Switch" GUID="{7AF86728-1BD3-4937-82E5-4377E1398DFE}">
+					<Switches>
+						<Switch Id="319258907" Name="Paused" ObjectPath="\Switches\Game_Music\Game_Music_Switch\Paused" GUID="{33096A89-1F16-40EF-A334-7BE73156196D}"/>
+						<Switch Id="1160234136" Name="Normal" ObjectPath="\Switches\Game_Music\Game_Music_Switch\Normal" GUID="{E653B0BA-AEE1-4CE8-A902-5F8B3ED5DD3D}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E2A848C0-D268-6D03-C66D-E909061A0052}</FileHash>
+	<FileHash>{ECDF04CE-0453-3CB7-8B35-52F06B249F4E}</FileHash>
 </SoundBanksInfo>

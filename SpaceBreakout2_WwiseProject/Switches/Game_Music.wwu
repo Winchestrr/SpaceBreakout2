@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{78370A2C-EF70-4004-83BC-8B5BC176719D}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Game_Music" ID="{78370A2C-EF70-4004-83BC-8B5BC176719D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Game_Music_Switch" ID="{7AF86728-1BD3-4937-82E5-4377E1398DFE}">
+					<ChildrenList>
+						<Switch Name="Normal" ID="{E653B0BA-AEE1-4CE8-A902-5F8B3ED5DD3D}"/>
+						<Switch Name="Paused" ID="{33096A89-1F16-40EF-A334-7BE73156196D}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
