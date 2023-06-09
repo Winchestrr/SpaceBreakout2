@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{D912AB4B-7453-1718-A7D3-AB4951C12FA9}">
+		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{74B27C63-BD9A-667F-5E6F-AFB19F5308FA}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -33,6 +33,10 @@
 				<File Id="110667659" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Explosion_2.wav</ShortName>
 					<CachePath>SFX/Explosion_2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="114933274" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ent_Tex.wav</ShortName>
+					<CachePath>SFX/Ent_Tex_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="160425296" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Power_Up.wav</ShortName>
@@ -347,6 +351,7 @@
 							<MediaRefs>
 								<MediaRef Id="67864525"/>
 								<MediaRef Id="68259160"/>
+								<MediaRef Id="114933274"/>
 								<MediaRef Id="275246400"/>
 								<MediaRef Id="286910771"/>
 								<MediaRef Id="664028586"/>
@@ -486,5 +491,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{102676FA-E83A-8849-7A50-A5F8927D024F}</FileHash>
+	<FileHash>{E7069A35-A414-A835-064C-360294975782}</FileHash>
 </SoundBanksInfo>

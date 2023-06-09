@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{D912AB4B-7453-1718-A7D3-AB4951C12FA9}",
+    "Hash": "{74B27C63-BD9A-667F-5E6F-AFB19F5308FA}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -70,6 +70,14 @@
       "Location": "Memory",
       "ShortName": "Explosion_2.wav",
       "CachePath": "SFX/Explosion_2_10C4C929.wem"
+     },
+     {
+      "Id": "114933274",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ent_Tex.wav",
+      "CachePath": "SFX/Ent_Tex_D79FB2B7.wem"
      },
      {
       "Id": "160425296",
@@ -774,6 +782,9 @@
           "Id": "68259160"
          },
          {
+          "Id": "114933274"
+         },
+         {
           "Id": "275246400"
          },
          {
@@ -1204,6 +1215,6 @@
     ]
    }
   ],
-  "FileHash": "{70737B56-04D2-6EAA-64A3-CA64F7B19460}"
+  "FileHash": "{96B421E1-C414-CC13-1297-24723D3C2C01}"
  }
 }

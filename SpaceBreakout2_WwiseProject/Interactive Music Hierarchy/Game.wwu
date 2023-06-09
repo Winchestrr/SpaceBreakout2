@@ -40,7 +40,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Core" ID="{9B102680-226B-47BA-9BDA-FB2C43D017F1}" ShortID="623652931">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="22413.7931034483"/>
+										<Property Name="EndPosition" Type="Real64" Value="23448.2801724138"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-3</Value>
@@ -315,7 +315,7 @@
 														<MediaID ID="68259160"/>
 													</MediaIDList>
 												</AudioFileSource>
-												<AudioFileSource Name="Bass_4takt" ID="{237D47D1-D7F6-432A-B0D5-252BF0AD1B9D}">
+												<AudioFileSource Name="Bass_4takt" ID="{FD9F79E9-03F2-43F4-9B5A-3D764B4AF408}">
 													<Language>SFX</Language>
 													<AudioFile>Bass_4takt.wav</AudioFile>
 													<MediaIDList>
@@ -411,14 +411,14 @@
 																		</Reference>
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="Bass_4takt" ID="{368C8FC2-3DA8-4BCA-8F3F-44D30F9A8679}">
+																				<MusicClip Name="Bass_4takt" ID="{A0AEA3F5-9636-4955-BE6C-482A71837B72}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="5517.25"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																						<Property Name="PlayAt" Type="Real64" Value="16551.724137931"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="Bass_4takt" ID="{237D47D1-D7F6-432A-B0D5-252BF0AD1B9D}"/>
+																					<AudioSourceRef Name="Bass_4takt" ID="{FD9F79E9-03F2-43F4-9B5A-3D764B4AF408}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -702,6 +702,57 @@
 																						<Property Name="PlayAt" Type="Real64" Value="11034.4827586207"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Bass_3takt" ID="{EDA1732F-29BD-4BE8-BBF1-5EC6F4DE44BA}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="End_Tex" ID="{59195BEA-93C4-41D8-9738-2260696E8B07}" ShortID="451451937">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ent_Tex" ID="{B9264A35-FD9C-42D8-931A-61A5A7DCE06A}">
+													<Language>SFX</Language>
+													<AudioFile>Ent_Tex.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="114933274"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{0EB723D1-7000-40CA-9753-AF152E55AC9E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9465241C-78C8-4E53-8A20-3CA329AE4B51}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Ent_Tex" ID="{AB22ED89-E386-461F-AAF5-009BF0CEC374}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="2758.625"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="20689.6551724138"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Ent_Tex" ID="{B9264A35-FD9C-42D8-931A-61A5A7DCE06A}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
