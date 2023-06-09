@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{CF1E7F54-F60F-42FB-8C76-8C2AFF31841C}" PersistMode="Standalone">
 			<ChildrenList>
 				<StateGroup Name="Game_Music_State" ID="{6CA6171C-DFB8-43B1-AB1B-298319E0D92D}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{A361B955-04C8-4FBC-A975-A3E084CAB057}"/>
 						<State Name="Normal" ID="{BD8887EB-94C4-4ECE-8516-A5E546EA7508}"/>
