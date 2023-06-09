@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{51AE06F3-286E-AA94-7CED-D572075FB5D6}">
+		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{D912AB4B-7453-1718-A7D3-AB4951C12FA9}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -13,6 +13,10 @@
 				<File Id="42552773" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetalRuttle_50ms.wav</ShortName>
 					<CachePath>SFX/MetalRuttle_50ms_C33A8915.wem</CachePath>
+				</File>
+				<File Id="67864525" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bass_3takt.wav</ShortName>
+					<CachePath>SFX/Bass_3takt_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="68259160" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bass.wav</ShortName>
@@ -53,6 +57,10 @@
 				<File Id="249387919" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pad_Long.wav</ShortName>
 					<CachePath>SFX/Pad_Long_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="275246400" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bass_2takt.wav</ShortName>
+					<CachePath>SFX/Bass_2takt_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="286910771" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Radar.wav</ShortName>
@@ -133,6 +141,10 @@
 				<File Id="692710192" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Explosion_1.wav</ShortName>
 					<CachePath>SFX/Explosion_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="752633555" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bass_4takt.wav</ShortName>
+					<CachePath>SFX/Bass_4takt_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="764286339" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pad_PressTex_2.wav</ShortName>
@@ -333,9 +345,12 @@
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="2616822209" Id="1160234136" GUID="{BD8887EB-94C4-4ECE-8516-A5E546EA7508}"/>
 							<MediaRefs>
+								<MediaRef Id="67864525"/>
 								<MediaRef Id="68259160"/>
+								<MediaRef Id="275246400"/>
 								<MediaRef Id="286910771"/>
 								<MediaRef Id="664028586"/>
+								<MediaRef Id="752633555"/>
 								<MediaRef Id="838448828"/>
 								<MediaRef Id="883859625"/>
 								<MediaRef Id="988519244"/>
@@ -471,5 +486,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9908BC2E-0F78-BFE9-C539-3A2279BECFE4}</FileHash>
+	<FileHash>{102676FA-E83A-8849-7A50-A5F8927D024F}</FileHash>
 </SoundBanksInfo>

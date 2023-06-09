@@ -238,7 +238,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{51AE06F3-286E-AA94-7CED-D572075FB5D6}",
+    "Hash": "{D912AB4B-7453-1718-A7D3-AB4951C12FA9}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -258,6 +258,14 @@
       "Location": "Memory",
       "ShortName": "MetalRuttle_50ms.wav",
       "CachePath": "SFX/MetalRuttle_50ms_C33A8915.wem"
+     },
+     {
+      "Id": "67864525",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bass_3takt.wav",
+      "CachePath": "SFX/Bass_3takt_D79FB2B7.wem"
      },
      {
       "Id": "68259160",
@@ -338,6 +346,14 @@
       "Location": "Memory",
       "ShortName": "Pad_Long.wav",
       "CachePath": "SFX/Pad_Long_D79FB2B7.wem"
+     },
+     {
+      "Id": "275246400",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bass_2takt.wav",
+      "CachePath": "SFX/Bass_2takt_D79FB2B7.wem"
      },
      {
       "Id": "286910771",
@@ -498,6 +514,14 @@
       "Location": "Memory",
       "ShortName": "Explosion_1.wav",
       "CachePath": "SFX/Explosion_1_10C4C929.wem"
+     },
+     {
+      "Id": "752633555",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bass_4takt.wav",
+      "CachePath": "SFX/Bass_4takt_D79FB2B7.wem"
      },
      {
       "Id": "764286339",
@@ -972,13 +996,22 @@
         },
         "MediaRefs": [
          {
+          "Id": "67864525"
+         },
+         {
           "Id": "68259160"
+         },
+         {
+          "Id": "275246400"
          },
          {
           "Id": "286910771"
          },
          {
           "Id": "664028586"
+         },
+         {
+          "Id": "752633555"
          },
          {
           "Id": "838448828"
@@ -1399,6 +1432,6 @@
     ]
    }
   ],
-  "FileHash": "{6D041F82-66D7-E2F0-C74B-89A54E5B6C12}"
+  "FileHash": "{5FE7068A-580F-9B98-7FBD-BADCF09C0AB6}"
  }
 }

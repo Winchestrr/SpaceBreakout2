@@ -315,6 +315,13 @@
 														<MediaID ID="68259160"/>
 													</MediaIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="Bass_4takt" ID="{237D47D1-D7F6-432A-B0D5-252BF0AD1B9D}">
+													<Language>SFX</Language>
+													<AudioFile>Bass_4takt.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="752633555"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{F69146BD-538B-4C32-8D85-19ED23235969}">
@@ -335,7 +342,7 @@
 																			<Local>
 																				<MusicClip Name="Bass" ID="{A3669826-5967-4052-AFE5-31A273F01F7B}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="22068.9655172414"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="5517.24137931035"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
@@ -353,7 +360,7 @@
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>22.06897</XPos>
+																										<XPos>5.51724</XPos>
 																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
@@ -372,7 +379,7 @@
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>22.06897</XPos>
+																										<XPos>5.51724</XPos>
 																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
@@ -391,7 +398,7 @@
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>22.06897</XPos>
+																										<XPos>5.51724</XPos>
 																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
@@ -399,6 +406,302 @@
 																							</Curve>
 																						</PropertyCurve>
 																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Bass_4takt" ID="{368C8FC2-3DA8-4BCA-8F3F-44D30F9A8679}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="5517.25"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="16551.724137931"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Bass_4takt" ID="{237D47D1-D7F6-432A-B0D5-252BF0AD1B9D}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Bass_alt" ID="{9285D31D-84FD-4600-ABBA-91CC17DD628C}" ShortID="199478004">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bass" ID="{F5495A66-69FD-4F7B-B39E-1E9338F460FC}">
+													<Language>SFX</Language>
+													<AudioFile>Bass.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="68259160"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Bass_2takt" ID="{A3C41E3C-DB94-4B7C-89F9-93C9997608A4}">
+													<Language>SFX</Language>
+													<AudioFile>Bass_2takt.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="275246400"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Bass_3takt" ID="{EDA1732F-29BD-4BE8-BBF1-5EC6F4DE44BA}">
+													<Language>SFX</Language>
+													<AudioFile>Bass_3takt.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="67864525"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Bass_01" ID="{3531B2CD-77DC-4064-8071-A0AB100A6A5E}">
+													<Language>SFX</Language>
+													<AudioFile>Bass.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="68259160"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{474E42AF-4D1E-4EC0-A244-53648AEEDDDD}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{1A34D640-13D3-4CC2-ADFB-347C44FD2D75}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Bass" ID="{9198A003-00ED-4F37-A096-7785627EC399}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="5517.24137931035"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="5517.24137931035"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Bass" ID="{F5495A66-69FD-4F7B-B39E-1E9338F460FC}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{EE2BC295-EB64-45FF-B244-B88765668DF3}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>5.51724</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{E22BD10B-9FE2-4A2E-AB25-8C4694BF8381}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>5.51724</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{5406ABB4-8ECC-4D90-9AC0-C2118B8D0EAF}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>5.51724</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Bass_3takt" ID="{89ECD9C2-55E6-459C-8242-2E6DA3100FD0}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="5517.25"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="11034.4827586207"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Bass_3takt" ID="{EDA1732F-29BD-4BE8-BBF1-5EC6F4DE44BA}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{AD312884-1F5D-440E-9E45-419BCC296538}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Bass_2takt" ID="{B52DE260-6C62-4A24-862E-9D2B0463C1E0}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="5517.25"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="5517.24137931035"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Bass_2takt" ID="{A3C41E3C-DB94-4B7C-89F9-93C9997608A4}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Bass_01" ID="{443D00DB-43F4-4862-B605-75B64279581F}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="5517.24137931035"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="11034.4827586207"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Bass_01" ID="{3531B2CD-77DC-4064-8071-A0AB100A6A5E}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{B360A59E-B1F4-4666-B0B3-B9E437FF01C4}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>5.51724</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{9EE76EDA-53BA-4B45-BAA4-A82B28AFF4BE}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>5.51724</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{F22C9F5A-5B24-430C-BF43-33B17A294850}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>5.51724</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{E843A9D6-08E0-47A9-8F0F-FD49E0C26D2A}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Bass_2takt" ID="{DC8C9359-0927-45DD-8FDA-533D5C4D097D}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="5517.25"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="5517.24137931035"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Bass_2takt" ID="{A3C41E3C-DB94-4B7C-89F9-93C9997608A4}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Bass_3takt" ID="{1610B7E0-E079-4BC7-97D9-B657BE3AA98D}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="5517.25"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="11034.4827586207"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Bass_3takt" ID="{EDA1732F-29BD-4BE8-BBF1-5EC6F4DE44BA}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
