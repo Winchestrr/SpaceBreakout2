@@ -26,12 +26,20 @@ Event	ID	Name			Wwise Object Path	Notes
 	3808032123	Start_Auto			\Player\Player_Ship\Player_Gun\Start_Auto	
 	4011733850	MenuMusic_Play			\Music\Music\MenuMusic_Play	
 
+Switch Group	ID	Name			Wwise Object Path	Notes
+	536353522	Game_Music_Switch			\Game_Music\Game_Music_Switch	
+
+Switch	ID	Name	Switch Group			Notes
+	1203400786	Restart	Game_Music_Switch			
+	2557017376	Play_New	Game_Music_Switch			
+
 State Group	ID	Name			Wwise Object Path	Notes
 	2616822209	Game_Music_State			\Default Work Unit\Game_Music_State	
 
 State	ID	Name	State Group			Notes
 	319258907	Paused	Game_Music_State			
 	748895195	None	Game_Music_State			
+	779278001	Death	Game_Music_State			
 	1160234136	Normal	Game_Music_State			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
@@ -65,17 +73,18 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	169955327	Generator_Explosion_Hi_3	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Generator_Explosion_Hi_3_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Hi\Generator_Explosion_Hi_3		72096
 	191878459	MetalRuttle_50ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\MetalRuttle_50ms_033908F3.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Engine\Enemy_Engine_Small\MetalRuttle_50ms		921744
 	228206684	Enemy_Shooting	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Shooting_10C4C929.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Gun\Enemy_Shooting		21096
-	249387919	Pad_Long	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Pad_Long_D79FB2B7.wem		\Interactive Music Hierarchy\Menu\Menu_Music\Pad_Core\Pad_Long		2448096
+	249387919	Pad_Long	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Pad_Long_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Game_Music_Switch\Death_Seq\Pad_Core\Pad_Long		2448096
 	286910771	Radar	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Radar_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Game_Music_Switch\Normal_Seq\Core\Radar		794580
 	289646352	4c_50ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\4c_50ms_CF3D4EE9.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Engine\Player_Engine\E_50ms\4c_50ms		921744
 	291376722	Generator_Explosion_Mid_2	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Generator_Explosion_Mid_2_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Mid\Generator_Explosion_Mid_2		72096
 	300107268	EngineRuttle_50ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\EngineRuttle_50ms_66498DF5.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Engine\Enemy_Engine_Small\EngineRuttle_50ms		921744
 	317170420	Air_50ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Air_50ms_55193FF2.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Engine\Player_Engine\E_50ms\Air_50ms		921744
-	390569858	Pad_Tex_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Pad_PressTex_3_D79FB2B7.wem		\Interactive Music Hierarchy\Menu\Menu_Tex\Pad_Tex_1		360096
+	390569858	Pad_Tex_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Pad_PressTex_3_D79FB2B7.wem		\Interactive Music Hierarchy\Menu\Button_Tex\Menu_Tex\Pad_Tex_1		360096
 	392017222	MetalRuttle_25ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\MetalRuttle_25ms_0435493D.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Engine\Player_Engine\E_25ms\MetalRuttle_25ms		921744
 	418883588	Explosion_4	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Explosion_4_10C4C929.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Damage\E_Explosion\Explosion_4		96096
-	463601207	Pad_Tex_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Pad_Tex_1_D79FB2B7.wem		\Interactive Music Hierarchy\Menu\Menu_Music\Pad_Core\Pad_Tex_1		576096
-	475873671	Pad_Tex_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Pad_PressTex_4_D79FB2B7.wem		\Interactive Music Hierarchy\Menu\Menu_Tex\Pad_Tex_1		324096
+	463601207	Pad_Tex_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Pad_Tex_1_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Game_Music_Switch\Death_Seq\Pad_Core\Pad_Tex_1		576096
+	475873671	Pad_Tex_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Pad_PressTex_4_D79FB2B7.wem		\Interactive Music Hierarchy\Menu\Button_Tex\Menu_Tex\Pad_Tex_1		324096
+	491906240	Drums_Death	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Drums_Death_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Game_Music_Switch\Death_Seq\Drums_Death\Drums_Death		2262792
 	551274477	4c_50ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\4c_50ms_F95DF087.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Engine\Enemy_Engine_Small\4c_50ms		921744
 	569297401	EngineRuttle_25ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\EngineRuttle_25ms_32CCEE66.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Engine\Player_Engine\E_25ms\EngineRuttle_25ms		921744
 	641029741	Fuel	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Fuel_10C4C929.wem		\Actor-Mixer Hierarchy\Player\UI\PickUp\Fuel		48096
@@ -85,8 +94,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	684622861	Air_25ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Air_25ms_55193FF2.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Engine\Player_Engine\E_25ms\Air_25ms		921744
 	686217727	4c_25ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\4c_25ms_CF3D4EE9.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Engine\Player_Engine\E_25ms\4c_25ms		921744
 	692710192	Explosion_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Explosion_1_10C4C929.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Damage\E_Explosion\Explosion_1		96096
-	764286339	Pad_Tex_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Pad_PressTex_2_D79FB2B7.wem		\Interactive Music Hierarchy\Menu\Menu_Tex\Pad_Tex_1		414096
-	774905702	Pad_Tex_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Pad_Tex_4_D79FB2B7.wem		\Interactive Music Hierarchy\Menu\Menu_Music\Pad_Core\Pad_Tex_1		576096
+	764286339	Pad_Tex_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Pad_PressTex_2_D79FB2B7.wem		\Interactive Music Hierarchy\Menu\Button_Tex\Menu_Tex\Pad_Tex_1		414096
+	774905702	Pad_Tex_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Pad_Tex_4_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Game_Music_Switch\Death_Seq\Pad_Core\Pad_Tex_1		576096
 	800518361	Generator_Explosion_Low_2	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Generator_Explosion_Low_2_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Low\Generator_Explosion_Low_2		66096
 	823391425	Generator_Explosion_Mid_3	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Generator_Explosion_Mid_3_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Mid\Generator_Explosion_Mid_3		72096
 	838448828	Drums_Fill4	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Drums_Fill4_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Game_Music_Switch\Normal_Seq\Intro_1\Drums_Fill4		529752
@@ -95,18 +104,18 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	883859625	Horn	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Horn_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Game_Music_Switch\Normal_Seq\Core\Horn		529752
 	901683300	Dmg_Taken_2	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Dmg_Taken_2_10C4C929.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Damage\E_Hit\Dmg_Taken_2		60096
 	904171427	Acc_Up	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Acc_Up_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Engine\Acc_Up		66096
-	917280452	Pad_Tex_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Pad_Tex_2_D79FB2B7.wem		\Interactive Music Hierarchy\Menu\Menu_Music\Pad_Core\Pad_Tex_1		576096
+	917280452	Pad_Tex_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Pad_Tex_2_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Game_Music_Switch\Death_Seq\Pad_Core\Pad_Tex_1		576096
 	930513644	Generator_Explosion_Air_2	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Generator_Explosion_Air_2_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Air\Generator_Explosion_Air_2		96096
 	988519244	Drums_Fill4	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Drums_Fill3_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Game_Music_Switch\Normal_Seq\Intro_1\Drums_Fill4		529752
 	989050902	Generator_Explosion_Low_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Generator_Explosion_Low_1_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Low\Generator_Explosion_Low_1		60096
 	999165185	Generator_Explosion_Low_3	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Generator_Explosion_Low_3_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Low\Generator_Explosion_Low_3		54096
 	999927059	Button_Hover	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Button_Hover_10C4C929.wem		\Actor-Mixer Hierarchy\Menu\Menu\Button_Hover		48096
 	1006151716	Generator_Explosion_Mid_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Generator_Explosion_Mid_1_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Mid\Generator_Explosion_Mid_1		72096
-	1006827640	Pad_Tex_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Pad_PressTex_1_D79FB2B7.wem		\Interactive Music Hierarchy\Menu\Menu_Tex\Pad_Tex_1		297096
+	1006827640	Pad_Tex_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Pad_PressTex_1_D79FB2B7.wem		\Interactive Music Hierarchy\Menu\Button_Tex\Menu_Tex\Pad_Tex_1		297096
 	1011644442	CheckPoint	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\CheckPoint_10C4C929.wem		\Actor-Mixer Hierarchy\Player\UI\CheckPoint		96096
 	1013981043	Slider_ValueChange	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Slider_ValueChange_10C4C929.wem		\Actor-Mixer Hierarchy\Menu\Menu\Slider_ValueChange		24096
 	1019287824	Generator_Idle	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Generator_Idle_07E00B68.wem		\Actor-Mixer Hierarchy\Gates\Generator\Generator_Idle		384144
-	1020130402	Pad_Tex_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Pad_Tex_3_D79FB2B7.wem		\Interactive Music Hierarchy\Menu\Menu_Music\Pad_Core\Pad_Tex_1		576096
+	1020130402	Pad_Tex_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Pad_Tex_3_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Game_Music_Switch\Death_Seq\Pad_Core\Pad_Tex_1		576096
 	1023344460	Generator_Explosion_Air_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Generator_Explosion_Air_1_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Air\Generator_Explosion_Air_1		96096
 	1043020179	EngineRuttle_50ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\EngineRuttle_50ms_13DE35EF.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Engine\Player_Engine\E_50ms\EngineRuttle_50ms		921744
 	1046666558	AutoMode	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\AutoMode_C585BE34.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Gun\AutoMode		144144

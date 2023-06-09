@@ -93,10 +93,10 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Paused" ID="{F788772E-B217-4596-8DCC-58A09B35D2F0}"/>
+						<CurrentStateRef Name="Normal" ID="{BD8887EB-94C4-4ECE-8516-A5E546EA7508}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Paused" ID="{33096A89-1F16-40EF-A334-7BE73156196D}"/>
+						<CurrentSwitchRef Name="Restart" ID="{33096A89-1F16-40EF-A334-7BE73156196D}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Music" ID="{56881393-2253-4FEC-8F81-597C82EF0389}">
@@ -128,9 +128,11 @@
 							<Value>8000</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Normal" ID="{BD8887EB-94C4-4ECE-8516-A5E546EA7508}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Normal" ID="{E653B0BA-AEE1-4CE8-A902-5F8B3ED5DD3D}"/>
+						<CurrentSwitchRef Name="Restart" ID="{33096A89-1F16-40EF-A334-7BE73156196D}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

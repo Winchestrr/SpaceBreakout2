@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{B9BF7C11-DEE6-31C0-BBC9-96D82CB045AB}",
+    "Hash": "{3E9F35D0-45D4-CB06-DC08-E8CFE3793550}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -196,6 +196,12 @@
         "GUID": "{A361B955-04C8-4FBC-A975-A3E084CAB057}"
        },
        {
+        "Id": "779278001",
+        "Name": "Death",
+        "ObjectPath": "\\States\\Default Work Unit\\Game_Music_State\\Death",
+        "GUID": "{97A11E54-1CD0-469D-B7DB-D66E5E639C47}"
+       },
+       {
         "Id": "1160234136",
         "Name": "Normal",
         "ObjectPath": "\\States\\Default Work Unit\\Game_Music_State\\Normal",
@@ -212,15 +218,15 @@
       "GUID": "{7AF86728-1BD3-4937-82E5-4377E1398DFE}",
       "Switches": [
        {
-        "Id": "319258907",
-        "Name": "Paused",
-        "ObjectPath": "\\Switches\\Game_Music\\Game_Music_Switch\\Paused",
+        "Id": "1203400786",
+        "Name": "Restart",
+        "ObjectPath": "\\Switches\\Game_Music\\Game_Music_Switch\\Restart",
         "GUID": "{33096A89-1F16-40EF-A334-7BE73156196D}"
        },
        {
-        "Id": "1160234136",
-        "Name": "Normal",
-        "ObjectPath": "\\Switches\\Game_Music\\Game_Music_Switch\\Normal",
+        "Id": "2557017376",
+        "Name": "Play_New",
+        "ObjectPath": "\\Switches\\Game_Music\\Game_Music_Switch\\Play_New",
         "GUID": "{E653B0BA-AEE1-4CE8-A902-5F8B3ED5DD3D}"
        }
       ]
@@ -232,7 +238,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{A6F57D08-29CC-C11E-D3B4-BBC5BD55EE9D}",
+    "Hash": "{94B21496-1783-C5E8-6950-40F91E8819C0}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -412,6 +418,14 @@
       "Location": "Memory",
       "ShortName": "Pad_PressTex_4.wav",
       "CachePath": "SFX/Pad_PressTex_4_D79FB2B7.wem"
+     },
+     {
+      "Id": "491906240",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Drums_Death.wav",
+      "CachePath": "SFX/Drums_Death_D79FB2B7.wem"
      },
      {
       "Id": "551274477",
@@ -956,24 +970,34 @@
          "Id": "1160234136",
          "GUID": "{BD8887EB-94C4-4ECE-8516-A5E546EA7508}"
         },
-        "MediaRefs": [
+        "Children": [
          {
-          "Id": "68259160"
-         },
-         {
-          "Id": "286910771"
-         },
-         {
-          "Id": "664028586"
-         },
-         {
-          "Id": "838448828"
-         },
-         {
-          "Id": "883859625"
-         },
-         {
-          "Id": "988519244"
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "536353522",
+           "Id": "0",
+           "GUID": "{7AF86728-1BD3-4937-82E5-4377E1398DFE}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "68259160"
+           },
+           {
+            "Id": "286910771"
+           },
+           {
+            "Id": "664028586"
+           },
+           {
+            "Id": "838448828"
+           },
+           {
+            "Id": "883859625"
+           },
+           {
+            "Id": "988519244"
+           }
+          ]
          }
         ]
        },
@@ -984,12 +1008,98 @@
          "Id": "319258907",
          "GUID": "{F788772E-B217-4596-8DCC-58A09B35D2F0}"
         },
-        "MediaRefs": [
+        "Children": [
          {
-          "Id": "286910771"
-         },
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "536353522",
+           "Id": "0",
+           "GUID": "{7AF86728-1BD3-4937-82E5-4377E1398DFE}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "286910771"
+           },
+           {
+            "Id": "664028586"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2616822209",
+         "Id": "779278001",
+         "GUID": "{97A11E54-1CD0-469D-B7DB-D66E5E639C47}"
+        },
+        "Children": [
          {
-          "Id": "664028586"
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "536353522",
+           "Id": "0",
+           "GUID": "{7AF86728-1BD3-4937-82E5-4377E1398DFE}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "249387919"
+           },
+           {
+            "Id": "463601207"
+           },
+           {
+            "Id": "491906240"
+           },
+           {
+            "Id": "774905702"
+           },
+           {
+            "Id": "917280452"
+           },
+           {
+            "Id": "1020130402"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2616822209",
+         "Id": "1160234136",
+         "GUID": "{BD8887EB-94C4-4ECE-8516-A5E546EA7508}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "536353522",
+           "Id": "1203400786",
+           "GUID": "{33096A89-1F16-40EF-A334-7BE73156196D}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "68259160"
+           },
+           {
+            "Id": "286910771"
+           },
+           {
+            "Id": "664028586"
+           },
+           {
+            "Id": "838448828"
+           },
+           {
+            "Id": "883859625"
+           },
+           {
+            "Id": "988519244"
+           }
+          ]
          }
         ]
        }
@@ -1341,6 +1451,12 @@
         "GUID": "{A361B955-04C8-4FBC-A975-A3E084CAB057}"
        },
        {
+        "Id": "779278001",
+        "Name": "Death",
+        "ObjectPath": "\\States\\Default Work Unit\\Game_Music_State\\Death",
+        "GUID": "{97A11E54-1CD0-469D-B7DB-D66E5E639C47}"
+       },
+       {
         "Id": "1160234136",
         "Name": "Normal",
         "ObjectPath": "\\States\\Default Work Unit\\Game_Music_State\\Normal",
@@ -1348,9 +1464,31 @@
        }
       ]
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "536353522",
+      "Name": "Game_Music_Switch",
+      "ObjectPath": "\\Switches\\Game_Music\\Game_Music_Switch",
+      "GUID": "{7AF86728-1BD3-4937-82E5-4377E1398DFE}",
+      "Switches": [
+       {
+        "Id": "1203400786",
+        "Name": "Restart",
+        "ObjectPath": "\\Switches\\Game_Music\\Game_Music_Switch\\Restart",
+        "GUID": "{33096A89-1F16-40EF-A334-7BE73156196D}"
+       },
+       {
+        "Id": "2557017376",
+        "Name": "Play_New",
+        "ObjectPath": "\\Switches\\Game_Music\\Game_Music_Switch\\Play_New",
+        "GUID": "{E653B0BA-AEE1-4CE8-A902-5F8B3ED5DD3D}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{CFA940EA-42EF-7BE3-8361-3CF8CCA263B0}"
+  "FileHash": "{3758E96F-0105-843D-158C-9D09FC341ABD}"
  }
 }

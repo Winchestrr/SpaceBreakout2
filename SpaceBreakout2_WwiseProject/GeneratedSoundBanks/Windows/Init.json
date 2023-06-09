@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{B9BF7C11-DEE6-31C0-BBC9-96D82CB045AB}",
+    "Hash": "{3E9F35D0-45D4-CB06-DC08-E8CFE3793550}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -188,6 +188,12 @@
         "GUID": "{A361B955-04C8-4FBC-A975-A3E084CAB057}"
        },
        {
+        "Id": "779278001",
+        "Name": "Death",
+        "ObjectPath": "\\States\\Default Work Unit\\Game_Music_State\\Death",
+        "GUID": "{97A11E54-1CD0-469D-B7DB-D66E5E639C47}"
+       },
+       {
         "Id": "1160234136",
         "Name": "Normal",
         "ObjectPath": "\\States\\Default Work Unit\\Game_Music_State\\Normal",
@@ -204,15 +210,15 @@
       "GUID": "{7AF86728-1BD3-4937-82E5-4377E1398DFE}",
       "Switches": [
        {
-        "Id": "319258907",
-        "Name": "Paused",
-        "ObjectPath": "\\Switches\\Game_Music\\Game_Music_Switch\\Paused",
+        "Id": "1203400786",
+        "Name": "Restart",
+        "ObjectPath": "\\Switches\\Game_Music\\Game_Music_Switch\\Restart",
         "GUID": "{33096A89-1F16-40EF-A334-7BE73156196D}"
        },
        {
-        "Id": "1160234136",
-        "Name": "Normal",
-        "ObjectPath": "\\Switches\\Game_Music\\Game_Music_Switch\\Normal",
+        "Id": "2557017376",
+        "Name": "Play_New",
+        "ObjectPath": "\\Switches\\Game_Music\\Game_Music_Switch\\Play_New",
         "GUID": "{E653B0BA-AEE1-4CE8-A902-5F8B3ED5DD3D}"
        }
       ]
@@ -220,6 +226,6 @@
     ]
    }
   ],
-  "FileHash": "{F600F583-EB5E-2F66-16E7-BBF93E4C959A}"
+  "FileHash": "{328385DC-64C3-8AE9-63E4-666AA9BCAAF7}"
  }
 }

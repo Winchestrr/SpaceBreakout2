@@ -26,7 +26,7 @@
 						<Action Name="" ID="{896E0FB6-493E-4CD8-A7F2-B66730651EE3}" ShortID="91131227">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Menu_Tex" ID="{4C9B725B-88EB-4EED-B912-4E33D33CD5B3}" WorkUnitID="{DD9BA4B3-E749-4769-A0B2-60C5BA5D3988}"/>
+									<ObjectRef Name="Button_Tex" ID="{CDF4D5C3-5D42-455A-BD5D-85DBE34C17BF}" WorkUnitID="{DD9BA4B3-E749-4769-A0B2-60C5BA5D3988}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
