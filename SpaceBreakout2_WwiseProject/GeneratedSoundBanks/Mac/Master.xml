@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{0099260D-45BA-0BA7-6038-BB2EDC3E2095}">
+		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{FE22B248-C9BF-DF3C-1901-89D63A0C595F}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -327,7 +327,7 @@
 				<Event Id="360080557" Name="GameMusic_Play" ObjectPath="\Events\Music\Music\GameMusic_Play" GUID="{A72DEEDE-8231-406A-974D-464C83DC5C3B}" DurationType="Infinite">
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="536353522" Id="1160234136" GUID="{E653B0BA-AEE1-4CE8-A902-5F8B3ED5DD3D}"/>
+							<SwitchValue GroupType="State" GroupId="2616822209" Id="1160234136" GUID="{BD8887EB-94C4-4ECE-8516-A5E546EA7508}"/>
 							<MediaRefs>
 								<MediaRef Id="68259160"/>
 								<MediaRef Id="286910771"/>
@@ -338,7 +338,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="536353522" Id="319258907" GUID="{33096A89-1F16-40EF-A334-7BE73156196D}"/>
+							<SwitchValue GroupType="State" GroupId="2616822209" Id="319258907" GUID="{F788772E-B217-4596-8DCC-58A09B35D2F0}"/>
 							<MediaRefs>
 								<MediaRef Id="286910771"/>
 								<MediaRef Id="664028586"/>
@@ -444,15 +444,16 @@
 				<GameParameter Id="1843561328" Name="MainVolume" ObjectPath="\Game Parameters\Options\MainVolume" GUID="{7E6BB6D5-F272-48A0-976F-6A4B17EB0D9B}"/>
 				<GameParameter Id="2968795556" Name="Glide" ObjectPath="\Game Parameters\Player_Engine\Glide" GUID="{E3031780-9B18-4EC8-9E82-527974BEA3C5}"/>
 			</GameParameters>
-			<SwitchGroups>
-				<SwitchGroup Id="536353522" Name="Game_Music_Switch" ObjectPath="\Switches\Game_Music\Game_Music_Switch" GUID="{7AF86728-1BD3-4937-82E5-4377E1398DFE}">
-					<Switches>
-						<Switch Id="319258907" Name="Paused" ObjectPath="\Switches\Game_Music\Game_Music_Switch\Paused" GUID="{33096A89-1F16-40EF-A334-7BE73156196D}"/>
-						<Switch Id="1160234136" Name="Normal" ObjectPath="\Switches\Game_Music\Game_Music_Switch\Normal" GUID="{E653B0BA-AEE1-4CE8-A902-5F8B3ED5DD3D}"/>
-					</Switches>
-				</SwitchGroup>
-			</SwitchGroups>
+			<StateGroups>
+				<StateGroup Id="2616822209" Name="Game_Music_State" ObjectPath="\States\Default Work Unit\Game_Music_State" GUID="{6CA6171C-DFB8-43B1-AB1B-298319E0D92D}">
+					<States>
+						<State Id="319258907" Name="Paused" ObjectPath="\States\Default Work Unit\Game_Music_State\Paused" GUID="{F788772E-B217-4596-8DCC-58A09B35D2F0}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Game_Music_State\None" GUID="{A361B955-04C8-4FBC-A975-A3E084CAB057}"/>
+						<State Id="1160234136" Name="Normal" ObjectPath="\States\Default Work Unit\Game_Music_State\Normal" GUID="{BD8887EB-94C4-4ECE-8516-A5E546EA7508}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2894AB0D-7DD1-DCDD-B87B-673E3A7E2ECA}</FileHash>
+	<FileHash>{4BDA9A7F-BFE2-3C03-C5FD-D2B701B63FFF}</FileHash>
 </SoundBanksInfo>

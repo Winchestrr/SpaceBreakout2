@@ -92,9 +92,11 @@
 							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Paused" ID="{F788772E-B217-4596-8DCC-58A09B35D2F0}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Normal" ID="{E653B0BA-AEE1-4CE8-A902-5F8B3ED5DD3D}"/>
+						<CurrentSwitchRef Name="Paused" ID="{33096A89-1F16-40EF-A334-7BE73156196D}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Music" ID="{56881393-2253-4FEC-8F81-597C82EF0389}">

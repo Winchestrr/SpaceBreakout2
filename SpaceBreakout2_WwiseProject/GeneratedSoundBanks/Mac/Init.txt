@@ -1,3 +1,11 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2616822209	Game_Music_State			\Default Work Unit\Game_Music_State	
+
+State	ID	Name	State Group			Notes
+	319258907	Paused	Game_Music_State			
+	748895195	None	Game_Music_State			
+	1160234136	Normal	Game_Music_State			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	779278001	Death			\Player_Engine\Death	
 	988953028	SFXVolume			\Options\SFXVolume	

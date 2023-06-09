@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{DD3B537B-02E8-D76F-A0DA-EE7D76EAF29F}",
+    "Hash": "{5245B0F3-29A6-8BFC-0C71-1FC297077257}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -168,6 +168,34 @@
       "GUID": "{E3031780-9B18-4EC8-9E82-527974BEA3C5}"
      }
     ],
+    "StateGroups": [
+     {
+      "Id": "2616822209",
+      "Name": "Game_Music_State",
+      "ObjectPath": "\\States\\Default Work Unit\\Game_Music_State",
+      "GUID": "{6CA6171C-DFB8-43B1-AB1B-298319E0D92D}",
+      "States": [
+       {
+        "Id": "319258907",
+        "Name": "Paused",
+        "ObjectPath": "\\States\\Default Work Unit\\Game_Music_State\\Paused",
+        "GUID": "{F788772E-B217-4596-8DCC-58A09B35D2F0}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Game_Music_State\\None",
+        "GUID": "{A361B955-04C8-4FBC-A975-A3E084CAB057}"
+       },
+       {
+        "Id": "1160234136",
+        "Name": "Normal",
+        "ObjectPath": "\\States\\Default Work Unit\\Game_Music_State\\Normal",
+        "GUID": "{BD8887EB-94C4-4ECE-8516-A5E546EA7508}"
+       }
+      ]
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "536353522",
@@ -192,6 +220,6 @@
     ]
    }
   ],
-  "FileHash": "{0457663A-B05E-E1F8-FB58-539987611BD1}"
+  "FileHash": "{149128EA-2303-C946-2A74-3A4F38D5F960}"
  }
 }

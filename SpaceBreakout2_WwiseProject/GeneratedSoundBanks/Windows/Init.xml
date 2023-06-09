@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{DD3B537B-02E8-D76F-A0DA-EE7D76EAF29F}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{5245B0F3-29A6-8BFC-0C71-1FC297077257}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -49,6 +49,15 @@
 				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Options\MusicVolume" GUID="{2BDE7E52-033E-49AF-94BE-3BBDDBACFFB5}"/>
 				<GameParameter Id="2968795556" Name="Glide" ObjectPath="\Game Parameters\Player_Engine\Glide" GUID="{E3031780-9B18-4EC8-9E82-527974BEA3C5}"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="2616822209" Name="Game_Music_State" ObjectPath="\States\Default Work Unit\Game_Music_State" GUID="{6CA6171C-DFB8-43B1-AB1B-298319E0D92D}">
+					<States>
+						<State Id="319258907" Name="Paused" ObjectPath="\States\Default Work Unit\Game_Music_State\Paused" GUID="{F788772E-B217-4596-8DCC-58A09B35D2F0}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Game_Music_State\None" GUID="{A361B955-04C8-4FBC-A975-A3E084CAB057}"/>
+						<State Id="1160234136" Name="Normal" ObjectPath="\States\Default Work Unit\Game_Music_State\Normal" GUID="{BD8887EB-94C4-4ECE-8516-A5E546EA7508}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="536353522" Name="Game_Music_Switch" ObjectPath="\Switches\Game_Music\Game_Music_Switch" GUID="{7AF86728-1BD3-4937-82E5-4377E1398DFE}">
 					<Switches>
@@ -59,5 +68,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{09FCD934-6EB9-B212-C88A-C85AD709ABA5}</FileHash>
+	<FileHash>{2CA3F080-BE00-C5E2-FBAF-1E31B43C0CE1}</FileHash>
 </SoundBanksInfo>
