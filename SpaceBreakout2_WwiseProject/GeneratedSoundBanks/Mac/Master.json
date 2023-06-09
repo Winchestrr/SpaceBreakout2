@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{94B21496-1783-C5E8-6950-40F91E8819C0}",
+    "Hash": "{51AE06F3-286E-AA94-7CED-D572075FB5D6}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -742,34 +742,24 @@
          "Id": "1160234136",
          "GUID": "{BD8887EB-94C4-4ECE-8516-A5E546EA7508}"
         },
-        "Children": [
+        "MediaRefs": [
          {
-          "SwitchValue": {
-           "GroupType": "Switch",
-           "GroupId": "536353522",
-           "Id": "0",
-           "GUID": "{7AF86728-1BD3-4937-82E5-4377E1398DFE}"
-          },
-          "MediaRefs": [
-           {
-            "Id": "68259160"
-           },
-           {
-            "Id": "286910771"
-           },
-           {
-            "Id": "664028586"
-           },
-           {
-            "Id": "838448828"
-           },
-           {
-            "Id": "883859625"
-           },
-           {
-            "Id": "988519244"
-           }
-          ]
+          "Id": "68259160"
+         },
+         {
+          "Id": "286910771"
+         },
+         {
+          "Id": "664028586"
+         },
+         {
+          "Id": "838448828"
+         },
+         {
+          "Id": "883859625"
+         },
+         {
+          "Id": "988519244"
          }
         ]
        },
@@ -780,22 +770,12 @@
          "Id": "319258907",
          "GUID": "{F788772E-B217-4596-8DCC-58A09B35D2F0}"
         },
-        "Children": [
+        "MediaRefs": [
          {
-          "SwitchValue": {
-           "GroupType": "Switch",
-           "GroupId": "536353522",
-           "Id": "0",
-           "GUID": "{7AF86728-1BD3-4937-82E5-4377E1398DFE}"
-          },
-          "MediaRefs": [
-           {
-            "Id": "286910771"
-           },
-           {
-            "Id": "664028586"
-           }
-          ]
+          "Id": "286910771"
+         },
+         {
+          "Id": "664028586"
          }
         ]
        },
@@ -806,72 +786,24 @@
          "Id": "779278001",
          "GUID": "{97A11E54-1CD0-469D-B7DB-D66E5E639C47}"
         },
-        "Children": [
+        "MediaRefs": [
          {
-          "SwitchValue": {
-           "GroupType": "Switch",
-           "GroupId": "536353522",
-           "Id": "0",
-           "GUID": "{7AF86728-1BD3-4937-82E5-4377E1398DFE}"
-          },
-          "MediaRefs": [
-           {
-            "Id": "249387919"
-           },
-           {
-            "Id": "463601207"
-           },
-           {
-            "Id": "491906240"
-           },
-           {
-            "Id": "774905702"
-           },
-           {
-            "Id": "917280452"
-           },
-           {
-            "Id": "1020130402"
-           }
-          ]
-         }
-        ]
-       },
-       {
-        "SwitchValue": {
-         "GroupType": "State",
-         "GroupId": "2616822209",
-         "Id": "1160234136",
-         "GUID": "{BD8887EB-94C4-4ECE-8516-A5E546EA7508}"
-        },
-        "Children": [
+          "Id": "249387919"
+         },
          {
-          "SwitchValue": {
-           "GroupType": "Switch",
-           "GroupId": "536353522",
-           "Id": "1203400786",
-           "GUID": "{33096A89-1F16-40EF-A334-7BE73156196D}"
-          },
-          "MediaRefs": [
-           {
-            "Id": "68259160"
-           },
-           {
-            "Id": "286910771"
-           },
-           {
-            "Id": "664028586"
-           },
-           {
-            "Id": "838448828"
-           },
-           {
-            "Id": "883859625"
-           },
-           {
-            "Id": "988519244"
-           }
-          ]
+          "Id": "463601207"
+         },
+         {
+          "Id": "491906240"
+         },
+         {
+          "Id": "774905702"
+         },
+         {
+          "Id": "917280452"
+         },
+         {
+          "Id": "1020130402"
          }
         ]
        }
@@ -1236,31 +1168,9 @@
        }
       ]
      }
-    ],
-    "SwitchGroups": [
-     {
-      "Id": "536353522",
-      "Name": "Game_Music_Switch",
-      "ObjectPath": "\\Switches\\Game_Music\\Game_Music_Switch",
-      "GUID": "{7AF86728-1BD3-4937-82E5-4377E1398DFE}",
-      "Switches": [
-       {
-        "Id": "1203400786",
-        "Name": "Restart",
-        "ObjectPath": "\\Switches\\Game_Music\\Game_Music_Switch\\Restart",
-        "GUID": "{33096A89-1F16-40EF-A334-7BE73156196D}"
-       },
-       {
-        "Id": "2557017376",
-        "Name": "Play_New",
-        "ObjectPath": "\\Switches\\Game_Music\\Game_Music_Switch\\Play_New",
-        "GUID": "{E653B0BA-AEE1-4CE8-A902-5F8B3ED5DD3D}"
-       }
-      ]
-     }
     ]
    }
   ],
-  "FileHash": "{6130E54B-25CB-E042-E031-6FFADED3F6BF}"
+  "FileHash": "{5D000D03-0B3B-C445-79CF-E86AE7F578DB}"
  }
 }

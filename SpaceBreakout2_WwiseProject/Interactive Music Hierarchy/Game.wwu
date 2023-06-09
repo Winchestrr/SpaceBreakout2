@@ -1746,13 +1746,11 @@
 					</TransitionList>
 					<ArgumentList>
 						<ArgumentRef Name="Game_Music_State" ID="{6CA6171C-DFB8-43B1-AB1B-298319E0D92D}"/>
-						<ArgumentRef Name="Game_Music_Switch" ID="{7AF86728-1BD3-4937-82E5-4377E1398DFE}"/>
 					</ArgumentList>
 					<EntryList>
 						<Entry>
 							<Path>
 								<PathElementRef Name="Normal" ID="{BD8887EB-94C4-4ECE-8516-A5E546EA7508}"/>
-								<PathElementRef Name="Game_Music_Switch" ID="{7AF86728-1BD3-4937-82E5-4377E1398DFE}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Normal_Seq" ID="{92AB1B85-C91D-47A9-8CCE-F2A9898C698D}" WorkUnitID="{EBA568B4-005F-4C56-8680-59AA27657B29}" Platform="Linked"/>
@@ -1761,7 +1759,6 @@
 						<Entry>
 							<Path>
 								<PathElementRef Name="Paused" ID="{F788772E-B217-4596-8DCC-58A09B35D2F0}"/>
-								<PathElementRef Name="Game_Music_Switch" ID="{7AF86728-1BD3-4937-82E5-4377E1398DFE}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Paused_Seq" ID="{08F99367-62EA-4C52-BF28-73A5791A9B1E}" WorkUnitID="{EBA568B4-005F-4C56-8680-59AA27657B29}" Platform="Linked"/>
@@ -1770,19 +1767,9 @@
 						<Entry>
 							<Path>
 								<PathElementRef Name="Death" ID="{97A11E54-1CD0-469D-B7DB-D66E5E639C47}"/>
-								<PathElementRef Name="Game_Music_Switch" ID="{7AF86728-1BD3-4937-82E5-4377E1398DFE}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Death_Seq" ID="{E64AC465-F4B0-4A1A-BFC5-BF6D3DF3EEDF}" WorkUnitID="{EBA568B4-005F-4C56-8680-59AA27657B29}" Platform="Linked"/>
-							</AudioNodeInfo>
-						</Entry>
-						<Entry>
-							<Path>
-								<PathElementRef Name="Normal" ID="{BD8887EB-94C4-4ECE-8516-A5E546EA7508}"/>
-								<PathElementRef Name="Restart" ID="{33096A89-1F16-40EF-A334-7BE73156196D}"/>
-							</Path>
-							<AudioNodeInfo>
-								<AudioNodeRef Name="Normal_Seq" ID="{92AB1B85-C91D-47A9-8CCE-F2A9898C698D}" WorkUnitID="{EBA568B4-005F-4C56-8680-59AA27657B29}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>

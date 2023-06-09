@@ -26,13 +26,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	3808032123	Start_Auto			\Player\Player_Ship\Player_Gun\Start_Auto	
 	4011733850	MenuMusic_Play			\Music\Music\MenuMusic_Play	
 
-Switch Group	ID	Name			Wwise Object Path	Notes
-	536353522	Game_Music_Switch			\Game_Music\Game_Music_Switch	
-
-Switch	ID	Name	Switch Group			Notes
-	1203400786	Restart	Game_Music_Switch			
-	2557017376	Play_New	Game_Music_Switch			
-
 State Group	ID	Name			Wwise Object Path	Notes
 	2616822209	Game_Music_State			\Default Work Unit\Game_Music_State	
 
