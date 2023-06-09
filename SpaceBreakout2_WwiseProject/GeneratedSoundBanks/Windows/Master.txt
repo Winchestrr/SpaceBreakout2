@@ -26,13 +26,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	3808032123	Start_Auto			\Player\Player_Ship\Player_Gun\Start_Auto	
 	4011733850	MenuMusic_Play			\Music\Music\MenuMusic_Play	
 
-Switch Group	ID	Name			Wwise Object Path	Notes
-	536353522	Game_Music_Switch			\Game_Music\Game_Music_Switch	
-
-Switch	ID	Name	Switch Group			Notes
-	1203400786	Restart	Game_Music_Switch			
-	2557017376	Play_New	Game_Music_Switch			
-
 State Group	ID	Name			Wwise Object Path	Notes
 	2616822209	Game_Music_State			\Default Work Unit\Game_Music_State	
 
@@ -64,16 +57,19 @@ Effect plug-ins	ID	Name	Type				Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	39490669	Button_Press	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Button_Press_10C4C929.wem		\Actor-Mixer Hierarchy\Menu\Menu\Button_Press		60096
 	42552773	MetalRuttle_50ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\MetalRuttle_50ms_C33A8915.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Engine\Player_Engine\E_50ms\MetalRuttle_50ms		921744
+	67864525	Bass_alt	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Bass_3takt_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Game_Music_Switch\Normal_Seq\Core\Bass_alt		1059408
 	68259160	Bass	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Bass_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Game_Music_Switch\Normal_Seq\Core\Bass		1059408
 	87918571	Generator_Explosion_Hi_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Generator_Explosion_Hi_1_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Hi\Generator_Explosion_Hi_1		72096
 	98268633	4c_100ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\4c_100ms_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Engine\Enemy_Engine_Big\4c_100ms		921696
 	110667659	Explosion_2	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Explosion_2_10C4C929.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Damage\E_Explosion\Explosion_2		96096
+	114933274	End_Tex	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Ent_Tex_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Game_Music_Switch\Normal_Seq\Core\End_Tex		529752
 	160425296	Power_Up	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Power_Up_10C4C929.wem		\Actor-Mixer Hierarchy\Player\UI\PickUp\Power_Up		48096
 	164484363	Generator_Explosion_Air_3	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Generator_Explosion_Air_3_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Air\Generator_Explosion_Air_3		96096
 	169955327	Generator_Explosion_Hi_3	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Generator_Explosion_Hi_3_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Hi\Generator_Explosion_Hi_3		72096
 	191878459	MetalRuttle_50ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\MetalRuttle_50ms_033908F3.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Engine\Enemy_Engine_Small\MetalRuttle_50ms		921744
 	228206684	Enemy_Shooting	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Shooting_10C4C929.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Gun\Enemy_Shooting		21096
 	249387919	Pad_Long	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Pad_Long_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Game_Music_Switch\Death_Seq\Pad_Core\Pad_Long		2448096
+	275246400	Bass_alt	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Bass_2takt_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Game_Music_Switch\Normal_Seq\Core\Bass_alt		1059408
 	286910771	Radar	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Radar_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Game_Music_Switch\Normal_Seq\Core\Radar		794580
 	289646352	4c_50ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\4c_50ms_CF3D4EE9.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Engine\Player_Engine\E_50ms\4c_50ms		921744
 	291376722	Generator_Explosion_Mid_2	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Generator_Explosion_Mid_2_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Mid\Generator_Explosion_Mid_2		72096
@@ -94,6 +90,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	684622861	Air_25ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Air_25ms_55193FF2.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Engine\Player_Engine\E_25ms\Air_25ms		921744
 	686217727	4c_25ms	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\4c_25ms_CF3D4EE9.wem		\Actor-Mixer Hierarchy\Player\Player_Ship\Player_Engine\Player_Engine\E_25ms\4c_25ms		921744
 	692710192	Explosion_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Explosion_1_10C4C929.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Damage\E_Explosion\Explosion_1		96096
+	752633555	Bass	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Bass_4takt_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Game_Music_Switch\Normal_Seq\Core\Bass		1059408
 	764286339	Pad_Tex_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Pad_PressTex_2_D79FB2B7.wem		\Interactive Music Hierarchy\Menu\Button_Tex\Menu_Tex\Pad_Tex_1		414096
 	774905702	Pad_Tex_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Pad_Tex_4_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Game_Music_Switch\Death_Seq\Pad_Core\Pad_Tex_1		576096
 	800518361	Generator_Explosion_Low_2	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Generator_Explosion_Low_2_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Low\Generator_Explosion_Low_2		66096
