@@ -8,6 +8,7 @@
 						<Action Name="" ID="{075FB61D-A17D-43FC-8E12-E4FAAE9C3BFE}" ShortID="194715772">
 							<PropertyList>
 								<Property Name="FadeInCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -64,6 +65,9 @@
 				<Event Name="Enemy_Engine_Start_Big" ID="{0E6F876A-1D11-4836-89E2-218C79F7A41B}">
 					<ChildrenList>
 						<Action Name="" ID="{3FCBC5BE-A85C-4F54-AD8A-5011CCEEAA62}" ShortID="599073893">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Enemy_Engine_Big" ID="{4818EA04-3D52-4051-B5C9-BC1AF3B3B9A5}" WorkUnitID="{5F24CEC1-5A42-4B73-AAD4-DC3DB1B3C2B0}"/>

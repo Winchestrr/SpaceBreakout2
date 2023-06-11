@@ -194,6 +194,12 @@
         "GUID": "{97A11E54-1CD0-469D-B7DB-D66E5E639C47}"
        },
        {
+        "Id": "979765101",
+        "Name": "Win",
+        "ObjectPath": "\\States\\Default Work Unit\\Game_Music_State\\Win",
+        "GUID": "{0C25C7EC-87C5-4150-81E0-ECDA118F00D3}"
+       },
+       {
         "Id": "1160234136",
         "Name": "Normal",
         "ObjectPath": "\\States\\Default Work Unit\\Game_Music_State\\Normal",
@@ -226,6 +232,6 @@
     ]
    }
   ],
-  "FileHash": "{328385DC-64C3-8AE9-63E4-666AA9BCAAF7}"
+  "FileHash": "{ADBB265D-1BB0-199B-BFD0-DBAABCFC299E}"
  }
 }

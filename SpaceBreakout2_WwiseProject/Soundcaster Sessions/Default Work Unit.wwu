@@ -93,7 +93,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Normal" ID="{BD8887EB-94C4-4ECE-8516-A5E546EA7508}"/>
+						<CurrentStateRef Name="Win" ID="{0C25C7EC-87C5-4150-81E0-ECDA118F00D3}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Restart" ID="{33096A89-1F16-40EF-A334-7BE73156196D}"/>

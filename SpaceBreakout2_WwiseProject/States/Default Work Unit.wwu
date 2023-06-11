@@ -12,6 +12,7 @@
 						<State Name="Normal" ID="{BD8887EB-94C4-4ECE-8516-A5E546EA7508}"/>
 						<State Name="Paused" ID="{F788772E-B217-4596-8DCC-58A09B35D2F0}"/>
 						<State Name="Death" ID="{97A11E54-1CD0-469D-B7DB-D66E5E639C47}"/>
+						<State Name="Win" ID="{0C25C7EC-87C5-4150-81E0-ECDA118F00D3}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>

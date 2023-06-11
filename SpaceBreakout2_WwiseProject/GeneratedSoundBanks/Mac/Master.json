@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{74B27C63-BD9A-667F-5E6F-AFB19F5308FA}",
+    "Hash": "{B4D5B658-DAB5-AFF7-4ABA-6CA9A877AAD8}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -398,6 +398,14 @@
       "Location": "Memory",
       "ShortName": "Generator_Explosion_Air_2.wav",
       "CachePath": "SFX/Generator_Explosion_Air_2_10C4C929.wem"
+     },
+     {
+      "Id": "969879589",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Brawa.wav",
+      "CachePath": "SFX/Brawa_D79FB2B7.wem"
      },
      {
       "Id": "988519244",
@@ -816,10 +824,25 @@
         },
         "MediaRefs": [
          {
+          "Id": "249387919"
+         },
+         {
           "Id": "286910771"
          },
          {
+          "Id": "463601207"
+         },
+         {
           "Id": "664028586"
+         },
+         {
+          "Id": "774905702"
+         },
+         {
+          "Id": "917280452"
+         },
+         {
+          "Id": "1020130402"
          }
         ]
        },
@@ -845,6 +868,34 @@
          },
          {
           "Id": "917280452"
+         },
+         {
+          "Id": "1020130402"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2616822209",
+         "Id": "979765101",
+         "GUID": "{0C25C7EC-87C5-4150-81E0-ECDA118F00D3}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "249387919"
+         },
+         {
+          "Id": "463601207"
+         },
+         {
+          "Id": "774905702"
+         },
+         {
+          "Id": "917280452"
+         },
+         {
+          "Id": "969879589"
          },
          {
           "Id": "1020130402"
@@ -1205,6 +1256,12 @@
         "GUID": "{97A11E54-1CD0-469D-B7DB-D66E5E639C47}"
        },
        {
+        "Id": "979765101",
+        "Name": "Win",
+        "ObjectPath": "\\States\\Default Work Unit\\Game_Music_State\\Win",
+        "GUID": "{0C25C7EC-87C5-4150-81E0-ECDA118F00D3}"
+       },
+       {
         "Id": "1160234136",
         "Name": "Normal",
         "ObjectPath": "\\States\\Default Work Unit\\Game_Music_State\\Normal",
@@ -1215,6 +1272,6 @@
     ]
    }
   ],
-  "FileHash": "{6B14EC94-F629-8A41-6AD3-0922D8914215}"
+  "FileHash": "{2546E331-39EE-7B5D-1737-CC35335E1F66}"
  }
 }

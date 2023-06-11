@@ -55,6 +55,7 @@
 						<State Id="319258907" Name="Paused" ObjectPath="\States\Default Work Unit\Game_Music_State\Paused" GUID="{F788772E-B217-4596-8DCC-58A09B35D2F0}"/>
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Game_Music_State\None" GUID="{A361B955-04C8-4FBC-A975-A3E084CAB057}"/>
 						<State Id="779278001" Name="Death" ObjectPath="\States\Default Work Unit\Game_Music_State\Death" GUID="{97A11E54-1CD0-469D-B7DB-D66E5E639C47}"/>
+						<State Id="979765101" Name="Win" ObjectPath="\States\Default Work Unit\Game_Music_State\Win" GUID="{0C25C7EC-87C5-4150-81E0-ECDA118F00D3}"/>
 						<State Id="1160234136" Name="Normal" ObjectPath="\States\Default Work Unit\Game_Music_State\Normal" GUID="{BD8887EB-94C4-4ECE-8516-A5E546EA7508}"/>
 					</States>
 				</StateGroup>
@@ -69,5 +70,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C430910D-A3A5-00D0-4DD3-51DDA049ECCE}</FileHash>
+	<FileHash>{DB5B4D89-1F61-4204-BF8F-92A707237491}</FileHash>
 </SoundBanksInfo>
