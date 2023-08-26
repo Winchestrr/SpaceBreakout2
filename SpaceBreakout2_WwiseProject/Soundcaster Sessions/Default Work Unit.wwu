@@ -140,7 +140,7 @@
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Restart" ID="{33096A89-1F16-40EF-A334-7BE73156196D}"/>
-						<CurrentSwitchRef Name="Armor" ID="{3429F282-515C-4E1D-A47E-1D87BB5FF18D}"/>
+						<CurrentSwitchRef Name="Arena_Start" ID="{247F715F-5923-4590-86C8-009110BA0AED}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Music" ID="{56881393-2253-4FEC-8F81-597C82EF0389}">
