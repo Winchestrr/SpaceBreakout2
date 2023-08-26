@@ -11,7 +11,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Player_Engine" ID="{9E8370D7-4AAD-41C1-A25E-0A3704F0E4ED}" WorkUnitID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}"/>
+									<ObjectRef Name="P_E_v3" ID="{FC56093D-DDB6-4A99-A43B-6BBC45B03A3D}" WorkUnitID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -69,7 +69,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Player_Engine" ID="{9E8370D7-4AAD-41C1-A25E-0A3704F0E4ED}" WorkUnitID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}"/>
+									<ObjectRef Name="P_E_v3" ID="{FC56093D-DDB6-4A99-A43B-6BBC45B03A3D}" WorkUnitID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

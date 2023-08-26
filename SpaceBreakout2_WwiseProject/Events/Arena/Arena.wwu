@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F5B8F450-E994-40CF-889A-B941D891D83F}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Arena" ID="{F5B8F450-E994-40CF-889A-B941D891D83F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Arena_Stop" ID="{8700C6BE-3F03-4D1F-9A0D-DD8B4117D22A}">
+					<ChildrenList>
+						<Action Name="" ID="{128F3933-14F4-4FBB-AADE-E8F842330970}" ShortID="403827056">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{BD8887EB-94C4-4ECE-8516-A5E546EA7508}" WorkUnitID="{CF1E7F54-F60F-42FB-8C76-8C2AFF31841C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{46A5B369-F8A1-4B8C-A7DA-0CC873F2421C}" ShortID="1029129005">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="20"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Arena_Status" ID="{6AD61D86-048D-4647-879B-A4394724933A}" WorkUnitID="{C33037A4-0042-46FB-86EF-5D52D252DE42}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Arena_Start" ID="{0281608E-4CBC-4E08-A05E-D50C6A8070C7}">
+					<ChildrenList>
+						<Action Name="" ID="{530BCDBC-70F3-469E-BC13-E65DFFF528D8}" ShortID="696583093">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="State_1" ID="{0BE34E2C-2240-4824-AA2E-23926769C1B8}" WorkUnitID="{CF1E7F54-F60F-42FB-8C76-8C2AFF31841C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{487EFCAE-4D7B-4CBF-AFFA-06A79D77426F}" ShortID="260021709">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy" ID="{B602B0D5-0761-4DB7-A9EA-BAA158A83D43}" WorkUnitID="{CF1E7F54-F60F-42FB-8C76-8C2AFF31841C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AB3A2D40-627F-407C-A559-1E1ED265D0E1}" ShortID="382181408">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Arena_Status" ID="{6AD61D86-048D-4647-879B-A4394724933A}" WorkUnitID="{C33037A4-0042-46FB-86EF-5D52D252DE42}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -10,7 +10,7 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Gen_Idle" ID="{4D6FA5E8-AC89-4B27-918E-65D49801B10C}" WorkUnitID="{C0EC18BB-BAA3-4BF5-AC35-85AFC6D8D4C4}"/>
+							<ObjectRef Name="Gate_On" ID="{28D702D0-2D04-4FAC-A914-939ECBB4DCB8}" WorkUnitID="{F34DEB29-127A-4DA5-B57A-39DBA5EF3EC2}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
@@ -22,7 +22,7 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Gen_Explosion" ID="{8E1FFB9F-67FE-4D80-A5D7-379D2DB2645E}" WorkUnitID="{C0EC18BB-BAA3-4BF5-AC35-85AFC6D8D4C4}"/>
+							<ObjectRef Name="Gen_Idle" ID="{4D6FA5E8-AC89-4B27-918E-65D49801B10C}" WorkUnitID="{C0EC18BB-BAA3-4BF5-AC35-85AFC6D8D4C4}"/>
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
@@ -38,12 +38,16 @@
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Player_Explosion" ID="{DF045002-1F4A-4FA9-B10D-97E16C24B2E1}" WorkUnitID="{588E399A-E016-4FB0-9D56-AC95D956C888}"/>
+							<ObjectRef Name="Gen_Explosion" ID="{8E1FFB9F-67FE-4D80-A5D7-379D2DB2645E}" WorkUnitID="{C0EC18BB-BAA3-4BF5-AC35-85AFC6D8D4C4}"/>
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Enemy_Shoot" ID="{03C9A381-AB34-41E3-9556-AF8F69811E68}" WorkUnitID="{7C77DF77-B5DF-4D6F-8DBD-8C9AD3466887}"/>
 							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PickUp_Voc" ID="{ADA35559-C362-4F0A-916A-AB1E649583D7}" WorkUnitID="{52F1A2BA-2F33-41B0-A002-B234A32CD87D}"/>
+							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Damage_Taken" ID="{93D7B761-A2CD-490F-A91E-47434D556F56}" WorkUnitID="{588E399A-E016-4FB0-9D56-AC95D956C888}"/>
@@ -53,8 +57,28 @@
 							<ObjectRef Name="Player_Death" ID="{01511685-0572-4254-8EE6-FC9771B406C8}" WorkUnitID="{588E399A-E016-4FB0-9D56-AC95D956C888}"/>
 							<Position X="3" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Player_Explosion" ID="{DF045002-1F4A-4FA9-B10D-97E16C24B2E1}" WorkUnitID="{588E399A-E016-4FB0-9D56-AC95D956C888}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PickUp_Fuel" ID="{180DF9B7-A69B-4EE1-8D17-50B06BC0A13F}" WorkUnitID="{52F1A2BA-2F33-41B0-A002-B234A32CD87D}"/>
+							<Position X="3" Y="3"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Music_vol" ID="{A6331C8C-5AA5-4121-A98F-D9EDD7771CE9}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Arena_Status" ID="{6AD61D86-048D-4647-879B-A4394724933A}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Sfx_Sidechain" ID="{3AA5C21D-CCA0-474E-89A7-3795B70529DA}"/>
+							<Value>-48</Value>
+						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="MainVolume" ID="{7E6BB6D5-F272-48A0-976F-6A4B17EB0D9B}"/>
 							<Value>100</Value>
@@ -64,8 +88,16 @@
 							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Gate_fade" ID="{96C2BE72-09F1-4A76-964A-D7FA290E4CBD}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="SFXVolume" ID="{45787E01-5AA6-4A9D-93D8-C0F9DE786340}"/>
 							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="gate_duck" ID="{07779255-0484-4ABF-A220-0DAEDA72AE19}"/>
+							<Value>-48</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Enemy_Death" ID="{7987A131-FA89-4C51-A6C1-77D67BC5FE02}"/>
@@ -76,8 +108,16 @@
 							<Value>-48</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="E_Vol" ID="{9189EE7D-CF8E-4D13-BC1E-53F51220783E}"/>
+							<Value>83.5573940020683</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="Speed" ID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"/>
-							<Value>8000</Value>
+							<Value>8440</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Fuel" ID="{126F5C6D-E080-4E9D-9AAA-25B3CEA41ACA}"/>
+							<Value>45.552554689473</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Death" ID="{66EA2853-CF2F-4EC2-B5DB-DEBEE4400EEE}"/>
@@ -93,10 +133,14 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Win" ID="{0C25C7EC-87C5-4150-81E0-ECDA118F00D3}"/>
+						<CurrentStateRef Name="Enemy" ID="{B602B0D5-0761-4DB7-A9EA-BAA158A83D43}"/>
+						<CurrentStateRef Name="None" ID="{2674108A-952C-46CC-9F90-459EF9D3AA4B}"/>
+						<CurrentStateRef Name="Close" ID="{F1DB9999-F097-4F2B-A28D-5092A6D1FCCC}"/>
+						<CurrentStateRef Name="Normal" ID="{6C40F67B-9174-486F-9965-F0993FBF46F7}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Restart" ID="{33096A89-1F16-40EF-A334-7BE73156196D}"/>
+						<CurrentSwitchRef Name="Armor" ID="{3429F282-515C-4E1D-A47E-1D87BB5FF18D}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Music" ID="{56881393-2253-4FEC-8F81-597C82EF0389}">
@@ -121,18 +165,46 @@
 							<ObjectRef Name="CheckPoint" ID="{95E17FA5-3626-44DB-938D-14D3DA8D3AC9}" WorkUnitID="{52F1A2BA-2F33-41B0-A002-B234A32CD87D}"/>
 							<Position X="2" Y="2"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Grav_Change" ID="{2E96BED1-D01B-4279-B055-B9C9A723E34F}" WorkUnitID="{A3F32CDE-C778-4C0B-A2C8-285F5122ED8A}"/>
+							<Position X="3" Y="2"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
+							<GameParameterRef Name="Music_vol" ID="{A6331C8C-5AA5-4121-A98F-D9EDD7771CE9}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Arena_Status" ID="{6AD61D86-048D-4647-879B-A4394724933A}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Musci_Sidechain" ID="{7BED921A-B7E3-4C90-B7E6-189E0BC04C38}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="E_Vol" ID="{9189EE7D-CF8E-4D13-BC1E-53F51220783E}"/>
+							<Value>83.5573940020683</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="Speed" ID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"/>
-							<Value>8000</Value>
+							<Value>8440</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Fuel" ID="{126F5C6D-E080-4E9D-9AAA-25B3CEA41ACA}"/>
+							<Value>45.552554689473</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Normal" ID="{BD8887EB-94C4-4ECE-8516-A5E546EA7508}"/>
+						<CurrentStateRef Name="Enemy" ID="{B602B0D5-0761-4DB7-A9EA-BAA158A83D43}"/>
+						<CurrentStateRef Name="None" ID="{2674108A-952C-46CC-9F90-459EF9D3AA4B}"/>
+						<CurrentStateRef Name="Close" ID="{F1DB9999-F097-4F2B-A28D-5092A6D1FCCC}"/>
+						<CurrentStateRef Name="Normal" ID="{6C40F67B-9174-486F-9965-F0993FBF46F7}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Restart" ID="{33096A89-1F16-40EF-A334-7BE73156196D}"/>
+						<CurrentSwitchRef Name="Armor" ID="{3429F282-515C-4E1D-A47E-1D87BB5FF18D}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

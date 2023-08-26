@@ -13,6 +13,7 @@
 						<State Name="Paused" ID="{F788772E-B217-4596-8DCC-58A09B35D2F0}"/>
 						<State Name="Death" ID="{97A11E54-1CD0-469D-B7DB-D66E5E639C47}"/>
 						<State Name="Win" ID="{0C25C7EC-87C5-4150-81E0-ECDA118F00D3}"/>
+						<State Name="Enemy" ID="{B602B0D5-0761-4DB7-A9EA-BAA158A83D43}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>
@@ -22,6 +23,33 @@
 							<IsShared>false</IsShared>
 						</Transition>
 					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="Gate_State" ID="{EE474170-F933-47B5-8D3A-1F7475C21A9D}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{25703F03-BE65-4A15-A974-CDA079CFC72D}"/>
+						<State Name="Open" ID="{C8949866-84F5-40B4-B1F3-FBDA7EE92CDE}"/>
+						<State Name="Close" ID="{F1DB9999-F097-4F2B-A28D-5092A6D1FCCC}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Fuel" ID="{3A2040DE-84F9-4842-83B4-97DE6E114B18}">
+					<ChildrenList>
+						<State Name="None" ID="{F1BDA42E-1D08-4480-B075-359CB2C149D6}"/>
+						<State Name="Normal" ID="{6C40F67B-9174-486F-9965-F0993FBF46F7}"/>
+						<State Name="Low" ID="{504F8031-0A97-42F9-AB06-DCC47CF94F31}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Enemy_Music_State" ID="{FA9EF0F1-71E1-466D-B6DE-D204935CB34D}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{2674108A-952C-46CC-9F90-459EF9D3AA4B}"/>
+						<State Name="State_1" ID="{0BE34E2C-2240-4824-AA2E-23926769C1B8}"/>
+						<State Name="State_2" ID="{FBEAE51C-F775-42DB-B39B-C10770DEFE07}"/>
+					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>

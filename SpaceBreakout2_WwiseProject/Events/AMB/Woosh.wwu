@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C03E8FE7-2B71-426F-850E-FD034C8F9CCC}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Woosh" ID="{C03E8FE7-2B71-426F-850E-FD034C8F9CCC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Woosh_box" ID="{F00990BC-2EE3-450C-84EF-EA06A82D9C7B}">
+					<ChildrenList>
+						<Action Name="" ID="{04454EC7-E077-41A5-8064-3BE3D9B616D2}" ShortID="183658280">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Woosh" ID="{5932F7F0-A2BE-4A31-AAC7-E951B13883F7}" WorkUnitID="{52B70683-3CEA-4579-B014-5986757F6800}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

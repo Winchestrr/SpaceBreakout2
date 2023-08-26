@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{B4D5B658-DAB5-AFF7-4ABA-6CA9A877AAD8}">
+		<SoundBank Id="4056684167" Type="User" GUID="{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}" Language="SFX" Hash="{43266DD4-F5FF-0AE6-4E52-2B4355DE83A2}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -9,10 +9,6 @@
 				<File Id="39490669" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Button_Press.wav</ShortName>
 					<CachePath>SFX/Button_Press_10C4C929.wem</CachePath>
-				</File>
-				<File Id="42552773" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MetalRuttle_50ms.wav</ShortName>
-					<CachePath>SFX/MetalRuttle_50ms_C33A8915.wem</CachePath>
 				</File>
 				<File Id="67864525" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bass_3takt.wav</ShortName>
@@ -38,9 +34,13 @@
 					<ShortName>Ent_Tex.wav</ShortName>
 					<CachePath>SFX/Ent_Tex_D79FB2B7.wem</CachePath>
 				</File>
-				<File Id="160425296" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Power_Up.wav</ShortName>
-					<CachePath>SFX/Power_Up_10C4C929.wem</CachePath>
+				<File Id="121448180" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>E_v3_rumble_low.wav</ShortName>
+					<CachePath>SFX/E_v3_rumble_low_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="138580143" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>voc_doubleGuns.wav</ShortName>
+					<CachePath>SFX/voc_doubleGuns_10C4C929.wem</CachePath>
 				</File>
 				<File Id="164484363" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Generator_Explosion_Air_3.wav</ShortName>
@@ -50,6 +50,10 @@
 					<ShortName>Generator_Explosion_Hi_3.wav</ShortName>
 					<CachePath>SFX/Generator_Explosion_Hi_3_10C4C929.wem</CachePath>
 				</File>
+				<File Id="181645903" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>voc_DmgUp.wav</ShortName>
+					<CachePath>SFX/voc_DmgUp_10C4C929.wem</CachePath>
+				</File>
 				<File Id="191878459" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetalRuttle_50ms.wav</ShortName>
 					<CachePath>SFX/MetalRuttle_50ms_033908F3.wem</CachePath>
@@ -58,9 +62,17 @@
 					<ShortName>Shooting.wav</ShortName>
 					<CachePath>SFX/Shooting_10C4C929.wem</CachePath>
 				</File>
+				<File Id="231057985" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gate_idle.wav</ShortName>
+					<CachePath>SFX/Gate_idle_2592A887.wem</CachePath>
+				</File>
 				<File Id="249387919" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pad_Long.wav</ShortName>
 					<CachePath>SFX/Pad_Long_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="272651010" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>voc_armor.wav</ShortName>
+					<CachePath>SFX/voc_armor_10C4C929.wem</CachePath>
 				</File>
 				<File Id="275246400" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bass_2takt.wav</ShortName>
@@ -70,33 +82,57 @@
 					<ShortName>Radar.wav</ShortName>
 					<CachePath>SFX/Radar_D79FB2B7.wem</CachePath>
 				</File>
-				<File Id="289646352" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>4c_50ms.wav</ShortName>
-					<CachePath>SFX/4c_50ms_CF3D4EE9.wem</CachePath>
-				</File>
 				<File Id="291376722" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Generator_Explosion_Mid_2.wav</ShortName>
 					<CachePath>SFX/Generator_Explosion_Mid_2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="292001884" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Engine_Online.wav</ShortName>
+					<CachePath>SFX/Engine_Online_10C4C929.wem</CachePath>
+				</File>
+				<File Id="293363735" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fan_hi_2.wav</ShortName>
+					<CachePath>SFX/Fan_hi_2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="300038725" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>voc_LowFuel.wav</ShortName>
+					<CachePath>SFX/voc_LowFuel_10C4C929.wem</CachePath>
 				</File>
 				<File Id="300107268" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>EngineRuttle_50ms.wav</ShortName>
 					<CachePath>SFX/EngineRuttle_50ms_66498DF5.wem</CachePath>
 				</File>
-				<File Id="317170420" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Air_50ms.wav</ShortName>
-					<CachePath>SFX/Air_50ms_55193FF2.wem</CachePath>
+				<File Id="300721839" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>voc_overclockGun.wav</ShortName>
+					<CachePath>SFX/voc_overclockGun_10C4C929.wem</CachePath>
+				</File>
+				<File Id="334105774" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Whoosh_punch_3.wav</ShortName>
+					<CachePath>SFX/Whoosh_punch_3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="336490129" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Whoosh_main_1.wav</ShortName>
+					<CachePath>SFX/Whoosh_main_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="338008155" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fan_Squick_1.wav</ShortName>
+					<CachePath>SFX/Fan_Squick_1_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="390569858" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pad_PressTex_3.wav</ShortName>
 					<CachePath>SFX/Pad_PressTex_3_D79FB2B7.wem</CachePath>
 				</File>
-				<File Id="392017222" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MetalRuttle_25ms.wav</ShortName>
-					<CachePath>SFX/MetalRuttle_25ms_0435493D.wem</CachePath>
+				<File Id="406945600" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>E_v3_main_hi.wav</ShortName>
+					<CachePath>SFX/E_v3_main_hi_B7F145C8.wem</CachePath>
 				</File>
 				<File Id="418883588" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Explosion_4.wav</ShortName>
 					<CachePath>SFX/Explosion_4_10C4C929.wem</CachePath>
+				</File>
+				<File Id="448046961" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gate_close.wav</ShortName>
+					<CachePath>SFX/Gate_close_33C43000.wem</CachePath>
 				</File>
 				<File Id="463601207" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pad_Tex_1.wav</ShortName>
@@ -106,21 +142,41 @@
 					<ShortName>Pad_PressTex_4.wav</ShortName>
 					<CachePath>SFX/Pad_PressTex_4_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="482160595" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>E_v3_main_low.wav</ShortName>
+					<CachePath>SFX/E_v3_main_low_73C79799.wem</CachePath>
+				</File>
 				<File Id="491906240" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Drums_Death.wav</ShortName>
 					<CachePath>SFX/Drums_Death_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="494941977" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>voc_Enemies_Start.wav</ShortName>
+					<CachePath>SFX/voc_Enemies_Start_10C4C929.wem</CachePath>
+				</File>
+				<File Id="518689265" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Whoosh_punch_4.wav</ShortName>
+					<CachePath>SFX/Whoosh_punch_4_10C4C929.wem</CachePath>
 				</File>
 				<File Id="551274477" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>4c_50ms.wav</ShortName>
 					<CachePath>SFX/4c_50ms_F95DF087.wem</CachePath>
 				</File>
-				<File Id="569297401" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>EngineRuttle_25ms.wav</ShortName>
-					<CachePath>SFX/EngineRuttle_25ms_32CCEE66.wem</CachePath>
+				<File Id="601850413" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pick_Up_Notify.wav</ShortName>
+					<CachePath>SFX/Pick_Up_Notify_10C4C929.wem</CachePath>
 				</File>
-				<File Id="641029741" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Fuel.wav</ShortName>
-					<CachePath>SFX/Fuel_10C4C929.wem</CachePath>
+				<File Id="608585848" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Whoosh_punch_2.wav</ShortName>
+					<CachePath>SFX/Whoosh_punch_2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="637730646" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Whoosh_punch_1.wav</ShortName>
+					<CachePath>SFX/Whoosh_punch_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="641596537" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pick_Up_Fuel_Low.wav</ShortName>
+					<CachePath>SFX/Pick_Up_Fuel_Low_10C4C929.wem</CachePath>
 				</File>
 				<File Id="662278568" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Generator_Explosion_Low_4.wav</ShortName>
@@ -134,21 +190,37 @@
 					<ShortName>Explosion_3.wav</ShortName>
 					<CachePath>SFX/Explosion_3_10C4C929.wem</CachePath>
 				</File>
-				<File Id="684622861" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Air_25ms.wav</ShortName>
-					<CachePath>SFX/Air_25ms_55193FF2.wem</CachePath>
+				<File Id="678721770" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>voc_Start.wav</ShortName>
+					<CachePath>SFX/voc_Start_10C4C929.wem</CachePath>
 				</File>
-				<File Id="686217727" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>4c_25ms.wav</ShortName>
-					<CachePath>SFX/4c_25ms_CF3D4EE9.wem</CachePath>
+				<File Id="690166717" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fan_hi_3.wav</ShortName>
+					<CachePath>SFX/Fan_hi_3_10C4C929.wem</CachePath>
 				</File>
 				<File Id="692710192" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Explosion_1.wav</ShortName>
 					<CachePath>SFX/Explosion_1_10C4C929.wem</CachePath>
 				</File>
+				<File Id="700890862" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Whoosh_main_3.wav</ShortName>
+					<CachePath>SFX/Whoosh_main_3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="715568162" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fuel_Notify.wav</ShortName>
+					<CachePath>SFX/Fuel_Notify_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="725300711" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>voc_Gate_Stop.wav</ShortName>
+					<CachePath>SFX/voc_Gate_Stop_10C4C929.wem</CachePath>
+				</File>
 				<File Id="752633555" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bass_4takt.wav</ShortName>
 					<CachePath>SFX/Bass_4takt_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="762539073" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>E_v3_rumble_hi.wav</ShortName>
+					<CachePath>SFX/E_v3_rumble_hi_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="764286339" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pad_PressTex_2.wav</ShortName>
@@ -158,17 +230,45 @@
 					<ShortName>Pad_Tex_4.wav</ShortName>
 					<CachePath>SFX/Pad_Tex_4_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="795615076" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Whoosh_main_2.wav</ShortName>
+					<CachePath>SFX/Whoosh_main_2_10C4C929.wem</CachePath>
+				</File>
 				<File Id="800518361" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Generator_Explosion_Low_2.wav</ShortName>
 					<CachePath>SFX/Generator_Explosion_Low_2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="804448827" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fan_hi_1.wav</ShortName>
+					<CachePath>SFX/Fan_hi_1_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="809042561" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>voc_Gate_Start.wav</ShortName>
+					<CachePath>SFX/voc_Gate_Start_10C4C929.wem</CachePath>
 				</File>
 				<File Id="823391425" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Generator_Explosion_Mid_3.wav</ShortName>
 					<CachePath>SFX/Generator_Explosion_Mid_3_10C4C929.wem</CachePath>
 				</File>
+				<File Id="827329247" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Drum_Enemy2.wav</ShortName>
+					<CachePath>SFX/Drum_Enemy2_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="838448828" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Drums_Fill4.wav</ShortName>
 					<CachePath>SFX/Drums_Fill4_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="842610921" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fan_Squick_2.wav</ShortName>
+					<CachePath>SFX/Fan_Squick_2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="848009311" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fan_Low_1.wav</ShortName>
+					<CachePath>SFX/Fan_Low_1_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="848404456" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grav_Change.wav</ShortName>
+					<CachePath>SFX/Grav_Change_10C4C929.wem</CachePath>
 				</File>
 				<File Id="859320708" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dmg_Taken_3.wav</ShortName>
@@ -198,13 +298,13 @@
 					<ShortName>Generator_Explosion_Air_2.wav</ShortName>
 					<CachePath>SFX/Generator_Explosion_Air_2_10C4C929.wem</CachePath>
 				</File>
+				<File Id="962726189" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Drum_Enemy1.wav</ShortName>
+					<CachePath>SFX/Drum_Enemy1_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="969879589" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Brawa.wav</ShortName>
 					<CachePath>SFX/Brawa_D79FB2B7.wem</CachePath>
-				</File>
-				<File Id="988519244" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Drums_Fill3.wav</ShortName>
-					<CachePath>SFX/Drums_Fill3_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="989050902" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Generator_Explosion_Low_1.wav</ShortName>
@@ -246,10 +346,6 @@
 					<ShortName>Generator_Explosion_Air_1.wav</ShortName>
 					<CachePath>SFX/Generator_Explosion_Air_1_10C4C929.wem</CachePath>
 				</File>
-				<File Id="1043020179" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>EngineRuttle_50ms.wav</ShortName>
-					<CachePath>SFX/EngineRuttle_50ms_13DE35EF.wem</CachePath>
-				</File>
 				<File Id="1046666558" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AutoMode.wav</ShortName>
 					<CachePath>SFX/AutoMode_C585BE34.wem</CachePath>
@@ -261,6 +357,7 @@
 			</Media>
 			<Plugins>
 				<ShareSets>
+					<Plugin Id="1008402193" Name="Low_Pass_20KHz" ObjectPath="\Effects\Factory Effects\Parametric EQ\Low Pass Filters\Low_Pass_20KHz" GUID="{830124FB-B9D5-4AE8-846E-E94A74652666}" LibName="Wwise Parametric EQ" LibId="6881283"/>
 					<Plugin Id="2995775460" Name="Room_Small" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Small" GUID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</ShareSets>
 			</Plugins>
@@ -269,9 +366,17 @@
 					<MediaRefs>
 						<MediaRef Id="904171427"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="4145699381" Name="Music_Duck_Aux" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music_Duck_Aux" GUID="{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}"/>
-					</AuxBusRefs>
+				</Event>
+				<Event Id="3211126491" Name="Arena_Start" ObjectPath="\Events\Arena\Arena\Arena_Start" GUID="{0281608E-4CBC-4E08-A05E-D50C6A8070C7}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="78402873" Id="1277114380" Name="State_1" ObjectPath="\States\Default Work Unit\Enemy_Music_State\State_1" GUID="{0BE34E2C-2240-4824-AA2E-23926769C1B8}"/>
+						<ActionSetStateEntry GroupId="2616822209" Id="2299321487" Name="Enemy" ObjectPath="\States\Default Work Unit\Game_Music_State\Enemy" GUID="{B602B0D5-0761-4DB7-A9EA-BAA158A83D43}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3080525753" Name="Arena_Stop" ObjectPath="\Events\Arena\Arena\Arena_Stop" GUID="{8700C6BE-3F03-4D1F-9A0D-DD8B4117D22A}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="2616822209" Id="1160234136" Name="Normal" ObjectPath="\States\Default Work Unit\Game_Music_State\Normal" GUID="{BD8887EB-94C4-4ECE-8516-A5E546EA7508}"/>
+					</ActionSetState>
 				</Event>
 				<Event Id="1701177942" Name="Button_Hover" ObjectPath="\Events\Menu\Menu\Button_Hover" GUID="{B64F7364-EFF7-4016-A5B4-DA1FDC336E4F}" DurationType="OneShot" DurationMin="0.25" DurationMax="0.25">
 					<MediaRefs>
@@ -291,9 +396,6 @@
 					<MediaRefs>
 						<MediaRef Id="1011644442"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="4145699381" Name="Music_Duck_Aux" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music_Duck_Aux" GUID="{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="1763999390" Name="Damage_Taken" ObjectPath="\Events\Player\Player_Ship\Player_Damage\Damage_Taken" GUID="{93D7B761-A2CD-490F-A91E-47434D556F56}" DurationType="OneShot" DurationMin="0.625" DurationMax="0.625">
 					<MediaRefs>
@@ -331,21 +433,46 @@
 						<MediaRef Id="901683300"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1050776119" Name="Enemy_Shoot" ObjectPath="\Events\Enemies\Enemy_Gun\Enemy_Shoot" GUID="{03C9A381-AB34-41E3-9556-AF8F69811E68}" MaxAttenuation="30000" DurationType="OneShot" DurationMin="0.21875" DurationMax="0.21875">
+				<Event Id="1050776119" Name="Enemy_Shoot" ObjectPath="\Events\Enemies\Enemy_Gun\Enemy_Shoot" GUID="{03C9A381-AB34-41E3-9556-AF8F69811E68}" DurationType="OneShot" DurationMin="0.27560773" DurationMax="0.27560773">
 					<MediaRefs>
 						<MediaRef Id="228206684"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="164866881" Name="EngineStart" ObjectPath="\Events\Player\Player_Ship\Player_Engine\EngineStart" GUID="{6C650701-4DB9-4776-B651-5AF00B3FF3D1}" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="42552773"/>
-						<MediaRef Id="289646352"/>
-						<MediaRef Id="317170420"/>
-						<MediaRef Id="392017222"/>
-						<MediaRef Id="569297401"/>
-						<MediaRef Id="684622861"/>
-						<MediaRef Id="686217727"/>
-						<MediaRef Id="1043020179"/>
+						<MediaRef Id="121448180"/>
+						<MediaRef Id="292001884"/>
+						<MediaRef Id="406945600"/>
+						<MediaRef Id="482160595"/>
+						<MediaRef Id="762539073"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1008402193"/>
+						</ShareSets>
+					</PluginRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="2661514705" Id="1160234136" Name="Normal" ObjectPath="\States\Default Work Unit\Fuel\Normal" GUID="{6C40F67B-9174-486F-9965-F0993FBF46F7}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3739295085" Name="Fan_Start" ObjectPath="\Events\AMB\Fan\Fan_Start" GUID="{14664920-0507-4D4B-9C5A-E1AC3FDF5B66}" MaxAttenuation="50000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="293363735"/>
+						<MediaRef Id="338008155"/>
+						<MediaRef Id="690166717"/>
+						<MediaRef Id="804448827"/>
+						<MediaRef Id="842610921"/>
+						<MediaRef Id="848009311"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2688759983" Name="Fan_Stop" ObjectPath="\Events\AMB\Fan\Fan_Stop" GUID="{DA4BFE32-1220-47E8-BEFB-5B28134CCED9}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="293363735"/>
+						<MediaRef Id="338008155"/>
+						<MediaRef Id="690166717"/>
+						<MediaRef Id="804448827"/>
+						<MediaRef Id="842610921"/>
+						<MediaRef Id="848009311"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="360080557" Name="GameMusic_Play" ObjectPath="\Events\Music\Music\GameMusic_Play" GUID="{A72DEEDE-8231-406A-974D-464C83DC5C3B}" DurationType="Infinite">
@@ -359,10 +486,10 @@
 								<MediaRef Id="275246400"/>
 								<MediaRef Id="286910771"/>
 								<MediaRef Id="664028586"/>
+								<MediaRef Id="715568162"/>
 								<MediaRef Id="752633555"/>
 								<MediaRef Id="838448828"/>
 								<MediaRef Id="883859625"/>
-								<MediaRef Id="988519244"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
@@ -399,9 +526,54 @@
 								<MediaRef Id="1020130402"/>
 							</MediaRefs>
 						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2616822209" Id="2299321487" GUID="{B602B0D5-0761-4DB7-A9EA-BAA158A83D43}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="78402873" Id="1277114383" GUID="{FBEAE51C-F775-42DB-B39B-C10770DEFE07}"/>
+									<MediaRefs>
+										<MediaRef Id="286910771"/>
+										<MediaRef Id="715568162"/>
+										<MediaRef Id="827329247"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="78402873" Id="1277114380" GUID="{0BE34E2C-2240-4824-AA2E-23926769C1B8}"/>
+									<MediaRefs>
+										<MediaRef Id="286910771"/>
+										<MediaRef Id="715568162"/>
+										<MediaRef Id="962726189"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
 				<Event Id="1477274875" Name="GameMusic_Stop" ObjectPath="\Events\Music\Music\GameMusic_Stop" GUID="{FF9EEC8A-DB91-495E-9B75-94DB51C7C376}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="197350375" Name="Gate_Destroy" ObjectPath="\Events\Gates\Gate\Gate_Destroy" GUID="{8BC3E156-62F2-4148-AC23-5143AD90B9DF}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="2656867858" Id="1451272583" Name="Close" ObjectPath="\States\Default Work Unit\Gate_State\Close" GUID="{F1DB9999-F097-4F2B-A28D-5092A6D1FCCC}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2355973776" Name="Gate_On" ObjectPath="\Events\Gates\Gate\Gate_On" GUID="{28D702D0-2D04-4FAC-A914-939ECBB4DCB8}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2656867858" Id="3072142513" GUID="{C8949866-84F5-40B4-B1F3-FBDA7EE92CDE}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="231057985"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2656867858" Id="1451272583" GUID="{F1DB9999-F097-4F2B-A28D-5092A6D1FCCC}"/>
+							<MediaRefs>
+								<MediaRef Id="448046961"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="2656867858" Id="3072142513" Name="Open" ObjectPath="\States\Default Work Unit\Gate_State\Open" GUID="{C8949866-84F5-40B4-B1F3-FBDA7EE92CDE}"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="619787537" Name="Gen_Explosion" ObjectPath="\Events\Gates\Generators\Gen_Explosion" GUID="{8E1FFB9F-67FE-4D80-A5D7-379D2DB2645E}" MaxAttenuation="50000" DurationType="OneShot" DurationMin="1" DurationMax="1.0145453">
 					<MediaRefs>
 						<MediaRef Id="87918571"/>
@@ -418,13 +590,20 @@
 						<MediaRef Id="1023344460"/>
 						<MediaRef Id="1064403143"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="4145699381" Name="Music_Duck_Aux" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music_Duck_Aux" GUID="{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="1772735026" Name="Gen_Idle" ObjectPath="\Events\Gates\Generators\Gen_Idle" GUID="{4D6FA5E8-AC89-4B27-918E-65D49801B10C}" MaxAttenuation="30000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="1019287824"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1199555978" Name="Grav_Change" ObjectPath="\Events\Player\Player_Ship\Player_Engine\Grav_Change" GUID="{2E96BED1-D01B-4279-B055-B9C9A723E34F}" DurationType="OneShot" DurationMin="0.375" DurationMax="0.375">
+					<MediaRefs>
+						<MediaRef Id="848404456"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4123804492" Name="Low_Fuel" ObjectPath="\Events\Player\UI\Low_Fuel" GUID="{E9482641-B52D-4D9F-8201-A358E0B8546A}" DurationType="OneShot" DurationMin="1.1875" DurationMax="1.1875">
+					<MediaRefs>
+						<MediaRef Id="300038725"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4011733850" Name="MenuMusic_Play" ObjectPath="\Events\Music\Music\MenuMusic_Play" GUID="{391A94BC-C147-48EF-90A5-21F0824680F5}" DurationType="Infinite">
@@ -438,16 +617,85 @@
 				</Event>
 				<Event Id="1115745636" Name="MenuMusic_Stop" ObjectPath="\Events\Music\Music\MenuMusic_Stop" GUID="{7F9A7BA5-523B-4023-9760-2E543CF5E234}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="528278262" Name="Pause_Game" ObjectPath="\Events\UI\UI\Pause_Game" GUID="{7753699B-D1A5-44C8-AACA-D8C1D73D3645}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2088053380" Name="PickUp_PowerUp" ObjectPath="\Events\Player\UI\PickUp_PowerUp" GUID="{B7325365-57FF-4788-B2F7-813AFD4C5D5E}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+				<Event Id="3717217436" Name="PickUp_Fuel" ObjectPath="\Events\Player\UI\PickUp_Fuel" GUID="{180DF9B7-A69B-4EE1-8D17-50B06BC0A13F}" DurationType="OneShot" DurationMin="0.625" DurationMax="0.625">
 					<MediaRefs>
-						<MediaRef Id="160425296"/>
-						<MediaRef Id="641029741"/>
+						<MediaRef Id="601850413"/>
+						<MediaRef Id="641596537"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="4145699381" Name="Music_Duck_Aux" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music_Duck_Aux" GUID="{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}"/>
-					</AuxBusRefs>
 				</Event>
-				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Player\Player_Ship\Player_Damage\Player_Death" GUID="{01511685-0572-4254-8EE6-FC9771B406C8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2088053380" Name="PickUp_PowerUp" ObjectPath="\Events\Player\UI\PickUp_PowerUp" GUID="{B7325365-57FF-4788-B2F7-813AFD4C5D5E}" DurationType="OneShot" DurationMin="0.625" DurationMax="0.625">
+					<MediaRefs>
+						<MediaRef Id="601850413"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1587394564" Name="PickUp_Voc" ObjectPath="\Events\Player\UI\PickUp_Voc" GUID="{ADA35559-C362-4F0A-916A-AB1E649583D7}" DurationType="OneShot" DurationMin="0.59375" DurationMax="1.75">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1587394564" Id="2623312677" GUID="{4C9A9E43-75A1-4E66-99D5-4A95054046A5}"/>
+							<MediaRefs>
+								<MediaRef Id="809042561"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1587394564" Id="2811723790" GUID="{B419B057-0630-4A12-9F86-B39DEFF62BA1}"/>
+							<MediaRefs>
+								<MediaRef Id="300721839"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1587394564" Id="3211126491" GUID="{247F715F-5923-4590-86C8-009110BA0AED}"/>
+							<MediaRefs>
+								<MediaRef Id="494941977"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1587394564" Id="662199250" GUID="{3429F282-515C-4E1D-A47E-1D87BB5FF18D}"/>
+							<MediaRefs>
+								<MediaRef Id="272651010"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1587394564" Id="1281810935" GUID="{BD761085-1FD9-4A15-8C8B-4BD1C0EC48DB}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="678721770"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1587394564" Id="2684599956" GUID="{1E74468D-ABF1-480A-AACA-DB1437496B08}"/>
+							<MediaRefs>
+								<MediaRef Id="181645903"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1587394564" Id="3616196167" GUID="{31B358A3-271F-4174-8A1E-D9C505D29DE8}"/>
+							<MediaRefs>
+								<MediaRef Id="725300711"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1587394564" Id="4123804492" GUID="{C0B6DFAE-8643-40F0-82EF-71787E0B69E2}"/>
+							<MediaRefs>
+								<MediaRef Id="300038725"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1587394564" Id="49356435" GUID="{52C9A3B2-A64D-437D-9216-970DDFB4479D}"/>
+							<MediaRefs>
+								<MediaRef Id="138580143"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Player\Player_Ship\Player_Damage\Player_Death" GUID="{01511685-0572-4254-8EE6-FC9771B406C8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="293363735"/>
+						<MediaRef Id="338008155"/>
+						<MediaRef Id="690166717"/>
+						<MediaRef Id="804448827"/>
+						<MediaRef Id="842610921"/>
+						<MediaRef Id="848009311"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1652732926" Name="Player_Explosion" ObjectPath="\Events\Player\Player_Ship\Player_Damage\Player_Explosion" GUID="{DF045002-1F4A-4FA9-B10D-97E16C24B2E1}" DurationType="OneShot" DurationMin="1" DurationMax="1">
 					<MediaRefs>
 						<MediaRef Id="110667659"/>
@@ -476,6 +724,17 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="2042178597" Name="Stop_Auto" ObjectPath="\Events\Player\Player_Ship\Player_Gun\Stop_Auto" GUID="{16F42484-449B-42F5-B43D-6A3B952DA7D8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2830502561" Name="Woosh_box" ObjectPath="\Events\AMB\Woosh\Woosh_box" GUID="{F00990BC-2EE3-450C-84EF-EA06A82D9C7B}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<MediaRefs>
+						<MediaRef Id="334105774"/>
+						<MediaRef Id="336490129"/>
+						<MediaRef Id="518689265"/>
+						<MediaRef Id="608585848"/>
+						<MediaRef Id="637730646"/>
+						<MediaRef Id="700890862"/>
+						<MediaRef Id="795615076"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<Busses>
 				<Bus Id="213475909" Name="SFX_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX_Bus" GUID="{802F7C61-BCCC-4DC4-95AB-EF557EB2B0A0}"/>
@@ -491,15 +750,25 @@
 				</AuxBus>
 			</AuxBusses>
 			<GameParameters>
+				<GameParameter Id="105301292" Name="E_Vol" ObjectPath="\Game Parameters\Player_Engine\E_Vol" GUID="{9189EE7D-CF8E-4D13-BC1E-53F51220783E}"/>
 				<GameParameter Id="640949982" Name="Speed" ObjectPath="\Game Parameters\Player_Engine\Speed" GUID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"/>
 				<GameParameter Id="779278001" Name="Death" ObjectPath="\Game Parameters\Player_Engine\Death" GUID="{66EA2853-CF2F-4EC2-B5DB-DEBEE4400EEE}"/>
 				<GameParameter Id="988953028" Name="SFXVolume" ObjectPath="\Game Parameters\Options\SFXVolume" GUID="{45787E01-5AA6-4A9D-93D8-C0F9DE786340}"/>
 				<GameParameter Id="1205999388" Name="Enemy_Death" ObjectPath="\Game Parameters\Enemy\Enemy_Death" GUID="{7987A131-FA89-4C51-A6C1-77D67BC5FE02}"/>
 				<GameParameter Id="1252186741" Name="AutoMode" ObjectPath="\Game Parameters\Player_Gun\AutoMode" GUID="{6B76A057-4CC6-4F74-A573-B1443882C069}"/>
 				<GameParameter Id="1843561328" Name="MainVolume" ObjectPath="\Game Parameters\Options\MainVolume" GUID="{7E6BB6D5-F272-48A0-976F-6A4B17EB0D9B}"/>
+				<GameParameter Id="2862064063" Name="Sfx_Sidechain" ObjectPath="\Game Parameters\Default Work Unit\Sfx_Sidechain" GUID="{3AA5C21D-CCA0-474E-89A7-3795B70529DA}"/>
 				<GameParameter Id="2968795556" Name="Glide" ObjectPath="\Game Parameters\Player_Engine\Glide" GUID="{E3031780-9B18-4EC8-9E82-527974BEA3C5}"/>
+				<GameParameter Id="3342269729" Name="Gate_fade" ObjectPath="\Game Parameters\Default Work Unit\Gate_fade" GUID="{96C2BE72-09F1-4A76-964A-D7FA290E4CBD}"/>
 			</GameParameters>
 			<StateGroups>
+				<StateGroup Id="78402873" Name="Enemy_Music_State" ObjectPath="\States\Default Work Unit\Enemy_Music_State" GUID="{FA9EF0F1-71E1-466D-B6DE-D204935CB34D}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Enemy_Music_State\None" GUID="{2674108A-952C-46CC-9F90-459EF9D3AA4B}"/>
+						<State Id="1277114380" Name="State_1" ObjectPath="\States\Default Work Unit\Enemy_Music_State\State_1" GUID="{0BE34E2C-2240-4824-AA2E-23926769C1B8}"/>
+						<State Id="1277114383" Name="State_2" ObjectPath="\States\Default Work Unit\Enemy_Music_State\State_2" GUID="{FBEAE51C-F775-42DB-B39B-C10770DEFE07}"/>
+					</States>
+				</StateGroup>
 				<StateGroup Id="2616822209" Name="Game_Music_State" ObjectPath="\States\Default Work Unit\Game_Music_State" GUID="{6CA6171C-DFB8-43B1-AB1B-298319E0D92D}">
 					<States>
 						<State Id="319258907" Name="Paused" ObjectPath="\States\Default Work Unit\Game_Music_State\Paused" GUID="{F788772E-B217-4596-8DCC-58A09B35D2F0}"/>
@@ -507,10 +776,40 @@
 						<State Id="779278001" Name="Death" ObjectPath="\States\Default Work Unit\Game_Music_State\Death" GUID="{97A11E54-1CD0-469D-B7DB-D66E5E639C47}"/>
 						<State Id="979765101" Name="Win" ObjectPath="\States\Default Work Unit\Game_Music_State\Win" GUID="{0C25C7EC-87C5-4150-81E0-ECDA118F00D3}"/>
 						<State Id="1160234136" Name="Normal" ObjectPath="\States\Default Work Unit\Game_Music_State\Normal" GUID="{BD8887EB-94C4-4ECE-8516-A5E546EA7508}"/>
+						<State Id="2299321487" Name="Enemy" ObjectPath="\States\Default Work Unit\Game_Music_State\Enemy" GUID="{B602B0D5-0761-4DB7-A9EA-BAA158A83D43}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2656867858" Name="Gate_State" ObjectPath="\States\Default Work Unit\Gate_State" GUID="{EE474170-F933-47B5-8D3A-1F7475C21A9D}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Gate_State\None" GUID="{25703F03-BE65-4A15-A974-CDA079CFC72D}"/>
+						<State Id="1451272583" Name="Close" ObjectPath="\States\Default Work Unit\Gate_State\Close" GUID="{F1DB9999-F097-4F2B-A28D-5092A6D1FCCC}"/>
+						<State Id="3072142513" Name="Open" ObjectPath="\States\Default Work Unit\Gate_State\Open" GUID="{C8949866-84F5-40B4-B1F3-FBDA7EE92CDE}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2661514705" Name="Fuel" ObjectPath="\States\Default Work Unit\Fuel" GUID="{3A2040DE-84F9-4842-83B4-97DE6E114B18}">
+					<States>
+						<State Id="545371365" Name="Low" ObjectPath="\States\Default Work Unit\Fuel\Low" GUID="{504F8031-0A97-42F9-AB06-DCC47CF94F31}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Fuel\None" GUID="{F1BDA42E-1D08-4480-B075-359CB2C149D6}"/>
+						<State Id="1160234136" Name="Normal" ObjectPath="\States\Default Work Unit\Fuel\Normal" GUID="{6C40F67B-9174-486F-9965-F0993FBF46F7}"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="1587394564" Name="PickUp_Voc" ObjectPath="\Switches\Default Work Unit\PickUp_Voc" GUID="{8ACDFC8D-1312-4C64-AE6E-7C5D1091D02D}">
+					<Switches>
+						<Switch Id="49356435" Name="DoubleGuns" ObjectPath="\Switches\Default Work Unit\PickUp_Voc\DoubleGuns" GUID="{52C9A3B2-A64D-437D-9216-970DDFB4479D}"/>
+						<Switch Id="662199250" Name="Armor" ObjectPath="\Switches\Default Work Unit\PickUp_Voc\Armor" GUID="{3429F282-515C-4E1D-A47E-1D87BB5FF18D}"/>
+						<Switch Id="1281810935" Name="Start" ObjectPath="\Switches\Default Work Unit\PickUp_Voc\Start" GUID="{BD761085-1FD9-4A15-8C8B-4BD1C0EC48DB}"/>
+						<Switch Id="2623312677" Name="Gate_Start" ObjectPath="\Switches\Default Work Unit\PickUp_Voc\Gate_Start" GUID="{4C9A9E43-75A1-4E66-99D5-4A95054046A5}"/>
+						<Switch Id="2684599956" Name="DmgUp" ObjectPath="\Switches\Default Work Unit\PickUp_Voc\DmgUp" GUID="{1E74468D-ABF1-480A-AACA-DB1437496B08}"/>
+						<Switch Id="2811723790" Name="OverclockGuns" ObjectPath="\Switches\Default Work Unit\PickUp_Voc\OverclockGuns" GUID="{B419B057-0630-4A12-9F86-B39DEFF62BA1}"/>
+						<Switch Id="3211126491" Name="Arena_Start" ObjectPath="\Switches\Default Work Unit\PickUp_Voc\Arena_Start" GUID="{247F715F-5923-4590-86C8-009110BA0AED}"/>
+						<Switch Id="3616196167" Name="Gate_Stop" ObjectPath="\Switches\Default Work Unit\PickUp_Voc\Gate_Stop" GUID="{31B358A3-271F-4174-8A1E-D9C505D29DE8}"/>
+						<Switch Id="4123804492" Name="Low_Fuel" ObjectPath="\Switches\Default Work Unit\PickUp_Voc\Low_Fuel" GUID="{C0B6DFAE-8643-40F0-82EF-71787E0B69E2}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BEFB3091-2BFE-6F19-D810-B4BDA10D2535}</FileHash>
+	<FileHash>{2F598C73-821B-0864-3304-A22A80AD86C0}</FileHash>
 </SoundBanksInfo>

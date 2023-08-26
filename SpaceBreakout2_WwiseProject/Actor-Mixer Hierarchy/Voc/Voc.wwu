@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{09267769-5C65-4D9F-97AA-7AB145AE8D56}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Voc" ID="{09267769-5C65-4D9F-97AA-7AB145AE8D56}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchContainer Name="voc_PickUp" ID="{4568048B-C65C-4E00-8A85-B6B35AC049F5}" ShortID="19488070">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Start" ID="{BD761085-1FD9-4A15-8C8B-4BD1C0EC48DB}" WorkUnitID="{2EAA4B3E-DB1E-4D3B-81E5-E93B261140A2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Voc_Bus" ID="{86B330CF-338A-4CCF-8888-8C0D810EF500}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="PickUp_Voc" ID="{8ACDFC8D-1312-4C64-AE6E-7C5D1091D02D}" WorkUnitID="{2EAA4B3E-DB1E-4D3B-81E5-E93B261140A2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="voc_armor" ID="{CA6601C3-FB60-4F6F-A0C5-1D4768CD3BE3}" ShortID="55330130">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="voc_armor" ID="{665C491F-A23B-4D27-9C53-972BB5465344}">
+									<Language>SFX</Language>
+									<AudioFile>voc_armor.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="272651010"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="voc_armor" ID="{665C491F-A23B-4D27-9C53-972BB5465344}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="voc_doubleGuns" ID="{E4F02A18-4683-4C66-8E4F-AA25B1550355}" ShortID="1070584776">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="voc_doubleGuns" ID="{35E350D7-B79E-46A7-A460-9290C5688B9C}">
+									<Language>SFX</Language>
+									<AudioFile>voc_doubleGuns.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="138580143"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="voc_doubleGuns" ID="{35E350D7-B79E-46A7-A460-9290C5688B9C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="voc_overclockGun" ID="{A07C169C-75D1-4B52-95EF-8E9AAAC57CD3}" ShortID="463573792">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="voc_overclockGun" ID="{851AE373-8F85-420E-98E1-CFF0B58A1E50}">
+									<Language>SFX</Language>
+									<AudioFile>voc_overclockGun.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="300721839"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="voc_overclockGun" ID="{851AE373-8F85-420E-98E1-CFF0B58A1E50}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="voc_DmgUp" ID="{838DF26E-1B25-4EFF-94A5-4A01C938328D}" ShortID="870174413">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="voc_DmgUp" ID="{F499B3C6-0BF5-4CE9-8E23-F60010D3B9E7}">
+									<Language>SFX</Language>
+									<AudioFile>voc_DmgUp.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="181645903"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="voc_DmgUp" ID="{F499B3C6-0BF5-4CE9-8E23-F60010D3B9E7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="voc_Gate_Stop" ID="{6A219A91-8B12-4E87-A53D-567996088713}" ShortID="358188754">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Voc_Bus" ID="{86B330CF-338A-4CCF-8888-8C0D810EF500}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="voc_Gate_Stop" ID="{5DAA4DC6-E031-49D7-B989-05C2A757D8C7}">
+									<Language>SFX</Language>
+									<AudioFile>voc_Gate_Stop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="725300711"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="voc_Gate_Stop" ID="{5DAA4DC6-E031-49D7-B989-05C2A757D8C7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="voc_LowFuel" ID="{D7B43E44-C0D0-4E8B-B2FF-58FE15708A86}" ShortID="599497627">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Voc_Bus" ID="{86B330CF-338A-4CCF-8888-8C0D810EF500}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="voc_LowFuel" ID="{AEBC77BB-0BBB-47D9-B43F-66FD73965AD2}">
+									<Language>SFX</Language>
+									<AudioFile>voc_LowFuel.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="300038725"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="voc_LowFuel" ID="{AEBC77BB-0BBB-47D9-B43F-66FD73965AD2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="voc_Start" ID="{B859D6FD-C6D1-46F8-84C1-0854A9EC9E41}" ShortID="717408737">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Voc_Bus" ID="{86B330CF-338A-4CCF-8888-8C0D810EF500}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="voc_Start" ID="{4852F82C-714F-49E9-9801-0E26AA2269DB}">
+									<Language>SFX</Language>
+									<AudioFile>voc_Start.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="678721770"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="voc_Start" ID="{4852F82C-714F-49E9-9801-0E26AA2269DB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="voc_Arena_Start" ID="{338A1835-E050-463B-89D7-6421B5B39DBD}" ShortID="130793318">
+							<PropertyList>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="voc_Enemies_Start" ID="{B3DFD83B-8994-4F8F-BE1F-FE5C8D681207}">
+									<Language>SFX</Language>
+									<AudioFile>voc_Enemies_Start.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="494941977"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="voc_Enemies_Start" ID="{B3DFD83B-8994-4F8F-BE1F-FE5C8D681207}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="voc_Gate_Start" ID="{6CD063AE-4983-4607-9DB6-52FF6716B42E}" ShortID="466973401">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="voc_Gate_Start" ID="{3311BCC9-177E-4D6E-847F-DBAA6A8F042F}">
+									<Language>SFX</Language>
+									<AudioFile>voc_Gate_Start.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="809042561"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="voc_Gate_Start" ID="{3311BCC9-177E-4D6E-847F-DBAA6A8F042F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="voc_doubleGuns" ID="{E4F02A18-4683-4C66-8E4F-AA25B1550355}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="voc_Arena_Start" ID="{338A1835-E050-463B-89D7-6421B5B39DBD}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="voc_LowFuel" ID="{D7B43E44-C0D0-4E8B-B2FF-58FE15708A86}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="voc_DmgUp" ID="{838DF26E-1B25-4EFF-94A5-4A01C938328D}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="voc_Gate_Stop" ID="{6A219A91-8B12-4E87-A53D-567996088713}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="voc_overclockGun" ID="{A07C169C-75D1-4B52-95EF-8E9AAAC57CD3}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="voc_Gate_Start" ID="{6CD063AE-4983-4607-9DB6-52FF6716B42E}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="voc_armor" ID="{CA6601C3-FB60-4F6F-A0C5-1D4768CD3BE3}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="voc_Start" ID="{B859D6FD-C6D1-46F8-84C1-0854A9EC9E41}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Gate_Start" ID="{4C9A9E43-75A1-4E66-99D5-4A95054046A5}"/>
+								<ItemList>
+									<ItemRef Name="voc_Gate_Start" ID="{6CD063AE-4983-4607-9DB6-52FF6716B42E}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="OverclockGuns" ID="{B419B057-0630-4A12-9F86-B39DEFF62BA1}"/>
+								<ItemList>
+									<ItemRef Name="voc_overclockGun" ID="{A07C169C-75D1-4B52-95EF-8E9AAAC57CD3}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Arena_Start" ID="{247F715F-5923-4590-86C8-009110BA0AED}"/>
+								<ItemList>
+									<ItemRef Name="voc_Arena_Start" ID="{338A1835-E050-463B-89D7-6421B5B39DBD}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Armor" ID="{3429F282-515C-4E1D-A47E-1D87BB5FF18D}"/>
+								<ItemList>
+									<ItemRef Name="voc_armor" ID="{CA6601C3-FB60-4F6F-A0C5-1D4768CD3BE3}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Start" ID="{BD761085-1FD9-4A15-8C8B-4BD1C0EC48DB}"/>
+								<ItemList>
+									<ItemRef Name="voc_Start" ID="{B859D6FD-C6D1-46F8-84C1-0854A9EC9E41}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="DmgUp" ID="{1E74468D-ABF1-480A-AACA-DB1437496B08}"/>
+								<ItemList>
+									<ItemRef Name="voc_DmgUp" ID="{838DF26E-1B25-4EFF-94A5-4A01C938328D}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Gate_Stop" ID="{31B358A3-271F-4174-8A1E-D9C505D29DE8}"/>
+								<ItemList>
+									<ItemRef Name="voc_Gate_Stop" ID="{6A219A91-8B12-4E87-A53D-567996088713}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Low_Fuel" ID="{C0B6DFAE-8643-40F0-82EF-71787E0B69E2}"/>
+								<ItemList>
+									<ItemRef Name="voc_LowFuel" ID="{D7B43E44-C0D0-4E8B-B2FF-58FE15708A86}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="DoubleGuns" ID="{52C9A3B2-A64D-437D-9216-970DDFB4479D}"/>
+								<ItemList>
+									<ItemRef Name="voc_doubleGuns" ID="{E4F02A18-4683-4C66-8E4F-AA25B1550355}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

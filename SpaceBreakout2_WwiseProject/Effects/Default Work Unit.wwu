@@ -12,6 +12,15 @@
 	<GameParameter Name="Musci_Sidechain" ID="{7BED921A-B7E3-4C90-B7E6-189E0BC04C38}"/>
 </PluginData>
 				</Effect>
+				<Effect Name="Sfx_Duck_Meter" ID="{5A8CA5F3-394F-44BD-8545-7024320B294C}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="Hold" Type="Real32" Value="0.2"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.4"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="Sfx_Sidechain" ID="{3AA5C21D-CCA0-474E-89A7-3795B70529DA}"/>
+</PluginData>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

@@ -12,6 +12,31 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{29E6ABFA-4BCA-43B2-BDC3-6590D1BD346E}" ShortID="300275884">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="BypassGameParameterInternalTransition" Type="bool" Value="True"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="80"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="E_Vol" ID="{9189EE7D-CF8E-4D13-BC1E-53F51220783E}" WorkUnitID="{CD57914D-0276-4E75-A30A-213EECFD3434}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6FB16606-4F60-4344-8E78-FF95C5B4D15C}" ShortID="953580249">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="20"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="E_Vol" ID="{9189EE7D-CF8E-4D13-BC1E-53F51220783E}" WorkUnitID="{CD57914D-0276-4E75-A30A-213EECFD3434}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="EngineStart" ID="{6C650701-4DB9-4776-B651-5AF00B3FF3D1}">
@@ -19,7 +44,17 @@
 						<Action Name="" ID="{99A22C3C-9FD4-42E0-99AF-59565A430748}" ShortID="462201385">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Player_Engine" ID="{9E8370D7-4AAD-41C1-A25E-0A3704F0E4ED}" WorkUnitID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}"/>
+									<ObjectRef Name="P_E_v3" ID="{FC56093D-DDB6-4A99-A43B-6BBC45B03A3D}" WorkUnitID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{446FFBD5-B3E9-4A16-9A1D-55B6AC5FA5A0}" ShortID="590354444">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Engine_Online" ID="{E8AB3A4B-EAC3-407D-870F-F3F5CA1743F6}" WorkUnitID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -31,6 +66,111 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Death" ID="{66EA2853-CF2F-4EC2-B5DB-DEBEE4400EEE}" WorkUnitID="{CD57914D-0276-4E75-A30A-213EECFD3434}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{59533B61-E0C1-44B2-898D-C7EF89C28F81}" ShortID="157494872">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="BypassGameParameterInternalTransition" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="E_Vol" ID="{9189EE7D-CF8E-4D13-BC1E-53F51220783E}" WorkUnitID="{CD57914D-0276-4E75-A30A-213EECFD3434}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{460292E9-03A0-4A9C-AA20-981DD0F6EA90}" ShortID="218130224">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="BypassGameParameterInternalTransition" Type="bool" Value="True"/>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="80"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="E_Vol" ID="{9189EE7D-CF8E-4D13-BC1E-53F51220783E}" WorkUnitID="{CD57914D-0276-4E75-A30A-213EECFD3434}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EA3E58EF-C98F-413B-B729-5A8E504FA42F}" ShortID="213248966">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="20"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="E_Vol" ID="{9189EE7D-CF8E-4D13-BC1E-53F51220783E}" WorkUnitID="{CD57914D-0276-4E75-A30A-213EECFD3434}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1D60CD8C-B113-46CD-92ED-E4FA6CEFA209}" ShortID="692915580">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{6C40F67B-9174-486F-9965-F0993FBF46F7}" WorkUnitID="{CF1E7F54-F60F-42FB-8C76-8C2AFF31841C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Grav_Change" ID="{2E96BED1-D01B-4279-B055-B9C9A723E34F}">
+					<ChildrenList>
+						<Action Name="" ID="{7B076A37-3641-42AA-B53C-8E11464D72D7}" ShortID="474420145">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grav_Change" ID="{FC11E839-DF6E-4889-A035-BD3261DCC5FF}" WorkUnitID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B0ED906C-34C4-4556-82CF-9143F005E9AA}" ShortID="147622929">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_vol" ID="{A6331C8C-5AA5-4121-A98F-D9EDD7771CE9}" WorkUnitID="{DD749083-7F56-4B4D-AA86-C00263B948E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3636058A-80EA-4405-AA89-1C8EB3671C7A}" ShortID="231283206">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_vol" ID="{A6331C8C-5AA5-4121-A98F-D9EDD7771CE9}" WorkUnitID="{DD749083-7F56-4B4D-AA86-C00263B948E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9916023A-0557-4A9D-B2DB-B2722EBA2602}" ShortID="1033145682">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="Delay" Type="Real64" Value="0.2"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="80"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="E_Vol" ID="{9189EE7D-CF8E-4D13-BC1E-53F51220783E}" WorkUnitID="{CD57914D-0276-4E75-A30A-213EECFD3434}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5E90870D-DBE2-4CF6-9686-F7E4278D55A4}" ShortID="334009346">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="20"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="E_Vol" ID="{9189EE7D-CF8E-4D13-BC1E-53F51220783E}" WorkUnitID="{CD57914D-0276-4E75-A30A-213EECFD3434}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

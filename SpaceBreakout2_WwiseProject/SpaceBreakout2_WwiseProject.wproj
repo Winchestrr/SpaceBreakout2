@@ -11871,6 +11871,14 @@
 				<PhysicalFolder Path="Actor-Mixer Hierarchy">
 					<WorkUnit Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" PersistMode="Standalone"/>
 				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\AMB">
+					<WorkUnit Name="AMB" ID="{81C81A34-887D-47FB-99B0-45C3124E7EB6}" PersistMode="Standalone">
+						<PropertyList>
+							<Property Name="Color" Type="int16" Value="1"/>
+							<Property Name="OverrideColor" Type="bool" Value="True"/>
+						</PropertyList>
+					</WorkUnit>
+				</PhysicalFolder>
 				<PhysicalFolder Path="Actor-Mixer Hierarchy\Enemies">
 					<WorkUnit Name="Enemies" ID="{15CB6DFF-A068-4279-8FC0-795892ECE6DF}" PersistMode="Standalone">
 						<PropertyList>
@@ -11903,6 +11911,14 @@
 						</PropertyList>
 					</WorkUnit>
 				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\Voc">
+					<WorkUnit Name="Voc" ID="{817057EC-BFED-44C3-B392-B03E9208A728}" PersistMode="Standalone">
+						<PropertyList>
+							<Property Name="Color" Type="int16" Value="11"/>
+							<Property Name="OverrideColor" Type="bool" Value="True"/>
+						</PropertyList>
+					</WorkUnit>
+				</PhysicalFolder>
 				<PhysicalFolder Path="Attenuations">
 					<WorkUnit Name="Attenuations" ID="{017BDDA0-1BB1-4CE1-8077-79594EC4585C}" PersistMode="Standalone"/>
 				</PhysicalFolder>
@@ -11923,6 +11939,12 @@
 				</PhysicalFolder>
 				<PhysicalFolder Path="Events">
 					<WorkUnit Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Events\AMB">
+					<WorkUnit Name="AMB" ID="{4480A9CD-7B03-40A2-BF4B-C45C1747A61A}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Events\Arena">
+					<WorkUnit Name="Arena" ID="{6177654E-F478-4E79-BFE1-2145F5F1E3DC}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Events\Enemies">
 					<WorkUnit Name="Enemies" ID="{AA513DFA-E424-44F4-B58E-CA10E69BBC62}" PersistMode="Standalone">

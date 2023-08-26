@@ -60,7 +60,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Player_Engine" ID="{9E8370D7-4AAD-41C1-A25E-0A3704F0E4ED}" WorkUnitID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}"/>
+									<ObjectRef Name="P_E_v3" ID="{FC56093D-DDB6-4A99-A43B-6BBC45B03A3D}" WorkUnitID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -105,6 +105,28 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Enemy_Engine_Big" ID="{4818EA04-3D52-4051-B5C9-BC1AF3B3B9A5}" WorkUnitID="{5F24CEC1-5A42-4B73-AAD4-DC3DB1B3C2B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{626E8AC5-6718-4B16-B257-295FE900E2BC}" ShortID="751581354">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fan" ID="{9E9F601C-62D0-4F86-8FB7-887FA0557367}" WorkUnitID="{A8981903-9B9D-4FDE-8DF3-02148AD17058}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{44478767-6182-42B5-9E49-A98BED0FC957}" ShortID="571378968">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gate" ID="{85C8E710-EA0E-472B-B13A-6F1E0CDFA595}" WorkUnitID="{A5B047D9-135B-4B26-BA53-5DC457FE1C74}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

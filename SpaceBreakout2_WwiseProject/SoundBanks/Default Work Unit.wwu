@@ -8,18 +8,22 @@
 						<ObjectRef Name="Button_Hover" ID="{B64F7364-EFF7-4016-A5B4-DA1FDC336E4F}" WorkUnitID="{1976A159-0E38-4C35-8503-53148F34E91E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MenuMusic_Stop" ID="{7F9A7BA5-523B-4023-9760-2E543CF5E234}" WorkUnitID="{B1886E01-9283-4E9F-8054-D2FE298A9736}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GameMusic_Play" ID="{A72DEEDE-8231-406A-974D-464C83DC5C3B}" WorkUnitID="{B1886E01-9283-4E9F-8054-D2FE298A9736}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Gate_Destroy" ID="{8BC3E156-62F2-4148-AC23-5143AD90B9DF}" WorkUnitID="{F34DEB29-127A-4DA5-B57A-39DBA5EF3EC2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemy_Shoot" ID="{03C9A381-AB34-41E3-9556-AF8F69811E68}" WorkUnitID="{7C77DF77-B5DF-4D6F-8DBD-8C9AD3466887}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemy_Engine_Start_Small" ID="{47EBEAB8-6DE7-41EF-B85B-ECDC7082E481}" WorkUnitID="{880F079E-D1D4-417B-B158-41B761AC6506}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Death" ID="{01511685-0572-4254-8EE6-FC9771B406C8}" WorkUnitID="{588E399A-E016-4FB0-9D56-AC95D956C888}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Grav_Change" ID="{2E96BED1-D01B-4279-B055-B9C9A723E34F}" WorkUnitID="{A3F32CDE-C778-4C0B-A2C8-285F5122ED8A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Button_Press" ID="{1393B155-4919-4399-BEC8-14ACE5D1BA82}" WorkUnitID="{1976A159-0E38-4C35-8503-53148F34E91E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Acc" ID="{F555DC76-60D1-43F4-AD5B-6332D58221C8}" WorkUnitID="{A3F32CDE-C778-4C0B-A2C8-285F5122ED8A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pause_Game" ID="{7753699B-D1A5-44C8-AACA-D8C1D73D3645}" WorkUnitID="{FD241EF1-F5C7-40BE-8E1D-D9D7C1CFDCF2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CheckPoint" ID="{95E17FA5-3626-44DB-938D-14D3DA8D3AC9}" WorkUnitID="{52F1A2BA-2F33-41B0-A002-B234A32CD87D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Woosh_box" ID="{F00990BC-2EE3-450C-84EF-EA06A82D9C7B}" WorkUnitID="{C03E8FE7-2B71-426F-850E-FD034C8F9CCC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemy_Hit" ID="{B2EE210A-4AF8-457C-931E-9CE49EBB23EA}" WorkUnitID="{C916E5FE-85EC-4E11-B610-7A12C6424B34}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Rev_Tube" ID="{6BCDD345-D685-458F-A310-7D075C85EBF5}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Gun" ID="{2711DA87-AECB-471B-9D49-5F75800965DD}" WorkUnitID="{2711DA87-AECB-471B-9D49-5F75800965DD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="EngineStart" ID="{6C650701-4DB9-4776-B651-5AF00B3FF3D1}" WorkUnitID="{A3F32CDE-C778-4C0B-A2C8-285F5122ED8A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PickUp_PowerUp" ID="{B7325365-57FF-4788-B2F7-813AFD4C5D5E}" WorkUnitID="{52F1A2BA-2F33-41B0-A002-B234A32CD87D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fan_Stop" ID="{DA4BFE32-1220-47E8-BEFB-5B28134CCED9}" WorkUnitID="{95C18826-3B84-49F2-AF4A-16547AFFE3FD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Slider_ChangeValue" ID="{39777D41-252A-4809-A4EC-835EF6B0626D}" WorkUnitID="{1976A159-0E38-4C35-8503-53148F34E91E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemy_Engine_Start_Big" ID="{0E6F876A-1D11-4836-89E2-218C79F7A41B}" WorkUnitID="{880F079E-D1D4-417B-B158-41B761AC6506}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Resume_Game" ID="{168EC8E3-3458-48E5-83A0-59EEB7FCA2EB}" WorkUnitID="{FD241EF1-F5C7-40BE-8E1D-D9D7C1CFDCF2}" Origin="Manual" Filter="7"/>
@@ -28,8 +32,15 @@
 						<ObjectRef Name="Enemy_Destroyed" ID="{80CD0BD0-6A6F-495A-B0A6-9CD17CF1E74C}" WorkUnitID="{880F079E-D1D4-417B-B158-41B761AC6506}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GameMusic_Stop" ID="{FF9EEC8A-DB91-495E-9B75-94DB51C7C376}" WorkUnitID="{B1886E01-9283-4E9F-8054-D2FE298A9736}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Gen_Idle" ID="{4D6FA5E8-AC89-4B27-918E-65D49801B10C}" WorkUnitID="{C0EC18BB-BAA3-4BF5-AC35-85AFC6D8D4C4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Arena_Stop" ID="{8700C6BE-3F03-4D1F-9A0D-DD8B4117D22A}" WorkUnitID="{F5B8F450-E994-40CF-889A-B941D891D83F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Gen_Explosion" ID="{8E1FFB9F-67FE-4D80-A5D7-379D2DB2645E}" WorkUnitID="{C0EC18BB-BAA3-4BF5-AC35-85AFC6D8D4C4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Low_Fuel" ID="{E9482641-B52D-4D9F-8201-A358E0B8546A}" WorkUnitID="{52F1A2BA-2F33-41B0-A002-B234A32CD87D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Arena_Start" ID="{0281608E-4CBC-4E08-A05E-D50C6A8070C7}" WorkUnitID="{F5B8F450-E994-40CF-889A-B941D891D83F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PickUp_Fuel" ID="{180DF9B7-A69B-4EE1-8D17-50B06BC0A13F}" WorkUnitID="{52F1A2BA-2F33-41B0-A002-B234A32CD87D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PickUp_Voc" ID="{ADA35559-C362-4F0A-916A-AB1E649583D7}" WorkUnitID="{52F1A2BA-2F33-41B0-A002-B234A32CD87D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Explosion" ID="{DF045002-1F4A-4FA9-B10D-97E16C24B2E1}" WorkUnitID="{588E399A-E016-4FB0-9D56-AC95D956C888}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Gate_On" ID="{28D702D0-2D04-4FAC-A914-939ECBB4DCB8}" WorkUnitID="{F34DEB29-127A-4DA5-B57A-39DBA5EF3EC2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fan" ID="{A8981903-9B9D-4FDE-8DF3-02148AD17058}" WorkUnitID="{A8981903-9B9D-4FDE-8DF3-02148AD17058}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

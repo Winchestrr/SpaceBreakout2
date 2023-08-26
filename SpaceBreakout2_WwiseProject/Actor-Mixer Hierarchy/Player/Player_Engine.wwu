@@ -3,42 +3,72 @@
 	<AudioObjects>
 		<WorkUnit Name="Player_Engine" ID="{6ED1E5DF-8C6D-4371-9991-BBCCE990EADA}" OwnerID="{B4307908-15EB-4EA0-A463-3F0C039526FD}" PersistMode="Nested">
 			<ChildrenList>
-				<BlendContainer Name="Player_Engine" ID="{9E8370D7-4AAD-41C1-A25E-0A3704F0E4ED}" ShortID="590597776">
+				<Sound Name="Acc_Up" ID="{A7299745-B5FD-43E6-ADDB-A381905E7DE5}" ShortID="154167433">
 					<PropertyList>
-						<Property Name="GameAuxSendVolume" Type="Real64">
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
-								<Value>-3</Value>
+								<Value>1</Value>
 							</ValueList>
 						</Property>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Player_Bus" ID="{BF5723EA-F0D4-4558-A53C-FA010D04C852}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+							<ObjectRef Name="P_Engine" ID="{50C0A8F1-C029-4A82-842A-7CD7D6482C87}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<BlendContainer Name="E_50ms" ID="{06319F7E-ABC6-491A-B858-B77F1BD79A41}" ShortID="449956075">
+						<AudioFileSource Name="Acc_Up" ID="{DFFB10F5-D983-4926-AD39-3C67B613C233}">
+							<Language>SFX</Language>
+							<AudioFile>Acc_Up.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="904171427"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Acc_Up" ID="{DFFB10F5-D983-4926-AD39-3C67B613C233}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<BlendContainer Name="P_E_v3" ID="{FC56093D-DDB6-4A99-A43B-6BBC45B03A3D}" ShortID="648044779">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="P_Engine" ID="{50C0A8F1-C029-4A82-842A-7CD7D6482C87}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="P_E_v3_main" ID="{765C89D8-D049-440C-B5DB-CE770227B7B8}" ShortID="510553788">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+									<ObjectRef Name="Player_Bus" ID="{BF5723EA-F0D4-4558-A53C-FA010D04C852}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="4c_50ms" ID="{E9776D42-B091-47AF-B80F-237110BC1ADC}" ShortID="1028105095">
+								<Sound Name="E_v3_main_hi" ID="{464B61F8-F307-44D2-95FB-69F332B27A01}" ShortID="433558859">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-4</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -49,25 +79,25 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="4c_50ms" ID="{940714E8-7F05-4423-A802-91CDC3E93656}">
+										<AudioFileSource Name="E_v3_main_hi" ID="{B26B72E2-3C0E-4ECC-9221-37DF31F2FA92}">
 											<PropertyList>
-												<Property Name="CrossfadeDuration" Type="Real64" Value="800"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0.4"/>
-												<Property Name="LoopEnd" Type="Real64" Value="9.2"/>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="150"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.0926666666666667"/>
+												<Property Name="LoopEnd" Type="Real64" Value="3.92222222222223"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>4c_50ms.wav</AudioFile>
+											<AudioFile>E_v3_main_hi.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="289646352"/>
+												<MediaID ID="406945600"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="4c_50ms" ID="{940714E8-7F05-4423-A802-91CDC3E93656}" Platform="Linked"/>
+										<ActiveSource Name="E_v3_main_hi" ID="{B26B72E2-3C0E-4ECC-9221-37DF31F2FA92}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="EngineRuttle_50ms" ID="{163B735E-C2E1-4556-B7B6-CD40EEB34B4F}" ShortID="771648802">
+								<Sound Name="E_v3_main_low" ID="{A2AFEB8C-D94A-4A4D-8250-C84F2BC31A23}" ShortID="410585358">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 									</PropertyList>
@@ -80,125 +110,84 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="EngineRuttle_50ms" ID="{51A66F97-B07A-4FA1-AD55-975C98DC8A26}">
+										<AudioFileSource Name="E_v3_main_low" ID="{5800D1DB-3710-49AA-ABF9-823EF1615532}">
 											<PropertyList>
-												<Property Name="CrossfadeDuration" Type="Real64" Value="200"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0.127868852459016"/>
-												<Property Name="LoopEnd" Type="Real64" Value="9.49180327868852"/>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="150"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.0833333333333333"/>
+												<Property Name="LoopEnd" Type="Real64" Value="3.92222222222222"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>EngineRuttle_50ms.wav</AudioFile>
+											<AudioFile>E_v3_main_low.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1043020179"/>
+												<MediaID ID="482160595"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="EngineRuttle_50ms" ID="{51A66F97-B07A-4FA1-AD55-975C98DC8A26}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="MetalRuttle_50ms" ID="{A1B142D6-6719-450D-B3C5-DB944BE10F0C}" ShortID="847205656">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-1</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="MetalRuttle_50ms" ID="{4B389CAE-809F-4AD1-B2E8-9D205DAAEE9F}">
-											<PropertyList>
-												<Property Name="CrossfadeDuration" Type="Real64" Value="200"/>
-												<Property Name="CrossfadeShape" Type="int16" Value="2"/>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0131147540983607"/>
-												<Property Name="FadeInShape" Type="int16" Value="8"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0.219672131147541"/>
-												<Property Name="LoopEnd" Type="Real64" Value="9.37049180327869"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>MetalRuttle_50ms.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="42552773"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="MetalRuttle_50ms" ID="{4B389CAE-809F-4AD1-B2E8-9D205DAAEE9F}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Air_50ms" ID="{E62A604E-FD00-45F0-B2AB-F34E6F9A3EC3}" ShortID="558296650">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-9</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Air_50ms" ID="{277941CA-B2AB-4634-B7E7-AEE1239EE6E0}">
-											<PropertyList>
-												<Property Name="CrossfadeDuration" Type="Real64" Value="180"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0.12"/>
-												<Property Name="LoopEnd" Type="Real64" Value="9.49333333333333"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="VolumeOffset" Type="Real64">
-													<ValueList>
-														<Value>10</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Air_50ms.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="317170420"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Air_50ms" ID="{277941CA-B2AB-4634-B7E7-AEE1239EE6E0}" Platform="Linked"/>
+										<ActiveSource Name="E_v3_main_low" ID="{5800D1DB-3710-49AA-ABF9-823EF1615532}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="Speed" ID="{F7DC70E0-9BBD-451E-A2CC-98E4D4E47396}" ShortID="8334626">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Speed" ID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}" WorkUnitID="{CD57914D-0276-4E75-A30A-213EECFD3434}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="E_v3_main_low" ID="{A2AFEB8C-D94A-4A4D-8250-C84F2BC31A23}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>6200</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>7500</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+												<RightFadingSegmentShape>Exp1</RightFadingSegmentShape>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="E_v3_main_hi" ID="{464B61F8-F307-44D2-95FB-69F332B27A01}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>6500</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<LeftFadingSegmentShape>Log2</LeftFadingSegmentShape>
+												<RightEdgePos>10000</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
 						</BlendContainer>
-						<BlendContainer Name="E_25ms" ID="{3CC298B9-A098-4B7E-9478-DC19E5175224}" ShortID="127643554">
+						<BlendContainer Name="P_E_v3_rumble" ID="{40F3B7D7-23E1-4E3F-BEDA-820BC4AC7A7C}" ShortID="951018764">
+							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
 								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+									<ObjectRef Name="Player_Bus" ID="{BF5723EA-F0D4-4558-A53C-FA010D04C852}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="4c_25ms" ID="{8F58802E-42E7-4F56-B30E-A09E9BDC8F93}" ShortID="688901791">
+								<Sound Name="E_v3_rumble_hi" ID="{1D1D51EA-C4E3-453E-96FA-C59DE84A16E7}" ShortID="1038295519">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-2</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -209,32 +198,21 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="4c_25ms" ID="{47619D0E-1C2F-49A5-80DB-20E5DFC82625}">
-											<PropertyList>
-												<Property Name="CrossfadeDuration" Type="Real64" Value="800"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0.4"/>
-												<Property Name="LoopEnd" Type="Real64" Value="9.2"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-											</PropertyList>
+										<AudioFileSource Name="E_v3_rumble_hi" ID="{3AFABE1C-64EF-43D1-88D1-B88F81AE1BDC}">
 											<Language>SFX</Language>
-											<AudioFile>4c_25ms.wav</AudioFile>
+											<AudioFile>E_v3_rumble_hi.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="686217727"/>
+												<MediaID ID="762539073"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="4c_25ms" ID="{47619D0E-1C2F-49A5-80DB-20E5DFC82625}" Platform="Linked"/>
+										<ActiveSource Name="E_v3_rumble_hi" ID="{3AFABE1C-64EF-43D1-88D1-B88F81AE1BDC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="EngineRuttle_25ms" ID="{A17FAE9F-4717-4860-B585-0E4C7DEACA22}" ShortID="233753778">
+								<Sound Name="E_v3_rumble_low" ID="{67B2CEB9-E501-4612-8DA0-5D115E8F9E54}" ShortID="95598567">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-1</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -245,120 +223,75 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="EngineRuttle_25ms" ID="{5456F22A-12AB-476C-A173-CE56666A348E}">
-											<PropertyList>
-												<Property Name="CrossfadeDuration" Type="Real64" Value="120"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0.0918032786885246"/>
-												<Property Name="LoopEnd" Type="Real64" Value="9.5344262295082"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-											</PropertyList>
+										<AudioFileSource Name="E_v3_rumble_low" ID="{AD09C3A5-A599-4C16-B0E4-6F515D7D2BCA}">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+												</Reference>
+											</ReferenceList>
 											<Language>SFX</Language>
-											<AudioFile>EngineRuttle_25ms.wav</AudioFile>
+											<AudioFile>E_v3_rumble_low.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="569297401"/>
+												<MediaID ID="121448180"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="EngineRuttle_25ms" ID="{5456F22A-12AB-476C-A173-CE56666A348E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="MetalRuttle_25ms" ID="{CC79BFDE-3008-4ACD-A919-4174A8790954}" ShortID="706227935">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-3</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="MetalRuttle_25ms" ID="{694922CF-70D1-499E-B859-4979E85905A0}">
-											<PropertyList>
-												<Property Name="CrossfadeDuration" Type="Real64" Value="200"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0.118032786885246"/>
-												<Property Name="LoopEnd" Type="Real64" Value="9.46885245901639"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>MetalRuttle_25ms.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="392017222"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="MetalRuttle_25ms" ID="{694922CF-70D1-499E-B859-4979E85905A0}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Air_25ms" ID="{1FE25EFE-F3AF-4FCD-9EA0-C48837BF93A2}" ShortID="462814779">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-6</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Air_25ms" ID="{4336F3F3-DC12-4328-AED1-0F5FC1E0BCE8}">
-											<PropertyList>
-												<Property Name="CrossfadeDuration" Type="Real64" Value="180"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0.12"/>
-												<Property Name="LoopEnd" Type="Real64" Value="9.49333333333333"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="VolumeOffset" Type="Real64">
-													<ValueList>
-														<Value>10</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Air_25ms.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="684622861"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Air_25ms" ID="{4336F3F3-DC12-4328-AED1-0F5FC1E0BCE8}" Platform="Linked"/>
+										<ActiveSource Name="E_v3_rumble_low" ID="{AD09C3A5-A599-4C16-B0E4-6F515D7D2BCA}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="Speed" ID="{BD872086-D030-4213-AED5-C83520F6D363}" ShortID="672379893">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Speed" ID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}" WorkUnitID="{CD57914D-0276-4E75-A30A-213EECFD3434}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="E_v3_rumble_low" ID="{67B2CEB9-E501-4612-8DA0-5D115E8F9E54}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>6200</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>7500</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+												<RightFadingSegmentShape>Exp1</RightFadingSegmentShape>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="E_v3_rumble_hi" ID="{1D1D51EA-C4E3-453E-96FA-C59DE84A16E7}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>6500</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<LeftFadingSegmentShape>Log2</LeftFadingSegmentShape>
+												<RightEdgePos>10000</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
 						</BlendContainer>
 					</ChildrenList>
 					<ObjectLists>
 						<ObjectList Name="RTPC">
 							<Reference>
 								<Local>
-									<RTPC Name="" ID="{FCC12133-D0C0-4510-8CF4-17E44E6C66B4}" ShortID="729239260">
+									<RTPC Name="" ID="{B0130886-B1A6-49B8-9658-D451C6DEFB89}" ShortID="70061205">
 										<PropertyList>
 											<Property Name="PropertyName" Type="string" Value="Pitch"/>
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="Glide" ID="{E3031780-9B18-4EC8-9E82-527974BEA3C5}" WorkUnitID="{CD57914D-0276-4E75-A30A-213EECFD3434}"/>
+												<ObjectRef Name="Death" ID="{66EA2853-CF2F-4EC2-B5DB-DEBEE4400EEE}" WorkUnitID="{CD57914D-0276-4E75-A30A-213EECFD3434}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
-													<Curve Name="" ID="{2A94BC9B-0F75-404E-9CFD-C525D720362E}">
+													<Curve Name="" ID="{386B4CC3-EEC5-4A9E-9519-022E037AEA7E}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
@@ -367,11 +300,10 @@
 																<XPos>0</XPos>
 																<YPos>0</YPos>
 																<Flags>5</Flags>
-																<SegmentShape>Exp2</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>25</XPos>
-																<YPos>40</YPos>
+																<XPos>100</XPos>
+																<YPos>-100</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -384,7 +316,7 @@
 							</Reference>
 							<Reference>
 								<Local>
-									<RTPC Name="" ID="{B85278E4-3948-426A-BA7B-51348D255E5C}" ShortID="698032713">
+									<RTPC Name="" ID="{48E4F54F-7872-42AA-8985-0D34AD559C14}" ShortID="917202718">
 										<PropertyList>
 											<Property Name="PropertyName" Type="string" Value="Volume"/>
 										</PropertyList>
@@ -394,7 +326,7 @@
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
-													<Curve Name="" ID="{80DAD085-38C7-40FE-9913-095FC409A7B9}">
+													<Curve Name="" ID="{D982EB10-CCD3-45BC-839A-2026AB2D5237}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="3"/>
 														</PropertyList>
@@ -420,17 +352,17 @@
 							</Reference>
 							<Reference>
 								<Local>
-									<RTPC Name="" ID="{B073650F-CB8C-4F01-9F73-3D87E19A8792}" ShortID="1030076650">
+									<RTPC Name="" ID="{3274156F-594E-44FF-B5F2-0B6E4D4A9EFF}" ShortID="709963899">
 										<PropertyList>
 											<Property Name="PropertyName" Type="string" Value="Pitch"/>
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="Death" ID="{66EA2853-CF2F-4EC2-B5DB-DEBEE4400EEE}" WorkUnitID="{CD57914D-0276-4E75-A30A-213EECFD3434}"/>
+												<ObjectRef Name="Glide" ID="{E3031780-9B18-4EC8-9E82-527974BEA3C5}" WorkUnitID="{CD57914D-0276-4E75-A30A-213EECFD3434}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
-													<Curve Name="" ID="{7AD02713-763B-4568-AF47-6F4451103CF2}">
+													<Curve Name="" ID="{CBE96E39-EC87-4ABD-AD33-A5C22551693E}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
@@ -439,10 +371,52 @@
 																<XPos>0</XPos>
 																<YPos>0</YPos>
 																<Flags>5</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>25</XPos>
+																<YPos>40</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{CBEFC8D3-3FEA-463F-9FBF-B339FB084525}" ShortID="38288423">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="E_Vol" ID="{9189EE7D-CF8E-4D13-BC1E-53F51220783E}" WorkUnitID="{CD57914D-0276-4E75-A30A-213EECFD3434}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{1BFEC8A5-0D1C-457F-AB92-2AFFE1737694}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-15</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Log1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>80</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
 															</Point>
 															<Point>
 																<XPos>100</XPos>
-																<YPos>-100</YPos>
+																<YPos>0</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -455,70 +429,49 @@
 							</Reference>
 						</ObjectList>
 					</ObjectLists>
-					<BlendTrackList>
-						<BlendTrack Name="Speed" ID="{6788F244-6C9C-4A84-8B7D-2377E6A4844A}" ShortID="163202755">
-							<PropertyList>
-								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="LayerCrossFadeControlInput">
-									<ObjectRef Name="Speed" ID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}" WorkUnitID="{CD57914D-0276-4E75-A30A-213EECFD3434}"/>
-								</Reference>
-							</ReferenceList>
-							<BlendTrackAssocList>
-								<BlendTrackAssoc>
-									<ItemRef Name="E_50ms" ID="{06319F7E-ABC6-491A-B858-B77F1BD79A41}"/>
-									<CrossfadingInfo>
-										<LeftEdgePos>0</LeftEdgePos>
-										<LeftFadingMode>Automatic</LeftFadingMode>
-										<RightEdgePos>7900</RightEdgePos>
-										<RightFadingMode>Automatic</RightFadingMode>
-									</CrossfadingInfo>
-								</BlendTrackAssoc>
-								<BlendTrackAssoc>
-									<ItemRef Name="E_25ms" ID="{3CC298B9-A098-4B7E-9478-DC19E5175224}"/>
-									<CrossfadingInfo>
-										<LeftEdgePos>4020</LeftEdgePos>
-										<LeftFadingMode>Automatic</LeftFadingMode>
-										<RightEdgePos>8000</RightEdgePos>
-										<RightFadingMode>Automatic</RightFadingMode>
-									</CrossfadingInfo>
-								</BlendTrackAssoc>
-							</BlendTrackAssocList>
-						</BlendTrack>
-					</BlendTrackList>
 				</BlendContainer>
-				<Sound Name="Acc_Up" ID="{A7299745-B5FD-43E6-ADDB-A381905E7DE5}" ShortID="154167433">
-					<PropertyList>
-						<Property Name="GameAuxSendVolume" Type="Real64">
-							<ValueList>
-								<Value>-9</Value>
-							</ValueList>
-						</Property>
-						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-					</PropertyList>
+				<Sound Name="Engine_Online" ID="{E8AB3A4B-EAC3-407D-870F-F3F5CA1743F6}" ShortID="299495139">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Player_Bus" ID="{BF5723EA-F0D4-4558-A53C-FA010D04C852}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
-						</Reference>
-						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="Music_Duck_Aux" ID="{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+							<ObjectRef Name="P_Engine" ID="{50C0A8F1-C029-4A82-842A-7CD7D6482C87}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Acc_Up" ID="{DFFB10F5-D983-4926-AD39-3C67B613C233}">
+						<AudioFileSource Name="Engine_Online" ID="{4479629E-4554-4BED-9B82-FCDF7AD3C6ED}">
 							<Language>SFX</Language>
-							<AudioFile>Acc_Up.wav</AudioFile>
+							<AudioFile>Engine_Online.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="904171427"/>
+								<MediaID ID="292001884"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="Acc_Up" ID="{DFFB10F5-D983-4926-AD39-3C67B613C233}" Platform="Linked"/>
+						<ActiveSource Name="Engine_Online" ID="{4479629E-4554-4BED-9B82-FCDF7AD3C6ED}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Grav_Change" ID="{FC11E839-DF6E-4889-A035-BD3261DCC5FF}" ShortID="334734667">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Important_SFX_Bus" ID="{A54A55F0-1524-491F-82E9-1A6CEE391860}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Grav_Change" ID="{8AFC2337-A23A-4561-9E94-57A41ABE9A63}">
+							<Language>SFX</Language>
+							<AudioFile>Grav_Change.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="848404456"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Grav_Change" ID="{8AFC2337-A23A-4561-9E94-57A41ABE9A63}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

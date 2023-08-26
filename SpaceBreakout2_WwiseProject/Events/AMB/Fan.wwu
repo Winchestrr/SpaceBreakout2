@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{95C18826-3B84-49F2-AF4A-16547AFFE3FD}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Fan" ID="{95C18826-3B84-49F2-AF4A-16547AFFE3FD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Fan_Start" ID="{14664920-0507-4D4B-9C5A-E1AC3FDF5B66}">
+					<ChildrenList>
+						<Action Name="" ID="{23A2DB04-C87E-4D3B-AA62-886B57BFA452}" ShortID="946762167">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fan" ID="{9E9F601C-62D0-4F86-8FB7-887FA0557367}" WorkUnitID="{A8981903-9B9D-4FDE-8DF3-02148AD17058}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fan_Stop" ID="{DA4BFE32-1220-47E8-BEFB-5B28134CCED9}">
+					<ChildrenList>
+						<Action Name="" ID="{D6764EC7-8DA1-4BEF-8AD3-C8F367ED7D3A}" ShortID="812915630">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fan" ID="{9E9F601C-62D0-4F86-8FB7-887FA0557367}" WorkUnitID="{A8981903-9B9D-4FDE-8DF3-02148AD17058}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

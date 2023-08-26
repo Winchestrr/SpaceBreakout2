@@ -9,10 +9,10 @@
 			<ChildrenList>
 				<Event Name="PickUp_PowerUp" ID="{B7325365-57FF-4788-B2F7-813AFD4C5D5E}">
 					<ChildrenList>
-						<Action Name="" ID="{285578F9-3629-415A-8AF4-466BF36691AC}" ShortID="892647629">
+						<Action Name="" ID="{4920336D-B6D5-4FD1-86F3-4B24D1339ABD}" ShortID="730037375">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="PickUp" ID="{0A4764F7-92F8-4CDA-8058-D11D743CCDCF}" WorkUnitID="{AB756145-1DE4-4B2E-847B-410BACD1781B}"/>
+									<ObjectRef Name="Pick_Up_Notify" ID="{4F177A69-104A-4954-B2C4-ABFDD2199592}" WorkUnitID="{AB756145-1DE4-4B2E-847B-410BACD1781B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -24,6 +24,46 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="CheckPoint" ID="{C993E61D-15F7-42D6-89CD-03B52F2B202B}" WorkUnitID="{AB756145-1DE4-4B2E-847B-410BACD1781B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PickUp_Fuel" ID="{180DF9B7-A69B-4EE1-8D17-50B06BC0A13F}">
+					<ChildrenList>
+						<Action Name="" ID="{36E75C5E-C7F9-44CC-A5CA-971105281BE8}" ShortID="442364235">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pick_Up_Notify" ID="{4F177A69-104A-4954-B2C4-ABFDD2199592}" WorkUnitID="{AB756145-1DE4-4B2E-847B-410BACD1781B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FCF28CF5-780C-44B4-8FBA-02184980BB28}" ShortID="14605153">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pick_Up_Fuel" ID="{EA877EDD-A7FC-4234-ACA2-B96A9D2AB377}" WorkUnitID="{AB756145-1DE4-4B2E-847B-410BACD1781B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Low_Fuel" ID="{E9482641-B52D-4D9F-8201-A358E0B8546A}">
+					<ChildrenList>
+						<Action Name="" ID="{5E2C23CA-F0C5-4666-AE32-D63DA7F328A2}" ShortID="388387443">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="voc_LowFuel" ID="{D7B43E44-C0D0-4E8B-B2FF-58FE15708A86}" WorkUnitID="{09267769-5C65-4D9F-97AA-7AB145AE8D56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PickUp_Voc" ID="{ADA35559-C362-4F0A-916A-AB1E649583D7}">
+					<ChildrenList>
+						<Action Name="" ID="{5E216BE1-4C20-48CB-875E-6A35A4ACEE4B}" ShortID="382327155">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="voc_PickUp" ID="{4568048B-C65C-4E00-8A85-B6B35AC049F5}" WorkUnitID="{09267769-5C65-4D9F-97AA-7AB145AE8D56}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

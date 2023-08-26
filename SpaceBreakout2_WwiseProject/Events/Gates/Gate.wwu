@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F34DEB29-127A-4DA5-B57A-39DBA5EF3EC2}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Gate" ID="{F34DEB29-127A-4DA5-B57A-39DBA5EF3EC2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Gate_On" ID="{28D702D0-2D04-4FAC-A914-939ECBB4DCB8}">
+					<ChildrenList>
+						<Action Name="" ID="{3ABB2499-250B-4351-A606-1F15CD41E2AD}" ShortID="987514351">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Open" ID="{C8949866-84F5-40B4-B1F3-FBDA7EE92CDE}" WorkUnitID="{CF1E7F54-F60F-42FB-8C76-8C2AFF31841C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C3E0CC8C-37B5-4F19-9810-008EF40CEC05}" ShortID="576629935">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gate" ID="{85C8E710-EA0E-472B-B13A-6F1E0CDFA595}" WorkUnitID="{A5B047D9-135B-4B26-BA53-5DC457FE1C74}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AE5A479E-1858-429D-999C-F17AC146A003}" ShortID="1036746138">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gate_fade" ID="{96C2BE72-09F1-4A76-964A-D7FA290E4CBD}" WorkUnitID="{DD749083-7F56-4B4D-AA86-C00263B948E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Gate_Destroy" ID="{8BC3E156-62F2-4148-AC23-5143AD90B9DF}">
+					<ChildrenList>
+						<Action Name="" ID="{958B3453-62CE-471F-905B-A07DCB329A4C}" ShortID="1039384996">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Close" ID="{F1DB9999-F097-4F2B-A28D-5092A6D1FCCC}" WorkUnitID="{CF1E7F54-F60F-42FB-8C76-8C2AFF31841C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8C4FAF4A-620C-4CAB-B6EE-194851CF3C3B}" ShortID="468857881">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gate" ID="{85C8E710-EA0E-472B-B13A-6F1E0CDFA595}" WorkUnitID="{A5B047D9-135B-4B26-BA53-5DC457FE1C74}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

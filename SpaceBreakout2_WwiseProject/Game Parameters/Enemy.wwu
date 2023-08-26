@@ -11,6 +11,11 @@
 						<Property Name="SlewRateUp" Type="Real64" Value="200"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Arena_Status" ID="{6AD61D86-048D-4647-879B-A4394724933A}">
+					<PropertyList>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

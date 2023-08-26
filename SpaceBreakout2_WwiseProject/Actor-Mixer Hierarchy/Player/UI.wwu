@@ -8,22 +8,12 @@
 			</PropertyList>
 			<ChildrenList>
 				<Sound Name="CheckPoint" ID="{C993E61D-15F7-42D6-89CD-03B52F2B202B}" ShortID="517924887">
-					<PropertyList>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-2</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="SFX_Bus" ID="{802F7C61-BCCC-4DC4-95AB-EF557EB2B0A0}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
-						</Reference>
-						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="Music_Duck_Aux" ID="{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+							<ObjectRef Name="Important_SFX_Bus" ID="{A54A55F0-1524-491F-82E9-1A6CEE391860}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -39,79 +29,57 @@
 						<ActiveSource Name="CheckPoint" ID="{3861F39E-56E7-4E6D-8B90-98F154AADBCD}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<BlendContainer Name="PickUp" ID="{0A4764F7-92F8-4CDA-8058-D11D743CCDCF}" ShortID="870580751">
+				<Sound Name="Pick_Up_Notify" ID="{4F177A69-104A-4954-B2C4-ABFDD2199592}" ShortID="165058880">
+					<PropertyList>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="SFX_Bus" ID="{802F7C61-BCCC-4DC4-95AB-EF557EB2B0A0}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
-						</Reference>
-						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="Music_Duck_Aux" ID="{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+							<ObjectRef Name="Important_SFX_Bus" ID="{A54A55F0-1524-491F-82E9-1A6CEE391860}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Fuel" ID="{C73732E3-B34F-4895-BF27-D1C648EBB674}" ShortID="61792040">
-							<PropertyList>
-								<Property Name="Priority" Type="int16">
-									<ValueList>
-										<Value>60</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX_Bus" ID="{802F7C61-BCCC-4DC4-95AB-EF557EB2B0A0}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Fuel" ID="{472295AC-F6CB-4CEE-A774-F1C70B239801}">
-									<Language>SFX</Language>
-									<AudioFile>Fuel.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="641029741"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Fuel" ID="{472295AC-F6CB-4CEE-A774-F1C70B239801}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Power_Up" ID="{3CB44FC8-7D26-4301-A683-6F7AB5178994}" ShortID="557915565">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX_Bus" ID="{802F7C61-BCCC-4DC4-95AB-EF557EB2B0A0}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Power_Up" ID="{892B2EE5-BFDD-438F-AA5A-31EDA1A3D2D6}">
-									<Language>SFX</Language>
-									<AudioFile>Power_Up.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="160425296"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Power_Up" ID="{892B2EE5-BFDD-438F-AA5A-31EDA1A3D2D6}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						<AudioFileSource Name="Pick_Up_Notify" ID="{94195368-D462-401A-A080-BC05DCC0324D}">
+							<Language>SFX</Language>
+							<AudioFile>Pick_Up_Notify.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="601850413"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
-				</BlendContainer>
+					<ActiveSourceList>
+						<ActiveSource Name="Pick_Up_Notify" ID="{94195368-D462-401A-A080-BC05DCC0324D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Pick_Up_Fuel" ID="{EA877EDD-A7FC-4234-ACA2-B96A9D2AB377}" ShortID="668461098">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Player_Bus" ID="{BF5723EA-F0D4-4558-A53C-FA010D04C852}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Pick_Up_Fuel_Low" ID="{C2512204-BFD6-4565-B916-7C208503B87F}">
+							<Language>SFX</Language>
+							<AudioFile>Pick_Up_Fuel_Low.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="641596537"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Pick_Up_Fuel_Low" ID="{C2512204-BFD6-4565-B916-7C208503B87F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

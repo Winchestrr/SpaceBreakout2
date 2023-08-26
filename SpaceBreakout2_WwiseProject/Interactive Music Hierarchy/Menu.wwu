@@ -10,11 +10,6 @@
 				<MusicPlaylistContainer Name="Menu_Music" ID="{1F53DFCA-48CE-4425-A444-99E95B1FFFBE}" ShortID="183743143">
 					<PropertyList>
 						<Property Name="Tempo" Type="Real64" Value="160"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-2</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -574,7 +569,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-3</Value>
+								<Value>3</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -583,13 +578,18 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+							<ObjectRef Name="Music_Bus" ID="{8BD681F4-A304-4191-B9DA-8328CD4AF064}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<MusicSegment Name="Menu_Tex" ID="{4C9B725B-88EB-4EED-B912-4E33D33CD5B3}" ShortID="405388415">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="14531.25"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">

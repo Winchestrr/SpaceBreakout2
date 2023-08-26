@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2EAA4B3E-DB1E-4D3B-81E5-E93B261140A2}" SchemaVersion="110">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{2EAA4B3E-DB1E-4D3B-81E5-E93B261140A2}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2EAA4B3E-DB1E-4D3B-81E5-E93B261140A2}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="PickUp_Voc" ID="{8ACDFC8D-1312-4C64-AE6E-7C5D1091D02D}">
+					<ChildrenList>
+						<Switch Name="Armor" ID="{3429F282-515C-4E1D-A47E-1D87BB5FF18D}"/>
+						<Switch Name="DoubleGuns" ID="{52C9A3B2-A64D-437D-9216-970DDFB4479D}"/>
+						<Switch Name="OverclockGuns" ID="{B419B057-0630-4A12-9F86-B39DEFF62BA1}"/>
+						<Switch Name="DmgUp" ID="{1E74468D-ABF1-480A-AACA-DB1437496B08}"/>
+						<Switch Name="Arena_Start" ID="{247F715F-5923-4590-86C8-009110BA0AED}"/>
+						<Switch Name="Gate_Start" ID="{4C9A9E43-75A1-4E66-99D5-4A95054046A5}"/>
+						<Switch Name="Gate_Stop" ID="{31B358A3-271F-4174-8A1E-D9C505D29DE8}"/>
+						<Switch Name="Low_Fuel" ID="{C0B6DFAE-8643-40F0-82EF-71787E0B69E2}"/>
+						<Switch Name="Start" ID="{BD761085-1FD9-4A15-8C8B-4BD1C0EC48DB}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

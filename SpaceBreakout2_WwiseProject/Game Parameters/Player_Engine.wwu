@@ -11,8 +11,13 @@
 				</GameParameter>
 				<GameParameter Name="Speed" ID="{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}">
 					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="0"/>
-						<Property Name="Max" Type="Real64" Value="8000"/>
+						<Property Name="FilterTimeDown" Type="Real64" Value="100"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="100"/>
+						<Property Name="InitialValue" Type="Real64" Value="6200"/>
+						<Property Name="Max" Type="Real64" Value="10000"/>
+						<Property Name="Min" Type="Real64" Value="6200"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="500"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="500"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="Death" ID="{66EA2853-CF2F-4EC2-B5DB-DEBEE4400EEE}">
@@ -22,6 +27,22 @@
 						<Property Name="RTPCRamping" Type="int16" Value="2"/>
 						<Property Name="SlewRateDown" Type="Real64" Value="100"/>
 						<Property Name="SlewRateUp" Type="Real64" Value="25"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="E_Vol" ID="{9189EE7D-CF8E-4D13-BC1E-53F51220783E}">
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="40"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="60"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="40"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="60"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Fuel" ID="{126F5C6D-E080-4E9D-9AAA-25B3CEA41ACA}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>

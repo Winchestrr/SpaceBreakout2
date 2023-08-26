@@ -11,7 +11,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Music_Bus" ID="{8BD681F4-A304-4191-B9DA-8328CD4AF064}">
-							<ReferenceList/>
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
 									<Reference>
@@ -69,7 +75,7 @@
 																<PointList>
 																	<Point>
 																		<XPos>-48</XPos>
-																		<YPos>-0</YPos>
+																		<YPos>0</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
@@ -79,7 +85,7 @@
 																		<SegmentShape>SCurve</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-2.53154</XPos>
+																		<XPos>-3</XPos>
 																		<YPos>-10</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>SCurve</SegmentShape>
@@ -192,13 +198,15 @@
 									</ObjectLists>
 								</Bus>
 								<Bus Name="Player_Bus" ID="{BF5723EA-F0D4-4558-A53C-FA010D04C852}">
-									<PropertyList>
-										<Property Name="BusVolume" Type="Real64">
-											<ValueList>
-												<Value>-6</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
+									<ChildrenList>
+										<Bus Name="P_Engine" ID="{50C0A8F1-C029-4A82-842A-7CD7D6482C87}">
+											<ReferenceList>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Music_Duck_Aux" ID="{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+												</Reference>
+											</ReferenceList>
+										</Bus>
+									</ChildrenList>
 								</Bus>
 								<AuxBus Name="Rev_Tube" ID="{6BCDD345-D685-458F-A310-7D075C85EBF5}">
 									<ReferenceList>
@@ -207,6 +215,219 @@
 										</Reference>
 									</ReferenceList>
 								</AuxBus>
+								<Bus Name="Important_SFX_Bus" ID="{A54A55F0-1524-491F-82E9-1A6CEE391860}">
+									<ReferenceList>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Music_Duck_Aux" ID="{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Bus Name="Generator" ID="{C4BD62A3-1498-49D5-BDDA-0C00F47C31B1}">
+											<ReferenceList>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Gate_Duck_Aux" ID="{DD4CCD89-9771-42B8-87D3-05FE64224798}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+												</Reference>
+											</ReferenceList>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="Gate" ID="{72B98B95-B54F-4084-8D4D-03D9B64E4841}">
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{D5535957-18F6-4682-A6A0-437E96AEC134}" ShortID="214771490">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="gate_duck" ID="{07779255-0484-4ABF-A220-0DAEDA72AE19}" WorkUnitID="{DD749083-7F56-4B4D-AA86-C00263B948E5}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{E42CEC01-18B5-456B-B825-619BDF70B63C}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-48</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>-30</XPos>
+																				<YPos>-0</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>SCurve</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>-5</XPos>
+																				<YPos>-10</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-10</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Bus>
+								<Bus Name="Enemies_Bus" ID="{A9E333D4-5EFC-40BD-8814-E097027E5290}">
+									<ChildrenList>
+										<Bus Name="E_Engines_Bus" ID="{0D153D6E-618F-462F-AB31-28B360E4B495}">
+											<ReferenceList>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Music_Duck_Aux" ID="{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{67848C37-550D-4446-8606-F7BAFE115828}" ShortID="106101301">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="UserAuxSendVolume0"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="Arena_Status" ID="{6AD61D86-048D-4647-879B-A4394724933A}" WorkUnitID="{C33037A4-0042-46FB-86EF-5D52D252DE42}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{364AFC13-A0A2-4D70-9C01-7AC68D31B81F}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-200</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</Bus>
+										<Bus Name="E_Shoot_Bus" ID="{A8843A2A-6525-41CF-8B7A-92678DC5BDD2}">
+											<PropertyList>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Music_Duck_Aux" ID="{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{363A314C-12F6-4684-9041-B914E89AC1EC}" ShortID="752991356">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="UserAuxSendVolume0"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="Arena_Status" ID="{6AD61D86-048D-4647-879B-A4394724933A}" WorkUnitID="{C33037A4-0042-46FB-86EF-5D52D252DE42}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{CADD8250-7E4E-4240-9A60-D5E7D63CF439}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-200</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</Bus>
+										<Bus Name="E_Sfx_Bus" ID="{B86007FA-7C09-4A04-A903-5E72F7A59FC4}">
+											<ReferenceList/>
+										</Bus>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{1F610658-6789-4E74-A6BD-C0E407922E29}" ShortID="484194715">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Arena_Status" ID="{6AD61D86-048D-4647-879B-A4394724933A}" WorkUnitID="{C33037A4-0042-46FB-86EF-5D52D252DE42}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{B66E2D71-AAC9-4381-98B9-5B660A871138}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Bus>
 							</ChildrenList>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
@@ -246,13 +467,107 @@
 											</RTPC>
 										</Local>
 									</Reference>
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{184C5DDE-3FFA-4252-B86A-1F1A8A8A1DCA}" ShortID="209046264">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Sfx_Sidechain" ID="{3AA5C21D-CCA0-474E-89A7-3795B70529DA}" WorkUnitID="{DD749083-7F56-4B4D-AA86-C00263B948E5}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{6CF7DF94-8AE1-450A-9295-34ADF0A771CF}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-48</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>-30</XPos>
+																		<YPos>-0.186800000000005</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-2.53154</XPos>
+																		<YPos>-10</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-10</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
 								</ObjectList>
 							</ObjectLists>
 						</Bus>
+						<Bus Name="Voc_Bus" ID="{86B330CF-338A-4CCF-8888-8C0D810EF500}">
+							<ReferenceList>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Music_Duck_Aux" ID="{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+								</Reference>
+								<Reference Name="UserAuxSend1">
+									<ObjectRef Name="SFX_Duck_Aux" ID="{F591767D-3111-4A21-BA0A-303F21EDEE46}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
 						<AuxBus Name="Music_Duck_Aux" ID="{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-96</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
 									<ObjectRef Name="Duck_Meter" ID="{4BEB9548-ED17-4193-8C04-2BD85600D5C6}" WorkUnitID="{9FFCCCA0-4013-403D-AA23-67BA94E68E4C}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="SFX_Duck_Aux" ID="{F591767D-3111-4A21-BA0A-303F21EDEE46}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-96</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+									<ObjectRef Name="Sfx_Duck_Meter" ID="{5A8CA5F3-394F-44BD-8545-7024320B294C}" WorkUnitID="{9FFCCCA0-4013-403D-AA23-67BA94E68E4C}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="Gate_Duck_Aux" ID="{DD4CCD89-9771-42B8-87D3-05FE64224798}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Meter (Custom)" ID="{A57DEDC8-38E6-4F53-BF1E-10609C2A8A0E}" ShortID="883102993" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+											<PropertyList>
+												<Property Name="ReleaseTime" Type="Real32" Value="0.2"/>
+											</PropertyList>
+											<PluginData>
+	<GameParameter Name="gate_duck" ID="{07779255-0484-4ABF-A220-0DAEDA72AE19}"/>
+</PluginData>
+										</Effect>
+									</Custom>
 								</Reference>
 							</ReferenceList>
 						</AuxBus>
