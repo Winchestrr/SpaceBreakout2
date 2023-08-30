@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{FD2F7992-797E-B1F1-192B-40B6C097D468}",
+    "Hash": "{69559101-CC1B-8FEF-BC48-149F502FE52D}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -27,7 +27,7 @@
       {
        "Id": "883102993",
        "Name": "Meter (Custom)",
-       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Gate_Duck_Aux\\Meter (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sidechain_Meters\\Gate_Duck_Aux\\Meter (Custom)",
        "GUID": "{A57DEDC8-38E6-4F53-BF1E-10609C2A8A0E}",
        "LibName": "Wwise Meter",
        "LibId": "8454147"
@@ -51,12 +51,44 @@
        "LibId": "8454147"
       },
       {
+       "Id": "1275150599",
+       "Name": "P_Shooting_Duck",
+       "ObjectPath": "\\Effects\\Default Work Unit\\P_Shooting_Duck",
+       "GUID": "{28B68D65-2C19-49AA-B16B-33AF90F41A21}",
+       "LibName": "Wwise Meter",
+       "LibId": "8454147"
+      },
+      {
+       "Id": "1622122377",
+       "Name": "Mute_Bus",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Mute_Bus",
+       "GUID": "{0DF970E6-EA4F-4772-BB47-B4C8A3B023D5}",
+       "LibName": "Wwise Gain",
+       "LibId": "9109507"
+      },
+      {
        "Id": "2995775460",
        "Name": "Room_Small",
        "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Small",
        "GUID": "{577F1466-A63B-47F7-98BD-C56E433F8B5D}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
+      },
+      {
+       "Id": "3802919695",
+       "Name": "Engine_Duck_Meter",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Engine_Duck_Meter",
+       "GUID": "{18E4F3C6-7A1B-4623-AB32-E8FBE46DA9C3}",
+       "LibName": "Wwise Meter",
+       "LibId": "8454147"
+      },
+      {
+       "Id": "4167637274",
+       "Name": "Duck_Filtr_Meter",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Duck_Filtr_Meter",
+       "GUID": "{0F286341-C7A7-455A-A1F8-1586F2B3B8C5}",
+       "LibName": "Wwise Meter",
+       "LibId": "8454147"
       }
      ],
      "AudioDevices": [
@@ -92,9 +124,9 @@
       "GUID": "{50C0A8F1-C029-4A82-842A-7CD7D6482C87}",
       "AuxBusRefs": [
        {
-        "Id": "4145699381",
-        "Name": "Music_Duck_Aux",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music_Duck_Aux",
+        "Id": "865038534",
+        "Name": "Music_Volume_Duck_Aux",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sidechain_Meters\\Music_Volume_Duck_Aux",
         "GUID": "{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}"
        }
       ]
@@ -106,6 +138,19 @@
       "GUID": "{802F7C61-BCCC-4DC4-95AB-EF557EB2B0A0}"
      },
      {
+      "Id": "283900492",
+      "Name": "Sidechain_Meters",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sidechain_Meters",
+      "GUID": "{3518A87F-C862-482C-B7D7-90FE4F4CFF4D}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1622122377"
+        }
+       ]
+      }
+     },
+     {
       "Id": "334231652",
       "Name": "Generator",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX_Bus\\Important_SFX_Bus\\Generator",
@@ -114,7 +159,7 @@
        {
         "Id": "2038634531",
         "Name": "Gate_Duck_Aux",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Gate_Duck_Aux",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sidechain_Meters\\Gate_Duck_Aux",
         "GUID": "{DD4CCD89-9771-42B8-87D3-05FE64224798}"
        }
       ]
@@ -138,26 +183,38 @@
       "GUID": "{A54A55F0-1524-491F-82E9-1A6CEE391860}",
       "AuxBusRefs": [
        {
-        "Id": "4145699381",
-        "Name": "Music_Duck_Aux",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music_Duck_Aux",
+        "Id": "865038534",
+        "Name": "Music_Volume_Duck_Aux",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sidechain_Meters\\Music_Volume_Duck_Aux",
         "GUID": "{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}"
        }
       ]
      },
      {
+      "Id": "1328589687",
+      "Name": "EB_Engines_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX_Bus\\Enemies_Bus\\EB_Engines_Bus",
+      "GUID": "{0D153D6E-618F-462F-AB31-28B360E4B495}",
+      "AuxBusRefs": [
+       {
+        "Id": "2409784919",
+        "Name": "EnemySmall_Engines_Duck_Aux",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sidechain_Meters\\EnemySmall_Engines_Duck_Aux",
+        "GUID": "{906BFFC5-7AF8-498B-90FE-B0E7A37B0AA3}"
+       }
+      ]
+     },
+     {
+      "Id": "1547906878",
+      "Name": "ES_Engines_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX_Bus\\Enemies_Bus\\ES_Engines_Bus",
+      "GUID": "{9008A03F-E4E1-4563-A3EC-2AC02667499F}"
+     },
+     {
       "Id": "1658085713",
       "Name": "E_Shoot_Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX_Bus\\Enemies_Bus\\E_Shoot_Bus",
-      "GUID": "{A8843A2A-6525-41CF-8B7A-92678DC5BDD2}",
-      "AuxBusRefs": [
-       {
-        "Id": "4145699381",
-        "Name": "Music_Duck_Aux",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music_Duck_Aux",
-        "GUID": "{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}"
-       }
-      ]
+      "GUID": "{A8843A2A-6525-41CF-8B7A-92678DC5BDD2}"
      },
      {
       "Id": "2680856269",
@@ -184,18 +241,10 @@
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      },
      {
-      "Id": "3820874261",
-      "Name": "E_Engines_Bus",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX_Bus\\Enemies_Bus\\E_Engines_Bus",
-      "GUID": "{0D153D6E-618F-462F-AB31-28B360E4B495}",
-      "AuxBusRefs": [
-       {
-        "Id": "4145699381",
-        "Name": "Music_Duck_Aux",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music_Duck_Aux",
-        "GUID": "{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}"
-       }
-      ]
+      "Id": "3887824361",
+      "Name": "P_Shooting",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX_Bus\\Player_Bus\\P_Shooting",
+      "GUID": "{15790AE5-599E-4C59-8430-C907DB4AA66E}"
      },
      {
       "Id": "4007535240",
@@ -204,21 +253,34 @@
       "GUID": "{86B330CF-338A-4CCF-8888-8C0D810EF500}",
       "AuxBusRefs": [
        {
-        "Id": "3605543117",
-        "Name": "SFX_Duck_Aux",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX_Duck_Aux",
-        "GUID": "{F591767D-3111-4A21-BA0A-303F21EDEE46}"
+        "Id": "865038534",
+        "Name": "Music_Volume_Duck_Aux",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sidechain_Meters\\Music_Volume_Duck_Aux",
+        "GUID": "{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}"
        },
        {
-        "Id": "4145699381",
-        "Name": "Music_Duck_Aux",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music_Duck_Aux",
-        "GUID": "{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}"
+        "Id": "3605543117",
+        "Name": "SFX_Duck_Aux",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sidechain_Meters\\SFX_Duck_Aux",
+        "GUID": "{F591767D-3111-4A21-BA0A-303F21EDEE46}"
        }
       ]
      }
     ],
     "AuxBusses": [
+     {
+      "Id": "376696664",
+      "Name": "Enemy_Filtr_Duck_Aux",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sidechain_Meters\\Enemy_Filtr_Duck_Aux",
+      "GUID": "{97712E03-CF55-4BCE-A7D1-0F6E3DA9616A}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "619831068"
+        }
+       ]
+      }
+     },
      {
       "Id": "671700957",
       "Name": "Rev_Tube",
@@ -233,9 +295,48 @@
       }
      },
      {
+      "Id": "865038534",
+      "Name": "Music_Volume_Duck_Aux",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sidechain_Meters\\Music_Volume_Duck_Aux",
+      "GUID": "{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "619831068"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1275150599",
+      "Name": "P_Shooting_Duck",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sidechain_Meters\\P_Shooting_Duck",
+      "GUID": "{6D43161D-0A4F-4BF8-8EE3-5F6DA0716D98}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1275150599"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "2032902047",
+      "Name": "Music_Filtr_Duck_Aux",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sidechain_Meters\\Music_Filtr_Duck_Aux",
+      "GUID": "{078CA59C-8918-4132-8EA2-6F03D24FA926}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "4167637274"
+        }
+       ]
+      }
+     },
+     {
       "Id": "2038634531",
       "Name": "Gate_Duck_Aux",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Gate_Duck_Aux",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sidechain_Meters\\Gate_Duck_Aux",
       "GUID": "{DD4CCD89-9771-42B8-87D3-05FE64224798}",
       "PluginRefs": {
        "Custom": [
@@ -246,27 +347,27 @@
       }
      },
      {
-      "Id": "3605543117",
-      "Name": "SFX_Duck_Aux",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX_Duck_Aux",
-      "GUID": "{F591767D-3111-4A21-BA0A-303F21EDEE46}",
+      "Id": "2409784919",
+      "Name": "EnemySmall_Engines_Duck_Aux",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sidechain_Meters\\EnemySmall_Engines_Duck_Aux",
+      "GUID": "{906BFFC5-7AF8-498B-90FE-B0E7A37B0AA3}",
       "PluginRefs": {
        "ShareSets": [
         {
-         "Id": "32039452"
+         "Id": "3802919695"
         }
        ]
       }
      },
      {
-      "Id": "4145699381",
-      "Name": "Music_Duck_Aux",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music_Duck_Aux",
-      "GUID": "{AE0FC79F-1FBA-4F7F-87D8-380BDFFD330A}",
+      "Id": "3605543117",
+      "Name": "SFX_Duck_Aux",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sidechain_Meters\\SFX_Duck_Aux",
+      "GUID": "{F591767D-3111-4A21-BA0A-303F21EDEE46}",
       "PluginRefs": {
        "ShareSets": [
         {
-         "Id": "619831068"
+         "Id": "32039452"
         }
        ]
       }
@@ -292,6 +393,12 @@
       "GUID": "{4E0CCEDB-47E0-4E06-8410-00D6C7CBCAF7}"
      },
      {
+      "Id": "757719132",
+      "Name": "Enemy_Filtr_Sidechain",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Enemy_Filtr_Sidechain",
+      "GUID": "{8B694BF6-04B5-44F5-B559-8E5F63768B50}"
+     },
+     {
       "Id": "779278001",
       "Name": "Death",
       "ObjectPath": "\\Game Parameters\\Player_Engine\\Death",
@@ -304,6 +411,12 @@
       "GUID": "{45787E01-5AA6-4A9D-93D8-C0F9DE786340}"
      },
      {
+      "Id": "1029542008",
+      "Name": "ES_Sidechain",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\ES_Sidechain",
+      "GUID": "{F36AA375-6509-49B7-AE19-29BC82D569ED}"
+     },
+     {
       "Id": "1205999388",
       "Name": "Enemy_Death",
       "ObjectPath": "\\Game Parameters\\Enemy\\Enemy_Death",
@@ -314,6 +427,12 @@
       "Name": "AutoMode",
       "ObjectPath": "\\Game Parameters\\Player_Gun\\AutoMode",
       "GUID": "{6B76A057-4CC6-4F74-A573-B1443882C069}"
+     },
+     {
+      "Id": "1275150599",
+      "Name": "P_Shooting_Duck",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\P_Shooting_Duck",
+      "GUID": "{9CF693B5-39B7-4844-8CBB-88E53408AA4A}"
      },
      {
       "Id": "1731033231",
@@ -362,6 +481,12 @@
       "Name": "Gate_fade",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Gate_fade",
       "GUID": "{96C2BE72-09F1-4A76-964A-D7FA290E4CBD}"
+     },
+     {
+      "Id": "4072339781",
+      "Name": "Music_Filtr_Sidechain",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Music_Filtr_Sidechain",
+      "GUID": "{4661C2CE-66CB-47BC-BA54-90536FFD7541}"
      },
      {
       "Id": "4243221576",
@@ -576,6 +701,26 @@
         "GUID": "{C0B6DFAE-8643-40F0-82EF-71787E0B69E2}"
        }
       ]
+     },
+     {
+      "Id": "2661514705",
+      "Name": "Fuel",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Fuel",
+      "GUID": "{51589E5D-0E95-4079-92EC-1E7B363D60B9}",
+      "Switches": [
+       {
+        "Id": "545371365",
+        "Name": "Low",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Fuel\\Low",
+        "GUID": "{302B0382-38E0-44C5-A3B3-997319E668CB}"
+       },
+       {
+        "Id": "1160234136",
+        "Name": "Normal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Fuel\\Normal",
+        "GUID": "{B6E0E165-460A-4CE5-8CBE-E12DD961AD9E}"
+       }
+      ]
      }
     ]
    },
@@ -584,7 +729,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{43266DD4-F5FF-0AE6-4E52-2B4355DE83A2}",
+    "Hash": "{D10154F7-1832-5528-EC24-247E489AE977}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -1438,6 +1583,20 @@
        {
         "Id": "901683300"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "376696664",
+        "Name": "Enemy_Filtr_Duck_Aux",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sidechain_Meters\\Enemy_Filtr_Duck_Aux",
+        "GUID": "{97712E03-CF55-4BCE-A7D1-0F6E3DA9616A}"
+       },
+       {
+        "Id": "1275150599",
+        "Name": "P_Shooting_Duck",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sidechain_Meters\\P_Shooting_Duck",
+        "GUID": "{6D43161D-0A4F-4BF8-8EE3-5F6DA0716D98}"
+       }
       ]
      },
      {
@@ -1509,8 +1668,8 @@
       "GUID": "{B2EE210A-4AF8-457C-931E-9CE49EBB23EA}",
       "MaxAttenuation": "30000",
       "DurationType": "OneShot",
-      "DurationMin": "0.625",
-      "DurationMax": "0.625",
+      "DurationMin": "0.7432544",
+      "DurationMax": "0.7432544",
       "MediaRefs": [
        {
         "Id": "859320708"
@@ -1566,16 +1725,7 @@
          "Id": "1008402193"
         }
        ]
-      },
-      "ActionSetState": [
-       {
-        "GroupId": "2661514705",
-        "Id": "1160234136",
-        "Name": "Normal",
-        "ObjectPath": "\\States\\Default Work Unit\\Fuel\\Normal",
-        "GUID": "{6C40F67B-9174-486F-9965-F0993FBF46F7}"
-       }
-      ]
+      }
      },
      {
       "Id": "3739295085",
@@ -1632,6 +1782,62 @@
        },
        {
         "Id": "848009311"
+       }
+      ]
+     },
+     {
+      "Id": "2309811250",
+      "Name": "Fuel_Low",
+      "ObjectPath": "\\Events\\Player\\UI\\Fuel_Low",
+      "GUID": "{E9482641-B52D-4D9F-8201-A358E0B8546A}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "2661514705",
+        "Id": "545371365",
+        "Name": "Low",
+        "ObjectPath": "\\States\\Default Work Unit\\Fuel\\Low",
+        "GUID": "{504F8031-0A97-42F9-AB06-DCC47CF94F31}"
+       }
+      ],
+      "ActionSetSwitch": [
+       {
+        "GroupId": "2661514705",
+        "Id": "545371365",
+        "Name": "Low",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Fuel\\Low",
+        "GUID": "{302B0382-38E0-44C5-A3B3-997319E668CB}"
+       }
+      ]
+     },
+     {
+      "Id": "3159650061",
+      "Name": "Fuel_Normal",
+      "ObjectPath": "\\Events\\Player\\UI\\Fuel_Normal",
+      "GUID": "{6428C9A8-91CC-4B8A-AEBD-8A69BDC9837B}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "2661514705",
+        "Id": "1160234136",
+        "Name": "Normal",
+        "ObjectPath": "\\States\\Default Work Unit\\Fuel\\Normal",
+        "GUID": "{6C40F67B-9174-486F-9965-F0993FBF46F7}"
+       }
+      ],
+      "ActionSetSwitch": [
+       {
+        "GroupId": "2661514705",
+        "Id": "1160234136",
+        "Name": "Normal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Fuel\\Normal",
+        "GUID": "{B6E0E165-460A-4CE5-8CBE-E12DD961AD9E}"
        }
       ]
      },
@@ -1854,6 +2060,14 @@
       "ObjectPath": "\\Events\\Gates\\Gate\\Gate_On",
       "GUID": "{28D702D0-2D04-4FAC-A914-939ECBB4DCB8}",
       "DurationType": "Infinite",
+      "AuxBusRefs": [
+       {
+        "Id": "2032902047",
+        "Name": "Music_Filtr_Duck_Aux",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sidechain_Meters\\Music_Filtr_Duck_Aux",
+        "GUID": "{078CA59C-8918-4132-8EA2-6F03D24FA926}"
+       }
+      ],
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -1972,20 +2186,6 @@
       ]
      },
      {
-      "Id": "4123804492",
-      "Name": "Low_Fuel",
-      "ObjectPath": "\\Events\\Player\\UI\\Low_Fuel",
-      "GUID": "{E9482641-B52D-4D9F-8201-A358E0B8546A}",
-      "DurationType": "OneShot",
-      "DurationMin": "1.1875",
-      "DurationMax": "1.1875",
-      "MediaRefs": [
-       {
-        "Id": "300038725"
-       }
-      ]
-     },
-     {
       "Id": "4011733850",
       "Name": "MenuMusic_Play",
       "ObjectPath": "\\Events\\Music\\Music\\MenuMusic_Play",
@@ -2040,9 +2240,21 @@
       "MediaRefs": [
        {
         "Id": "601850413"
-       },
+       }
+      ],
+      "SwitchContainers": [
        {
-        "Id": "641596537"
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2661514705",
+         "Id": "545371365",
+         "GUID": "{302B0382-38E0-44C5-A3B3-997319E668CB}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "641596537"
+         }
+        ]
        }
       ]
      },
@@ -2340,6 +2552,14 @@
        {
         "Id": "795615076"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "2032902047",
+        "Name": "Music_Filtr_Duck_Aux",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sidechain_Meters\\Music_Filtr_Duck_Aux",
+        "GUID": "{078CA59C-8918-4132-8EA2-6F03D24FA926}"
+       }
       ]
      }
     ],
@@ -2620,10 +2840,30 @@
         "GUID": "{C0B6DFAE-8643-40F0-82EF-71787E0B69E2}"
        }
       ]
+     },
+     {
+      "Id": "2661514705",
+      "Name": "Fuel",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Fuel",
+      "GUID": "{51589E5D-0E95-4079-92EC-1E7B363D60B9}",
+      "Switches": [
+       {
+        "Id": "545371365",
+        "Name": "Low",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Fuel\\Low",
+        "GUID": "{302B0382-38E0-44C5-A3B3-997319E668CB}"
+       },
+       {
+        "Id": "1160234136",
+        "Name": "Normal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Fuel\\Normal",
+        "GUID": "{B6E0E165-460A-4CE5-8CBE-E12DD961AD9E}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{E8836185-DB9E-DFE2-AEB7-4FF48E37D69B}"
+  "FileHash": "{8E47A819-B7BC-1C3C-ABE9-BF2D88BFE51A}"
  }
 }

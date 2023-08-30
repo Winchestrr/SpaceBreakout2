@@ -16,6 +16,12 @@
 						<Switch Name="Start" ID="{BD761085-1FD9-4A15-8C8B-4BD1C0EC48DB}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Fuel" ID="{51589E5D-0E95-4079-92EC-1E7B363D60B9}">
+					<ChildrenList>
+						<Switch Name="Low" ID="{302B0382-38E0-44C5-A3B3-997319E668CB}"/>
+						<Switch Name="Normal" ID="{B6E0E165-460A-4CE5-8CBE-E12DD961AD9E}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

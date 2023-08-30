@@ -21,6 +21,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2042178597	Stop_Auto			\Player\Player_Ship\Player_Gun\Stop_Auto	
 	2088053380	PickUp_PowerUp			\Player\UI\PickUp_PowerUp	
 	2170925251	Enemy_Destroyed			\Enemies\Enemy_Engine\Enemy_Destroyed	
+	2309811250	Fuel_Low			\Player\UI\Fuel_Low	
 	2355973776	Gate_On			\Gates\Gate\Gate_On	
 	2688759983	Fan_Stop			\AMB\Fan\Fan_Stop	
 	2698747613	Button_Press			\Menu\Menu\Button_Press	
@@ -30,15 +31,16 @@ Event	ID	Name			Wwise Object Path	Notes
 	3038207054	Shoot			\Player\Player_Ship\Player_Gun\Shoot	
 	3080525753	Arena_Stop			\Arena\Arena\Arena_Stop	
 	3083087645	Player_Death			\Player\Player_Ship\Player_Damage\Player_Death	
+	3159650061	Fuel_Normal			\Player\UI\Fuel_Normal	
 	3211126491	Arena_Start			\Arena\Arena\Arena_Start	
 	3717217436	PickUp_Fuel			\Player\UI\PickUp_Fuel	
 	3739295085	Fan_Start			\AMB\Fan\Fan_Start	
 	3808032123	Start_Auto			\Player\Player_Ship\Player_Gun\Start_Auto	
 	4011733850	MenuMusic_Play			\Music\Music\MenuMusic_Play	
-	4123804492	Low_Fuel			\Player\UI\Low_Fuel	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	1587394564	PickUp_Voc			\Default Work Unit\PickUp_Voc	
+	2661514705	Fuel			\Default Work Unit\Fuel	
 
 Switch	ID	Name	Switch Group			Notes
 	49356435	DoubleGuns	PickUp_Voc			
@@ -50,6 +52,8 @@ Switch	ID	Name	Switch Group			Notes
 	3211126491	Arena_Start	PickUp_Voc			
 	3616196167	Gate_Stop	PickUp_Voc			
 	4123804492	Low_Fuel	PickUp_Voc			
+	545371365	Low	Fuel			
+	1160234136	Normal	Fuel			
 
 State Group	ID	Name			Wwise Object Path	Notes
 	78402873	Enemy_Music_State			\Default Work Unit\Enemy_Music_State	
@@ -145,7 +149,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	601850413	Pick_Up_Notify	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Pick_Up_Notify_10C4C929.wem		\Actor-Mixer Hierarchy\Player\UI\Pick_Up_Notify		120096
 	608585848	Whoosh_punch_2	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Whoosh_punch_2_10C4C929.wem		\Actor-Mixer Hierarchy\AMB\Woosh\Woosh\Woosh_punch\Whoosh_punch_2		48096
 	637730646	Whoosh_punch_1	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Whoosh_punch_1_10C4C929.wem		\Actor-Mixer Hierarchy\AMB\Woosh\Woosh\Woosh_punch\Whoosh_punch_1		48096
-	641596537	Pick_Up_Fuel	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Pick_Up_Fuel_Low_10C4C929.wem		\Actor-Mixer Hierarchy\Player\UI\Pick_Up_Fuel		102096
+	641596537	Pick_Up_Fuel	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Pick_Up_Fuel_Low_10C4C929.wem		\Actor-Mixer Hierarchy\Player\UI\Fuel_Switch\Pick_Up_Fuel		102096
 	662278568	Generator_Explosion_Low_4	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Generator_Explosion_Low_4_10C4C929.wem		\Actor-Mixer Hierarchy\Gates\Generator\Explosion\Exp_Low\Generator_Explosion_Low_4		60096
 	664028586	Drums_Main	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Drums_Main_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Game_Music_Switch\Normal_Seq\Core\Drums_Main		4237340
 	667212441	Explosion_3	C:\PROGRAMER_BOOTH\PROJECTS\SpaceBreakout2\SpaceBreakout2_WwiseProject\.cache\Windows\SFX\Explosion_3_10C4C929.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Damage\E_Explosion\Explosion_3		96096

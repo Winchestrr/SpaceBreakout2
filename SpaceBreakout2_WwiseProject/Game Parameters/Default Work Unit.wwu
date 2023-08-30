@@ -41,6 +41,34 @@
 						<Property Name="SlewRateUp" Type="Real64" Value="500"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Music_Filtr_Sidechain" ID="{4661C2CE-66CB-47BC-BA54-90536FFD7541}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Enemy_Filtr_Sidechain" ID="{8B694BF6-04B5-44F5-B559-8E5F63768B50}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="ES_Sidechain" ID="{F36AA375-6509-49B7-AE19-29BC82D569ED}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="P_Shooting_Duck" ID="{9CF693B5-39B7-4844-8CBB-88E53408AA4A}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

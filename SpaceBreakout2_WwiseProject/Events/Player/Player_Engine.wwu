@@ -107,16 +107,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{1D60CD8C-B113-46CD-92ED-E4FA6CEFA209}" ShortID="692915580">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Normal" ID="{6C40F67B-9174-486F-9965-F0993FBF46F7}" WorkUnitID="{CF1E7F54-F60F-42FB-8C76-8C2AFF31841C}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Grav_Change" ID="{2E96BED1-D01B-4279-B055-B9C9A723E34F}">

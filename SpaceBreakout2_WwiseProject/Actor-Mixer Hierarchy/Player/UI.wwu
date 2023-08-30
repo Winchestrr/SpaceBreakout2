@@ -58,28 +58,61 @@
 						<ActiveSource Name="Pick_Up_Notify" ID="{94195368-D462-401A-A080-BC05DCC0324D}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Pick_Up_Fuel" ID="{EA877EDD-A7FC-4234-ACA2-B96A9D2AB377}" ShortID="668461098">
+				<SwitchContainer Name="Fuel_Switch" ID="{7ACC9288-1808-4713-A711-7CC3BC5E33E2}" ShortID="461179095">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
 						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Normal" ID="{B6E0E165-460A-4CE5-8CBE-E12DD961AD9E}" WorkUnitID="{2EAA4B3E-DB1E-4D3B-81E5-E93B261140A2}"/>
+						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Player_Bus" ID="{BF5723EA-F0D4-4558-A53C-FA010D04C852}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+							<ObjectRef Name="Important_SFX_Bus" ID="{A54A55F0-1524-491F-82E9-1A6CEE391860}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Fuel" ID="{51589E5D-0E95-4079-92EC-1E7B363D60B9}" WorkUnitID="{2EAA4B3E-DB1E-4D3B-81E5-E93B261140A2}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Pick_Up_Fuel_Low" ID="{C2512204-BFD6-4565-B916-7C208503B87F}">
-							<Language>SFX</Language>
-							<AudioFile>Pick_Up_Fuel_Low.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="641596537"/>
-							</MediaIDList>
-						</AudioFileSource>
+						<Sound Name="Pick_Up_Fuel" ID="{EA877EDD-A7FC-4234-ACA2-B96A9D2AB377}" ShortID="668461098">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22F65AD0-F37E-46E3-9411-3AC90E6DB52C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Player_Bus" ID="{BF5723EA-F0D4-4558-A53C-FA010D04C852}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pick_Up_Fuel_Low" ID="{C2512204-BFD6-4565-B916-7C208503B87F}">
+									<Language>SFX</Language>
+									<AudioFile>Pick_Up_Fuel_Low.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="641596537"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pick_Up_Fuel_Low" ID="{C2512204-BFD6-4565-B916-7C208503B87F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Pick_Up_Fuel_Low" ID="{C2512204-BFD6-4565-B916-7C208503B87F}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Pick_Up_Fuel" ID="{EA877EDD-A7FC-4234-ACA2-B96A9D2AB377}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Low" ID="{302B0382-38E0-44C5-A3B3-997319E668CB}"/>
+								<ItemList>
+									<ItemRef Name="Pick_Up_Fuel" ID="{EA877EDD-A7FC-4234-ACA2-B96A9D2AB377}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -6,6 +6,16 @@
 				<RandomSequenceContainer Name="P_Hit" ID="{5D032097-E896-4C3B-9641-F9D5F846E358}" ShortID="404025168">
 					<PropertyList>
 						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -13,6 +23,12 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Player_Bus" ID="{BF5723EA-F0D4-4558-A53C-FA010D04C852}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+						</Reference>
+						<Reference Name="UserAuxSend1">
+							<ObjectRef Name="Enemy_Filtr_Duck_Aux" ID="{97712E03-CF55-4BCE-A7D1-0F6E3DA9616A}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+						</Reference>
+						<Reference Name="UserAuxSend2">
+							<ObjectRef Name="P_Shooting_Duck" ID="{6D43161D-0A4F-4BF8-8EE3-5F6DA0716D98}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

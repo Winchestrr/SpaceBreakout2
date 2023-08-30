@@ -6,7 +6,7 @@
 				<Effect Name="Duck_Meter" ID="{4BEB9548-ED17-4193-8C04-2BD85600D5C6}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
 					<PropertyList>
 						<Property Name="Hold" Type="Real32" Value="0.2"/>
-						<Property Name="ReleaseTime" Type="Real32" Value="0.4"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.3"/>
 					</PropertyList>
 					<PluginData>
 	<GameParameter Name="Musci_Sidechain" ID="{7BED921A-B7E3-4C90-B7E6-189E0BC04C38}"/>
@@ -14,11 +14,41 @@
 				</Effect>
 				<Effect Name="Sfx_Duck_Meter" ID="{5A8CA5F3-394F-44BD-8545-7024320B294C}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
 					<PropertyList>
-						<Property Name="Hold" Type="Real32" Value="0.2"/>
-						<Property Name="ReleaseTime" Type="Real32" Value="0.4"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.3"/>
 					</PropertyList>
 					<PluginData>
 	<GameParameter Name="Sfx_Sidechain" ID="{3AA5C21D-CCA0-474E-89A7-3795B70529DA}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="Mute_Bus" ID="{0DF970E6-EA4F-4772-BB47-B4C8A3B023D5}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+					<PropertyList>
+						<Property Name="FullBandGain" Type="Real32" Value="-96.3"/>
+						<Property Name="LFEGain" Type="Real32" Value="-96.3"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Duck_Filtr_Meter" ID="{0F286341-C7A7-455A-A1F8-1586F2B3B8C5}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.2"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="Music_Filtr_Sidechain" ID="{4661C2CE-66CB-47BC-BA54-90536FFD7541}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="Engine_Duck_Meter" ID="{18E4F3C6-7A1B-4623-AB32-E8FBE46DA9C3}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="Hold" Type="Real32" Value="0.2"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.3"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="ES_Sidechain" ID="{F36AA375-6509-49B7-AE19-29BC82D569ED}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="P_Shooting_Duck" ID="{28B68D65-2C19-49AA-B16B-33AF90F41A21}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.3"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="P_Shooting_Duck" ID="{9CF693B5-39B7-4844-8CBB-88E53408AA4A}"/>
 </PluginData>
 				</Effect>
 			</ChildrenList>

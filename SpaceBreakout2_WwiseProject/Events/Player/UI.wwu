@@ -41,18 +41,31 @@
 						<Action Name="" ID="{FCF28CF5-780C-44B4-8FBA-02184980BB28}" ShortID="14605153">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Pick_Up_Fuel" ID="{EA877EDD-A7FC-4234-ACA2-B96A9D2AB377}" WorkUnitID="{AB756145-1DE4-4B2E-847B-410BACD1781B}"/>
+									<ObjectRef Name="Fuel_Switch" ID="{7ACC9288-1808-4713-A711-7CC3BC5E33E2}" WorkUnitID="{AB756145-1DE4-4B2E-847B-410BACD1781B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Low_Fuel" ID="{E9482641-B52D-4D9F-8201-A358E0B8546A}">
+				<Event Name="Fuel_Low" ID="{E9482641-B52D-4D9F-8201-A358E0B8546A}">
 					<ChildrenList>
-						<Action Name="" ID="{5E2C23CA-F0C5-4666-AE32-D63DA7F328A2}" ShortID="388387443">
+						<Action Name="" ID="{5F7BE5A1-91BB-4E78-99B3-30C795F56D9B}" ShortID="566754639">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="voc_LowFuel" ID="{D7B43E44-C0D0-4E8B-B2FF-58FE15708A86}" WorkUnitID="{09267769-5C65-4D9F-97AA-7AB145AE8D56}"/>
+									<ObjectRef Name="Low" ID="{504F8031-0A97-42F9-AB06-DCC47CF94F31}" WorkUnitID="{CF1E7F54-F60F-42FB-8C76-8C2AFF31841C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{77351A1C-6A49-4C48-9F25-6A90C3D45794}" ShortID="631635304">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Low" ID="{302B0382-38E0-44C5-A3B3-997319E668CB}" WorkUnitID="{2EAA4B3E-DB1E-4D3B-81E5-E93B261140A2}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -64,6 +77,30 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="voc_PickUp" ID="{4568048B-C65C-4E00-8A85-B6B35AC049F5}" WorkUnitID="{09267769-5C65-4D9F-97AA-7AB145AE8D56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fuel_Normal" ID="{6428C9A8-91CC-4B8A-AEBD-8A69BDC9837B}">
+					<ChildrenList>
+						<Action Name="" ID="{A796A98B-8310-446B-ADB8-EBBBA8A7187C}" ShortID="935860149">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{B6E0E165-460A-4CE5-8CBE-E12DD961AD9E}" WorkUnitID="{2EAA4B3E-DB1E-4D3B-81E5-E93B261140A2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5D911189-9D6E-4A3A-99E3-736FBD1C635C}" ShortID="359934190">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{6C40F67B-9174-486F-9965-F0993FBF46F7}" WorkUnitID="{CF1E7F54-F60F-42FB-8C76-8C2AFF31841C}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

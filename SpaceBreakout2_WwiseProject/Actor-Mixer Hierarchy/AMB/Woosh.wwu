@@ -10,11 +10,6 @@
 								<Value>3</Value>
 							</ValueList>
 						</Property>
-						<Property Name="UserAuxSendVolume0" Type="Real64">
-							<ValueList>
-								<Value>6</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -22,6 +17,9 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Important_SFX_Bus" ID="{A54A55F0-1524-491F-82E9-1A6CEE391860}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Music_Filtr_Duck_Aux" ID="{078CA59C-8918-4132-8EA2-6F03D24FA926}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

@@ -35,11 +35,6 @@
 								<Value>True</Value>
 							</ValueList>
 						</Property>
-						<Property Name="UserAuxSendVolume0" Type="Real64">
-							<ValueList>
-								<Value>9</Value>
-							</ValueList>
-						</Property>
 						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="0"/>
 					</PropertyList>
 					<ReferenceList>
@@ -54,6 +49,9 @@
 						</Reference>
 						<Reference Name="SwitchGroupOrStateGroup">
 							<ObjectRef Name="Gate_State" ID="{EE474170-F933-47B5-8D3A-1F7475C21A9D}" WorkUnitID="{CF1E7F54-F60F-42FB-8C76-8C2AFF31841C}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Music_Filtr_Duck_Aux" ID="{078CA59C-8918-4132-8EA2-6F03D24FA926}" WorkUnitID="{C413781A-4500-4880-AEDC-59C1992221D0}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

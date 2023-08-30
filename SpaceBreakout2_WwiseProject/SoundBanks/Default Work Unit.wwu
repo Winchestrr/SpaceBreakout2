@@ -32,9 +32,10 @@
 						<ObjectRef Name="Enemy_Destroyed" ID="{80CD0BD0-6A6F-495A-B0A6-9CD17CF1E74C}" WorkUnitID="{880F079E-D1D4-417B-B158-41B761AC6506}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GameMusic_Stop" ID="{FF9EEC8A-DB91-495E-9B75-94DB51C7C376}" WorkUnitID="{B1886E01-9283-4E9F-8054-D2FE298A9736}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Gen_Idle" ID="{4D6FA5E8-AC89-4B27-918E-65D49801B10C}" WorkUnitID="{C0EC18BB-BAA3-4BF5-AC35-85AFC6D8D4C4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fuel_Normal" ID="{6428C9A8-91CC-4B8A-AEBD-8A69BDC9837B}" WorkUnitID="{52F1A2BA-2F33-41B0-A002-B234A32CD87D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Arena_Stop" ID="{8700C6BE-3F03-4D1F-9A0D-DD8B4117D22A}" WorkUnitID="{F5B8F450-E994-40CF-889A-B941D891D83F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Gen_Explosion" ID="{8E1FFB9F-67FE-4D80-A5D7-379D2DB2645E}" WorkUnitID="{C0EC18BB-BAA3-4BF5-AC35-85AFC6D8D4C4}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Low_Fuel" ID="{E9482641-B52D-4D9F-8201-A358E0B8546A}" WorkUnitID="{52F1A2BA-2F33-41B0-A002-B234A32CD87D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fuel_Low" ID="{E9482641-B52D-4D9F-8201-A358E0B8546A}" WorkUnitID="{52F1A2BA-2F33-41B0-A002-B234A32CD87D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Arena_Start" ID="{0281608E-4CBC-4E08-A05E-D50C6A8070C7}" WorkUnitID="{F5B8F450-E994-40CF-889A-B941D891D83F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PickUp_Fuel" ID="{180DF9B7-A69B-4EE1-8D17-50B06BC0A13F}" WorkUnitID="{52F1A2BA-2F33-41B0-A002-B234A32CD87D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PickUp_Voc" ID="{ADA35559-C362-4F0A-916A-AB1E649583D7}" WorkUnitID="{52F1A2BA-2F33-41B0-A002-B234A32CD87D}" Origin="Manual" Filter="7"/>

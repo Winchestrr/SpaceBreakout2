@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E28FE0D4-21F4-4D96-B5DD-3DEB2582FF2C}",
     "Language": "SFX",
-    "Hash": "{43266DD4-F5FF-0AE6-4E52-2B4355DE83A2}",
+    "Hash": "{D10154F7-1832-5528-EC24-247E489AE977}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -864,6 +864,20 @@
        {
         "Id": "901683300"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "376696664",
+        "Name": "Enemy_Filtr_Duck_Aux",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sidechain_Meters\\Enemy_Filtr_Duck_Aux",
+        "GUID": "{97712E03-CF55-4BCE-A7D1-0F6E3DA9616A}"
+       },
+       {
+        "Id": "1275150599",
+        "Name": "P_Shooting_Duck",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sidechain_Meters\\P_Shooting_Duck",
+        "GUID": "{6D43161D-0A4F-4BF8-8EE3-5F6DA0716D98}"
+       }
       ]
      },
      {
@@ -935,8 +949,8 @@
       "GUID": "{B2EE210A-4AF8-457C-931E-9CE49EBB23EA}",
       "MaxAttenuation": "30000",
       "DurationType": "OneShot",
-      "DurationMin": "0.625",
-      "DurationMax": "0.625",
+      "DurationMin": "0.7432544",
+      "DurationMax": "0.7432544",
       "MediaRefs": [
        {
         "Id": "859320708"
@@ -992,16 +1006,7 @@
          "Id": "1008402193"
         }
        ]
-      },
-      "ActionSetState": [
-       {
-        "GroupId": "2661514705",
-        "Id": "1160234136",
-        "Name": "Normal",
-        "ObjectPath": "\\States\\Default Work Unit\\Fuel\\Normal",
-        "GUID": "{6C40F67B-9174-486F-9965-F0993FBF46F7}"
-       }
-      ]
+      }
      },
      {
       "Id": "3739295085",
@@ -1058,6 +1063,62 @@
        },
        {
         "Id": "848009311"
+       }
+      ]
+     },
+     {
+      "Id": "2309811250",
+      "Name": "Fuel_Low",
+      "ObjectPath": "\\Events\\Player\\UI\\Fuel_Low",
+      "GUID": "{E9482641-B52D-4D9F-8201-A358E0B8546A}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "2661514705",
+        "Id": "545371365",
+        "Name": "Low",
+        "ObjectPath": "\\States\\Default Work Unit\\Fuel\\Low",
+        "GUID": "{504F8031-0A97-42F9-AB06-DCC47CF94F31}"
+       }
+      ],
+      "ActionSetSwitch": [
+       {
+        "GroupId": "2661514705",
+        "Id": "545371365",
+        "Name": "Low",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Fuel\\Low",
+        "GUID": "{302B0382-38E0-44C5-A3B3-997319E668CB}"
+       }
+      ]
+     },
+     {
+      "Id": "3159650061",
+      "Name": "Fuel_Normal",
+      "ObjectPath": "\\Events\\Player\\UI\\Fuel_Normal",
+      "GUID": "{6428C9A8-91CC-4B8A-AEBD-8A69BDC9837B}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "2661514705",
+        "Id": "1160234136",
+        "Name": "Normal",
+        "ObjectPath": "\\States\\Default Work Unit\\Fuel\\Normal",
+        "GUID": "{6C40F67B-9174-486F-9965-F0993FBF46F7}"
+       }
+      ],
+      "ActionSetSwitch": [
+       {
+        "GroupId": "2661514705",
+        "Id": "1160234136",
+        "Name": "Normal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Fuel\\Normal",
+        "GUID": "{B6E0E165-460A-4CE5-8CBE-E12DD961AD9E}"
        }
       ]
      },
@@ -1280,6 +1341,14 @@
       "ObjectPath": "\\Events\\Gates\\Gate\\Gate_On",
       "GUID": "{28D702D0-2D04-4FAC-A914-939ECBB4DCB8}",
       "DurationType": "Infinite",
+      "AuxBusRefs": [
+       {
+        "Id": "2032902047",
+        "Name": "Music_Filtr_Duck_Aux",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sidechain_Meters\\Music_Filtr_Duck_Aux",
+        "GUID": "{078CA59C-8918-4132-8EA2-6F03D24FA926}"
+       }
+      ],
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -1398,20 +1467,6 @@
       ]
      },
      {
-      "Id": "4123804492",
-      "Name": "Low_Fuel",
-      "ObjectPath": "\\Events\\Player\\UI\\Low_Fuel",
-      "GUID": "{E9482641-B52D-4D9F-8201-A358E0B8546A}",
-      "DurationType": "OneShot",
-      "DurationMin": "1.1875",
-      "DurationMax": "1.1875",
-      "MediaRefs": [
-       {
-        "Id": "300038725"
-       }
-      ]
-     },
-     {
       "Id": "4011733850",
       "Name": "MenuMusic_Play",
       "ObjectPath": "\\Events\\Music\\Music\\MenuMusic_Play",
@@ -1466,9 +1521,21 @@
       "MediaRefs": [
        {
         "Id": "601850413"
-       },
+       }
+      ],
+      "SwitchContainers": [
        {
-        "Id": "641596537"
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2661514705",
+         "Id": "545371365",
+         "GUID": "{302B0382-38E0-44C5-A3B3-997319E668CB}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "641596537"
+         }
+        ]
        }
       ]
      },
@@ -1766,6 +1833,14 @@
        {
         "Id": "795615076"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "2032902047",
+        "Name": "Music_Filtr_Duck_Aux",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sidechain_Meters\\Music_Filtr_Duck_Aux",
+        "GUID": "{078CA59C-8918-4132-8EA2-6F03D24FA926}"
+       }
       ]
      }
     ],
@@ -2046,10 +2121,30 @@
         "GUID": "{C0B6DFAE-8643-40F0-82EF-71787E0B69E2}"
        }
       ]
+     },
+     {
+      "Id": "2661514705",
+      "Name": "Fuel",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Fuel",
+      "GUID": "{51589E5D-0E95-4079-92EC-1E7B363D60B9}",
+      "Switches": [
+       {
+        "Id": "545371365",
+        "Name": "Low",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Fuel\\Low",
+        "GUID": "{302B0382-38E0-44C5-A3B3-997319E668CB}"
+       },
+       {
+        "Id": "1160234136",
+        "Name": "Normal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Fuel\\Normal",
+        "GUID": "{B6E0E165-460A-4CE5-8CBE-E12DD961AD9E}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{E8B47B81-7BDF-9B4A-31AF-FF9E8E4D11FA}"
+  "FileHash": "{BBBAD349-CCAB-7761-7438-02ED00944A01}"
  }
 }

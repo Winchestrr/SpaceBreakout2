@@ -23,41 +23,56 @@ State	ID	Name	State Group			Notes
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	593880519	Arena_Status			\Enemy\Arena_Status	
+	757719132	Enemy_Filtr_Sidechain			\Default Work Unit\Enemy_Filtr_Sidechain	
 	779278001	Death			\Player_Engine\Death	
 	988953028	SFXVolume			\Options\SFXVolume	
+	1029542008	ES_Sidechain			\Default Work Unit\ES_Sidechain	
+	1275150599	P_Shooting_Duck			\Default Work Unit\P_Shooting_Duck	
 	1731033231	Musci_Sidechain			\Default Work Unit\Musci_Sidechain	
 	1843561328	MainVolume			\Options\MainVolume	
 	2346531308	MusicVolume			\Options\MusicVolume	
 	2862064063	Sfx_Sidechain			\Default Work Unit\Sfx_Sidechain	
+	4072339781	Music_Filtr_Sidechain			\Default Work Unit\Music_Filtr_Sidechain	
 	4243221576	gate_duck			\Default Work Unit\gate_duck	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	58622145	E_Sfx_Bus			\Default Work Unit\Master Audio Bus\SFX_Bus\Enemies_Bus\E_Sfx_Bus	
 	154619452	P_Engine			\Default Work Unit\Master Audio Bus\SFX_Bus\Player_Bus\P_Engine	
 	213475909	SFX_Bus			\Default Work Unit\Master Audio Bus\SFX_Bus	
+	283900492	Sidechain_Meters			\Default Work Unit\Master Audio Bus\Sidechain_Meters	
 	334231652	Generator			\Default Work Unit\Master Audio Bus\SFX_Bus\Important_SFX_Bus\Generator	
 	1121922920	Gate			\Default Work Unit\Master Audio Bus\SFX_Bus\Gate	
 	1138681361	Player_Bus			\Default Work Unit\Master Audio Bus\SFX_Bus\Player_Bus	
 	1161647138	Important_SFX_Bus			\Default Work Unit\Master Audio Bus\SFX_Bus\Important_SFX_Bus	
+	1328589687	EB_Engines_Bus			\Default Work Unit\Master Audio Bus\SFX_Bus\Enemies_Bus\EB_Engines_Bus	
+	1547906878	ES_Engines_Bus			\Default Work Unit\Master Audio Bus\SFX_Bus\Enemies_Bus\ES_Engines_Bus	
 	1658085713	E_Shoot_Bus			\Default Work Unit\Master Audio Bus\SFX_Bus\Enemies_Bus\E_Shoot_Bus	
 	2680856269	Music_Bus			\Default Work Unit\Master Audio Bus\Music_Bus	
 	3048140100	Enemies_Bus			\Default Work Unit\Master Audio Bus\SFX_Bus\Enemies_Bus	
 	3319158528	AMB_Bus			\Default Work Unit\Master Audio Bus\SFX_Bus\AMB_Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
-	3820874261	E_Engines_Bus			\Default Work Unit\Master Audio Bus\SFX_Bus\Enemies_Bus\E_Engines_Bus	
+	3887824361	P_Shooting			\Default Work Unit\Master Audio Bus\SFX_Bus\Player_Bus\P_Shooting	
 	4007535240	Voc_Bus			\Default Work Unit\Master Audio Bus\Voc_Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	376696664	Enemy_Filtr_Duck_Aux			\Default Work Unit\Master Audio Bus\Sidechain_Meters\Enemy_Filtr_Duck_Aux	
 	671700957	Rev_Tube			\Default Work Unit\Master Audio Bus\SFX_Bus\Rev_Tube	
-	2038634531	Gate_Duck_Aux			\Default Work Unit\Master Audio Bus\Gate_Duck_Aux	
-	3605543117	SFX_Duck_Aux			\Default Work Unit\Master Audio Bus\SFX_Duck_Aux	
-	4145699381	Music_Duck_Aux			\Default Work Unit\Master Audio Bus\Music_Duck_Aux	
+	865038534	Music_Volume_Duck_Aux			\Default Work Unit\Master Audio Bus\Sidechain_Meters\Music_Volume_Duck_Aux	
+	1275150599	P_Shooting_Duck			\Default Work Unit\Master Audio Bus\Sidechain_Meters\P_Shooting_Duck	
+	2032902047	Music_Filtr_Duck_Aux			\Default Work Unit\Master Audio Bus\Sidechain_Meters\Music_Filtr_Duck_Aux	
+	2038634531	Gate_Duck_Aux			\Default Work Unit\Master Audio Bus\Sidechain_Meters\Gate_Duck_Aux	
+	2409784919	EnemySmall_Engines_Duck_Aux			\Default Work Unit\Master Audio Bus\Sidechain_Meters\EnemySmall_Engines_Duck_Aux	
+	3605543117	SFX_Duck_Aux			\Default Work Unit\Master Audio Bus\Sidechain_Meters\SFX_Duck_Aux	
 
 Effect plug-ins	ID	Name	Type				Notes
 	32039452	Sfx_Duck_Meter	Wwise Meter			
 	619831068	Duck_Meter	Wwise Meter			
 	883102993	Meter (Custom)	Wwise Meter			
+	1275150599	P_Shooting_Duck	Wwise Meter			
+	1622122377	Mute_Bus	Wwise Gain			
 	2995775460	Room_Small	Wwise RoomVerb			
+	3802919695	Engine_Duck_Meter	Wwise Meter			
+	4167637274	Duck_Filtr_Meter	Wwise Meter			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

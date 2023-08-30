@@ -18,6 +18,10 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Woosh" ID="{5932F7F0-A2BE-4A31-AAC7-E951B13883F7}" WorkUnitID="{52B70683-3CEA-4579-B014-5986757F6800}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Start_Auto" ID="{887E17A7-2EA3-435C-99BB-BB007B2610DC}" WorkUnitID="{2711DA87-AECB-471B-9D49-5F75800965DD}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -72,11 +76,23 @@
 							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Enemy_Filtr_Sidechain" ID="{8B694BF6-04B5-44F5-B559-8E5F63768B50}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="Arena_Status" ID="{6AD61D86-048D-4647-879B-A4394724933A}"/>
 							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Sfx_Sidechain" ID="{3AA5C21D-CCA0-474E-89A7-3795B70529DA}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music_Filtr_Sidechain" ID="{4661C2CE-66CB-47BC-BA54-90536FFD7541}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="P_Shooting_Duck" ID="{9CF693B5-39B7-4844-8CBB-88E53408AA4A}"/>
 							<Value>-48</Value>
 						</RTPCValue>
 						<RTPCValue>
@@ -86,6 +102,10 @@
 						<RTPCValue>
 							<GameParameterRef Name="MusicVolume" ID="{2BDE7E52-033E-49AF-94BE-3BBDDBACFFB5}"/>
 							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="ES_Sidechain" ID="{F36AA375-6509-49B7-AE19-29BC82D569ED}"/>
+							<Value>-48</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Gate_fade" ID="{96C2BE72-09F1-4A76-964A-D7FA290E4CBD}"/>
@@ -129,16 +149,17 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="AutoMode" ID="{6B76A057-4CC6-4F74-A573-B1443882C069}"/>
-							<Value>0</Value>
+							<Value>18.3040330920372</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Enemy" ID="{B602B0D5-0761-4DB7-A9EA-BAA158A83D43}"/>
-						<CurrentStateRef Name="None" ID="{2674108A-952C-46CC-9F90-459EF9D3AA4B}"/>
+						<CurrentStateRef Name="Paused" ID="{F788772E-B217-4596-8DCC-58A09B35D2F0}"/>
+						<CurrentStateRef Name="State_2" ID="{FBEAE51C-F775-42DB-B39B-C10770DEFE07}"/>
 						<CurrentStateRef Name="Close" ID="{F1DB9999-F097-4F2B-A28D-5092A6D1FCCC}"/>
 						<CurrentStateRef Name="Normal" ID="{6C40F67B-9174-486F-9965-F0993FBF46F7}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Low" ID="{302B0382-38E0-44C5-A3B3-997319E668CB}"/>
 						<CurrentSwitchRef Name="Restart" ID="{33096A89-1F16-40EF-A334-7BE73156196D}"/>
 						<CurrentSwitchRef Name="Arena_Start" ID="{247F715F-5923-4590-86C8-009110BA0AED}"/>
 					</CurrentSwitchList>
@@ -176,8 +197,16 @@
 							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Enemy_Filtr_Sidechain" ID="{8B694BF6-04B5-44F5-B559-8E5F63768B50}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="Arena_Status" ID="{6AD61D86-048D-4647-879B-A4394724933A}"/>
 							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music_Filtr_Sidechain" ID="{4661C2CE-66CB-47BC-BA54-90536FFD7541}"/>
+							<Value>-48</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Musci_Sidechain" ID="{7BED921A-B7E3-4C90-B7E6-189E0BC04C38}"/>
@@ -197,14 +226,15 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Enemy" ID="{B602B0D5-0761-4DB7-A9EA-BAA158A83D43}"/>
+						<CurrentStateRef Name="Normal" ID="{BD8887EB-94C4-4ECE-8516-A5E546EA7508}"/>
 						<CurrentStateRef Name="None" ID="{2674108A-952C-46CC-9F90-459EF9D3AA4B}"/>
 						<CurrentStateRef Name="Close" ID="{F1DB9999-F097-4F2B-A28D-5092A6D1FCCC}"/>
 						<CurrentStateRef Name="Normal" ID="{6C40F67B-9174-486F-9965-F0993FBF46F7}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Low" ID="{302B0382-38E0-44C5-A3B3-997319E668CB}"/>
 						<CurrentSwitchRef Name="Restart" ID="{33096A89-1F16-40EF-A334-7BE73156196D}"/>
-						<CurrentSwitchRef Name="Armor" ID="{3429F282-515C-4E1D-A47E-1D87BB5FF18D}"/>
+						<CurrentSwitchRef Name="Arena_Start" ID="{247F715F-5923-4590-86C8-009110BA0AED}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

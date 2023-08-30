@@ -153,6 +153,45 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{C4509F6A-D16C-4263-8E46-6F926E0F6B07}" ShortID="136555299">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="AutoMode" ID="{6B76A057-4CC6-4F74-A573-B1443882C069}" WorkUnitID="{41CE640D-7351-4488-BEBF-90B487C63ABD}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{47404A62-CB55-43CE-AA9B-38273043CAD6}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-10</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 					<ActiveSourceList>
 						<ActiveSource Name="Shooting" ID="{7DD82401-44A4-46E7-9CEE-C53ED785FEC6}" Platform="Linked"/>
 					</ActiveSourceList>
